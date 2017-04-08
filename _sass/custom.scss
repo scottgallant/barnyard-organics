@@ -1,0 +1,10 @@
+.post {
+  .image.fit {
+    overflow: hidden;
+    max-height: 200px;
+
+    img {
+      width: 100%;
+    }
+  }
+}

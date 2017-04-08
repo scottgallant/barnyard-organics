@@ -1,0 +1,44 @@
+main:
+  - title: Feed
+    identifier: feed
+    url: /feed
+    weight: 0
+  - title: Poultry
+    identifier: feed
+    url: /feed
+    weight: 1
+  - title: Grain
+    identifier: grain
+    url: /grain
+    weight: 2
+  - title: Services
+    identifier: services
+    url: /services
+    weight: 3
+  - title: About
+    identifier: feed
+    url: /feed
+    weight: 4
+  - title: Blog
+    identifier: feed
+    url: /feed
+    weight: 5
+  - title: Contact
+    identifier: something
+    url: /page
+    weight: 6
+  - title: Order
+    identifier: something
+    url: /order
+    weight: 7
+
+feed:
+  - title: Feed Products
+    identifier: feed-producs
+    url: /feed/
+  - title: FAQ
+    identifier: faq
+    url: /FAQ
+  - title: Order
+    identifier: order
+    url: /order/

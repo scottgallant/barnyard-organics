@@ -8,3 +8,27 @@
     }
   }
 }
+
+.services {
+  .image {
+    margin-bottom: 1em;
+  }
+
+  h2 {
+    margin-bottom: .8em;
+    font-size: 18px;
+  }
+}
+
+.quotes {
+  .button {
+    box-shadow: inset 0 0 0 1px white !important;
+    color: white !important;
+  }
+}
+
+// google maps
+.map-frame {
+    width: 100%;
+    position: relative;
+}

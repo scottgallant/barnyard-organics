@@ -21,11 +21,11 @@ main:
     weight: 4
   - title: Blog
     identifier: feed
-    url: /feed
+    url: http://barnyardorganics.blogspot.ca/
     weight: 5
   - title: Contact
     identifier: something
-    url: /page
+    url: /contact
     weight: 6
   - title: Order
     identifier: something

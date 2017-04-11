@@ -11,12 +11,29 @@
     {{ content }}
   </header>
   <div class="content">
-  {% include feed-products-list.html %}
+    <section>
+      <div class="inner">
+        <div class="posts">
+          {% for product in site.feed-products %}
+          <section class="post">
+            <span class="image fit"><a href="{{ product.url }}"><img src="https://source.unsplash.com/weekly?nature" alt="" /></a></span>
+            <div class="content">
+              <h3><a href="{{ product.url }}">{{ product.title }}</a></h3>
+              <p>Aenean ultricies magna non sapien rhoncus, ac ullamcorper lorem convallis. Quisque at venenatis nisi, amet finibus mauris. Sed sodales ultricies eros, sit amet sodales sapien.</p>
+              <ul class="actions">
+                <li><a href="{{ product.url }}" class="button">More</a></li>
+              </ul>
+            </div>
+          </section>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
   </div>
   <!-- Sidebar -->
     <div class="sidebar">
 
-      <nav id="nav">
+      <nav>
         <ul>
           {% for item in site.menus.feed %}
             <li><a href="{{ item.url }}">{{ item.title }}</a></li>

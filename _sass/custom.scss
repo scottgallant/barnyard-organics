@@ -32,3 +32,28 @@
     width: 100%;
     position: relative;
 }
+
+.sidebar nav ul {
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+
+  li {
+    list-style-type: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+    padding-left: 0;
+
+    a {
+      text-decoration: none;
+      padding: 10px 25px;
+      background: rgba(238, 238, 238, 0.24);
+      display: block;
+
+      &:hover {
+        background: rgba(238, 238, 238, 0.5);
+      }
+    }
+  }
+}

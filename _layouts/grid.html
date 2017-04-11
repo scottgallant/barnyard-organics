@@ -1,0 +1,36 @@
+{% include head.html %}
+{% include header.html %}
+<!-- Main -->
+<section id="main" class="wrapper">
+<div class="inner">
+  <header>
+    <h1>{{ page.title | escape }}</h1>
+    <p class="subheading">{{ page.description }}</p>
+  </header>
+  <div class="content">
+    <section>
+      <div class="inner">
+        <div class="posts">
+        {% for item in page.links %}
+          <section class="post">
+            <span class="image fit"><a href="{{ item.link }}"><img src="{{ site.baseurl }}{{ item.image }}" alt=""></a></span>
+            <div class="content">
+              <h3><a href="{{ item.link }}">{{ item.heading }}</a></h3>
+              <p>{{ item.description }}</p>
+              <ul class="actions">
+                <li><a href="{{ item.link }}" class="button">More</a></li>
+              </ul>
+            </div>
+          </section>
+      	{% endfor %}
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+</section>
+
+{% include scripts.html %}
+{% include footer.html %}
+</body>
+</html>

@@ -4,8 +4,8 @@ main:
     url: /feed
     weight: 0
   - title: Poultry
-    identifier: feed
-    url: /feed
+    identifier: poultry
+    url: /poultry
     weight: 1
   - title: Grain
     identifier: grain
@@ -16,8 +16,8 @@ main:
     url: /services
     weight: 3
   - title: About
-    identifier: feed
-    url: /feed
+    identifier: about
+    url: /about
     weight: 4
   - title: Blog
     identifier: feed

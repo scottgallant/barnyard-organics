@@ -2,38 +2,16 @@
   <section id="five" class="wrapper">
     <div class="inner">
       <div class="split">
-        <section class="services">
-          <span class="image fit"><img src="images/pic06.jpg" alt="" /></span>
-          <h2>Grain Cleaning, Drying, Milling</h2>
-          <p>Maecenas id feugiat nunc. Integer gravida augue libero, quis pellentesque amet pharetra a.</p>
-          <ul class="actions">
-            <li><a href="#" class="button small">Learn More</a></li>
-          </ul>
-        </section>
-        <section class="services">
-          <span class="image fit"><img src="images/pic06.jpg" alt="" /></span>
-          <h2>Soybean Roasting</h2>
-          <p>Maecenas id feugiat nunc. Integer gravida augue libero, quis pellentesque amet pharetra a.</p>
-          <ul class="actions">
-            <li><a href="#" class="button small">Learn More</a></li>
-          </ul>
-        </section>
-        <section class="services">
-          <span class="image fit"><img src="images/pic06.jpg" alt="" /></span>
-          <h2>Bio-Ag Distributor</h2>
-          <p>Maecenas id feugiat nunc. Integer gravida augue libero, quis pellentesque amet pharetra a.</p>
-          <ul class="actions">
-            <li><a href="#" class="button small">Learn More</a></li>
-          </ul>
-        </section>
-        <section class="services">
-          <span class="image fit"><img src="images/pic06.jpg" alt="" /></span>
-          <h2>General Seed Distributor</h2>
-          <p>Maecenas id feugiat nunc. Integer gravida augue libero, quis pellentesque amet pharetra a.</p>
-          <ul class="actions">
-            <li><a href="#" class="button small">Learn More</a></li>
-          </ul>
-        </section>
+        {% for item in page.services %}
+          <section class="services">
+            <span class="image fit"><a href="{{ item.link }}"><img src="{{ item.image }}" alt="{{ item.heading }}" /></a></span>
+            <h2><a href="{{ item.link }}">{{ item.heading }}</a></h2>
+            <p>{{ item.description }}</p>
+            <ul class="actions">
+              <li><a href="{{ item.link }}" class="button small">Learn More</a></li>
+            </ul>
+          </section>
+        {% endfor %}
       </div>
     </div>
   </section>

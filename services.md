@@ -20,7 +20,7 @@ links:
   description: Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum
     faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla.
   link: "/services/bio-ag"
-- image: "/images/pic04.jpg"
+- image: "/images/chicken2-1.jpg"
   heading: General Seed Distributor
   description: Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum
     faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla.

@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Hello World"
-date:   2017-02-08 18:59:39 -0400
+title: Hello World
+date: '2017-02-08T22:59:39.000+00:00'
 categories: jekyll update
 ---
 Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur.

@@ -1,44 +1,47 @@
-main:
-  - title: Feed
-    identifier: feed
-    url: /feed
-    weight: 0
-  - title: Poultry
-    identifier: poultry
-    url: /poultry
-    weight: 1
-  - title: Grain
-    identifier: grain
-    url: /grain
-    weight: 2
-  - title: Services
-    identifier: services
-    url: /services
-    weight: 3
-  - title: About
-    identifier: about
-    url: /about
-    weight: 4
-  - title: Blog
-    identifier: feed
-    url: http://barnyardorganics.blogspot.ca/
-    weight: 5
-  - title: Contact
-    identifier: something
-    url: /contact
-    weight: 6
-  - title: Order
-    identifier: something
-    url: /order
-    weight: 7
-
+---
 feed:
-  - title: Feed Products
-    identifier: feed-producs
-    url: /feed/
-  - title: FAQ
-    identifier: faq
-    url: /FAQ
-  - title: Order
-    identifier: order
-    url: /order/
+- identifier: order
+  url: "/order/"
+  weight: -1
+  title: Order
+- identifier: faq
+  url: "/FAQ"
+  weight: -1
+  title: FAQ
+- identifier: feed-producs
+  url: "/feed/"
+  weight: -1
+  title: Feed Products
+main:
+- identifier: something
+  url: "/order"
+  weight: 7
+  title: Order
+- identifier: something
+  url: "/contact"
+  weight: 6
+  title: Contact
+- identifier: feed
+  url: http://barnyardorganics.blogspot.ca/
+  weight: 5
+  title: Blog
+- identifier: about
+  url: "/about"
+  weight: 4
+  title: About
+- identifier: services
+  url: "/services"
+  weight: 3
+  title: Services
+- identifier: grain
+  url: "/grain"
+  weight: 2
+  title: Grain
+- identifier: poultry
+  url: "/poultry"
+  weight: 1
+  title: Poultry
+- identifier: feed
+  url: "/feed"
+  weight: 0
+  title: Feed

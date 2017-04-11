@@ -1,6 +1,6 @@
 ---
 title: Grain
-permalink: /grain/
+permalink: "/grain/"
 layout: default
 ---
 

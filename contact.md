@@ -1,5 +1,5 @@
 ---
-permalink: /contact/
+permalink: "/contact/"
 layout: default
 ---
 <div class="map-frame">

@@ -2,9 +2,11 @@
 title: Hog Mix
 date: '2016-05-17 00:00:00'
 categories: []
-description: Nulla vitae elit libero, a pharetra augue. Etiam porta sem malesuada magna mollis euismod.
+description: Nulla vitae elit libero, a pharetra augue. Etiam porta sem malesuada
+  magna mollis euismod.
 thumbnail: "/images/eggs1.jpg"
-sub-title: Nulla vitae elit libero, a pharetra augue. Etiam porta sem malesuada magna mollis euismod.
+sub-title: Nulla vitae elit libero, a pharetra augue. Etiam porta sem malesuada magna
+  mollis euismod.
 tags:
 - health
 layout: feed

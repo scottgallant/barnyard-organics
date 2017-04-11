@@ -11,7 +11,7 @@ ecofm-links:
 - heading: Chicken stuff
   description: |
     Lorem ipsum dolor sit amet nulla etiam feugiat sed adipiscing.
-  link: "/feed/hog/"
+  link: "/feed/chicken/"
 - heading: Chicken stuff
   description: |
     Lorem ipsum dolor sit amet nulla etiam feugiat sed adipiscing.

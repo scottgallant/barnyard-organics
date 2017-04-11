@@ -7,7 +7,7 @@ feed:
 - identifier: faq
   url: "/FAQ"
   weight: -1
-  title: FAQ
+  title: faq
 - identifier: feed-producs
   url: "/feed/"
   weight: -1

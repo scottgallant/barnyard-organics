@@ -1,13 +1,13 @@
 ---
 feed:
-- identifier: order
-  url: "/order/"
-  weight: -1
-  title: Order
 - identifier: faq
   url: "/FAQ"
   weight: -1
   title: faq
+- identifier: order
+  url: "/order/"
+  weight: -1
+  title: Order
 - identifier: feed-producs
   url: "/feed/"
   weight: -1

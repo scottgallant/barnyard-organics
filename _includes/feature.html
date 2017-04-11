@@ -2,14 +2,14 @@
   <div class="inner">
     <div class="split style1 centered reversed">
       <section>
-        <span class="image fit portrait"><img src="{{ page.ecofm-image }}" alt="{{ page.ecofm-heading }}" /></span>
+        <span class="image fit portrait"><img src="{{ page.ecofm-image | prepend:site.baseurl }}" alt="{{ page.ecofm-heading }}" /></span>
       </section>
       <section>
         <h2>{{ page.ecofm-heading }}</h2>
         <div class="features">
           {% for item in page.ecofm-links %}
           <article>
-            <h3><a href="{{ item.link }}">{{ item.heading }}</a></h3>
+            <h3><a href="{{ item.link | prepend:site.baseurl }}">{{ item.heading }}</a></h3>
             <p>{{ item.description }}</p>
           </article>
           {% endfor %}

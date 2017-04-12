@@ -17,7 +17,7 @@ ecofm-links:
 - heading: Organic Turkey Feed
   description: Organic turkey starter mash, organic turkey grower mash
   link: "/feed/hog/"
-- heading: Custom organic feed formulas
+- heading: Custom Organic Feed Formulas
   description: Barnyard Organics can create custom mixes for any customer provided
     they supply the recipe for an extra $1/25Kg bag
   link: "/feed/hog/"

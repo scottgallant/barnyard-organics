@@ -6,16 +6,6 @@ description: Barnyard Organics is a certified organic farm, begun in 2003, where
   vision for a self-sustaining and environmentally sustainable farm continues to be
   the goal.
 links:
-- image: "/images/pic04.jpg"
-  heading: People
-  description: Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula
-    porta felis euismod semper. Donec id elit non mi porta gravida at eget metus.
-  link: "/services/"
-- image: "/images/pic05.jpg"
-  heading: Speaking
-  description: Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum
-    faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla.
-  link: "/services/"
 - image: "/images/farm-landscape-silos-tractors.JPG"
   heading: The Farm
   description: "Barnyard Organics is a certified organic farm, begun in 2003, where
@@ -35,6 +25,18 @@ links:
     we are able to focus on our priority of soil health above all else.  \n\nSally
     & Mark Bernard"
   link: "/about/the-farm"
+- image: "/images/rubber-boots.jpg"
+  heading: People
+  description: First and foremost, Barnyard Organics is a FAMILY farm.  Mark and Sally
+    are the co-owners and operators, as well as the parents of their brood of four.  Mark's
+    parents, the farm's previous owners, still live and work on the farm too, providing
+    essential support and expertise to the operation.
+  link: "/services/"
+- image: "/images/pic05.jpg"
+  heading: Speaking
+  description: Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum
+    faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla.
+  link: "/services/"
 ---
 Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean lacinia bibendum nulla sed consectetur.
 

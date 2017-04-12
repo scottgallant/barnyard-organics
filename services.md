@@ -3,32 +3,29 @@ title: Services
 permalink: "/services/"
 layout: grid
 layout-mod: one-row
-description: |
-  I don't know if this is required.
+description: Barnyard Organics offers a variety of farm services to benefit the Atlantic
+  Canadian organic agriculture sector and beyond.
 links:
 - image: "/uploads/2017/04/11/melissa-askew-29034-1.jpg"
   heading: Grain-related services
-  description: "Barnyard Organics offers an array of grain-related services, including:
-    cleaning, drying, milling \n\nTo find out more about pricing for these services,
-    contact Mark directly.  \n\nGrain Milling\nBarnyard Organics has invested in a
-    hammer mill to process grains for livestock feed.  The hammer mill allows flexibility
-    in the consistency of the final product––from a fine mash to a coarse grind.\n\nMark
-    Bernard is happy to consult with customers about the best grind for their milling
-    needs.  To find out more and for pricing, contact Mark directly."
+  description: 'Barnyard Organics offers an array of grain-related services, including:
+    cleaning, drying, milling'
   link: "/services/"
 - image: "/uploads/2017/04/11/wheat-1.jpg"
   heading: Soybean Roasting
-  description: Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum
-    faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla.
+  description: "Barnyard Organics is pleased to be able to offer custom soybean roasting
+    for organic farmers in a dedicated organic and non-GMO facility. \n"
   link: "/services/"
 - image: "/images/pic05.jpg"
   heading: Bio-Ag Distributor
-  description: Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum
-    faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla.
+  description: Bio-Ag products promote safe sustainable agriculture with a variety
+    of unique products for the comfort and health of livestock, the longevity of our
+    soil, water purity, and for natural processes that enhance renewable resources.
   link: "/services/bio-ag"
 - image: "/images/chicken2-1.jpg"
   heading: General Seed Distributor
-  description: Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum
-    faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla.
+  description: Barnyard Organics is a distributor of General Seed Company’s products
+    for the Atlantic Provinces.  Your Atlantic source for cover crop and forage seeds,
+    both organic and non.
   link: "/services/"
 ---

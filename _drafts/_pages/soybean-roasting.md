@@ -10,8 +10,7 @@ permalink: "/page/soybean-roasting"
 
 ***Why Roast?***
 
-Soybeans, although an excellent source of protein, contain an enzyme which acts as an inhibitor, preventing some of the protein from being released when consumed.  Roasting is the process which removes the enzyme, allowing the cow, for example, to retain all the nutrients from the bean.  Roasting soybeans is a necessary process for feed for cattle, sheep, pigs and many other animals that consume them as a part of their diet ensuring the highest quality and highest nutrient availability of the bean.
-<img src="/images/DSCF7895-2.JPG" style="float: right;">
+Soybeans, although an excellent source of protein, contain an enzyme which acts as an inhibitor, preventing some of the protein from being released when consumed.  Roasting is the process which removes the enzyme, allowing the cow, for example, to retain all the nutrients from the bean.  Roasting soybeans is a necessary process for feed for cattle, sheep, pigs and many other animals that consume them as a part of their diet ensuring the highest quality and highest nutrient availability of the bean.![](/images/Sol-soybeans-SMALL.JPG)
 
 ***Barnyard Organics’ facility includes:***
 <span style="font-size: 1rem;"><ul><li><span style="font-size: 1rem;">Roaster (where the soybeans get roasted in batches of ##Kgs to a temperature of ### ºF for ## minutes.</span><br></li><li><span style="font-size: 1rem;">Stainless steel steeping chamber (here, the extremely hot soybeans continue the roasting process for approximately 20 minutes as they cool down)&nbsp;</span><br></li><li><span style="font-size: 1rem;">Optional flaking unit (if desired, the whole, hard, round beans can be broken down into a more manageable and digestible flaked format.</span><span style="font-size: 1rem;">&nbsp;</span><br></li></ul></span>
@@ -27,5 +26,8 @@ Soybeans, although an excellent source of protein, contain an enzyme which acts 
 These sample tests are valuable for Barnyard Organics (as professional roasters), but also for customers to know how they may be able to refine their systems even further to obtain the optimum product.
 
 We are able to handle orders from semitrailers right down to one tonne tote bags.  Please contact us as early as possible regarding your order for soybeans or bean roasting.
+
+
+
 
 

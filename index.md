@@ -34,10 +34,11 @@ services:
     Barnyard Organics offers an array of grain-related services, including:  cleaning; drying; milling.
   link: "/poultry/"
 - heading: Soybean Roasting
-  image: images/pic01.jpg
-  description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula
-    porta felis euismod semper. Morbi leo risus, porta ac consectetur ac.
+  image: "/images/DSCF7895-1.JPG"
+  description: Barnyard Organics is pleased to be able to offer custom soybean roasting
+    for organic farmers in a dedicated organic and non-GMO facility.  Soybean roasting
+    service is available year-round, with the busiest season taking place after harvest
+    in October/November.
   link: "/poultry/"
 - heading: Bio-Ag Distributor
   image: images/pic03.jpg

@@ -24,7 +24,7 @@ chicken-eggs:
 - heading: Happy Chickens
   image: "/images/chickens in grass.JPG"
   link: "/poultry/"
-- heading: Amazing Eggs YES
+- heading: Amazing Eggs
   image: "/images/eggs1.jpg"
   link: "/poultry/"
 services:

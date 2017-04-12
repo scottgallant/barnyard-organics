@@ -47,7 +47,7 @@ services:
     soil, water purity, and for natural processes that enhance renewable resources.
   link: "/poultry/"
 - heading: General Seed Distributor
-  image: images/pic01.jpg
+  image: "/images/general seed logo.png"
   description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula
     porta felis euismod semper. Morbi leo risus, porta ac consectetur ac.

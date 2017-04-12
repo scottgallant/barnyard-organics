@@ -2,13 +2,12 @@
 title: Poultry
 permalink: "/poultry/"
 layout: grid
-description: |
-  Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum.
+description: ''
 links:
 - image: "/images/eggs1.jpg"
-  heading: Chicken stuff
-  description: Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula
-    porta felis euismod semper. Donec id elit non mi porta gravida at eget metus.
+  heading: Organic Chicken & Eggs
+  description: Purchase from the farm, or through Sally's organic chicken and egg
+    bi-weekly delivery Community Supported Agriculture (CSA) program.
   link: "/poultry/"
 - image: "/images/eggs2.jpg"
   heading: Other stuff

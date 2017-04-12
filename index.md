@@ -41,10 +41,10 @@ services:
     in October/November.
   link: "/poultry/"
 - heading: Bio-Ag Distributor
-  image: images/pic03.jpg
-  description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula
-    porta felis euismod semper. Morbi leo risus, porta ac consectetur ac.
+  image: "/images/Bio-Ag-Consultants-&-Distributors-Logo.jpg"
+  description: Bio-Ag products promote safe sustainable agriculture with a variety
+    of unique products for the comfort and health of livestock, the longevity of our
+    soil, water purity, and for natural processes that enhance renewable resources.
   link: "/poultry/"
 - heading: General Seed Distributor
   image: images/pic01.jpg

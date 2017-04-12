@@ -1,8 +1,7 @@
 ---
 layout: home
 background: "/images/chicken.jpg"
-main-heading: " is a certified organic farm, begun in 2003, where a vision for a self-sustaining
-  and environmentally sustainable farm continues to be the goal"
+main-heading: Barnyard Organics - Growing organic soil
 ecofm-image: "/images/east-coast-organic-feed-mill.jpg"
 ecofm-heading: Home of East Coast Organic Feed Mill
 ecofm-links:

@@ -1,6 +1,6 @@
 ---
 title: Grain Cleaning, Drying & Milling
-permalink: "/page/grain-cleaning-drying-milling"
+permalink: "/services/grain-cleaning-drying-milling"
 layout: default
 ---
 

@@ -21,7 +21,7 @@
           {% else %}
           <section class="post">
           {% endif %}
-            <span class="image fit"><a href="{{ item.link }}"><img src="{{ site.baseurl }}{{ item.image }}" alt=""></a></span>
+            <span class="image fit"><a href="{{ item.link }}"><img src="{{ site.baseurl | prepend:site.baseurl }}" alt=""></a></span>
             <div class="content">
               <h3><a href="{{ item.link }}">{{ item.heading }}</a></h3>
               <p>{{ item.description }}</p>

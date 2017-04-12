@@ -4,7 +4,7 @@
       <div class="split">
         {% for item in page.services %}
           <section class="services">
-            <span class="image fit"><a href="{{ item.link }}"><img src="{{ item.image }}" alt="{{ item.heading }}" /></a></span>
+            <span class="image fit"><a href="{{ item.link }}"><img src="{{ item.image | prepend:site.baseurl }}" alt="{{ item.heading }}" /></a></span>
             <h2><a href="{{ item.link }}">{{ item.heading }}</a></h2>
             <p>{{ item.description }}</p>
             <ul class="actions">

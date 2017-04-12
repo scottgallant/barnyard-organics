@@ -29,10 +29,9 @@ chicken-eggs:
   link: "/poultry/"
 services:
 - heading: Grain Cleaning, Drying, Milling
-  image: images/pic04.jpg
-  description: Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula
-    porta felis euismod semper. Morbi leo risus, porta ac consectetur ac.
+  image: "/images/DSCF3754.JPG"
+  description: |
+    Barnyard Organics offers an array of grain-related services, including:  cleaning; drying; milling.
   link: "/poultry/"
 - heading: Soybean Roasting
   image: images/pic01.jpg

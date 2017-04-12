@@ -12,9 +12,8 @@ ecofm-links:
   description: Organic poultry layer mash, organic soy-free layer mash, organic chick
     starter, organic poultry grower mash
   link: "/feed/chicken/"
-- heading: Chicken stuff
-  description: |
-    Lorem ipsum dolor sit amet nulla etiam feugiat sed adipiscing.
+- heading: Organic Turkey Feed
+  description: Organic turkey starter mash, organic turkey grower mash
   link: "/feed/hog/"
 - heading: Chicken stuff
   description: |

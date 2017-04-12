@@ -8,9 +8,9 @@ ecofm-links:
 - heading: Organic Hog Feed
   description: Laying hens and broilers
   link: "/feed/chicken/"
-- heading: Chicken stuff
-  description: |
-    Lorem ipsum dolor sit amet nulla etiam feugiat sed adipiscing.
+- heading: Organic Chicken Feed
+  description: Organic poultry layer mash, organic soy-free layer mash, organic chick
+    starter, organic poultry grower mash
   link: "/feed/chicken/"
 - heading: Chicken stuff
   description: |

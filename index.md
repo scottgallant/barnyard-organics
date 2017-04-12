@@ -22,7 +22,7 @@ ecofm-links:
   link: "/feed/hog/"
 chicken-eggs:
 - heading: Happy Chickens
-  image: "/images/chicken.jpg"
+  image: "/images/IMG_2166.JPG"
   link: "/poultry/"
 - heading: Amazing Eggs YES
   image: "/images/eggs1.jpg"

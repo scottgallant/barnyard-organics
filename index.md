@@ -16,9 +16,9 @@ ecofm-links:
 - heading: Organic Turkey Feed
   description: Organic turkey starter mash, organic turkey grower mash
   link: "/feed/hog/"
-- heading: Organic Hog Grower
-  description: 'A finely ground feed for raising organic pigs to reach their full
-    growth potential. '
+- heading: Custom organic feed formulas
+  description: Barnyard Organics can create custom mixes for any customer if provided
+    they supply the recipe for an extra $1/25Kg bag
   link: "/feed/hog/"
 chicken-eggs:
 - heading: Happy Chickens

@@ -6,7 +6,8 @@ ecofm-image: "/images/east-coast-organic-feed-mill.jpg"
 ecofm-heading: East Coast Organic Feed Mill
 ecofm-links:
 - heading: Organic Hog Feed
-  description: Laying hens and broilers
+  description: 'A finely ground feed for raising organic pigs to reach their full
+    growth potential. '
   link: "/feed/chicken/"
 - heading: Organic Chicken Feed
   description: Organic poultry layer mash, organic soy-free layer mash, organic chick
@@ -15,9 +16,9 @@ ecofm-links:
 - heading: Organic Turkey Feed
   description: Organic turkey starter mash, organic turkey grower mash
   link: "/feed/hog/"
-- heading: Chicken stuff
-  description: |
-    Lorem ipsum dolor sit amet nulla etiam feugiat sed adipiscing.
+- heading: Organic Hog Grower
+  description: 'A finely ground feed for raising organic pigs to reach their full
+    growth potential. '
   link: "/feed/hog/"
 chicken-eggs:
 - heading: Happy Chickens

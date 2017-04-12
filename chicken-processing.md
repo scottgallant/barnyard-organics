@@ -4,6 +4,11 @@ permalink: "/poultry/chicken-processing/"
 layout: default
 ---
 
-Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum.
 
-Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor.
+Among the many services offered at Barnyard Organics is poultry processing in their custom-built, on-farm, provincially-inspected, organic, free-range (––just kidding) poultry processing facility.  Never anyone’s favourite job, ending the life of well-loved chickens is made as humane as possible with Barnyard Organics well-designed facility.
+
+Searching for a clean, dedicated facility for slaughtering, plucking, gutting, bagging and custom cutting* Barnyard Organics has you covered.
+
+Prices are $5/bird including bagging
+
+*$2 additional cost/bird for custom cuts

@@ -14,25 +14,21 @@ Soybeans, although an excellent source of protein, contain an enzyme which acts 
 
 ***Barnyard Organics’ facility includes:***
 
-Roaster (where the soybeans get roasted in batches of ##Kgs to a temperature of ### ºF for ## minutes.
 
-Stainless steel steeping chamber (here, the extremely hot soybeans continue the roasting process for approximately 20 minutes as they cool down)
-
-an optional flaking unit (if desired, the whole, hard, round beans can be broken down into a more manageable and digestible flaked format.
-
- 
-
-Soybeans to be roasted at Barnyard Organics follow a dedicated process.  Once the beans arrive on the farm they are
-
-Immediately issued a lot number (to ensure full traceability of the product as the beans are run through the roasting process);
-
-Sampled for:
+* <span style="font-size: 1rem;">Roaster (where the soybeans get roasted in batches of ##Kgs to a temperature of ### ºF for ## minutes.</span>
+* <span style="font-size: 1rem;">Stainless steel steeping chamber (here, the extremely hot soybeans continue the roasting process for approximately 20 minutes as they cool down)&nbsp;</span>
+* <span style="font-size: 1rem;">Optional flaking unit (if desired, the whole, hard, round beans can be broken down into a more manageable and digestible flaked format.</span>
+<span style="font-size: 1rem;">Soybeans to be roasted at Barnyard Organics follow a dedicated process.  Once the beans arrive on the farm they are:</span>
 
 
-* <span style="font-size: 1rem;">moisture (explain why here)</span>
-* <span style="font-size: 1rem;">bushel weight</span>
-* <span style="font-size: 1rem;">dockage from weed seeds</span>
-* <span style="font-size: 1rem;">GMO contamination (explain why here).</span>
+
+
+* <span style="font-size: 1rem;">Immediately issued a lot number (to ensure full traceability of the product as the beans are run through the roasting process);</span>
+* <span style="font-size: 1rem;">Sampled for:</span>
+  * <span style="font-size: 1rem;">&nbsp;moisture (explain why here)</span>
+  * <span style="font-size: 1rem;">bushel weight</span>
+  * <span style="font-size: 1rem;">dockage from weed seeds</span>
+  * <span style="font-size: 1rem;">GMO contamination (explain why here).</span>
 
 
 

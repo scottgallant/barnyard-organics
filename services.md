@@ -8,7 +8,13 @@ description: |
 links:
 - image: "/uploads/2017/04/11/melissa-askew-29034-1.jpg"
   heading: Grain-related services
-  description: 'Grain services briefly described here. '
+  description: "Barnyard Organics offers an array of grain-related services, including:
+    cleaning, drying, milling \n\nTo find out more about pricing for these services,
+    contact Mark directly.  \n\nGrain Milling\nBarnyard Organics has invested in a
+    hammer mill to process grains for livestock feed.  The hammer mill allows flexibility
+    in the consistency of the final product––from a fine mash to a coarse grind.\n\nMark
+    Bernard is happy to consult with customers about the best grind for their milling
+    needs.  To find out more and for pricing, contact Mark directly."
   link: "/services/"
 - image: "/uploads/2017/04/11/wheat-1.jpg"
   heading: Soybean Roasting

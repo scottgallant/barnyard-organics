@@ -14,7 +14,7 @@ links:
     offering custom poultry processing; and raising four enthusiastic farm kids is
     a little teaser about what this farm has to offer!
   link: "/about/the-farm"
-- image: "/images/rubber-boots.jpg"
+- image: "/images/rubber-boots-edited.jpg"
   heading: People
   description: First and foremost, Barnyard Organics is a FAMILY farm.  Mark and Sally
     are the co-owners and operators, as well as the parents of their brood of four.  Mark's

@@ -32,10 +32,19 @@ links:
     parents, the farm's previous owners, still live and work on the farm too, providing
     essential support and expertise to the operation.
   link: "/services/"
-- image: "/images/pic05.jpg"
-  heading: Speaking
-  description: Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum
-    faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla.
+- image: "/images/speaking-sally2.jpg"
+  heading: Public Speaking & Workshops
+  description: "Barnyard Organics’ Mark and Sally Bernard are both regularly asked
+    to provide consultation advice for farmers, and to prepare presentations for educational
+    workshops and speaking engagements.  Their farm specialties and preferred speaking
+    topics are outlined below.  For more information and additional speaking ideas
+    and opportunities, please contact them directly.\n\nSally Bernard:\nOrganic Agriculture\nTransitioning
+    to Organic Agriculture\nRaising Organic Hens\nRaising Organic Meat Birds (Chickens
+    & Turkeys)\nBackyard Livestock (Cows, Chickens, Sheep, Pigs)\nHomesteading\n&
+    so much more …\n\nMark Bernard\nOrganic Field Crop Production including peas,
+    soybeans, grains\nOrganic Milling Grains / Food Grade Production\nOrganic weed
+    management in field crops\nParticipatory Plant Breeding\nOn-farm research\nRecord-keeping\n&
+    more … "
   link: "/services/"
 ---
 Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean lacinia bibendum nulla sed consectetur.

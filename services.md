@@ -12,7 +12,7 @@ links:
     cleaning, drying, and milling'
   link: "/services/"
 - image: "/images/soybeans-and-sol-SMALL.JPG"
-  heading: Soybean Roasting
+  heading: Custom Roasting
   description: "Barnyard Organics is pleased to be able to offer custom soybean roasting
     for organic farmers in a dedicated organic and non-GMO facility. \n"
   link: "/services/"
@@ -29,3 +29,6 @@ links:
     both organic and non.
   link: "/services/"
 ---
+
+
+

@@ -1,7 +1,7 @@
 ---
 layout: home
 background: "/images/chicken.jpg"
-main-heading: Barnyard Organics - Growing organic soil
+main-heading: Barnyard Organics
 ecofm-image: "/images/east-coast-organic-feed-mill.jpg"
 ecofm-heading: Home of East Coast Organic Feed Mill
 ecofm-links:

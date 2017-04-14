@@ -3,7 +3,7 @@ title: Feed
 permalink: "/feed/"
 layout: feed-products
 links:
-- image: "/images/pig-tamworth-sow-1.jpg"
+- image: "/images/pig-smile-3.JPG"
   heading: Hog
   description: The perfect formula to raise your organic pigs.
   link: "/feed/hog/"

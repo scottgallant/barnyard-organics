@@ -47,7 +47,7 @@ services:
     soil, water purity, and for natural processes that enhance renewable resources.
   link: "/poultry/"
 - heading: General Seed Distributor
-  image: "/images/general seed logo.png"
+  image: "/images/logo-general-seed-logo.jpg"
   description: Barnyard Organics is a distributor of General Seed Company’s products
     for the Atlantic Provinces.  Your Atlantic source for cover crop and forage seeds,
     both organic and non.

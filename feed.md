@@ -3,14 +3,14 @@ title: Feed
 permalink: "/feed/"
 layout: feed-products
 links:
-- image: "/images/hog-lucy.JPG"
+- image: "/images/pig-tamworth-sow-1.jpg"
   heading: Hog
   description: The perfect formula to raise your organic pigs.
   link: "/feed/hog/"
-- image: "/images/hog-lucy.JPG"
+- image: "/images/pig-smile-1.JPG"
   heading: Poultry
-  description: Layer mash, soy-free layer mash, a broiler mash and chick starter available
-    to meet all of your poultry needs!
+  description: Layer mash, soy-free layer mash, a broiler mash, mixed grain scratch
+    and chick starter available to meet all of your poultry needs!
   link: "/feed/poultry/"
 - image: "/images/hog-lucy.JPG"
   heading: Turkey

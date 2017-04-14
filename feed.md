@@ -18,8 +18,8 @@ links:
   link: "/feed/turkey/"
 - image: "/images/hog-lucy.JPG"
   heading: Custom Mix
-  description: Barnyard Organics's East Coast Organic Feed Mill is ready to work with
-    customers' own formulas to create a custom feed.
+  description: Have your own preferred mix? Barnyard Organics's East Coast Organic
+    Feed Mill can work with your own formulas to create a custom feed.
   link: "/feed/custom/"
 ---
 

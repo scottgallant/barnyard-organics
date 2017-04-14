@@ -1,5 +1,9 @@
 ---
 feed:
+- identifier: faq
+  url: "/faq"
+  weight: 2
+  title: FAQ's
 - identifier: feed-producs
   url: "/feed/"
   weight: 0
@@ -8,10 +12,6 @@ feed:
   url: "/order/"
   weight: 3
   title: Order
-- identifier: faq
-  url: "/faq"
-  weight: 2
-  title: FAQ's
 main:
 - identifier: something
   url: "/order"

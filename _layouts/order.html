@@ -5,7 +5,7 @@
 src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
 integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
 crossorigin="anonymous"></script>
-<script type="text/javascript" src="/assets/js/jquery.formatCurrency-1.4.0.min.js">
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/jquery.formatCurrency-1.4.0.min.js">
 
 </script>
 <script>
@@ -291,7 +291,7 @@ $(function($){
         <nav>
           <ul>
             {% for item in site.menus.feed %}
-              <li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li> 
+              <li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>
             {% endfor %}
           </ul>
         </nav>

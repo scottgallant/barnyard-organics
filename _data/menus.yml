@@ -11,7 +11,7 @@ feed:
 - identifier: faq
   url: "/faq"
   weight: 2
-  title: faq
+  title: FAQ's
 main:
 - identifier: something
   url: "/order"

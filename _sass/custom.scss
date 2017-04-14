@@ -48,12 +48,44 @@
     a {
       text-decoration: none;
       padding: 10px 25px;
-      background: rgba(238, 238, 238, 0.24);
+      background-color: rgba(238, 238, 238, 0.24);
       display: block;
 
       &:hover {
-        background: rgba(238, 238, 238, 0.5);
+        background-color: rgba(238, 238, 238, 0.5);
       }
     }
   }
+}
+
+li .logo {
+    background-image: url('/barnyard-organics/images/east-coast-organic-feed-mill-logo-2.png');
+    display: block;
+    height: 240px;
+    background-size: cover;
+    text-indent: -999px;
+    overflow: hidden;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+    @media (max-width: 800px) {
+      background: rgba(238, 238, 238, 0.24);
+      height: auto;
+      text-indent: 0;
+    }
+}
+
+.subheading {
+  font-size: 1.5em;
+  color: #aaa;
+  margin: 0 0 2em 0;
+}
+
+.tabs .titles li {
+  padding: 1em 1.5em !important;
+}
+
+.tabs .titles li.active {
+  padding-top: 1.5em !important;
 }

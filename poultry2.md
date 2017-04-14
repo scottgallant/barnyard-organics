@@ -1,31 +1,23 @@
 ---
-title: Feed
-permalink: "/feed/"
+title: Poultry
+permalink: "/feed/poultry/"
 layout: feed-products
+description: ''
 links:
 - image: "/images/hog-lucy.JPG"
-  heading: Hog
+  heading: Organic Poultry Layer Mash 17%
   description: Purchase from the farm, or through Sally's organic chicken and egg
     bi-weekly delivery Community Supported Agriculture (CSA) program.
-  link: "/feed/hog/"
+  link: "/feed/poultry/organic-poultry-layer-mash-17/"
 - image: "/images/hog-lucy.JPG"
-  heading: Poultry
+  heading: Chicken stuff
   description: Rent The Chicken provides all of the supplies you need to enjoy a summer
     life with laying hens providing fresh eggs in your backyard!
   link: "/feed/poultry/"
 - image: "/images/hog-lucy.JPG"
-  heading: Turkey
+  heading: Chicken stuff
   description: Among the many services offered at Barnyard Organics is poultry processing
     in their custom-built, on-farm, provincially-inspected, organic, free-range (––just
     kidding) poultry processing facility.
   link: "/feed/turkey/"
-- image: "/images/hog-lucy.JPG"
-  heading: Custom Mix
-  description: Among the many services offered at Barnyard Organics is poultry processing
-    in their custom-built, on-farm, provincially-inspected, organic, free-range (––just
-    kidding) poultry processing facility.
-  link: "/feed/custom/"
 ---
-
-
-Barnyard Organics' East Coast Organic Feed Mill is proud to offer locally-grown and milled 100% organic feed for your livestock needs!  CFIA-approved mix formulas available for laying hens and poultry, broiler birds, turkeys, hogs and custom mixing is also an option!

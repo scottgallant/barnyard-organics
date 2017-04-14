@@ -5,29 +5,26 @@
 <div class="inner">
   <header>
     <h1>{{ page.title | escape }}</h1>
-    <p class="subheading">{{ page.description }}</p>
   </header>
   <div class="content">
-    {{ content }}
+    <div class="row">
+    <div class="8u 12u(small)">
+      <div class="subheading">
+        {{ content }}
+      </div>
+      {% include tabs.html %}
+    </div>
+    <div class="4u">
+      <span class="image fit">
+      <img src="/barnyard-organics/images/hog-lucy2.JPG"><br>
+      <img src="/barnyard-organics/images/hog-lucy.JPG"></span>
+    </div>
+    </div>
   </div>
   <!-- Sidebar -->
-    <div class="sidebar">
-
-      <nav>
-        <ul>
-          {% for item in site.menus.feed %}
-            <li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </nav>
-
-    </div>
-
-
-
+  {% include feed-nav.html %}
 </div>
 </section>
-
 {% include scripts.html %}
 {% include footer.html %}
 </body>

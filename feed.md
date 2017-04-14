@@ -7,12 +7,12 @@ links:
   heading: Hog
   description: The perfect formula to raise your organic pigs.
   link: "/feed/hog/"
-- image: "/images/pig-smile-1.JPG"
+- image: "/images/chicken-with-grain-3.jpg"
   heading: Poultry
   description: Layer mash, soy-free layer mash, a broiler mash, mixed grain scratch
     and chick starter available to meet all of your poultry needs!
   link: "/feed/poultry/"
-- image: "/images/hog-lucy.JPG"
+- image: "/images/chicken-cooked.jpg"
   heading: Turkey
   description: Turkey starter and grower to raise the best organic Thanksgiving dinner!
   link: "/feed/turkey/"

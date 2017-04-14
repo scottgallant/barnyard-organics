@@ -9,9 +9,15 @@
   }
 }
 
-.services {
-  .image {
+.services, .split {
+  .image.fit {
+    overflow: hidden;
+    max-height: 160px;
     margin-bottom: 1em;
+
+    img {
+      width: 100%;
+    }
   }
 
   h2 {

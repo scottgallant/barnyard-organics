@@ -2,7 +2,7 @@
 layout: home
 background: "/images/chicken-homepage-image.jpg"
 main-heading: Barnyard Organics
-ecofm-image: "/images/east-coast-organic-feed-mill.jpg"
+ecofm-image: "/images/ECO FM bag logo.jpeg"
 ecofm-heading: Home of East Coast Organic Feed Mill
 ecofm-links:
 - heading: Organic Hog Feed
@@ -22,32 +22,32 @@ ecofm-links:
   link: "/feed/hog/"
 chicken-eggs:
 - heading: Happy Chickens
-  image: "/images/chickens-four-wheeler-edited-1.JPG"
+  image: "/images/chickens-four-wheeler-edited-2.jpg"
   link: "/poultry/"
 - heading: Amazing Eggs
-  image: "/images/eggs1.jpg"
+  image: "/images/eggs-hard-boiled.jpg"
   link: "/poultry/"
 services:
 - heading: Grain Cleaning, Drying, Milling
-  image: "/images/grainandsky.JPG"
+  image: "/images/grain-blue-sky-sally.jpg"
   description: |
     Barnyard Organics offers an array of grain-related services, including:  cleaning; drying; milling.
   link: "/poultry/"
 - heading: Custom Roasting
-  image: "/images/DSCF7895-1.JPG"
+  image: "/images/soybeans-and-sol-SMALL-2.jpg"
   description: Barnyard Organics is pleased to be able to offer custom roasting for
     organic farmers in a dedicated organic and non-GMO facility.  The roasting service
     is available year-round, with the busiest season taking place after harvest in
     October/November.
   link: "/poultry/"
 - heading: Bio-Ag Distributor
-  image: "/images/Bio-Ag-Consultants-&-Distributors-Logo.jpg"
+  image: "/images/logo-Bio-Ag-Consultants-&-Distributors-Logo-1.jpg"
   description: Bio-Ag products promote safe sustainable agriculture with a variety
     of unique products for the comfort and health of livestock, the longevity of our
     soil, water purity, and for natural processes that enhance renewable resources.
   link: "/poultry/"
 - heading: General Seed Distributor
-  image: "/images/logo-general-seed-logo.jpg"
+  image: "/images/logo-general-seed-logo-1.jpg"
   description: Barnyard Organics is a distributor of General Seed Company’s products
     for the Atlantic Provinces.  Your Atlantic source for cover crop and forage seeds,
     both organic and non.

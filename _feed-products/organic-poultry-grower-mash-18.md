@@ -1,5 +1,6 @@
 ---
 title: Organic Poultry Grower Mash 18%
+layout: feed
 date: 2017-04-15 13:03
 description: Formulated to provide optimal health and growth for your birds, the Certified
   Organic Poultry Grower Mash is designed for use with growing meat birds. A coarsely

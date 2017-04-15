@@ -2,7 +2,7 @@
 title: Custom Roasting
 date: 2017-04-12 11:56
 layout: default
-permalink: "/services/soybean-roasting"
+permalink: "/services/custom-roasting"
 ---
 
 
@@ -18,7 +18,7 @@ Soybeans, although an excellent source of protein, contain an enzyme which acts 
 * <p><span style="font-size: 1rem;">Roaster (where the soybeans get roasted in batches of ##Kgs to a temperature of ### ºF for ## minutes);</span></p>
 * <p><span style="font-size: 1rem;">Stainless steel steeping chamber (here, the extremely hot soybeans continue the roasting process for approximately 20 minutes as they cool down);</span></p>
 * <p><span style="font-size: 1rem;">Optional flaking unit (if desired, the whole, hard, round beans can be broken down into a more manageable and digestible flaked format.</span></p>
-  
+
   <p><span style="font-size: 1rem;">&nbsp;</span></p>
 <p style="font-size: 1rem;"><span style="font-size: 1rem;">Soybeans to be roasted at Barnyard Organics follow a dedicated process.  Once the beans arrive on the farm they are:</span></p>
 
@@ -33,5 +33,3 @@ Soybeans, although an excellent source of protein, contain an enzyme which acts 
 These sample tests are valuable for Barnyard Organics (as professional roasters), but also for customers to know how they may be able to refine their systems even further to obtain the optimum product.
 
 We are able to handle orders from semitrailers right down to one tonne tote bags.  Please contact us as early as possible regarding your order for soybeans or bean roasting.
-
-

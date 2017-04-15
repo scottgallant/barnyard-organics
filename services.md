@@ -6,7 +6,7 @@ layout-mod: one-row
 description: Barnyard Organics offers a variety of farm services to benefit the Atlantic
   Canadian organic agriculture sector and beyond.
 links:
-- image: "/uploads/2017/04/11/melissa-askew-29034-1.jpg"
+- image: "/images/grain-blue-sky-1.jpg"
   heading: Grain-related services
   description: 'Barnyard Organics offers an array of grain-related services, including:
     cleaning, drying, and milling'

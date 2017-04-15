@@ -1,5 +1,5 @@
 ---
-title: Hog Mix
+title: Organic Hog Grower Mash 14%
 date: '2016-05-17 00:00:00'
 categories: 
 description: 'A finely ground feed for raising organic pigs to reach their full growth

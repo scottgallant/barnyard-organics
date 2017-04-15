@@ -1,4 +1,11 @@
 ---
-title: Organic Chicken & Eggs - subpage
+title: Organic Chicken & Eggs - How to Buy
 date: '2017-04-15T14:27:03+00:00'
 ---
+
+
+You can purchase frozen chicken from the farm while supplies last, but to be assured of a seasonal 100% organic poultry and/or egg supply, Sally offers her chicken and eggs through a CSA (Community Supported Agriculture) bi-weekly delivery program.  Pick-up locations for the CSA are located in both Summerside and Charlottetown throughout the summer months.  Sign-ups for the CSA option are open in Spring of each year.
+
+Eggs are available in the winter months through Soleil’s Farm/Plate It CSA program or direct from the farm.![](/barnyard-organics/images/egg-sunnysideup-on-toast.jpg)![](/barnyard-organics/images/eggs-bowl-lucy-wilson.jpg)![](/barnyard-organics/images/eggs-carton.jpg)
+
+

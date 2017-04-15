@@ -15,7 +15,7 @@ links:
     a little teaser about what this farm has to offer!
   link: the-farm.md
 - image: "/images/rubber-boots-edited.jpg"
-  heading: People
+  heading: The Family
   description: First and foremost, Barnyard Organics is a FAMILY farm.  Mark and Sally
     are the co-owners and operators, as well as the parents of their brood of four.  Mark's
     parents, the farm's previous owners, still live and work on the farm too, providing

@@ -13,7 +13,7 @@ links:
   heading: Rent the Chicken
   description: Rent The Chicken provides all of the supplies you need to enjoy a summer
     life with laying hens providing fresh eggs in your backyard!
-  link: "/poultry/"
+  link: undefined
 - image: "/images/chicken-face-close-up-1.jpg"
   heading: The Dead End - Chicken Processing
   description: Among the many services offered at Barnyard Organics is poultry processing

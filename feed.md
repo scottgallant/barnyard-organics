@@ -7,7 +7,7 @@ links:
   heading: Hog
   description: The perfect formula to raise your organic pigs.
   link: "/feed/hog/"
-- image: "/images/chicken-with-grain-5.jpg"
+- image: "/images/pig-smile-4.JPG"
   heading: Poultry
   description: Layer mash, soy-free layer mash, a broiler mash, mixed grain scratch
     and chick starter available to meet all of your poultry needs!

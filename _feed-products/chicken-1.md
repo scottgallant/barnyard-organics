@@ -43,4 +43,6 @@ product-photos:
 - "/images/layer-thayne3.jpg"
 - "/images/layer-mark.jpg"
 ---
-For egg production or maintenance of adult birds (chickens, geese, ducks), the 17% protein will meet the requirements of most mixed farms. The mash is preferred by many because it is not over-processed into pellets.  Cracked corn is used in the mash to minimize dust levels.
+
+
+

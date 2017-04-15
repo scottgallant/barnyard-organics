@@ -1,5 +1,5 @@
 ---
-title: Poultry
+title: Chicken & Eggs
 permalink: "/poultry/"
 layout: grid
 description: ''

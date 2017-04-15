@@ -20,4 +20,8 @@ links:
     in their custom-built, on-farm, provincially-inspected, organic, free-range (––just
     kidding) poultry processing facility.
   link: "/poultry/"
+menu:
+  main:
+    identifier: poultry
+    weight: 2
 ---

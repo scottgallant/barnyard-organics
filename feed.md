@@ -1,5 +1,5 @@
 ---
-title: Feed
+title: East Coast Organic Feed Mill
 permalink: "/feed/"
 layout: feed-products
 links:

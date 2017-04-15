@@ -23,4 +23,23 @@ directions: After four weeks on the Organic Chick Starter, it will be time to sw
   feeds, our feeds are whole grain and contain no preservatives.  Do not use if mouldy
   or wet and aim to use the product within three months of purchase.
 general-analysis: 'This feed contains added selenium at 0.3 mg/kg '
+analysis-table:
+- nutrients: Crude Protein
+  quantity: MIN 17%
+- nutrients: Crude Fat
+  quantity: MIN 4%
+- nutrients: Crude Fibre
+  quantity: MAX 5%
+- nutrients: Calcium
+  quantity: ACT 4%
+- nutrients: Phosphorus
+  quantity: ACT 0.6%
+- nutrients: Sodium
+  quantity: ACT 0.24%
+- nutrients: Vitamin A
+  quantity: MIN 9,500 IU/KG
+- nutrients: Vitamin D3
+  quantity: MIN 3,000 IU/KG
+- nutrients: Vitamin E
+  quantity: MIN 20 IU/KG
 ---

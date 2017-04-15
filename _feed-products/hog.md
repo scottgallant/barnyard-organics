@@ -47,6 +47,7 @@ analysis-table:
   quantity: MIN 1,200 IU/KG
 - nutrients: Vitamin E
   quantity: MIN 10 IU/KG
+general-analysis: 'This feed contains added selenium at 0.3 mg/kg '
 ---
 
 

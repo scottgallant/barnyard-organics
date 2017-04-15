@@ -1,6 +1,6 @@
 ---
 layout: home
-background: "/images/chicken.jpg"
+background: "/images/chicken-homepage-image.jpg"
 main-heading: Barnyard Organics
 ecofm-image: "/images/east-coast-organic-feed-mill.jpg"
 ecofm-heading: Home of East Coast Organic Feed Mill

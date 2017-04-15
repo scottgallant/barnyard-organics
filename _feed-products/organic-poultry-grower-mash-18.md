@@ -23,4 +23,5 @@ directions: After four weeks on the Organic Chick Starter, it will be time to sw
 general-analysis: This feed contains added selenium at 0.3 mg/Kg
 product-photos:
 - "/images/layer-lucy-2.jpg"
+- "/images/grower-wood-1.jpg"
 ---

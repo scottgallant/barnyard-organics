@@ -5,10 +5,10 @@ layout: grid
 description: ''
 links:
 - image: "/images/eggs-sol3_cropped.jpg"
-  heading: Organic Chicken & Eggs
+  heading: Organic Chicken & Eggs - How To Buy
   description: Purchase from the farm, or through Sally's organic chicken and egg
     bi-weekly delivery Community Supported Agriculture (CSA) program.
-  link: "/poultry/"
+  link: undefined
 - image: "/images/chicken-RTC.jpg"
   heading: Rent the Chicken
   description: Rent The Chicken provides all of the supplies you need to enjoy a summer
@@ -19,7 +19,7 @@ links:
   description: Among the many services offered at Barnyard Organics is poultry processing
     in their custom-built, on-farm, provincially-inspected, organic, free-range (––just
     kidding) poultry processing facility.
-  link: "/poultry/"
+  link: chicken-processing.md
 menu:
   main:
     identifier: poultry

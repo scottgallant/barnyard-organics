@@ -21,4 +21,7 @@ directions: Recommended for hens 20 (+) weeks or once they begin laying eggs.  K
   feeds are whole grain and contain no preservatives.  Do not use if mouldy or wet
   and aim to use the product within three months of purchase.
 general-analysis: 'This feed contains added selenium at 0.3 mg/kg '
+product-photos:
+- "/images/layer-sol.jpg"
+- "/images/layer-board.jpg"
 ---

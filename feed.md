@@ -7,16 +7,16 @@ links:
   heading: Hog
   description: The perfect formula to raise your organic pigs.
   link: "/feed/hog/"
-- image: "/images/chicken-with-grain-3.jpg"
+- image: "/images/chicken-with-grain-5.jpg"
   heading: Poultry
   description: Layer mash, soy-free layer mash, a broiler mash, mixed grain scratch
     and chick starter available to meet all of your poultry needs!
   link: "/feed/poultry/"
-- image: "/images/chicken-cooked.jpg"
+- image: "/images/turkeys-colourful.jpg"
   heading: Turkey
   description: Turkey starter and grower to raise the best organic Thanksgiving dinner!
   link: "/feed/turkey/"
-- image: "/images/hog-lucy.JPG"
+- image: "/images/horse-2.jpg"
   heading: Custom Mix
   description: Have your own preferred mix? Barnyard Organics's East Coast Organic
     Feed Mill can work with your own formulas to create a custom feed.

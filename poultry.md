@@ -4,7 +4,7 @@ permalink: "/poultry/"
 layout: grid
 description: ''
 links:
-- image: "/images/eggs-sol-1.jpg"
+- image: "/images/eggs-sol2.jpg"
   heading: Organic Chicken & Eggs
   description: Purchase from the farm, or through Sally's organic chicken and egg
     bi-weekly delivery Community Supported Agriculture (CSA) program.

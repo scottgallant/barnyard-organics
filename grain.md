@@ -30,8 +30,5 @@ Whole organic grains are available from the farm by order in 5, 10, 15, 20, or 2
 
 ## Grain Services
 
-<<<<<<< HEAD
-Find out more about the grain milling, drying and cleaning services offered at Barnyard Organics!![](/barnyard-organics/images/massey-ferguson-model.jpg)
-=======
-Find out more about the grain milling, drying and cleaning services offered at Barnyard Organics!![](/barnyard-organics/images/massey-ferguson-model.jpg)
->>>>>>> 7cc77c5550d95430d68eede0f161dd6ccdeee86d
+Find out more about the grain milling, drying and cleaning services offered at Barnyard Organics!!
+[](/barnyard-organics/images/massey-ferguson-model.jpg)

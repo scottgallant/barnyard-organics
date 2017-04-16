@@ -23,5 +23,6 @@ links:
 menu:
   main:
     identifier: poultry
+    url: "/poultry/"
     weight: 2
 ---

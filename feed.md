@@ -15,7 +15,7 @@ links:
 - image: "/images/turkeys-colourful-3.jpg"
   heading: Turkey
   description: Turkey starter and grower to raise the best organic Thanksgiving dinner!
-  link: "/feed/turkey/"
+  link: _feed-products/organic-turkey-grower-23.md
 - image: "/images/horse-3.jpg"
   heading: Custom Mix
   description: Have your own preferred mix? Barnyard Organics's East Coast Organic

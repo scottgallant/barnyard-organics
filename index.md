@@ -8,18 +8,18 @@ ecofm-links:
 - heading: Organic Hog Feed
   description: 'A finely ground feed for raising organic pigs to reach their full
     growth potential. '
-  link: "/feed/chicken/"
+  link: "/feed/hog/"
 - heading: Organic Chicken Feed
   description: Organic poultry layer mash, organic soy-free layer mash, organic chick
     starter, organic poultry grower mash
-  link: "/feed/chicken/"
+  link: "/feed/poultry/"
 - heading: Organic Turkey Feed
   description: Organic turkey starter mash, organic turkey grower mash
-  link: "/feed/hog/"
+  link: "/organic-turkey-grower-23/"
 - heading: Custom Organic Feed Formulas
   description: Barnyard Organics can create custom mixes for any customer provided
     they supply the recipe for an extra $1/25Kg bag
-  link: "/feed/hog/"
+  link: "/custom-mix/"
 chicken-eggs:
 - heading: Happy Chickens
   image: "/images/chickens-four-wheeler-edited-2.jpg"

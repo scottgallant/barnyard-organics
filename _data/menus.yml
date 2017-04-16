@@ -1,36 +1,32 @@
 ---
 main:
-- identifier: 
-  url: 
-  weight: 1
-  title: Home
 - identifier: something
   url: "/order"
-  weight: 8
+  weight: 9
   title: Order
 - identifier: something
   url: "/contact"
-  weight: 7
+  weight: 8
   title: Contact
 - identifier: feed
   url: http://barnyardorganics.blogspot.ca/
-  weight: 6
+  weight: 7
   title: Blog
 - identifier: about
   url: "/about"
-  weight: 5
+  weight: 6
   title: About
 - identifier: feed
   url: "/feed"
-  weight: 1
+  weight: 2
   title: Feed
 - identifier: grain
   url: "/grain"
-  weight: 3
+  weight: 4
   title: Grain
 - identifier: services
   url: "/services"
-  weight: 4
+  weight: 5
   title: Services
 feed:
 - identifier: order

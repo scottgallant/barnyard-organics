@@ -24,5 +24,5 @@ menu:
   main:
     identifier: poultry
     url: "/poultry/"
-    weight: 2
+    weight: 3
 ---

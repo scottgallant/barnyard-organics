@@ -4,7 +4,7 @@ permalink: "/feed/poultry/"
 layout: feed-products
 description: ''
 links:
-- link: undefined
+- link: _feed-products/organic-mixed-grain-scratch-9-5.md
   image: "/images/chicken-with-grain-7.jpg"
   heading: Organic Mixed Grain Scratch 9.5%
   description: Our Mixed Grain Scratch, at 9.5% protein, provides an ideal supplement

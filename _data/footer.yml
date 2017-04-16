@@ -1,5 +1,13 @@
 ---
-- title: Something
-  url: https://www.youtube.com
-  director: Someone
-  email: someone@gmail.com
+Address: |
+  1234 Fictional Street #5432
+  Nashville, TN 00000-0000
+Phone: (000) 000-0000
+email: something@emai.com
+social-media:
+- name: instagram
+  link: https://instagram.com/something
+- name: facebook
+  link: https://instagram.com/something
+- name: twitter
+  link: https://instagram.com/something

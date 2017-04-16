@@ -44,6 +44,8 @@ $(function($){
 				<h1>{{ page.title | escape }}</h1>
         <p class="subheading">{{ page.description }}</p>
 			</header>
+      <!-- Sidebar -->
+      {% include feed-nav.html %}
       <div class="content">
   			<div class="row uniform pricing-table">
 
@@ -285,17 +287,5 @@ $(function($){
 
   		</div><!-- .row -->
     </div><!-- .content -->
-    <!-- Sidebar -->
-      <div class="sidebar">
-
-        <nav>
-          <ul>
-            {% for item in site.menus.feed %}
-              <li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>
-            {% endfor %}
-          </ul>
-        </nav>
-
-      </div>
 </div><!-- .inner -->
 </section>

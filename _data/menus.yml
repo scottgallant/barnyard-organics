@@ -1,9 +1,5 @@
 ---
 main:
-- identifier:
-  url: "https://googl.com"
-  weight: 0
-  title: Google
 - identifier: something
   url: "/order"
   weight: 9

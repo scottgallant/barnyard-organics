@@ -26,7 +26,7 @@ links:
   description: 'Barnyard Organics’ Mark and Sally Bernard are both regularly asked
     to provide consultation advice for farmers, and to prepare presentations for educational
     workshops and speaking engagements. '
-  link: services.md
+  link: public-speaking-workshops.md
 ---
 Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean lacinia bibendum nulla sed consectetur.
 

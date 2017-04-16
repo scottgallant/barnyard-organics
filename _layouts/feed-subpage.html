@@ -7,24 +7,10 @@
     <h1>{{ page.title | escape }}</h1>
     <p class="subheading">{{ page.description }}</p>
   </header>
+  {% include feed-nav.html %}
   <div class="content">
     {{ content }}
   </div>
-  <!-- Sidebar -->
-    <div class="sidebar">
-
-      <nav>
-        <ul>
-          {% for item in site.menus.feed %}
-            <li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </nav>
-
-    </div>
-
-
-
 </div>
 </section>
 

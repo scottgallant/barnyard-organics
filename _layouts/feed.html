@@ -6,6 +6,7 @@
   <header>
     <h1>{{ page.title | escape }}</h1>
   </header>
+  {% include feed-nav.html %}
   <div class="content">
     <div class="row">
     <div class="8u 12u(small)">
@@ -24,8 +25,6 @@
     </div>
     </div>
   </div>
-  <!-- Sidebar -->
-  {% include feed-nav.html %}
 </div>
 </section>
 {% include scripts.html %}

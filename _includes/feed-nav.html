@@ -1,7 +1,7 @@
 <div class="sidebar">
 	<nav>
 		<ul>
-			<li><a href="#" class="logo">East Coast Organic Feed Mill</a></li>
+			<li class="hide-mobile"><a href="{{ site.baseurl }}/feed/" class="logo">East Coast Organic Feed Mill</a></li>
 			{% for item in site.menus.feed %}
 				<li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>
 			{% endfor %}

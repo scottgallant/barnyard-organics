@@ -1,7 +1,8 @@
 ---
 title: East Coast Organic Feed Mill
 permalink: "/feed/"
-layout: feed-products
+layout: grid
+layout-mod: include-feed-links
 links:
 - image: "/images/pig-smile-5.jpg"
   heading: Hog

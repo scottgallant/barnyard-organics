@@ -40,7 +40,7 @@
 }
 
 .sidebar nav ul {
-  margin: 0;
+  margin: 0 0 2em;
   padding: 0;
   border-radius: 5px;
   overflow: hidden;
@@ -94,4 +94,29 @@ li .logo {
 
 .tabs .titles li.active {
   padding-top: 1.5em !important;
+}
+
+.wrapper.sidebar.left>.inner {
+  -moz-flex-direction: row !important;
+  -webkit-flex-direction: row !important;
+  -ms-flex-direction: row !important;
+  flex-direction: row !important;
+}
+
+@media screen and (max-width: 980px) {
+  .wrapper.sidebar>.inner>.content {
+      padding-left: 0 !important;
+  }
+}
+
+
+@media screen and (max-width: 980px) {
+  .hide-mobile {
+    display:none !important;
+  }
+}
+
+.banner {
+  height: 80vh;
+  background-position: 50%;
 }

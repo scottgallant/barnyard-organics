@@ -1,12 +1,20 @@
 {% include head.html %}
 {% include header.html %}
 <!-- Main -->
+{% if page.layout-mod == "include-feed-links" %}
+<section id="main" class="wrapper sidebar left">
+{% else %}
 <section id="main" class="wrapper">
+{% endif %}
 <div class="inner">
   <header>
     <h1>{{ page.title | escape }}</h1>
     <p class="subheading">{{ page.description }}</p>
   </header>
+  {% if page.layout-mod == "include-feed-links" %}
+    <!-- Sidebar -->
+    {% include feed-nav.html %}
+  {% endif %}
   <div class="content">
     <section>
       <div class="inner">
@@ -15,6 +23,7 @@
         {% else %}
         <div class="posts">
         {% endif %}
+
         {% for item in page.links %}
           {% if page.layout-mod == "one-row" %}
           <section>

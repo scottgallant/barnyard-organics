@@ -1,7 +1,7 @@
 ---
 main:
-- identifier:
-  url: "https://googl.com"
+- identifier: 
+  url: https://googl.com
   weight: 0
   title: Google
 - identifier: something

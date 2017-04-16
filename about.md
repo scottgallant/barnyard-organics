@@ -6,7 +6,7 @@ description: Barnyard Organics is a certified organic farm, begun in 2003, where
   vision for a self-sustaining and environmentally sustainable farm continues to be
   the goal.
 links:
-- image: "/images/farm-landscape-silos-tractors.JPG"
+- image: "/images/farm-landscape-silos-tractors-1.JPG"
   heading: The Farm
   description: Growing, mixing and selling complete organic feed rations for livestock;
     selling bulk organic grains; providing custom seed cleaning and soybean roasting,

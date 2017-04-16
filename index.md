@@ -56,6 +56,6 @@ menu:
   main:
     identifier: _index
     url: "/"
-    weight: 11
+    weight: 1
     title: Home
 ---

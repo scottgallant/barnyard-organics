@@ -1,6 +1,7 @@
 ---
 title: Organic Chicken & Eggs - How to Buy
 date: '2017-04-15T14:27:03+00:00'
+layout: default
 ---
 
 

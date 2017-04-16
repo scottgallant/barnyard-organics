@@ -1,5 +1,7 @@
 ---
 main:
+- weight: 1
+  title: Home
 - identifier: something
   url: "/order"
   weight: 8

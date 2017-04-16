@@ -4,12 +4,7 @@ permalink: "/grain/"
 layout: default
 ---
 
-<h2 class="">Barnyard Organics is home to East Coast Organic Feed Mill</h2>
-
-
-
-
-
+<h2 class="">Barnyard Organics is home to East Coast Organic Feed Mill</h2>![](/barnyard-organics/images/grain-feed-bag.jpg)
 
 ## Organic Grain Production![](/barnyard-organics/images/grain-close-up-harvest-4.jpg)
 
@@ -34,11 +29,5 @@ Whole organic grains are available from the farm by order in 5, 10, 15, 20, or 2
 ## Grain Services
 
 Find out more about the grain milling, drying and cleaning services offered at Barnyard Organics!![](/barnyard-organics/images/massey-ferguson-model.jpg)
-
-
-
-
-
-
 
 

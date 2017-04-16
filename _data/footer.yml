@@ -1,13 +1,11 @@
 ---
-Address: |
-  1234 Fictional Street #5432
-  Nashville, TN 00000-0000
+Address: '1234 Fictional Street #5432Nashville, TN 00000-0000'
 Phone: "(000) 000-0000"
 email: something@emai.com
 social-media:
-- name: instagram
+- name: Instagram
   link: https://instagram.com/something
-- name: facebook
+- name: Facebook
   link: https://instagram.com/something
-- name: twitter
+- name: Twitter
   link: https://instagram.com/something

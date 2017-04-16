@@ -27,7 +27,7 @@ links:
   description: Barnyard Organics is a distributor of General Seed Company’s products
     for the Atlantic Provinces.  Your Atlantic source for cover crop and forage seeds,
     both organic and non.
-  link: undefined
+  link: general-seed.md
 ---
 
 

@@ -54,6 +54,8 @@ services:
   link: "/poultry/"
 menu:
   main:
+    identifier: _index
+    url: "/"
     weight: 11
     title: Home
 ---

@@ -120,3 +120,11 @@ li .logo {
   height: 80vh;
   background-position: 50%;
 }
+
+.header-logo {
+  img {
+    max-height: 40px;
+    margin-right: 20px;
+    display: block;
+  }
+}

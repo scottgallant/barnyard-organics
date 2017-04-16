@@ -20,7 +20,7 @@
 			width: calc(33.33333333% - 1.25em);
 		}
 
-		@include breakpoint(large) {
+		@include breakpoint(medium) {
 			.post {
 				width: calc(50% - 1em);
 			}

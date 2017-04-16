@@ -52,4 +52,8 @@ services:
     for the Atlantic Provinces.  Your Atlantic source for cover crop and forage seeds,
     both organic and non.
   link: "/poultry/"
+menu:
+  main:
+    weight: 10
+    title: Home
 ---

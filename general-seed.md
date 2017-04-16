@@ -1,6 +1,7 @@
 ---
 title: General Seed
 date: '2017-04-15T14:37:07+00:00'
+layout: default
 ---
 
 
@@ -14,10 +15,8 @@ Please note that most seed comes in 50lb bags
 
 *GENERAL SEED PRICE LIST COMING SOON!*
 
-To place an order, 
+To place an order,
 <a href="info@barnyardorganics.com">email</a> or call Barnyard Organics (902-887-3188).
 
 
 ![](/barnyard-organics/images/grain-4kids.jpg)
-
-

@@ -18,12 +18,12 @@ ingredients: |-
   *BioAg mineral premixes include a variety of primary and trace minerals and vitamins, from sources such as: limestone; kelp meal; natural trace mineral salt; DL methionine and lysine in the layer mash (amino acids); selenium yeast; probiotics; enzymes; vitamins A, D, and E, plus vitamin B complex in addition to those vitamins in the premix.
 
   ALL GRAIN INGREDIENTS GROWN AT BARNYARD ORGANICS (home of EAST COAST ORGANIC FEED MILL) except corn (source:  Le Moulins des Cèdres, QC)
-directions: 'Directions for Use: Start transitioning your pigs to East Coast Organic
-  Hog Grower when they reach 18-20Kg. By 25 Kg until market weight, use Organic Hog
-  Grower as their sole ration.  Be sure to offer plenty of fresh water to ensure your
-  pigs are happy and healthy.  Store in a cool, dry place. Unlike many pelletized
-  feeds, our feeds are whole grain and contain no preservatives.  Do not use if mouldy
-  or wet and aim to use the product within three months of purchase.'
+directions: Start transitioning your pigs to East Coast Organic Hog Grower when they
+  reach 18-20Kg. By 25 Kg until market weight, use Organic Hog Grower as their sole
+  ration.  Be sure to offer plenty of fresh water to ensure your pigs are happy and
+  healthy.  Store in a cool, dry place. Unlike many pelletized feeds, our feeds are
+  whole grain and contain no preservatives.  Do not use if mouldy or wet and aim to
+  use the product within three months of purchase.
 analysis-table:
 - nutrients: Crude Protein
   quantity: MIN 14%
@@ -48,6 +48,10 @@ analysis-table:
 - nutrients: Vitamin E
   quantity: MIN 10 IU/KG
 general-analysis: 'This feed contains added selenium at 0.3 mg/kg '
+product-photos:
+- images/hog-lucy.jpg
+- "/images/hog-wilson.jpg"
+permalink: ''
 ---
 
 

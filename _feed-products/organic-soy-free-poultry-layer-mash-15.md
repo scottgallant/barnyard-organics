@@ -24,7 +24,7 @@ directions: Recommended for hens 20 (+) weeks or once they begin laying eggs.  K
 general-analysis: 'This feed contains added selenium at 0.3 mg/kg '
 analysis-table:
 - nutrients: Crude Protein
-  quantity: MIN 17%
+  quantity: MIN 15%
 - nutrients: Crude Fat
   quantity: MIN 4%
 - nutrients: Crude Fibre
@@ -44,4 +44,5 @@ analysis-table:
 product-photos:
 - "/images/layer-sol.jpg"
 - "/images/layer-board.jpg"
+permalink: ''
 ---

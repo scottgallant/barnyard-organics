@@ -24,23 +24,23 @@ directions: After four weeks on the Organic Chick Starter, it will be time to sw
 general-analysis: This feed contains added selenium at 0.3 mg/Kg
 analysis-table:
 - nutrients: Crude Protein
-  quantity: MIN 17%
+  quantity: MIN 18%
 - nutrients: Crude Fat
-  quantity: MIN 4%
+  quantity: MIN 3%
 - nutrients: Crude Fibre
   quantity: MAX 5%
 - nutrients: Calcium
-  quantity: ACT 4%
+  quantity: ACT 1.1%
 - nutrients: Phosphorus
-  quantity: ACT 0.6%
+  quantity: ACT 0.7%
 - nutrients: Sodium
   quantity: ACT 0.24%
 - nutrients: Vitamin A
-  quantity: MIN 9,500 IU/KG
+  quantity: MIN 8,00 IU/KG
 - nutrients: Vitamin D3
-  quantity: MIN 3,000 IU/KG
+  quantity: MIN 2,500 IU/KG
 - nutrients: Vitamin E
-  quantity: MIN 20 IU/KG
+  quantity: MIN 15 IU/KG
 product-photos:
 - "/images/layer-lucy-2.jpg"
 - "/images/grower-wood-1.jpg"

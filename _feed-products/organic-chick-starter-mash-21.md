@@ -21,24 +21,25 @@ directions: Recommended for chicks as sole ration from 0 to 4 weeks … until 8 
 general-analysis: 'This feed contains added selenium at 0.3 mg/kg '
 analysis-table:
 - nutrients: Crude Protein
-  quantity: MIN 17%
+  quantity: MIN 21%
 - nutrients: Crude Fat
-  quantity: MIN 4%
+  quantity: MIN 3%
 - nutrients: Crude Fibre
-  quantity: MAX 5%
+  quantity: MAX 4%
 - nutrients: Calcium
-  quantity: ACT 4%
+  quantity: ACT 1%
 - nutrients: Phosphorus
   quantity: ACT 0.6%
 - nutrients: Sodium
-  quantity: ACT 0.24%
+  quantity: ACT 0.17%
 - nutrients: Vitamin A
-  quantity: MIN 9,500 IU/KG
+  quantity: MIN 11,00 IU/KG
 - nutrients: Vitamin D3
   quantity: MIN 3,000 IU/KG
 - nutrients: Vitamin E
-  quantity: MIN 20 IU/KG
+  quantity: MIN 40 IU/KG
 product-photos:
 - "/images/starter-thayne4.jpg"
 - "/images/starter-wilson.jpg"
+permalink: ''
 ---

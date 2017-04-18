@@ -19,11 +19,11 @@ ingredients: |-
 
   ALL GRAIN INGREDIENTS GROWN AT BARNYARD ORGANICS (home of EAST COAST ORGANIC FEED MILL) except corn (source:  Le Moulins des Cèdres, QC)
 directions: Start transitioning your pigs to East Coast Organic Hog Grower when they
-  reach 18-20Kg. By 25 Kg until market weight, use Organic Hog Grower as their sole
+  reach 18-20Kg. By 25Kg until market weight, use Organic Hog Grower as their sole
   ration.  Be sure to offer plenty of fresh water to ensure your pigs are happy and
-  healthy.  Store in a cool, dry place. Unlike many pelletized feeds, our feeds are
-  whole grain and contain no preservatives.  Do not use if mouldy or wet and aim to
-  use the product within three months of purchase.
+  healthy.  Store bags in a cool, dry place. Unlike many pelletized feeds, our feeds
+  are whole grain and contain no preservatives.  Do not use if mouldy or wet and aim
+  to use the product within three months of purchase.
 analysis-table:
 - nutrients: Crude Protein
   quantity: MIN 14%
@@ -49,10 +49,10 @@ analysis-table:
   quantity: MIN 10 IU/KG
 general-analysis: 'This feed contains added selenium at 0.3 mg/kg '
 product-photos:
+- images/pig-smile-4.JPG
 - images/hog-lucy.jpg
 - "/images/hog-wilson.jpg"
 permalink: ''
 ---
 
 
-A finely ground feed for raising organic pigs to reach their full growth potential. Our Organic Hog Grower formula offers ideal nutrition for your growing swine. With a minimum of 14% protein, your pigs will be feasting on some of the best, most natural feed available.

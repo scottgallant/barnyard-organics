@@ -41,5 +41,4 @@ analysis-table:
 product-photos:
 - "/images/starter-thayne4.jpg"
 - "/images/starter-wilson.jpg"
-permalink: ''
 ---

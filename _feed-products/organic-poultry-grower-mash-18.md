@@ -44,5 +44,4 @@ analysis-table:
 product-photos:
 - "/images/layer-lucy-2.jpg"
 - "/images/grower-wood-1.jpg"
-permalink: ''
 ---

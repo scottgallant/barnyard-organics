@@ -44,5 +44,4 @@ analysis-table:
 product-photos:
 - "/images/layer-sol.jpg"
 - "/images/layer-board.jpg"
-permalink: ''
 ---

@@ -2,12 +2,12 @@
 title: Organic Poultry Grower Mash 18%
 layout: feed
 date: 2017-04-15 13:03
-description: Formulated to provide optimal health and growth for your birds, the Certified
-  Organic Poultry Grower Mash is designed for use with growing meat birds. A coarsely
-  hammered texture, at 18% minimum protein, this feed is designed with the bird’s
-  optimal nutritional requirements in mind. The resulting meat will be high quality,
-  delicious, and very healthy! East Coast Organic Feed Mill’s  Organic Poultry Grower
-  Mash works well for both hybrid and heritage breeds.
+description: 'Formulated to provide optimal health and growth for your birds, the
+  Certified Organic Poultry Grower Mash is designed for use with growing meat birds.
+  A coarsely hammered texture, at 18% minimum protein, this feed is designed with
+  the bird’s optimal nutritional requirements in mind. The resulting meat will be
+  high quality, delicious, and very healthy! East Coast Organic Feed Mill’s  Organic
+  Poultry Grower Mash works well for both hybrid and heritage breeds. '
 ingredients: |-
   Organic Barley, Roasted Organic Soybean, Organic Corn, Organic Wheat, Organic Field Peas, Organic Flax Meal & Bio Ag Poultry Grower Mineral Premix*.
 
@@ -44,4 +44,5 @@ analysis-table:
 product-photos:
 - "/images/layer-lucy-2.jpg"
 - "/images/grower-wood-1.jpg"
+permalink: ''
 ---

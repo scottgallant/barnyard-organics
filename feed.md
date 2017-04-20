@@ -17,7 +17,7 @@ links:
   heading: Turkey
   description: Turkey starter and grower to raise the best organic Thanksgiving dinner!
   link: turkey-1.md
-- image: "/images/horse-3.jpg"
+- image: "/images/goat.jpg"
   heading: Custom Mix
   description: Have your own preferred mix? Barnyard Organics's East Coast Organic
     Feed Mill can work with your own formulas to create a custom feed.

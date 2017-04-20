@@ -5,42 +5,58 @@ layout: default
 ---
 
 
-## <a href="https://scottgallant.github.io/barnyard-organics/feed/">Barnyard Organics is home to East Coast Organic Feed Mill</a>
+## [Barnyard Organics is home to East Coast Organic Feed Mill](https://scottgallant.github.io/barnyard-organics/feed/)
+
 
 ![](/barnyard-organics/images/grain-feed-bag.jpg)
 
 
 
+
 ## Organic Grain Production
+
 
 ![](/barnyard-organics/images/grain-close-up-harvest-4.jpg)
 
 
 
+
 Combined with the soybean crop, Barnyard Organics' cereal grains form the centre pivot of the farm.  Their constant expansion has led them to experiment with new crops and new ways to produce them under organic standards.
+
 
 At Barnyard Organics, they are growing soil using the crops as an indicator of the health of their soil. To achieve this, they are very strict on their minimum five year crop rotation, which ensures that each crop is balanced with the one before and after, always keeping the soil in mind.  Crop rotations minimizes pests and diseases and contribute to producing a healthy, bountiful harvest.
 
+
 Barnyard Organics' five year rotation starts with clover which is plowed to plant wheat, followed by soybeans and then barley inter-seeded with field peas and then oats are planted as a nurse crop for the clover to establish and grow the following year.
+
 
 Always experimenting, at Barnyard Organics, they pride themselves on growing new crops, pushing boundaries of what crops can be grown in the Maritimes.
 
+
 ## Whole organic food grade grains
+
 
 ![](/barnyard-organics/images/grain-lucy-hands.jpg)
 
 
 
+
 Barnyard Organics specializes in high quality milling wheat, oats and soybeans.  100% organic, and ready to supply any home looking for whole grains for sprouting, home-milling or otherwise.
+
 
 Barnyard Organics’ grains supply
 
-<a href="http://www.speervilleflourmill.ca">Speerville Flour Mill</a>, so every time you choose Speerville’s flour products, you’re supporting local organic farmers like Mark and Sally Bernard!
+
+[Speerville Flour Mill](http://www.speervilleflourmill.ca), so every time you choose Speerville’s flour products, you’re supporting local organic farmers like Mark and Sally Bernard!  <span style="font-size: 1rem;">One particular crop of pride for the farm is the rejuvenation of the Acadia variety of milling wheat.  Speerville provided the last 2 kg paper bag of the seed that had been sitting patiently in a freezer, waiting for the right farm and just a few years of increasing the seed later, Barnyard Organics had 50 acres of wheat on offer for commercial and home bakers, through Speerville Mills.  Acadia was developed for the Maritime climate and adapts to a local soil within three years of production.  It is a beautiful flour for bread with a uniquely Acadian flavour.</span>
+
 
 Whole organic grains are available from the farm by order in 5, 10, 15, 20, or 25 Kg bags.
 
-## <a href="https://scottgallant.github.io/barnyard-organics/grain/">Grain Services</a>
 
-<a href="https://scottgallant.github.io/barnyard-organics/grain/">Find out more</a> about the grain milling, drying and cleaning services offered at Barnyard Organics!!
+## [Grain Services](https://scottgallant.github.io/barnyard-organics/grain/)
 
-<a href="/barnyard-organics/images/massey-ferguson-model.jpg"></a>
+
+[Find out more](https://scottgallant.github.io/barnyard-organics/grain/) about the grain milling, drying and cleaning services offered at Barnyard Organics!!
+
+
+[](/barnyard-organics/images/massey-ferguson-model.jpg)

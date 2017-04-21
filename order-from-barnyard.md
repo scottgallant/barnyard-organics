@@ -1,5 +1,5 @@
 ---
-title: Order from Barnyard Organics
+title: Buy from Barnyard Organics
 layout: default
 date: '2017-04-21T09:23:56+00:00'
 description: Interested in ordering products from  Barnyard Organics?

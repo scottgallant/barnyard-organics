@@ -12,7 +12,7 @@ links:
     managing a Community Shared Agriculture program for organic chicken and eggs;
     offering custom poultry processing; and raising four enthusiastic farm kids is
     a little teaser about what this farm has to offer!
-  link: the-farm.md
+  link: about/the-farm.md
 - image: "/images/rubber-boots-edited.jpg"
   heading: The Family
   description: First and foremost, Barnyard Organics is a FAMILY farm.  Mark and Sally

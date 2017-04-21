@@ -25,5 +25,5 @@ links:
     addition to extra protein, the formulated Organic Turkey Starter contains flax
     for Omega-3 fatty acids as well. The resulting meat will be healthy, high quality,
     delicious!  This feed works well for both heritage breeds and broad breasted turkeys.
-layout: ''
+layout: grid
 ---

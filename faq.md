@@ -2,14 +2,29 @@
 title: Frequently Asked Questions
 permalink: "/faq/"
 layout: feed-subpage
-description: Donec id elit non mi porta gravida at eget metus. Cum sociis natoque
-  penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper
-  nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing
-  elit. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra
-  augue. Maecenas faucibus mollis interdum.
+description: We know you'll have more questions, but we've tried to address some of
+  the common questions we receive on this page!
 ---
-### something
-Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor.
 
-### something
-Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan.
+
+### Where can I find your products?
+
+
+As of 2017, all of our feed, grain, Bio-Ag and General Seed products can be ordered directly from the farm!  The minimum order for shipping is 1/2 tonne (1100 lbs / 20*25Kg of our feed/grain bags).  No minimum order if you are stopping by the farm, but do call ahead to make sure we'll be available and have your order ready for pick-up!
+
+East Coast Organic Feed Mill products are also available at retail stores across the Maritimes (full list coming soon!), and our retail distribution is rapidly increasing!  Check with your local feed retailer and ask them to order in East Coast Organic Feed Mill products!
+
+For chicken and eggs, you can purchase these directly from the farm depending on the season, but they are mostly available through Sally's Chicken & Egg CSA.
+
+### Mash versus Pellet?
+
+COMING SOON!  In the meantime, check out Sally's blog post about this topic!
+
+### Why Organic?
+
+
+COMING SOON!
+
+
+
+###

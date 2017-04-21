@@ -17,7 +17,7 @@ links:
   heading: Mark
   description: ''
 - link: about/family/sally.md
-  image: "/barnyard-organics/images/speaking-sally.jpg"
+  image: "/images/speaking-sally.jpg"
   heading: Sally
   description: ''
 ---

@@ -16,23 +16,9 @@ To order any feed products, [check out our online ordering form](https://scottga
 
 
 In addition to feed products, Barnyard Organics stocks whole **organic** grains, including:
+<span style="font-size: 1rem;"><ul><li><span style="font-size: 1rem;">Barley</span><br></li><li><span style="font-size: 1rem;">Buckwheat</span><br></li><li><span style="font-size: 1rem;">Corn</span><br></li><li><span style="font-size: 1rem;">Field Peas</span><br></li><li><span style="font-size: 1rem;">Oats</span><br></li><li><span style="font-size: 1rem;">Milled Roasted Soybeans</span><br></li><li><span style="font-size: 1rem;">Whole Roasted Soybeans</span><br></li><li><span style="font-size: 1rem;">Wheat</span><br></li></ul></span>
 
 
-* <span style="font-size: 1rem;">Barley</span>
-
-* <span style="font-size: 1rem;">Buckwheat</span>
-
-* <span style="font-size: 1rem;">Corn</span>
-
-* <span style="font-size: 1rem;">Field Peas</span>
-
-* <span style="font-size: 1rem;">Oats</span>
-
-* <span style="font-size: 1rem;">Milled Roasted Soybeans</span>
-
-* <span style="font-size: 1rem;">Whole Roasted Soybeans</span>
-
-* <span style="font-size: 1rem;">Wheat</span>
 
 
 The 2017 whole organic grains price list (prices are subject to change based on availability and annual price rate adjustments) is available here.  Email [info@barnyardorganics.com](info@barnyardorganics.com) or call 902-887-3188 t<span style="font-size: 1rem;">o place an order! &nbsp;Whole organic grains are available in 1 tonne totes or 25Kg bags. &nbsp;Minimum order for shipment is 1/2 tonne/1100 lbs/20*25Kg bags,&nbsp;</span>*there*<span style="font-size: 1rem;"><u>&nbsp;is no minimum order if you are able to pick-up your order at the farm in Freetown, PEI</u>.</span>

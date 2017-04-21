@@ -41,6 +41,8 @@ analysis-table:
 - nutrients: Vitamin E
   quantity: MIN 20 IU/KG
 product-photos:
+- "/images/horse-3.jpg"
+- images/hog-lucy.jpg
 - "/images/grains-bagged-tiny.JPG"
-- "/images/hog-lucy.JPG"
+price_list: ''
 ---

@@ -9,14 +9,22 @@ description: Interested in ordering products from  Barnyard Organics?
 ### EAST COAST ORGANIC ANIMAL FEED:
 
 
-To order any feed products, [check out our online ordering form](https://scottgallant.github.io/barnyard-organics/order/)!
+To order any feed products, check out our online ordering form *(COMING SOON!)*
 
-
-### WHOLE ORGANIC (FEED-GRADE) GRAINS:
+<span style="color: rgb(40, 40, 40); font-size: 1.5em; word-spacing: 0.5px;">WHOLE ORGANIC (FEED-GRADE) GRAINS:</span>
 
 
 In addition to feed products, Barnyard Organics stocks whole **organic** grains, including:
-<span style="font-size: 1rem;"><ul><li><span style="font-size: 1rem;">Barley</span><br></li><li><span style="font-size: 1rem;">Buckwheat</span><br></li><li><span style="font-size: 1rem;">Corn</span><br></li><li><span style="font-size: 1rem;">Field Peas</span><br></li><li><span style="font-size: 1rem;">Oats</span><br></li><li><span style="font-size: 1rem;">Milled Roasted Soybeans</span><br></li><li><span style="font-size: 1rem;">Whole Roasted Soybeans</span><br></li><li><span style="font-size: 1rem;">Wheat</span><br></li></ul></span>
+<span style="font-size: 1rem;"></span>
+
+* <span style="font-size: 1rem;">Barley</span>
+* <span style="font-size: 1rem;">Buckwheat</span>
+* <span style="font-size: 1rem;">Corn</span>
+* <span style="font-size: 1rem;">Field Peas</span>
+* <span style="font-size: 1rem;">Oats</span>
+* <span style="font-size: 1rem;">Milled Roasted Soybeans</span>
+* <span style="font-size: 1rem;">Whole Roasted Soybeans</span>
+* <span style="font-size: 1rem;">Wheat</span>
 
 
 

@@ -65,6 +65,8 @@ Minimum order for shipment is usually 1/2 tonne/1100 lbs/20*25Kg bags, but there
 
 Barnyard Organics has you covered for your cover crop seed, forage seed and turf seed as a regional dealer for Ontario's General Seed Company Ltd.  Find their complete product and price list here* (COMING SOON)*!  Email  [info@barnyardorganics.com](info@barnyardorganics.com) or call 902-887-3188 to place an order!
 
+
 ### GRAIN CLEANING, DRYING & CUSTOM ROASTING
 
-For more information about grain cleaning and drying, check out the rates listed on the Grain Services Pages.
+
+For more information about grain cleaning and drying, check out the rates listed on the [Grain Services Pages.](https://scottgallant.github.io/barnyard-organics/services/grain-cleaning-drying)

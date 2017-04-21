@@ -6,7 +6,7 @@ layout: default
 
 
 Barnyard Organics offers an array of grain-related services, including:
-<span style="font-size: 1rem;"><ul><li><span style="font-size: 1rem;">Cleaning</span><br></li><li><span style="font-size: 1rem;">Drying</span><br></li></ul></span>
+<span style="font-size: 1rem;"></span><span style="font-size: 1rem;"><ul><li><span style="font-size: 1rem;">Cleaning</span><br></li><li><span style="font-size: 1rem;">Drying</span><br></li></ul></span>
 
 
 

@@ -25,7 +25,11 @@ For chicken and eggs, you can purchase these directly from the farm depending on
 COMING SOON!  In the meantime, [check out Sally's blog post about this topic](http://barnyardorganics.blogspot.ca/2017/04/lets-do-mash-chicken-mash.html)!
 
 
-### Why Organic?
+
+
+
+
+## Why Organic?
 
 
 COMING SOON!

@@ -12,6 +12,7 @@
     <div class="8u 12u(small)">
       <div class="subheading">
         {{ page.description | markdownify }}
+        <a href="{{ page.pirce_list | prepend:site.baseurl }}">Download Price List</a>
         {{ content }}
       </div>
       {% include tabs.html %}

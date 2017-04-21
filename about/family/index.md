@@ -9,7 +9,7 @@ links:
   heading: The Team
   description: ''
 - link: the-kids.md
-  image: "/barnyard-organics/images/grain-4kids.jpg"
+  image: "/images/grain-4kids.jpg"
   heading: The Kids
   description: ''
 - link: mark.md
@@ -17,7 +17,7 @@ links:
   heading: Mark
   description: ''
 - link: sally.md
-  image: "/barnyard-organics/images/speaking-sally.jpg"
+  image: "/images/speaking-sally.jpg"
   heading: Sally
   description: ''
 ---

@@ -19,7 +19,7 @@ links:
     are the co-owners and operators, as well as the parents of their brood of four.  Mark's
     parents, the farm's previous owners, still live and work on the farm too, providing
     essential support and expertise to the operation.
-  link: about/family/index.md
+  link: undefined
 - image: "/images/speaking-sally2.jpg"
   heading: Public Speaking & Workshops
   description: 'Barnyard Organics’ Mark and Sally Bernard are both regularly asked

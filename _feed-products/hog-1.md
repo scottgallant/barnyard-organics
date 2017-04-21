@@ -24,7 +24,6 @@ general-analysis: Not available for custom mixes.
 analysis-table: []
 product-photos:
 - "/images/horse-3.jpg"
-- images/hog-lucy.jpg
 - "/images/grains-bagged-tiny.JPG"
 price_list: ''
 ---

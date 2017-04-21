@@ -1,6 +1,6 @@
 ---
 title: The Farm
-date: '2017-04-15T15:14:41+00:00'
+date: 2017-04-15 15:14
 layout: default
 description: Barnyard Organics is a diversified, family friendly farm with a love
   of the soil, placing a priority on organic integrity from seed to feed, and keeping

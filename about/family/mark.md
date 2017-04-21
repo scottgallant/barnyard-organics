@@ -1,7 +1,7 @@
 ---
 title: Mark
 layout: default
-date: '2017-04-20T16:37:31+00:00'
+date: 2017-04-20 16:37
 description: '"Me help Sally"'
 ---
 ![](/barnyard-organics/images/mark-headshot.jpg)

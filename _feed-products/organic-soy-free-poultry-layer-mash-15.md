@@ -45,5 +45,5 @@ product-photos:
 - "/images/cabin-3.jpeg"
 - "/images/layer-sol.jpg"
 - "/images/layer-board.jpg"
-price_list: ''
+price_list: "/images/cabin-4.jpeg"
 ---

@@ -3,7 +3,7 @@ permalink: "/contact/"
 layout: default
 ---
 
-
+<h1>{{ page.title | escape }}</h1>
 <div class="map-frame">Our farm is located at 1934 North Freetown Road</div>
 
 RR # 7 in Freetown, PEI  C0B 1L0

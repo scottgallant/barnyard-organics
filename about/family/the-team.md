@@ -13,7 +13,7 @@ description: In addition to our "mom, dad & kids" family, we are blessed with gr
 Wendell and Carol Anne took the farm over from Wendell’s parents, Donald and Amy, and made the leap from dairy production into the lucrative PEI potato industry as seed and table-stock producers.  They managed the farm until their ‘retirement’ in 2002, but Wendell has rarely gone a day without working on the farm since then. Both are a wealth of experience and support, never expressing doubt at the changes that have happened at the farm in the past 10 years, with Mark and Sally at the helm.
 
 
-![](/barnyard-organics/images/blain.JPG)
+![](/images/blain.JPG)
 
 ## Blain
 

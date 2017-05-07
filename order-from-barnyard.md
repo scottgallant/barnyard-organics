@@ -83,4 +83,4 @@ Barnyard Organics has you covered for your cover crop seed, forage seed and turf
 ### GRAIN CLEANING, DRYING & CUSTOM ROASTING
 
 
-For more information about grain cleaning and drying, check out the rates listed on the [Grain Services Pages.](https://scottgallant.github.io/barnyard-organics/services/grain-cleaning-drying)
+For more information about grain cleaning and drying, check out the rates listed on the [Grain Services Pages.](https://barnyardorganics.com/services/grain-cleaning-drying)

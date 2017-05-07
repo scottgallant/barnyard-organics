@@ -4,7 +4,7 @@ layout: default
 date: 2017-04-20 16:37
 description: '"Me help Sally"'
 ---
-![](/barnyard-organics/images/mark-headshot.jpg)
+![](/images/mark-headshot.jpg)
 
 Mark was built to be a farmer, from the very start, inside and out.  The fourth generation on the farm, he grew up playing in the dirt and driving tractors, always up early to get a start on the day ahead.  Growing up on a medium-large scale potato operation, Mark watched the ups and downs of the commodity markets and kept an open mind about the seemingly infinite possibilities that agriculture had to offer.  It was during his time at the agricultural campus in Truro, NS, that a business plan for organic production had him considering alternatives.
 

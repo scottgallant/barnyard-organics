@@ -5,10 +5,10 @@ layout: default
 ---
 
 
-## [Barnyard Organics is home to East Coast Organic Feed Mill](https://scottgallant.github.io/barnyard-organics/feed/)
+## [Barnyard Organics is home to East Coast Organic Feed Mill](https://barnyardorganics.com/feed/)
 
 
-![](/barnyard-organics/images/grain-feed-bag.jpg)
+![](/images/grain-feed-bag.jpg)
 
 
 
@@ -16,7 +16,7 @@ layout: default
 ## Organic Grain Production
 
 
-![](/barnyard-organics/images/grain-close-up-harvest-4.jpg)
+![](/images/grain-close-up-harvest-4.jpg)
 
 
 
@@ -36,7 +36,7 @@ Always experimenting, at Barnyard Organics, they pride themselves on growing new
 ## Whole organic food grade grains
 
 
-![](/barnyard-organics/images/grain-lucy-hands.jpg)
+![](/images/grain-lucy-hands.jpg)
 
 
 
@@ -54,10 +54,10 @@ Whole organic grains are available from the farm by order in 5, 10, 15, 20, or 2
 Barnyard Organics offers whole organic milling wheat in two varieties:   Walton & Acadia.  For those who are interested in milling their own whole grains, or who are interested in wheat berries (whole wheat grains for sprouting, etc). You can also purchase the grains directly from Barnyard Organics.  Minimum order for shipment is usually 1/2 tonne/1100 lbs/20*25Kg bags, but there is no minimum order if you are able to pick-up your order at the farm in Freetown, PEI. For whole organic milling wheat (only) the order can be shipped in smaller quantities, however the shipping cost may be prohibitive.  The 2017 price for Barnyard Organic Milling Wheat is $19.74/25 Kg bag (shipping excluded). Email [info@barnyardorganics.com](info@barnyardorganics.com) or call 902-887-3188 to place an order!
 
 
-## [Grain Services](https://scottgallant.github.io/barnyard-organics/grain/)
+## [Grain Services](https://barnyardorganics.com/grain/)
 
 
-[Find out more](https://scottgallant.github.io/barnyard-organics/grain/) about the grain milling, drying and cleaning services offered at Barnyard Organics!!
+[Find out more](https://barnyardorganics.com/grain/) about the grain milling, drying and cleaning services offered at Barnyard Organics!!
 
 
 [](/barnyard-organics/images/massey-ferguson-model.jpg)

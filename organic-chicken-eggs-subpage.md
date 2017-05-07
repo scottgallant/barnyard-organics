@@ -23,5 +23,5 @@ Each year, when the spring is starting to welcome the warmth of summer, the broo
 CSA Registration and Information can be found [here](https://goo.gl/forms/kqSpuXVzbWDlceFo1).
 
 
-![](/barnyard-organics/images/eggs-sol2-1.jpg)
+![](/images/eggs-sol2-1.jpg)
 

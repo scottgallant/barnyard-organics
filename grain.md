@@ -8,6 +8,7 @@ layout: default
 <div class="image left">
 <img src="/images/grain-feed-bag.jpg">
 </div>
+<hr style="clear:both">
 
 ## Organic Grain Production
 <div class="image left">

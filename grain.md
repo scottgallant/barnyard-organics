@@ -37,6 +37,6 @@ Barnyard Organics offers whole organic milling wheat in two varieties:   Walton 
 
 ## [Grain Services](https://barnyardorganics.com/grain/)
 
-[Find out more](https://barnyardorganics.com/services/grain-cleaning-drying) about the grain milling, drying and cleaning services offered at Barnyard Organics!!
+[Find out more](https://barnyardorganics.com/services/grain-cleaning-drying) about the grain milling, drying and cleaning services offered at Barnyard Organics!
 
 [](/barnyard-organics/images/massey-ferguson-model.jpg)

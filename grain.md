@@ -6,12 +6,12 @@ layout: default
 ## [Barnyard Organics is home to East Coast Organic Feed Mill](https://barnyardorganics.com/feed/)
 
 <div class="image left">
-![](/images/grain-feed-bag.jpg)
+<img src="/images/grain-feed-bag.jpg">
 </div>
 
 ## Organic Grain Production
 <div class="image left">
-![](/images/grain-close-up-harvest-4.jpg)
+<img src="/images/grain-close-up-harvest-4.jpg">
 </div>
 Combined with the soybean crop, Barnyard Organics' cereal grains form the centre pivot of the farm.  Their constant expansion has led them to experiment with new crops and new ways to produce them under organic standards.
 
@@ -23,7 +23,7 @@ Always experimenting, at Barnyard Organics, they pride themselves on growing new
 
 ## Whole organic food grade grains
 <div class="image left">
-![](/images/grain-lucy-hands.jpg)
+<img src="/images/grain-lucy-hands.jpg">
 </div>
 Barnyard Organics specializes in high quality milling wheat, oats and soybeans.  100% organic, and ready to supply any home looking for whole grains for sprouting, home-milling or otherwise.
 
@@ -39,5 +39,5 @@ Barnyard Organics offers whole organic milling wheat in two varieties:   Walton 
 
 [Find out more](https://barnyardorganics.com/services/grain-cleaning-drying) about the grain milling, drying and cleaning services offered at Barnyard Organics!
 <div class="image left">
-[](/barnyard-organics/images/massey-ferguson-model.jpg)
+<img src="/images/massey-ferguson-model.jpg">
 </div>

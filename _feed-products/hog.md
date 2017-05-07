@@ -49,8 +49,9 @@ analysis-table:
   quantity: MIN 10 IU/KG
 general-analysis: 'This feed contains added selenium at 0.3 mg/kg '
 product-photos:
-- images/hog-lucy.jpg
+- "/images/layer-lucy-3.jpg"
 - "/images/hog-wilson.jpg"
+price_list: ''
 ---
 
 

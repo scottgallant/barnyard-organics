@@ -42,3 +42,4 @@ Barnyard Organics offers whole organic milling wheat in two varieties:   Walton 
 <div class="image left">
 <img src="/images/massey-ferguson-model.jpg">
 </div>
+<hr style="clear:both">

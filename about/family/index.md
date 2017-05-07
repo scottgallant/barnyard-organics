@@ -5,7 +5,7 @@ description: ''
 layout: grid
 links:
 - link: about/family/the-team.md
-  image: "/images/massey-ferguson-model-1.jpg"
+  image: "/barnyard-organics/images/massey-ferguson-model.jpg"
   heading: The Team
   description: ''
 - link: about/family/the-kids.md

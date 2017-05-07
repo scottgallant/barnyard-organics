@@ -5,7 +5,7 @@ description: East Coast Organic Feed Mill offers CFIA-approved turkey starter an
   grower to meet your organic turkey dinner needs!
 links:
 - link: _feed-products/organic-turkey-grower-23.md
-  image: ''
+  image: "/images/turkeys-colourful-2.jpg"
   heading: Organic Turkey Grower 23%
   description: East Coast Organic Feed Mill’s Certified Organic Turkey Grower meets
     the balance of nutrients needed for turkeys to reach their growth potential in
@@ -16,7 +16,7 @@ links:
     quality, delicious!  This feed works well for both heritage breeds and broad breasted
     turkeys.
 - link: _feed-products/turkey.md
-  image: ''
+  image: "/images/turkeyface.jpg"
   heading: Organic Turkey Starter Mash 26%
   description: East Coast Organic Feed Mill’s Certified Organic Turkey Starter meets
     the balance of nutrients needed for turkeys to reach their growth potential in

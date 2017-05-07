@@ -6,26 +6,16 @@
 						<div class="contact">
 							<h2>Contact</h2>
 							<ul class="contact-icons">
-								<li class="icon fa-home"><a href="#">1234 Fictional Street #5432<br>Nashville, TN 00000-0000</a></li>
-								<li class="icon fa-phone"><a href="#">(000) 000-0000</a></li>
-								<li class="icon fa-envelope-o"><a href="#">info@untitled.tld</a></li>
+								<li class="icon fa-home">{{ site.data.footer.Address }}</li>
+								<li class="icon fa-phone"><a href="tel:{{ site.data.footer.Phone }}">{{ site.data.footer.Phone }}</a></li>
+								<li class="icon fa-envelope-o"><a href="mailto:{{site.data.footer.Email}}">{{ site.data.footer.Email }}</a></li>
 							</ul>
 							<ul class="icons-bordered">
-								<li><a class="icon fa-facebook" href="#">
-									<span class="label">Facebook</span>
-								</a></li>
-								<li><a class="icon fa-twitter" href="#">
-									<span class="label">Twitter</span>
-								</a></li>
-								<li><a class="icon fa-instagram" href="#">
-									<span class="label">Instagram</span>
-								</a></li>
-								<li><a class="icon fa-github" href="#">
-									<span class="label">GitHub</span>
-								</a></li>
-								<li><a class="icon fa-linkedin" href="#">
-									<span class="label">LinkedIn</span>
-								</a></li>
+								{% for item in site.data.footer.social-media %}
+										<li><a class="icon fa-{{item.name | downcase}}" href="{{item.link}}">
+											<span class="label">{{item.name}}</span>
+										</a></li>
+								{% endfor %}
 							</ul>
 						</div>
 						<form action="#" method="post">

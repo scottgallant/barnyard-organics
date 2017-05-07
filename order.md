@@ -2,8 +2,8 @@
 title: Feed Order Form
 permalink: "/order/"
 layout: order
-description: 'Online order form COMING SOON! In the meantime, we''ve included the
-  price lists for the products we have available below for your information:'
+description: Online order form COMING SOON! But we're still working on this page.  Please
+  check back soon!
 ---
 
 

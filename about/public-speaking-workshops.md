@@ -14,13 +14,13 @@ description: Barnyard Organics’ Mark and Sally Bernard are both regularly aske
 
 
 
-* <span style="font-size: 1rem;">Organic Agriculture</span>
-* <span style="font-size: 1rem;">Transitioning to Organic Agriculture</span>
-* <span style="font-size: 1rem;">Raising Organic Hens</span>
-* <span style="font-size: 1rem;">Raising Organic Meat Birds (Chickens &amp; Turkeys)</span>
-* <span style="font-size: 1rem;">Backyard Livestock (Cows, Chickens, Sheep, Pigs)</span>
-* <span style="font-size: 1rem;">Homesteading</span>
-* <span style="font-size: 1rem;">&amp; so much more!</span>
+* Organic Agriculture
+* Transitioning to Organic Agriculture
+* Raising Organic Hens
+* Raising Organic Meat Birds (Chickens &amp; Turkeys)
+* Backyard Livestock (Cows, Chickens, Sheep, Pigs)
+* Homesteading
+* &amp; so much more!
 
 Contact [Sally](sallywb@gmail.com)!
 
@@ -30,13 +30,12 @@ Contact [Sally](sallywb@gmail.com)!
 
 
 
-* <span style="font-size: 1rem;">Organic Field Crop Production including peas, soybeans, grains</span>
-* <span style="font-size: 1rem;">Organic Milling Grains / Food Grade Production</span>
-* <span style="font-size: 1rem;">Organic weed management in field crops</span>
-* <span style="font-size: 1rem;">Participatory Plant Breeding</span>
-* <span style="font-size: 1rem;">On-farm research</span>
-* <span style="font-size: 1rem;">Record-keeping</span>
-* <span style="font-size: 1rem;">&amp; more!</span>
+* Organic Field Crop Production including peas, soybeans, grains
+* Organic Milling Grains / Food Grade Production
+* Organic weed management in field crops
+* Participatory Plant Breeding
+* On-farm research
+* Record-keeping
+* &amp; more!
 
 Contact [Mark](info@barnyardorganics.com)!
-

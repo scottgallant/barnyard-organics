@@ -1,7 +1,7 @@
 ---
 title: Feed Order Form
 permalink: "/order/"
-layout: order
+layout: coming-soon
 description: Online order form COMING SOON! But we're still working on this page.  Please
   check back soon!
 ---

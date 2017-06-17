@@ -68,305 +68,87 @@
 </header>
 
 <!-- Main -->
-<script
-src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
-crossorigin="anonymous"></script>
-<script type="text/javascript" src="/assets/js/jquery.formatCurrency-1.4.0.min.js">
 
-</script>
-<script>
-$(function($){
-  $( "#qty1" ).keyup(function() {
-    var str = $('#priceTon').text();
-    var priceTon1 = parseFloat(str.replace(/\s/g, "").replace(",", "").replace("$", ""));
-    var currentPrice = priceTon1 * parseFloat($('#qty1').val());
-    $('#code1').val(currentPrice.toFixed(2));
-  });
+  <section id="main" class="wrapper">
+  <div class="inner">
+    <div class="8u$ -2u 12u$(small)">
 
-  $( "#qty2" ).keyup(function() {
-    var str = $('#priceTon2').text();
-    var priceTon1 = parseFloat(str.replace(/\s/g, "").replace(",", "").replace("$", ""));
-    var currentPrice = priceTon1 * parseFloat($('#qty2').val());
-    $('#code2').val(currentPrice.toFixed(2));
-  });
+    <header>
+      <h1>Online ordering option coming soon!</h1>
+      <p class="subheading">We're still working on this page. Check back soon</p>
+    </header>
+  </div></div>
+  </section>
 
 
-  $( "#qty1" ).keyup(function() {
-    $('#orderForm').each(function(){
-      var totalPrice = 0;
-      $(this).find('input.rowTotal').each(function(i,n){
-        totalPrice += parseInt($(n).val(),10);
-      });
-      console.log(totalPrice);
-      $('#total').val(totalPrice.toFixed(2)).formatCurrency();
-    });
-  });
-})
-</script>
-
-<section id="main" class="wrapper sidebar left">
-	<div class="inner">
-			<header class="major">
-				<h1>Feed Order Form</h1>
-        <p class="subheading">Online order form COMING SOON! But we're still working on this page.  Please check back soon!</p>
-			</header>
-      <!-- Sidebar -->
-      <div class="sidebar">
-	<nav>
-		<ul>
-			<li class="hide-mobile"><a href="/feed/" class="logo">East Coast Organic Feed Mill</a></li>
-			
-				<li><a href="/feed/">Feed Products</a></li>
-			
-				<li><a href="/faq">FAQ's</a></li>
-			
-				<li><a href="/order/">Order</a></li>
-			
-		</ul>
-	</nav>
-</div>
-
-      <div class="content">
-  			<div class="row uniform pricing-table">
-
-  				<div class="12u$ 12u$(small)">
-  					<label for="">Company</label>
-  					<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-  				</div>
-  				<div class="4u 12u$(small)">
-  					<input type="radio" id="demo-priority-normal" name="demo-priority" checked>
-  					<label for="demo-priority-normal">Farm Purchaser</label>
-  				</div>
-  				<div class="4u 12u$(small)">
-  					<input type="radio" id="demo-priority-low" name="demo-priority">
-  					<label for="demo-priority-low">Retail Purchaser</label>
-  				</div>
-  				<div class="6u 12u$(small)">
-  					<label for="">First Name</label>
-  					<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-  				</div>
-  				<div class="6u$ 12u$(small)">
-  					<label for="">Last Name</label>
-  					<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-  				</div>
-  				<div class="12u$ 12u$(small)">
-  					<label for="">Email</label>
-  					<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-  				</div>
-  				<div class="12u$ 12u$(small)">
-  					<label for="">Phone Number</label>
-  					<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-  				</div>
-  				<div class="12u$"><hr></div>
-  				<form id="orderForm" action="https://formspree.io/info@barnyardorganics.com" method="post">
-  					<input type="hidden" name="_next" value="/index.html" />
-  					<input type="hidden" name="_subject" value="New submission!" />
-  					<input type="hidden" name="_format" value="plain" />
-  					<input type="text" name="_gotcha" style="display:none" />
-
-  								<table class="non-striped">
-  									<thead>
-  										<tr>
-  											<th>Name</th>
-  											<th width="15%">Tonnes Wanted</th>
-  											<th width="15%">25Kg Bags Wanted</th>
-  											<th>Price</th>
-  										</tr>
-  									</thead>
-  									<tbody>
-  										<tr>
-  											<td>
-  												<p>Organic Poultry Layer Mash 17%</p>
-  											</td>
-  											<td width="15%">
-  												<input type="number" name="quantity" id="qty1">
-  												<span class="help-block" id="priceTon">$1,049.36<small>/tonne</small></span>
-  											</td>
-  											<td width="15%">
-  												<input type="number" name="quantity">
-  												<span class="help-block" id="priceBag">$28.73<small>/bag</small></span>
-  											</td>
-  											<td width="15%">
-  												<input id="code1" value="0.00" disabled class="row-sum rowTotal">
-  											</td>
-  										</tr>
-
-  										<tr>
-  											<td>
-  												<p>Soy Free Organic Poultry Layer Mash 15%</p>
-  											</td>
-  											<td width="15%">
-  												<input type="number" name="quantity" id="qty2">
-  												<span class="help-block" id="priceTon2">$1,057.20<small>/tonne</small></span>
-  											</td>
-  											<td width="15%">
-  												<input type="number" name="quantity">
-  												<span class="help-block" id="priceBag">$28.95<small>/bag</small></span>
-  											</td>
-  											<td width="15%">
-  												<input id="code2" value="0.00" disabled class="row-sum">
-  											</td>
-  										</tr>
-  										<tr>
-  											<td>
-  												<p>Organic Poultry Grower 18%</p>
-  											</td>
-  											<td width="15%">
-  												<input type="number" name="quantity" id="qty2">
-  												<span class="help-block" id="priceTon2">$1,057.20<small>/tonne</small></span>
-  											</td>
-  											<td width="15%">
-  												<input type="number" name="quantity">
-  												<span class="help-block" id="priceBag">$28.95<small>/bag</small></span>
-  											</td>
-  											<td width="15%">
-  												<input id="code2" value="0.00" disabled class="row-sum">
-  											</td>
-  										</tr>
-  										<tr>
-  											<td>
-  												<p>Organic Poultry Starter 21%</p>
-  											</td>
-  											<td width="15%">
-  												<input type="number" name="quantity" id="qty2">
-  												<span class="help-block" id="priceTon2">$1,057.20<small>/tonne</small></span>
-  											</td>
-  											<td width="15%">
-  												<input type="number" name="quantity">
-  												<span class="help-block" id="priceBag">$28.95<small>/bag</small></span>
-  											</td>
-  											<td width="15%">
-  												<input id="code2" value="0.00" disabled class="row-sum">
-  											</td>
-  										</tr>
-  										<tr>
-  											<td>
-  												<p>Organic Hog Grower 14%</p>
-  											</td>
-  											<td width="15%">
-  												<input type="number" name="quantity" id="qty2">
-  												<span class="help-block" id="priceTon2">$1,057.20<small>/tonne</small></span>
-  											</td>
-  											<td width="15%">
-  												<input type="number" name="quantity">
-  												<span class="help-block" id="priceBag">$28.95<small>/bag</small></span>
-  											</td>
-  											<td width="15%">
-  												<input id="code2" value="0.00" disabled class="row-sum">
-  											</td>
-  										</tr>
-  										<tr>
-  											<td>
-  												<p>Organic Turkey Starter 26%</p>
-  											</td>
-  											<td width="15%">
-  												<input type="number" name="quantity" id="qty2">
-  												<span class="help-block" id="priceTon2">$1,057.20<small>/tonne</small></span>
-  											</td>
-  											<td width="15%">
-  												<input type="number" name="quantity">
-  												<span class="help-block" id="priceBag">$28.95<small>/bag</small></span>
-  											</td>
-  											<td width="15%">
-  												<input id="code2" value="0.00" disabled class="row-sum">
-  											</td>
-  										</tr>
-  										<tr>
-  											<td>
-  												<p>Organic Turkey Grower 23%</p>
-  											</td>
-  											<td width="15%">
-  												<input type="number" name="quantity" id="qty2">
-  												<span class="help-block" id="priceTon2">$1,057.20<small>/tonne</small></span>
-  											</td>
-  											<td width="15%">
-  												<input type="number" name="quantity">
-  												<span class="help-block" id="priceBag">$28.95<small>/bag</small></span>
-  											</td>
-  											<td width="15%">
-  												<input id="code2" value="0.00" disabled class="row-sum">
-  											</td>
-  										</tr>
-  										<tr>
-  											<td>
-  												<p>Mixed Grain Scratch 9.5% no mineral</p>
-  											</td>
-  											<td width="15%">
-  												<input type="number" name="quantity" id="qty2">
-  												<span class="help-block" id="priceTon2">$1,057.20<small>/tonne</small></span>
-  											</td>
-  											<td width="15%">
-  												<input type="number" name="quantity">
-  												<span class="help-block" id="priceBag">$28.95<small>/bag</small></span>
-  											</td>
-  											<td width="15%">
-  												<input id="code2" value="0.00" disabled class="row-sum">
-  											</td>
-  										</tr>
-  									</tbody>
-  									<tfoot>
-  									</tfoot>
-  								</table>
-  								<div class="row uniform">
-  												<div class="8u 12u$(small)">
-  													<label>Shipping</label>
-  													<div class="select-wrapper">
-  														<select name="demo-category" id="demo-category">
-  															<option value="">- No Shipping -</option>
-  															<optgroup label="New Brunswick">
-  																<option value="1">Moncton</option>
-  																<option value="1">Fredericton</option>
-  																<option value="1">Other</option>
-  															</optgroup>
-  															<optgroup label="Prince Edward Island">
-  																<option value="1">Charlottetown</option>
-  																<option value="1">Other</option>
-  															</optgroup>
-  															<optgroup label="Nova Scotia">
-  																<option value="1">Halifax</option>
-  																<option value="1">Other</option>
-  															</optgroup>
-  														</select>
-  													</div>
-  													<br>
-  													<div class="12u$ 12u$(small)">
-  														<input type="checkbox" id="demo-copy" name="demo-copy">
-  														<label for="demo-copy">Tailgate shipping (+75)</label>
-  														<p><em>Explain what this is</em></p>
-  													</div>
-  												</div>
-  												<div class="4u$ 12u$(small)">
-  													<label for="">Shipping Price</label>
-  													<input type="text" name="" value="155">
-  													<p style="padding: 10px; background: rgba(221, 0, 0, 0.73); color: white; margin: .5em 0;"><em>If your location is not listed...</em></p>
-  												</div>
-  							</div>
-  							<div class="row uniform">
-  													<div class="6u$ 12u$(small)">
-
-  													</div>
-  								</div>
-  								<input id="total" value="0.00" disabled class="row-sum" style="font-size: 33px; text-align: right; width: 100%; border: 0;">
-
-  								<div class="row uniform">
-
-  									<div class="12u$" style="margin-top: 3em;">
-  										<label>Special Instructions</label>
-  										<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="3"></textarea>
-  									</div>
+<!-- Scripts -->
+  <script src="/assets/js/jquery.min.js"></script>
+  <script src="/assets/js/jquery.dropotron.min.js"></script>
+  <script src="/assets/js/jquery.scrollex.min.js"></script>
+  <script src="/assets/js/jquery.scrolly.min.js"></script>
+  <script src="/assets/js/jquery.selectorr.min.js"></script>
+  <script src="/assets/js/skel.min.js"></script>
+  <script src="/assets/js/util.js"></script>
+  <!--[if lte IE 8]><script src="/assets/js/ie/respond.min.js"></script><![endif]-->
+  <script src="/assets/js/main.js"></script>
 
 
-  									<div class="12u$">
-  										<ul class="actions">
-  											<li><input type="submit" value="Submit Order" class="special" /></li>
-  										</ul>
-  									</div>
-  								</div>
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<div class="split style1">
+						<div class="contact">
+							<h2>Contact</h2>
+							<ul class="contact-icons">
+								<li class="icon fa-home">1934 N Freetown Rd Rte 108 RR#7 Freetown, PEI,  C0B 1L0</li>
+								<li class="icon fa-phone"><a href="tel:902.887.3188 (office)">902.887.3188 (office)</a></li>
+								<li class="icon fa-envelope-o"><a href="mailto:info@barnyardorganics.com">info@barnyardorganics.com</a></li>
+							</ul>
+							<ul class="icons-bordered">
+								
+										<li><a class="icon fa-twitter (mark)" href="@mrbarnyardigans">
+											<span class="label">Twitter (Mark)</span>
+										</a></li>
+								
+										<li><a class="icon fa-facebook" href="https://www.facebook.com/Barnyard-Organics-109747069060995/?fref=ts">
+											<span class="label">Facebook</span>
+										</a></li>
+								
+										<li><a class="icon fa-instagram" href="https://instagram.com/barnyardorganics">
+											<span class="label">Instagram</span>
+										</a></li>
+								
+										<li><a class="icon fa-twitter" href="@barnyardigans">
+											<span class="label">Twitter</span>
+										</a></li>
+								
+							</ul>
+						</div>
+						<form id="contactForm" action="https://formspree.io/info@barnyardorganics.com" method="post">
+		  					<input type="hidden" name="_next" value="/index.html" />
+		  					<input type="hidden" name="_subject" value="Barnyard Website Message" />
+		  					<input type="hidden" name="_format" value="plain" />
+		  					<input type="text" name="_gotcha" style="display:none" />
+							<h2>Email Us</h2>
+							<div class="field half first">
+								<input name="name" id="name" placeholder="Name" type="text" />
+							</div>
+							<div class="field half">
+								<input name="email" id="email" placeholder="Email" type="email" />
+							</div>
+							<div class="field">
+								<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+							</div>
+							<ul class="actions">
+								<li><input value="Send Message" class="button" type="submit" /></li>
+							</ul>
+						</form>
+					</div>
+					<div class="copyright">
+						<p>&copy; Barnyard Organics. All rights reserved. <a href="/admin/">Login</a></p>
+					</div>
+				</div>
+			</footer>
 
-  							</form>
-
-  		</div><!-- .row -->
-    </div><!-- .content -->
-</div><!-- .inner -->
-</section>
+</body>
+</html>

@@ -12,30 +12,36 @@ description: Barnyard Organics’ Mark and Sally Bernard are both regularly aske
 
 <span style="font-size: 2.1em;">Sally Bernard:</span>
 
-
-
 * Organic Agriculture
+
 * Transitioning to Organic Agriculture
+
 * Raising Organic Hens
-* Raising Organic Meat Birds (Chickens &amp; Turkeys)
+
+* Raising Organic Meat Birds (Chickens & Turkeys)
+
 * Backyard Livestock (Cows, Chickens, Sheep, Pigs)
+
 * Homesteading
-* &amp; so much more!
+
+* & so much more!
 
 Contact [Sally](sallywb@gmail.com)!
 
-
-
 ## Mark Bernard
 
-
-
 * Organic Field Crop Production including peas, soybeans, grains
+
 * Organic Milling Grains / Food Grade Production
+
 * Organic weed management in field crops
+
 * Participatory Plant Breeding
+
 * On-farm research
+
 * Record-keeping
-* &amp; more!
+
+* & more!
 
 Contact [Mark](info@barnyardorganics.com)!

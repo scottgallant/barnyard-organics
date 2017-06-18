@@ -1,0 +1,29 @@
+{% include head.html %}
+{% include header.html %}
+<!-- Main -->
+
+  <section id="main" class="wrapper">
+  <div class="inner">
+    <div class="8u$ -2u 12u$(small)">
+
+    <header>
+      <h1>{{ page.title | escape }}</h1>
+      <p class="subheading">{{ page.description }}</p>
+    </header>
+    {{ content }}
+    <h3>{{ page.pdf-heading }}</h3>
+    {{ page.pdf-description | markdownify }}
+    <ul>
+      {% for item in page.pdfs %}
+        <li>{{ item.title }}<br>
+        {{ item.link }}</li>
+      {% endfor %}
+    </ul>
+  </div></div>
+  </section>
+
+
+{% include scripts.html %}
+{% include footer.html %}
+</body>
+</html>

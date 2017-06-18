@@ -2,6 +2,16 @@
 title: General Seed
 date: '2017-04-15T14:37:07+00:00'
 layout: default-pdfs
+pdfs:
+- title: General Seed Organic Seed Price List
+  link: "/images/General-Seed-Price-List-organic-seed.pdf"
+- title: General Seed Forage Seed Price List
+  link: "/images/General-Seed-Price-List-forage-seed.pdf"
+- title: General Seed Cover Crop Price List
+  link: "/images/General-Seed-Price-List_cover crop.pdf"
+pdf-heading: ''
+pdf-description: <p>To place an order, <a href="info@barnyardorganics.com">email</a>   or
+  call Barnyard Organics (902-887-3188).</p>
 ---
 
 

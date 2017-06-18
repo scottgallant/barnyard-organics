@@ -19,3 +19,4 @@ Wendell and Carol Anne took the farm over from Wendell’s parents, Donald and A
 <img class="image left" src="/images/blain.JPG">
 
 Blain Ford came to Barnyard Organics in the midst of a summer when things felt like they were moving too fast and some things were getting missed.  Blain’s experience on a variety of farms and his quiet patience have made him an invaluable part of the Barnyard Organics farm family.  He’s a significant part of the East Coast Organic Feed Mill, handling much of the mixing and milling, but is also important to the livestock side of the farm, having a truly innate sense of animal care and husbandry.
+<div style="clear:both;"></div>

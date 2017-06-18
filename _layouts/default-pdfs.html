@@ -11,17 +11,16 @@
       <p class="subheading">{{ page.description }}</p>
     </header>
     {{ content }}
+    <hr>
     <h3>{{ page.pdf-heading }}</h3>
     {{ page.pdf-description | markdownify }}
     <ul>
       {% for item in page.pdfs %}
-        <li>{{ item.title }}<br>
-        {{ item.link }}</li>
+        <li><a href="{{ item.link | prepend:site.baseurl }}">{{ item.title }}</a></li>
       {% endfor %}
     </ul>
   </div></div>
   </section>
-
 
 {% include scripts.html %}
 {% include footer.html %}

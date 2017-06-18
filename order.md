@@ -7,7 +7,19 @@ description: Online order form COMING SOON! But we're still working on this page
 pdf-description: See price lists below. To place an order, <a href="info@barnyardorganics.com">email</a>   or
   call Barnyard Organics (902-887-3188).
 pdf-heading: ''
-pdfs: []
+pdfs:
+- title: General Seed Organic Seed (only) Price List
+  link: "/images/General-Seed-Price-List-organic-seed-1.pdf"
+- title: General Seed Forage Seed Price List
+  link: "/images/General-Seed-Price-List-forage-seed-1.pdf"
+- title: General Seed Cover Crop Price List
+  link: "/images/General-Seed-Price-List_cover crop-1.pdf"
+- title: Bio Ag price list
+  link: "/images/BioAg-Price-List-premixes-supps-fert-1.pdf"
+- title: East Coast Organic Feed Mill Price List
+  link: "/images/_ECOFM-feed-price-list-FARM.pdf"
+- link: "/images/_Barnyard-Organics-whole-grain-price-list-FARM.pdf"
+  title: East Coast Organic Feed Mill Whole Grain Price List
 ---
 
 

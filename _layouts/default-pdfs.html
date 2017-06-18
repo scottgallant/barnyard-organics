@@ -12,13 +12,7 @@
     </header>
     {{ content }}
     <hr>
-    <h3>{{ page.pdf-heading }}</h3>
-    {{ page.pdf-description | markdownify }}
-    <ul>
-      {% for item in page.pdfs %}
-        <li><a href="{{ item.link | prepend:site.baseurl }}">{{ item.title }}</a></li>
-      {% endfor %}
-    </ul>
+    {% include pdfs.html %}
   </div></div>
   </section>
 

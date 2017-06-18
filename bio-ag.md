@@ -2,14 +2,6 @@
 title: Bio-Ag Distributor
 permalink: "/services/bio-ag"
 layout: default-pdfs
-pdf-heading: BIO-AG PRICE LIST
-pdf-description: <p>To place an order, <a href="info@barnyardorganics.com">email</a>
-  or call Barnyard Organics (902-887-3188).</p>
-pdfs:
-- title: PDF Title
-  link: test.pdf
-- title: PDF Title2
-  link: test2.pdf
 ---
 
 

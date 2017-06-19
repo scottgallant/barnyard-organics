@@ -17,7 +17,7 @@ pdfs:
 - title: Bio Ag price list
   link: "/images/BioAg-Price-List-premixes-supps-fert-1.pdf"
 - title: East Coast Organic Feed Mill Price List
-  link: "/images/_ECOFM-feed-price-list-FARM-1.pdf"
+  link: "/images/ECOFM-feed-price-list-FARM.pdf"
 - link: "/images/_Barnyard-Organics-whole-grain-price-list-FARM.pdf"
   title: East Coast Organic Feed Mill Whole Grain Price List
 ---

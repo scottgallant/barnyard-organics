@@ -2,7 +2,7 @@
 title: Mark
 layout: default
 date: 2017-04-20 16:37
-description: '"Me help Sally"'
+description: Co-Owner, Operator
 ---
 <img class="image left" src="/images/mark-headshot.jpg">
 

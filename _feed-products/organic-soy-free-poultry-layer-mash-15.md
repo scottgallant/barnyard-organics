@@ -10,7 +10,7 @@ ingredients: "Organic Barley, Organic Field Peas, Organic Corn, Organic Field Pe
   vitamins A, D, and E, plus vitamin B complex in addition to those vitamins in the
   premix.\n\nALL GRAIN INGREDIENTS GROWN AT BARNYARD ORGANICS (home of EAST COAST
   ORGANIC FEED MILL) except corn (source:  Le Moulins des Cèdres, QC) and flax (source:
-  \ Homestead Organics and/or BioAg’s Canadian-sourced flax)"
+  BioAg’s Canadian-sourced flax)"
 description: For egg production or maintenance of adult chickens, the 15% protein
   will meet the requirements of most mixed farms. The mash is a coarsely hammered
   textured, specially formulated to meet protein requirements for a non-soy-based

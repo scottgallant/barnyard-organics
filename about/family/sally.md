@@ -2,7 +2,7 @@
 title: Sally
 layout: default
 date: 2017-04-20 16:26
-description: '"Me help Mark"'
+description: First mate of the fair ship ECOFM & Barnyard Organics Ltd.
 ---
 <img class="image left" src="/images/speaking-sally.jpg">
 

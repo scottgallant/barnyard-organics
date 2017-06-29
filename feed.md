@@ -27,5 +27,3 @@ description: Barnyard Organics’ East Coast Organic Feed Mill is proud to offer
   available for laying hens and poultry, broiler birds, turkeys, hogs and custom mixing
   is also an option!
 ---
-
-test

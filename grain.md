@@ -3,14 +3,18 @@ title: Grain
 permalink: "/grain/"
 layout: default
 ---
+
+
 ## [Barnyard Organics is home to East Coast Organic Feed Mill](https://barnyardorganics.com/feed/)
 
 <div class="image left">
 <img src="/images/grain-feed-bag.jpg">
 </div>
+
 <hr style="clear:both">
 
 ## Organic Grain Production
+
 <div class="image left">
 <img src="/images/grain-close-up-harvest-4.jpg">
 </div>
@@ -18,11 +22,14 @@ Combined with the soybean crop, Barnyard Organics' cereal grains form the centre
 
 At Barnyard Organics, they are growing soil using the crops as an indicator of the health of their soil. To achieve this, they are very strict on their minimum five year crop rotation, which ensures that each crop is balanced with the one before and after, always keeping the soil in mind.  Crop rotations minimizes pests and diseases and contribute to producing a healthy, bountiful harvest.
 
+This is a test
+
 Barnyard Organics' five year rotation starts with clover which is plowed to plant wheat, followed by soybeans and then barley inter-seeded with field peas and then oats are planted as a nurse crop for the clover to establish and grow the following year.
 
 Always experimenting, at Barnyard Organics, they pride themselves on growing new crops, pushing boundaries of what crops can be grown in the Maritimes.
 
 ## Whole organic food grade grains
+
 <div class="image left">
 <img src="/images/grain-lucy-hands.jpg">
 </div>
@@ -39,7 +46,9 @@ Barnyard Organics offers whole organic milling wheat in two varieties:   Walton 
 ## [Grain Services](https://barnyardorganics.com/grain/)
 
 [Find out more](https://barnyardorganics.com/services/grain-cleaning-drying) about the grain milling, drying and cleaning services offered at Barnyard Organics!
+
 <div class="image left">
 <img src="/images/massey-ferguson-model.jpg">
 </div>
+
 <hr style="clear:both">

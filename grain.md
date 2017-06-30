@@ -22,8 +22,6 @@ Combined with the soybean crop, Barnyard Organics' cereal grains form the centre
 
 At Barnyard Organics, they are growing soil using the crops as an indicator of the health of their soil. To achieve this, they are very strict on their minimum five year crop rotation, which ensures that each crop is balanced with the one before and after, always keeping the soil in mind.  Crop rotations minimizes pests and diseases and contribute to producing a healthy, bountiful harvest.
 
-This is a test
-
 Barnyard Organics' five year rotation starts with clover which is plowed to plant wheat, followed by soybeans and then barley inter-seeded with field peas and then oats are planted as a nurse crop for the clover to establish and grow the following year.
 
 Always experimenting, at Barnyard Organics, they pride themselves on growing new crops, pushing boundaries of what crops can be grown in the Maritimes.

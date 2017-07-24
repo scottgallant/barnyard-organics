@@ -6,6 +6,7 @@ pages:
 - organic-chicken-eggs-subpage.md
 - order-from-barnyard.md
 - rent-the-chicken.md
+hide_body: false
 fields:
 - name: title
   type: text

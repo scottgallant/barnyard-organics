@@ -10,6 +10,7 @@ pages:
 - _feed-products/organic-turkey-grower-23.md
 - _feed-products/chicken-1.md
 - _feed-products/hog.md
+hide_body: true
 fields:
 - name: layout
   label: Layout

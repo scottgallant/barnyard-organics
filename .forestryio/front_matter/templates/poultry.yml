@@ -8,6 +8,7 @@ pages:
 - poultry2.md
 - poultry.md
 - services.md
+hide_body: true
 fields:
 - name: title
   label: Title

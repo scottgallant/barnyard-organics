@@ -31,7 +31,7 @@ fields:
   fields:
   - label: 
     name: 
-    type: ''
+    type: boolean
     config:
       source:
         type: 
@@ -45,7 +45,7 @@ fields:
   fields:
   - name: link
     label: Link
-    type: ''
+    type: select
     hidden: false
     default: ''
     config:

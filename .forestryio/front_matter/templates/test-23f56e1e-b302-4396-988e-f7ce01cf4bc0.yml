@@ -1,4 +1,7 @@
 ---
 sections: []
 pages: []
-fields: []
+fields:
+- type: text
+  label: test
+  name: test

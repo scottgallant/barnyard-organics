@@ -64,6 +64,6 @@ fields:
   default: ''
 - name: product-photos
   label: Product photos
-  type: ''
+  type: image_gallery
   hidden: false
   default: ''

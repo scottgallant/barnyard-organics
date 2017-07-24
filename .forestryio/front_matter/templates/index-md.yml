@@ -34,7 +34,7 @@ fields:
   fields:
   - name: link
     label: Link
-    type: ''
+    type: select
     hidden: false
     default: ''
     config:
@@ -58,7 +58,7 @@ fields:
   fields:
   - name: link
     label: Link
-    type: ''
+    type: select
     hidden: false
     default: ''
     config:
@@ -71,7 +71,7 @@ fields:
     default: ''
   - name: image
     label: Image
-    type: ''
+    type: file
     hidden: false
     default: ''
   hidden: false
@@ -82,7 +82,7 @@ fields:
   fields:
   - name: link
     label: Link
-    type: ''
+    type: select
     hidden: false
     default: ''
     config:
@@ -95,7 +95,7 @@ fields:
     default: ''
   - name: image
     label: Image
-    type: ''
+    type: file
     hidden: false
     default: ''
   - name: description

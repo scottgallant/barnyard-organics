@@ -1,6 +1,6 @@
 ---
 title: Turkey
-date: '2017-04-20T10:43:31+00:00'
+date: 2017-04-20 10:43:31 +0000
 description: East Coast Organic Feed Mill offers CFIA-approved turkey starter and
   grower to meet your organic turkey dinner needs!
 links:

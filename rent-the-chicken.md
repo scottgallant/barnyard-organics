@@ -1,6 +1,6 @@
 ---
 title: Rent the Chicken
-date: '2017-04-15T14:32:18+00:00'
+date: 2017-04-15 14:32:18 +0000
 layout: default
 ---
 

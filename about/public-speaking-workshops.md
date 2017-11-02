@@ -1,6 +1,6 @@
 ---
 title: Public Speaking & Workshops
-date: 2017-04-15 15:15
+date: 2017-04-15 00:00:00 +0000
 layout: default
 description: Barnyard Organics’ Mark and Sally Bernard are both regularly asked to
   provide consultation advice for farmers, and to prepare presentations for educational

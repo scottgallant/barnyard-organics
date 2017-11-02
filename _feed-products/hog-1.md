@@ -1,6 +1,6 @@
 ---
 analysis-table: []
-date: 2017-04-12 16:32
+date: 2017-04-12 00:00:00 +0000
 description: 'In addition to the formulated floorstock items, Barnyard Organics can
   create custom mixes for any customer if provided they supply the recipe for an extra
   $1/25Kg bag, with a minimum order of 10 bags. To place a custom order, customers

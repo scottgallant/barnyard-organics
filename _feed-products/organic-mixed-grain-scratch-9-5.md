@@ -1,6 +1,6 @@
 ---
 title: Organic Mixed Grain Scratch 9.5%
-date: 2017-04-15 13:12
+date: 2017-04-15 00:00:00 +0000
 description: Our Mixed Grain Scratch, at 9.5% protein, provides an ideal supplement
   to all birds. Corn is cracked while the rest of the grains are whole.   Feeding
   whole grains with grit helps keep the bird’s gizzard strong and healthy and improves

@@ -1,5 +1,5 @@
 ---
 title: Markdown test
 asdfasd: asdfsad
-date: '2017-07-12T09:18:01+00:00'
+date: 2017-07-12 00:00:00 +0000
 ---

@@ -1,6 +1,6 @@
 ---
 title: Organic Poultry Layer Mash 17%
-date: 2017-04-11 00:42
+date: 2017-04-11 00:00:00 +0000
 layout: feed
 permalink: "/feed/poultry/organic-poultry-layer-mash-17/"
 description: For egg production or maintenance of adult birds (chickens, geese, ducks),

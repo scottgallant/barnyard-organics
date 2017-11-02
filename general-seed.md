@@ -1,6 +1,6 @@
 ---
 title: General Seed
-date: '2017-04-15T14:37:07+00:00'
+date: 2017-04-15 14:37:07 +0000
 layout: default-pdfs
 pdfs:
 - title: General Seed Organic Seed Price List

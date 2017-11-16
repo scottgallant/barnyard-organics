@@ -42,4 +42,5 @@ analysis-table:
   quantity: MIN 3,000 IU/KG
 - nutrients: Vitamin E
   quantity: MIN 20 IU/KG
+product-photos: []
 ---

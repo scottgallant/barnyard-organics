@@ -1,7 +1,7 @@
 ---
 title: Organic Chick Starter Mash 21%
 layout: feed
-date: 2017-04-15 13:00
+date: 2017-04-15 00:00:00 +0000
 description: A very high protein diet for fast growth and a texture for young poultry.  The
   mash is a medium hammered texture, easy for young chicks to eat. The mash is preferred
   by many because it is not over-processed into pellets.  Cracked corn is used in

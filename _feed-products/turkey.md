@@ -1,6 +1,6 @@
 ---
 title: Organic Turkey Starter Mash 26%
-date: 2017-04-12 16:31
+date: 2017-04-12 00:00:00 +0000
 layout: feed
 description: East Coast Organic Feed Mill’s Certified Organic Turkey Grower meets
   the balance of nutrients needed for turkeys to reach their growth potential in a

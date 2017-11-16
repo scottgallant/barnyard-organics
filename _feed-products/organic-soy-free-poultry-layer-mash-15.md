@@ -1,7 +1,7 @@
 ---
 title: Organic Soy-Free Poultry Layer Mash 15%
 layout: feed
-date: 2017-04-15 12:45
+date: 2017-04-15 00:00:00 +0000
 ingredients: "Organic Barley, Organic Field Peas, Organic Corn, Organic Field Peas,
   Organic Flax Meal, Organic Wheat, & Bio Ag Poultry Layer Mineral Premix*.  \n\n*BioAg
   mineral premixes include a variety of primary and trace minerals and vitamins, from

@@ -1,6 +1,6 @@
 ---
 title: Organic Chicken & Eggs - How to Buy
-date: '2017-04-15T14:27:03+00:00'
+date: 2017-04-15 14:27:03 +0000
 layout: default
 description: 'Barnyard Organics have the enormous benefit of being able to produce
   all of their own organic grains and mix them themselves so they know exactly what

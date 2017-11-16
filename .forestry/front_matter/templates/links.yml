@@ -1,9 +1,10 @@
 ---
 pages:
-- feed.md
+- index.md
 - turkey-1.md
-- about/index.md
 - about/family/index.md
+- feed.md
+- about/index.md
 - poultry2.md
 - poultry.md
 - services.md

@@ -20,7 +20,7 @@ directions: After four weeks on the Organic Chick Starter, it will be time to sw
   optimal nutrition for healthy and natural growth. Remember to keep bottom of feeders
   level with the top of the backs of your birds to minimize wastage.  Offer plenty
   of fresh water away from feed.   Store in a cool, dry place. Unlike many pelletized
-  feeds, our feeds are whole grain and contain no preservatives.  Do not use if mouldy
+  feeds, our feeds are whole grain and contain no preservatives. Do not use if mouldy
   or wet and aim to use the product within three months of purchase.
 general-analysis: 'This feed contains added selenium at 0.3 mg/kg '
 analysis-table:

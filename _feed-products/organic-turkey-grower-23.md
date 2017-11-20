@@ -14,7 +14,7 @@ ingredients: |-
 
   *BioAg mineral premixes include a variety of primary and trace minerals and vitamins, from sources such as: limestone; kelp meal; natural trace mineral salt; DL methionine and lysine in the layer mash (amino acids); selenium yeast; probiotics; enzymes; vitamins A, D, and E, plus vitamin B complex in addition to those vitamins in the premix.
 
-  ALL GRAIN INGREDIENTS GROWN AT BARNYARD ORGANICS (home of EAST COAST ORGANIC FEED MILL) except corn (source:  Le Moulins des Cèdres, QC) and flax (source:   Homestead Organics and/or Bio Ag’s Canadian-sourced flax)
+  ALL GRAIN INGREDIENTS GROWN AT BARNYARD ORGANICS (home of EAST COAST ORGANIC FEED MILL) except corn (source:  Le Moulins des Cèdres, QC) and flax (source:  Homestead Organics and/or Bio Ag’s Canadian-sourced flax)
 directions: After four weeks on the Organic Chick Starter, it will be time to switch
   your meat birds to our Organic Poultry Grower Mash, specially formulated to provide
   optimal nutrition for healthy and natural growth. Remember to keep bottom of feeders

@@ -2,7 +2,7 @@
 title: Organic Turkey Grower 23%
 date: 2017-04-15 00:00:00 +0000
 layout: feed
-description: 1 East Coast Organic Feed Mill’s Certified Organic Turkey Grower meets
+description: East Coast Organic Feed Mill’s Certified Organic Turkey Grower meets
   the balance of nutrients needed for turkeys to reach their growth potential in a
   medium-hammered mash that turkeys love.  At a minimum 23% protein, this feed is
   designed with the bird’s optimal nutritional requirements in mind. In addition to

@@ -10,7 +10,7 @@ description: East Coast Organic Feed Mill’s Certified Organic Turkey Grower me
   for Omega-3 fatty acids as well. The resulting meat will be healthy, high quality,
   delicious!  This feed works well for both heritage breeds and broad breasted turkeys.
 ingredients: |-
-  Organic Barley, Roasted Organic Soybean, Organic Field Peas, Organic Corn, Organic Wheat, Organic Flax Meal & Bio Ag Poultry Layer Mineral Premix*.
+  Organic Barley, Roasted Organic Soybean, Organic Field Peas, Organic Corn, Organic Wheat, Organic Flax Meal & Bio Ag Poultry Layer Mineral  Premix*.
 
   *BioAg mineral premixes include a variety of primary and trace minerals and vitamins, from sources such as: limestone; kelp meal; natural trace mineral salt; DL methionine and lysine in the layer mash (amino acids); selenium yeast; probiotics; enzymes; vitamins A, D, and E, plus vitamin B complex in addition to those vitamins in the premix.
 

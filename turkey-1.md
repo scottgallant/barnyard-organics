@@ -26,4 +26,5 @@ links:
     for Omega-3 fatty acids as well. The resulting meat will be healthy, high quality,
     delicious!  This feed works well for both heritage breeds and broad breasted turkeys.
 layout: grid
+layout-mod: include-feed-links
 ---

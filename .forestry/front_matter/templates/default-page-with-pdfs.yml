@@ -1,7 +1,7 @@
 ---
 pages:
-- general-seed.md
 - order.md
+- general-seed.md
 - bio-ag.md
 hide_body: false
 fields:

@@ -8,6 +8,10 @@ pdf-description: See price lists below. To place an order, <a href="info@barnyar
   call Barnyard Organics (902-887-3188).
 pdf-heading: ''
 pdfs:
+- title: BioAg Supplements & Fertilizer Price List
+  link: "/images/Bio Ag Supplements and Fertilizers Feb 12 2018.pdf"
+- title: BioAg Premix Price List
+  link: "/images/Bio Ag Premixes Feb 12 2018.pdf"
 - title: East Coast Organic Feed Mill farm price list
   link: "/images/ECOFM Farm Pricing Feb 13 2018.pdf"
 - title: Whole Grain Farm Price List

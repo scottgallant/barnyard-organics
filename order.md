@@ -21,4 +21,4 @@ pdfs:
 - link: "/images/Barnyard-Organics-whole-grain-price-list-FARM-1.pdf"
   title: East Coast Organic Feed Mill Whole Grain Price List
 ---
-_Please note that shipping is excluded from our pricing, but we’re happy to get you a preferred customer shipping quote!!_
+_Please note that shipping is excluded from our pricing, but we’re happy to get you a preferred customer shipping quote!_

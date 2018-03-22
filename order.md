@@ -8,6 +8,8 @@ pdf-description: See price lists below. To place an order, <a href="info@barnyar
   call Barnyard Organics (902-887-3188).
 pdf-heading: ''
 pdfs:
+- title: General Seed Cover Crop Seed Price List
+  link: "/images/General Seed Cover Crop Seed Price List Feb 1 2018.pdf"
 - title: BioAg Supplements & Fertilizer Price List
   link: "/images/Bio Ag Supplements and Fertilizers Feb 12 2018.pdf"
 - title: BioAg Premix Price List

@@ -8,6 +8,8 @@ pdf-description: See price lists below. To place an order, <a href="info@barnyar
   call Barnyard Organics (902-887-3188).
 pdf-heading: ''
 pdfs:
+- title: East Coast Organic Feed Mill farm price list
+  link: "/images/ECOFM Farm Pricing Feb 13 2018.pdf"
 - title: Whole Grain Farm Price List
   link: "/images/Whole Grain Price List Farm Feb 1 2018.pdf"
 ---

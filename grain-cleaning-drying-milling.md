@@ -3,8 +3,6 @@ title: Grain Cleaning & Drying
 permalink: "/services/grain-cleaning-drying"
 layout: default
 ---
-
-
 Barnyard Organics offers an array of grain-related services, including:
 
 * Cleaning
@@ -12,15 +10,15 @@ Barnyard Organics offers an array of grain-related services, including:
 
 ### CLEANING:
 
-$65/tonne with a minimum 5 Tonnes order (otherwise, for orders under 5 tonnes, a $20 set-up fee is charged)
+\$65/tonne with a minimum 5 Tonnes order (otherwise, for orders under 5 tonnes, a $20 set-up fee is charged)
 
 Barnyard Organics is set up with two shaker cleaners and one rotary cleaner to clean organic cereal grains and soybeans.  Sample product should be sent to Barnyard Organics prior to cleaning to assess the amount of dockage that can be expected from the order.  Send sample product to:
 
-<span style="font-size: 1rem;">Barnyard Organics /&nbsp;</span><span style="font-size: 1rem;">1934 N Freetown Road /</span><span style="font-size: 1rem;">Freetown, PEI C0B 1L0</span>
+<span style="font-size: 1rem;">Barnyard Organics / </span><span style="font-size: 1rem;">1934 N Freetown Road /</span><span style="font-size: 1rem;">Freetown, PEI C0B 1L0</span>
 
 ### DRYING:
 
-Prices for drying vary based on % moisture, but the price is based on **$.025**/bushel/% moisture dried.
+Prices for drying vary based on % moisture, but the price is based on **$.25**/bushel/% moisture dried.
 
 The minimum order for drying is 5 Tonnes (this is because the order has to fill the drier).
 
@@ -30,7 +28,7 @@ Customer JANE wants barley dried to 14% moisture, and the sample sent to Barnyar
 
 JANE has 5000 lbs of product weighing in at 60 lbs/bushel, meaning JANE has a total of **83.3** bushels.
 
-Therefore, the price would be calculated as: **$0.25*.83.3*5 = $104.13**
+Therefore, the price would be calculated as: _$0.25_.83.3\*5 = $104.13\*
 
 Send sample product to:
 

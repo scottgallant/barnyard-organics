@@ -1,10 +1,10 @@
 ---
 pages:
+- rent-the-chicken.md
+- about/public-speaking-workshops.md
 - organic-chicken-eggs-subpage.md
 - order-from-barnyard.md
-- about/public-speaking-workshops.md
 - about/family/sally.md
-- rent-the-chicken.md
 hide_body: false
 is_partial: false
 fields:

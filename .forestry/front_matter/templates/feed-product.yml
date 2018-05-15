@@ -11,6 +11,7 @@ pages:
 - _feed-products/chicken-1.md
 - _feed-products/hog.md
 hide_body: true
+is_partial: false
 fields:
 - name: layout
   label: Layout

@@ -6,6 +6,7 @@ pages:
 - about/family/sally.md
 - rent-the-chicken.md
 hide_body: false
+is_partial: false
 fields:
 - name: title
   type: text

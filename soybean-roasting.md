@@ -20,33 +20,33 @@ Soybeans, although an excellent source of protein, contain an enzyme which acts 
 ***Barnyard Organics’ facility includes:***
 
 
-<span style="font-size: 1rem;"></span>
 
 
 
 
-* <span style="font-size: 1rem;">Roaster (where the soybeans get roasted in batches of 1500kgs/hr to a temperature of 290-310 ºF.</span>
-* <span style="font-size: 1rem;">Stainless steel steeping chamber (here, the extremely hot soybeans continue the roasting process for approximately 20 minutes as they cool down)</span>
-* <span style="font-size: 1rem;">an optional flaking unit (if desired, the whole, hard, round beans can be broken down into a more manageable and digestible flaked form.</span>
+
+* Roaster (where the soybeans get roasted in batches of 1500kgs/hr to a temperature of 290-310 ºF.
+* Stainless steel steeping chamber (here, the extremely hot soybeans continue the roasting process for approximately 20 minutes as they cool down)
+* an optional flaking unit (if desired, the whole, hard, round beans can be broken down into a more manageable and digestible flaked form.
 
 
 
 
-<span style="font-size: 1rem;">Soybeans to be roasted at Barnyard Organics follow a dedicated process.  Once the beans arrive on the farm they are:</span>
+Soybeans to be roasted at Barnyard Organics follow a dedicated process.  Once the beans arrive on the farm they are:
 
 
-<span style="font-size: 1rem;">&nbsp;- Immediately issued a lot number (to ensure full traceability of the product as the beans are run through the roasting process);</span>
+&nbsp;- Immediately issued a lot number (to ensure full traceability of the product as the beans are run through the roasting process);
 
 
-<span style="font-size: 1rem;">&nbsp;- Sampled for:</span>
+&nbsp;- Sampled for:
 
 
 
 
-* <span style="font-size: 1rem;">moisture (to ensure optimum roasting time for best quality)</span>
-* <span style="font-size: 1rem;">bushel weight</span>
-* <span style="font-size: 1rem;">dockage from weed seeds</span>
-* <span style="font-size: 1rem;">GMO contamination (this litmus test ensures organic integrity. &nbsp;</span>
+* moisture (to ensure optimum roasting time for best quality)
+* bushel weight
+* dockage from weed seeds
+* GMO contamination (this litmus test ensures organic integrity. &nbsp;
 
 
 

@@ -10,7 +10,7 @@ description: Barnyard Organics’ Mark and Sally Bernard are both regularly aske
 ---
 
 
-<span style="font-size: 2.1em;">Sally Bernard:</span>
+Sally Bernard:
 
 * Organic Agriculture
 

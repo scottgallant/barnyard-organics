@@ -10,11 +10,11 @@ layout: default
 *Rent The Chicken *provides all of the supplies you need to enjoy a summer life with laying hens including:
 
 
-* <span style="font-size: 1rem;">portable chicken coop;</span>
-* <span style="font-size: 1rem;">two or four egg laying hens;</span>
-* <span style="font-size: 1rem;">certified organic, locally-grown feed;</span>
-* <span style="font-size: 1rem;">food &amp; water dishes;</span>
-* <span style="font-size: 1rem;">instructions on how to keep your chickens happy!</span>
+* portable chicken coop;
+* two or four egg laying hens;
+* certified organic, locally-grown feed;
+* food &amp; water dishes;
+* instructions on how to keep your chickens happy!
 
 
 
@@ -31,32 +31,32 @@ Rental available: May until October
 Includes:
 
 
-* <span style="font-size: 1rem;">Delivery, setup, and pick-up of the contents</span>
-* <span style="font-size: 1rem;">2 Rent The Chicken Egg-Laying Hens</span>
-* <span style="font-size: 1rem;">8-14 eggs per week total</span>
-* <span style="font-size: 1rem;">1 Standard Chicken Coop that can be easily moved</span>
-* <span style="font-size: 1rem;">1 Custom Rent The Chicken Food dish</span>
-* <span style="font-size: 1rem;">1 Water dish</span>
-* <span style="font-size: 1rem;">40kg of Organic Chicken Feed</span>
-* <span style="font-size: 1rem;">Quick intro to taking care of your Rent The Chickens</span>
-* <span style="font-size: 1rem;">A copy of "Fresh Eggs Daily" by Lisa Steele</span>
-* <span style="font-size: 1rem;">2017 Spring Deluxe Rental Package - $500 CDN +HST (15%)</span>
-* <span style="font-size: 1rem;">Rental available: May until October</span>
+* Delivery, setup, and pick-up of the contents
+* 2 Rent The Chicken Egg-Laying Hens
+* 8-14 eggs per week total
+* 1 Standard Chicken Coop that can be easily moved
+* 1 Custom Rent The Chicken Food dish
+* 1 Water dish
+* 40kg of Organic Chicken Feed
+* Quick intro to taking care of your Rent The Chickens
+* A copy of "Fresh Eggs Daily" by Lisa Steele
+* 2017 Spring Deluxe Rental Package - $500 CDN +HST (15%)
+* Rental available: May until October
 
 
 
 Includes:
 
 
-* <span style="font-size: 1rem;">Delivery, setup, and pick-up of the contents</span>
-* <span style="font-size: 1rem;">4 Rent The Chicken Egg-Laying Hens</span>
-* <span style="font-size: 1rem;">16-28 eggs per week total</span>
-* <span style="font-size: 1rem;">1 Deluxe Chicken Coop that can be easily moved</span>
-* <span style="font-size: 1rem;">1 Custom Deluxe Rent The Chicken Food dish</span>
-* <span style="font-size: 1rem;">1 Water dish</span>
-* <span style="font-size: 1rem;">80kg of Organic Chicken Feed</span>
-* <span style="font-size: 1rem;">Quick intro to taking care of your Rent The Chickens</span>
-* <span style="font-size: 1rem;">A copy of "Fresh Eggs Daily" by Lisa Steele</span>
+* Delivery, setup, and pick-up of the contents
+* 4 Rent The Chicken Egg-Laying Hens
+* 16-28 eggs per week total
+* 1 Deluxe Chicken Coop that can be easily moved
+* 1 Custom Deluxe Rent The Chicken Food dish
+* 1 Water dish
+* 80kg of Organic Chicken Feed
+* Quick intro to taking care of your Rent The Chickens
+* A copy of "Fresh Eggs Daily" by Lisa Steele
 
 
 

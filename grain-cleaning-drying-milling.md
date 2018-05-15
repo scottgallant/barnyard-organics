@@ -14,7 +14,7 @@ Barnyard Organics offers an array of grain-related services, including:
 
 Barnyard Organics is set up with two shaker cleaners and one rotary cleaner to clean organic cereal grains and soybeans.  Sample product should be sent to Barnyard Organics prior to cleaning to assess the amount of dockage that can be expected from the order.  Send sample product to:
 
-<span style="font-size: 1rem;">Barnyard Organics / </span><span style="font-size: 1rem;">1934 N Freetown Road /</span><span style="font-size: 1rem;">Freetown, PEI C0B 1L0</span>
+Barnyard Organics / 1934 N Freetown Road /Freetown, PEI C0B 1L0
 
 ### DRYING:
 

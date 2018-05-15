@@ -25,7 +25,7 @@ fields:
 - name: layout
   label: Layout
   type: text
-  hidden: false
+  hidden: true
   default: grid
 - name: permalink
   label: Permalink

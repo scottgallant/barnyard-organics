@@ -2,10 +2,10 @@
 title: Organic Hog Grower Mash 14%
 date: 2016-05-17 00:00:00 +0000
 categories: 
-description: 'A finely ground feed for raising organic pigs to reach their full growth
+description: A finely ground feed for raising organic pigs to reach their full growth
   potential. Our Organic Hog Grower formula offers ideal nutrition for your growing
   swine. With a minimum of 14% protein, your pigs will be feasting on some of the
-  best, most natural feed available. '
+  best, most natural feed available.
 thumbnail: "/images/pig-tamworth-sow.jpg"
 sub-title: Nulla vitae elit libero, a pharetra augue. Etiam porta sem malesuada magna
   mollis euismod.

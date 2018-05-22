@@ -6,6 +6,9 @@ description: ''
 ingredients: ''
 directions: ''
 general-analysis: ''
-analysis-table: []
-product-photos: []
+analysis-table:
+- nutrients: ''
+  quantity: ''
+product-photos:
+- "/images/goat.jpg"
 ---

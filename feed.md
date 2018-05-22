@@ -4,6 +4,13 @@ permalink: "/feed/"
 layout: grid
 layout-mod: include-feed-links
 links:
+- link: _feed-products/organic-dairy-goat-ration-16.md
+  image: "/images/goat.jpg"
+  heading: Organic Dairy Goat Ration (16%)
+  description: A coarse texture feed for organic goats to reach their full potential.
+    Our Organic Dairy Goat formula offers ideal nutrition for your lactating goats.
+    With a minimum of 16% protein, your goats will be feasting on some of the best,
+    most natural feed available.
 - image: "/images/pig-smile-5.jpg"
   heading: Hog
   description: The perfect formula to raise your organic pigs.
@@ -24,6 +31,6 @@ links:
   link: undefined
 description: Barnyard Organics’ East Coast Organic Feed Mill is proud to offer locally-grown
   and milled 100% organic feed for your livestock needs!  CFIA-approved mix formulas
-  available for laying hens and poultry, broiler birds, turkeys, hogs and custom mixing
-  is also an option!
+  available for laying hens and poultry, broiler birds, turkeys, hogs, goats, and
+  custom mixing is also an option!
 ---

@@ -65,6 +65,7 @@ fields:
   description: This is a list of links to other pages. It will appear in a grid-format
     (with an image, title, and text)
 pages:
+- how-to-order.md
 - feed.md
 - turkey-1.md
 - index.md

@@ -1,10 +1,6 @@
 ---
 main:
 - identifier: something
-  url: "/order"
-  weight: 9
-  title: Order
-- identifier: something
   url: "/contact"
   weight: 8
   title: Contact
@@ -16,6 +12,10 @@ main:
   url: "/about"
   weight: 6
   title: About
+- identifier: services
+  url: "/services"
+  weight: 5
+  title: Services
 - identifier: feed
   url: "/feed"
   weight: 2
@@ -24,10 +24,6 @@ main:
   url: "/grain"
   weight: 4
   title: Grain
-- identifier: services
-  url: "/services"
-  weight: 5
-  title: Services
 feed:
 - identifier: order
   url: "/order/"

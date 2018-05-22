@@ -59,6 +59,7 @@ fields:
   hidden: false
   default: ''
 pages:
+- goat.md
 - _feed-products/organic-dairy-goat-ration-16.md
 - _feed-products/hog.md
 - _feed-products/organic-turkey-grower-23.md

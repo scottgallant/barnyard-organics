@@ -28,7 +28,7 @@ links:
   heading: Custom Mix
   description: Have your own preferred mix? Barnyard Organics's East Coast Organic
     Feed Mill can work with your own formulas to create a custom feed.
-  link: soybean-roasting.md
+  link: _feed-products/hog-1.md
 description: Barnyard Organics’ East Coast Organic Feed Mill is proud to offer locally-grown
   and milled 100% organic feed for your livestock needs!  CFIA-approved mix formulas
   available for laying hens and poultry, broiler birds, turkeys, hogs, goats, and

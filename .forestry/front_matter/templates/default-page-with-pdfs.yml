@@ -1,8 +1,4 @@
 ---
-pages:
-- bio-ag.md
-- order.md
-- general-seed.md
 hide_body: false
 is_partial: false
 fields:
@@ -51,3 +47,7 @@ fields:
     config: {}
   config:
     labelField: title
+pages:
+- bio-ag.md
+- order.md
+- general-seed.md

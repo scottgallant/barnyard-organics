@@ -1,10 +1,4 @@
 ---
-pages:
-- rent-the-chicken.md
-- about/public-speaking-workshops.md
-- organic-chicken-eggs-subpage.md
-- order-from-barnyard.md
-- about/family/sally.md
 hide_body: false
 is_partial: false
 fields:
@@ -28,3 +22,9 @@ fields:
   label: Layout
   default: default
   hidden: true
+pages:
+- rent-the-chicken.md
+- about/public-speaking-workshops.md
+- organic-chicken-eggs-subpage.md
+- order-from-barnyard.md
+- about/family/sally.md

@@ -1,13 +1,4 @@
 ---
-pages:
-- turkey-1.md
-- index.md
-- about/family/index.md
-- feed.md
-- about/index.md
-- poultry2.md
-- poultry.md
-- services.md
 hide_body: true
 is_partial: false
 fields:
@@ -73,3 +64,12 @@ fields:
   default: ''
   description: This is a list of links to other pages. It will appear in a grid-format
     (with an image, title, and text)
+pages:
+- turkey-1.md
+- index.md
+- about/family/index.md
+- feed.md
+- about/index.md
+- poultry2.md
+- poultry.md
+- services.md

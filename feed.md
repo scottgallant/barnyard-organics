@@ -6,7 +6,7 @@ layout-mod: include-feed-links
 links:
 - link: _feed-products/organic-dairy-goat-ration-16.md
   image: "/images/goat.jpg"
-  heading: Organic Dairy Goat Ration (16%)
+  heading: Dairy Goat
   description: A coarse texture feed for organic goats to reach their full potential.
     Our Organic Dairy Goat formula offers ideal nutrition for your lactating goats.
     With a minimum of 16% protein, your goats will be feasting on some of the best,

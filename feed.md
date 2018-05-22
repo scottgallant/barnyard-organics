@@ -24,7 +24,7 @@ links:
     Our Organic Dairy Goat formula offers ideal nutrition for your lactating goats.
     With a minimum of 16% protein, your goats will be feasting on some of the best,
     most natural feed available.
-- image: "/images/goat.jpg"
+- image: "/images/horse-3.jpg"
   heading: Custom Mix
   description: Have your own preferred mix? Barnyard Organics's East Coast Organic
     Feed Mill can work with your own formulas to create a custom feed.

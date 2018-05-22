@@ -12,8 +12,4 @@ links:
   description: Coming Soon!
   heading: Feed Order Form - coming soon!
 description: ''
-menu:
-  main:
-    identifier: something
-    weight: 9
 ---

@@ -1,6 +1,10 @@
 ---
 main:
 - identifier: something
+  weight: 9
+  url: "/order2"
+  title: Order
+- identifier: something
   url: "/contact"
   weight: 8
   title: Contact

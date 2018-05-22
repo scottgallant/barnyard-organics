@@ -17,24 +17,24 @@ directions: |-
   Feed to goats in lactation. Be sure to offer plenty of fresh water to ensure your goats are happy and healthy.  Store in a cool, dry place. Unlike many pelletized feeds, our feeds are whole grain and contain no preservatives.  Do not use if moldy or wet and aim to use the product within three months of purchase.
 general-analysis: More coming soon, but it's great stuff
 analysis-table:
-- nutrients: Vitamin E
-  quantity: MIN 50 IU/Kg
-- nutrients: Vitamin D3
-  quantity: MIN 1,000 IU/Kg
-- nutrients: 'Vitamin A '
-  quantity: MIN 10,000 IU/Kg
-- nutrients: Sodium
-  quantity: ACT 0.4%
-- nutrients: Phosphorous
-  quantity: ACT 1%
-- nutrients: Calcium
-  quantity: ACT 1.3%
-- nutrients: Crude Fibre
-  quantity: MAX 6%
 - nutrients: Crude Protein
   quantity: 16%
 - nutrients: Crude Fat
   quantity: 'MIN 4% '
+- nutrients: Crude Fibre
+  quantity: MAX 6%
+- nutrients: Calcium
+  quantity: ACT 1.3%
+- nutrients: Phosphorous
+  quantity: ACT 1%
+- nutrients: Sodium
+  quantity: ACT 0.4%
+- nutrients: 'Vitamin A '
+  quantity: MIN 10,000 IU/Kg
+- nutrients: Vitamin D3
+  quantity: MIN 1,000 IU/Kg
+- nutrients: Vitamin E
+  quantity: MIN 50 IU/Kg
 product-photos:
 - "/images/goat.jpg"
 ---

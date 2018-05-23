@@ -12,9 +12,10 @@ ingredients: |-
   *BioAg mineral premixes include a variety of primary and trace minerals and vitamins, from sources such as: limestone; kelp meal; natural trace mineral salt; DL methionine and lysine in the layer mash (amino acids); selenium yeast; probiotics; enzymes; vitamins A, D, and E, plus vitamin B complex in addition to those vitamins in the premix
 
   ALL GRAIN INGREDIENTS GROWN AT BARNYARD ORGANICS (home of EAST COAST ORGANIC FEED MILL) except corn (source:  Le Moulins des Cèdres, QC), flax (source: Bio Ag’s Canadian-sourced flax) and field peas (source: Alpha Mills, PEI)
-directions: |-
-  .
-  Feed to goats in lactation. Be sure to offer plenty of fresh water to ensure your goats are happy and healthy.  Store in a cool, dry place. Unlike many pelletized feeds, our feeds are whole grain and contain no preservatives.  Do not use if moldy or wet and aim to use the product within three months of purchase.
+directions: Feed to goats in lactation. Be sure to offer plenty of fresh water to
+  ensure your goats are happy and healthy.  Store in a cool, dry place. Unlike many
+  pelletized feeds, our feeds are whole grain and contain no preservatives.  Do not
+  use if moldy or wet and aim to use the product within three months of purchase.
 general-analysis: More coming soon, but it's great stuff
 analysis-table:
 - nutrients: Crude Protein

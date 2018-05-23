@@ -1,7 +1,7 @@
 ---
 title: Order
 layout: grid
-date: 2018-05-22 15:53:43 -0300
+date: 2018-05-22 18:53:43 +0000
 links:
 - link: order-from-barnyard.md
   image: ''
@@ -19,5 +19,6 @@ description: ''
 menu:
   main:
     identifier: something
+    url: "/how-to-order/"
     weight: 9
 ---

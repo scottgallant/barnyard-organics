@@ -11,6 +11,10 @@ links:
   image: ''
   description: Coming Soon!
   heading: Feed Order Form - coming soon!
+- link: contact.md
+  image: ''
+  description: For other inquiries
+  heading: Contact
 description: ''
 menu:
   main:

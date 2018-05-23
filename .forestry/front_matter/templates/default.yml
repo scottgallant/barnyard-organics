@@ -23,6 +23,7 @@ fields:
   default: default
   hidden: true
 pages:
+- contact.md
 - rent-the-chicken.md
 - about/public-speaking-workshops.md
 - organic-chicken-eggs-subpage.md

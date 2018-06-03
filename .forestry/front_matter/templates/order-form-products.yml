@@ -18,7 +18,7 @@ fields:
       name: price
       label: Price
       config:
-        required: true
+        required: false
     - type: number
       name: price_retailers
       label: Price Retailers

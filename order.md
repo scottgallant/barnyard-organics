@@ -1,9 +1,7 @@
 ---
-title: Feed Order Form
+title: Order Form
 permalink: "/order/"
 layout: order
-description: Online order form COMING SOON! But we're still working on this page.  Please
-  check back soon!
 pdf-description: See price lists below. To place an order, <a href="info@barnyardorganics.com">email</a>   or
   call Barnyard Organics (902-887-3188).
 pdf-heading: ''

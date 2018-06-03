@@ -1,7 +1,7 @@
 ---
 title: Feed Order Form
 permalink: "/order/"
-layout: default-pdfs
+layout: order
 description: Online order form COMING SOON! But we're still working on this page.  Please
   check back soon!
 pdf-description: See price lists below. To place an order, <a href="info@barnyardorganics.com">email</a>   or

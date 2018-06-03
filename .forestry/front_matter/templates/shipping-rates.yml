@@ -1,0 +1,15 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- type: field_group
+  label: Shipping Rates
+  name: shipping-rates
+  fields:
+  - type: text
+    name: location
+    label: Location Name
+  - type: number
+    name: price
+    label: Price
+    description: Shipping rate to this location

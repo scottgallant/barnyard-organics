@@ -5,6 +5,10 @@ fields:
 - type: number
   name: fuel_surcharge
   label: Fuel Surcharge
+- type: number
+  name: fuel_surcharge_10000
+  label: Fuel Surcharge
+  description: For shipments greater than 10,000 lbs
 - type: field_group
   label: Shipping Rates
   name: shipping-rates

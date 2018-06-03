@@ -6,6 +6,9 @@ fields:
   name: order-form
   label: Order Form
   fields:
+  - type: number
+    name: hst
+    label: HST Rate
   - type: field_group
     name: barnyard_organics
     label: Barnyard Organics

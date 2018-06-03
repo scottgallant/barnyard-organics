@@ -5,3 +5,8 @@ barnyard_organics:
     description: Nullam id dolor id nibh ultricies vehicula ut id elit.
     price: '30.00'
     price_retailers: '25.00'
+hst: '15'
+bio_ag:
+  products: []
+general_seed:
+  products: []

@@ -26,6 +26,46 @@ fields:
       - type: number
         name: price_retailers
         label: Price (retailers)
+  - type: field_group
+    name: bio_ag
+    label: Bio-ag
+    fields:
+    - type: field_group_list
+      name: products
+      label: Products
+      fields:
+      - type: text
+        name: name
+        label: Name
+      - type: text
+        name: description
+        label: Description
+      - type: number
+        name: price
+        label: Price
+      - type: number
+        name: price_retailers
+        label: Price (retailers)
+  - type: field_group
+    name: general_seed
+    label: General Seed
+    fields:
+    - type: field_group_list
+      name: products
+      label: Products
+      fields:
+      - type: text
+        name: name
+        label: Name
+      - type: text
+        name: description
+        label: Description
+      - type: number
+        name: price
+        label: Price
+      - type: number
+        name: price_retailers
+        label: Price (retailers)
 data_files:
 - _data/footer.yml
 - _data/order-form.yml

@@ -18,7 +18,7 @@ fields:
       label: Location
     - type: number
       name: price
-      label: Price
+      label: Price / pound
   - type: field_group_list
     name: nova_scotia
     label: Nova Scotia
@@ -28,7 +28,7 @@ fields:
       label: Location
     - type: number
       name: price
-      label: Price
+      label: Price / Pound
   - type: field_group_list
     name: pei
     label: PEI
@@ -38,6 +38,6 @@ fields:
       label: Location
     - type: number
       name: price
-      label: Price
+      label: Price / Pound
 data_files:
 - _data/shipping-rates.yml

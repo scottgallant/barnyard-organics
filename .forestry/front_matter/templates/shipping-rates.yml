@@ -23,19 +23,19 @@ fields:
     - type: number
       name: price-1000
       label: Price / 100 pounds
-      description: "For shipments between 1,000 - 1,999 pounds"
+      description: For shipments between 1,000 - 1,999 pounds
     - type: number
       label: Price / 100 pounds
       name: price-2000
-      description: "For shipments between 2,000 - 4,999 pounds"
+      description: For shipments between 2,000 - 4,999 pounds
     - type: number
       name: price-5000
       label: Price / 100 pounds
-      description: "For shipments between 5,000 - 1,999 pounds"
+      description: For shipments between 5,000 - 1,999 pounds
     - type: number
       name: price-X
       label: Price / 100 pounds
-      description: "For shipments between X - Y pounds"
+      description: For shipments between X - Y pounds
   - type: field_group_list
     name: nova_scotia
     label: Nova Scotia
@@ -46,19 +46,19 @@ fields:
     - type: number
       name: price-1000
       label: Price / 100 pounds
-      description: "For shipments between 1,000 - 1,999 pounds"
+      description: For shipments between 1,000 - 1,999 pounds
     - type: number
       label: Price / 100 pounds
       name: price-2000
-      description: "For shipments between 2,000 - 4,999 pounds"
+      description: For shipments between 2,000 - 4,999 pounds
     - type: number
       name: price-5000
       label: Price / 100 pounds
-      description: "For shipments between 5,000 -  X pounds"
+      description: For shipments between 5,000 -  X pounds
     - type: number
       name: price-X
       label: Price / 100 pounds
-      description: "For shipments between X - Y pounds"
+      description: For shipments between X - Y pounds
   - type: field_group_list
     name: pei
     label: PEI
@@ -69,18 +69,18 @@ fields:
     - type: number
       name: price-1000
       label: Price / 100 pounds
-      description: "For shipments between 1,000 - 1,999 pounds"
+      description: For shipments between 1,000 - 1,999 pounds
     - type: number
       label: Price / 100 pounds
       name: price-2000
-      description: "For shipments between 2,000 - 4,999 pounds"
+      description: For shipments between 2,000 - 4,999 pounds
     - type: number
       name: price-5000
       label: Price / 100 pounds
-      description: "For shipments between 5,000 - X pounds"
+      description: For shipments between 5,000 - X pounds
     - type: number
       name: price-X
       label: Price / 100 pounds
-      description: "For shipments between X - Y pounds"
+      description: For shipments between X - Y pounds
 data_files:
 - _data/shipping-rates.yml

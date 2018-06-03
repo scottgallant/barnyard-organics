@@ -1,0 +1,9 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: test
+  name: test
+data_files:
+- _data/footer.yml

@@ -1,0 +1,35 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- type: field_group
+  name: barnyard_organics
+  label: Barnyard Organics
+  fields:
+  - type: field_group_list
+    fields:
+    - type: text
+      name: name
+      label: Name
+    - type: text
+      name: description
+      label: Description
+    - type: number
+      name: price
+      label: Price
+      config:
+        required: false
+    - type: number
+      name: price_retailers
+      label: Price Retailers
+      description: This is the discounted price for retailers
+    config:
+      labelField: name
+    label: Barnyard Organics Products
+    name: barnyard_organics_products
+- type: field_group
+  name: bio-ag
+  label: Bio-ag
+- type: field_group
+  name: general_seed
+  label: General Seed

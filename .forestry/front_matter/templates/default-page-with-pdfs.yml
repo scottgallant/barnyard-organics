@@ -49,5 +49,4 @@ fields:
     labelField: title
 pages:
 - general-seed.md
-- order.md
 - bio-ag.md

@@ -6,12 +6,15 @@ fields:
   label: Shipping Rates
   name: shipping-rates
   fields:
-  - type: text
-    name: location
-    label: Location Name
-  - type: number
-    name: price
-    label: Price
-    description: Shipping rate to this location
+  - type: field_group
+    name: shipping_rates
+    label: Shipping Rates
+    fields:
+    - type: text
+      name: location
+      label: Location
+    - type: number
+      label: Shipping Rate
+      name: price
 data_files:
 - _data/shipping-rates.yml

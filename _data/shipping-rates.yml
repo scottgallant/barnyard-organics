@@ -1,4 +1,6 @@
 ---
 shipping_rates:
 - location: Moncton
-  price: 100.0
+  price: 100
+location: Charlottetown
+price: '99'

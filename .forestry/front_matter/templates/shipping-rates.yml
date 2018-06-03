@@ -13,3 +13,5 @@ fields:
     name: price
     label: Price
     description: Shipping rate to this location
+data_files:
+- _data/shipping-rates.yml

@@ -9,6 +9,7 @@ fields:
   - type: number
     name: hst
     label: HST Rate
+    description: 'Enter the HST % '
   - type: field_group
     name: barnyard_organics
     label: Barnyard Organics

@@ -1,7 +1,11 @@
 ---
 new_brunswick:
-- location: Sackville
+- location: Example place
   price: '100'
+  price-1000: '5.25'
+  price-2000: '3.33'
+  price-5000: '3.01'
+  price-X: '2.55'
 - location: Moncton
   price: '99.00'
 nova_scotia: []

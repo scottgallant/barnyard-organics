@@ -6,11 +6,6 @@ fields:
   name: footer
   label: Footer
   fields:
-  - name: title
-    label: Title
-    type: text
-    hidden: false
-    default: ''
   - name: Address
     label: Address
     type: text

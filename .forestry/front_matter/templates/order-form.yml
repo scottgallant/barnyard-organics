@@ -1,0 +1,13 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- type: field_group
+  name: order-form
+  label: Order Form
+  fields:
+  - type: text
+    name: test
+    label: test
+data_files:
+- _data/footer.yml

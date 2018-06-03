@@ -1,1 +1,6 @@
---- {}
+---
+new_brunswick:
+- location: Moncton
+  price: '99.00'
+nova_scotia: []
+pei: []

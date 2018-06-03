@@ -6,15 +6,35 @@ fields:
   label: Shipping Rates
   name: shipping-rates
   fields:
-  - type: field_group
-    name: shipping_rates
-    label: Shipping Rates
+  - type: field_group_list
+    name: new_brunswick
+    label: New Brunswick
     fields:
     - type: text
       name: location
       label: Location
     - type: number
-      label: Shipping Rate
       name: price
+      label: Price
+  - type: field_group_list
+    name: nova_scotia
+    label: Nova Scotia
+    fields:
+    - type: text
+      name: location
+      label: Location
+    - type: number
+      name: price
+      label: Price
+  - type: field_group_list
+    name: pei
+    label: PEI
+    fields:
+    - type: text
+      name: location
+      label: Location
+    - type: number
+      name: price
+      label: Price
 data_files:
 - _data/shipping-rates.yml

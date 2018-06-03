@@ -67,5 +67,4 @@ fields:
         name: price_retailers
         label: Price (retailers)
 data_files:
-- _data/footer.yml
 - _data/order-form.yml

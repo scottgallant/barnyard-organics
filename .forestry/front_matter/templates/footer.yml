@@ -38,3 +38,5 @@ fields:
     default: ''
   hidden: false
   default: ''
+data_files:
+- _data/footer.yml

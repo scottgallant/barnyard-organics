@@ -1,2 +1,8 @@
 ---
 test: test
+barnyard_organics:
+  products:
+  - name: Organic Poultry Layer Mash 17%
+    description: Nullam id dolor id nibh ultricies vehicula ut id elit.
+    price: '30.00'
+    price_retailers: '25.00'

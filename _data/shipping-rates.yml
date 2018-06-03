@@ -6,7 +6,5 @@ new_brunswick:
   price-2000: '3.33'
   price-5000: '3.01'
   price-X: '2.55'
-- location: Moncton
-  price: '99.00'
 nova_scotia: []
 pei: []

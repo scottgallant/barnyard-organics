@@ -49,11 +49,7 @@ $(function($){
       <div class="content">
   			<div class="row uniform pricing-table">
 
-  				<div class="12u$ 12u$(small)">
-  					<label for="">Company</label>
-  					<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-  				</div>
-  				<div class="4u 12u$(small)">
+          <div class="4u 12u$(small)">
   					<input type="radio" id="demo-priority-normal" name="demo-priority" checked>
   					<label for="demo-priority-normal">Farm Purchaser</label>
   				</div>
@@ -61,6 +57,30 @@ $(function($){
   					<input type="radio" id="demo-priority-low" name="demo-priority">
   					<label for="demo-priority-low">Retail Purchaser</label>
   				</div>
+
+          <div class="8u$ 12u$(small)">
+            <label>Company Name (for retailers only)</label>
+            <div class="select-wrapper">
+              <select name="demo-category" id="demo-category">
+                <option value="">- No Shipping -</option>
+                <optgroup label="New Brunswick">
+                  <option value="1">Co-op</option>
+                </optgroup>
+                <optgroup label="Prince Edward Island">
+                  <option value="1">Example</option>
+                </optgroup>
+                <optgroup label="Nova Scotia">
+                  <option value="1">Example</option>
+                </optgroup>
+              </select>
+            </div>
+          </div>
+
+          <div class="12u$ 12u$(small)">
+  					<label for="">Company Name (for non-retailers)</label>
+  					<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+  				</div>
+
   				<div class="6u 12u$(small)">
   					<label for="">First Name</label>
   					<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
@@ -83,11 +103,11 @@ $(function($){
   					<input type="hidden" name="_subject" value="New submission!" />
   					<input type="hidden" name="_format" value="plain" />
   					<input type="text" name="_gotcha" style="display:none" />
-
+                  <div><p><a href="#">Barnyard Organics Procucts <i class="icon fa-chevron-down"></i></a></p></div>
   								<table class="non-striped">
   									<thead>
   										<tr>
-  											<th>Barnyard Organics Products</th>
+  											<th>Products</th>
   											<th width="15%">Quantity (25Kg Bags)</th>
   											<!-- <th width="15%"></th> -->
   											<th>Price</th>
@@ -228,59 +248,67 @@ $(function($){
   									<tfoot>
   									</tfoot>
   								</table>
+                  <div><p><a href="#">General Seed Procucts <i class="icon fa-chevron-down"></i></a></p></div>
+                  <div><p><a href="#">Bio-Ag Procucts <i class="icon fa-chevron-down"></i></a></p></div>
+                  <div class="row uniform">
+  										<div class="8u 12u$(small)"><p class="order-form-total" style="text-align: left;">Total Quantity</p></div>
+                      <div class="4u 12u$(small)">
+                        <div class="order-form-total">
+                          24 items
+                          <p class="error"><em>For shipping, orders must be in multiples of 20 items (1/2 tonnes)</em></p>
+                        </div>
+  										</div>
+    								</div>
   								<div class="row uniform">
-  												<div class="8u 12u$(small)">
-  													<label>Shipping</label>
-  													<div class="select-wrapper">
-  														<select name="demo-category" id="demo-category">
-  															<option value="">- No Shipping -</option>
-  															<optgroup label="New Brunswick">
-  																<option value="1">Moncton</option>
-  																<option value="1">Fredericton</option>
-  																<option value="1">Other</option>
-  															</optgroup>
-  															<optgroup label="Prince Edward Island">
-  																<option value="1">Charlottetown</option>
-  																<option value="1">Other</option>
-  															</optgroup>
-  															<optgroup label="Nova Scotia">
-  																<option value="1">Halifax</option>
-  																<option value="1">Other</option>
-  															</optgroup>
-  														</select>
-  													</div>
-  													<br>
-  													<div class="12u$ 12u$(small)">
-  														<!-- <input type="checkbox" id="demo-copy" name="demo-copy">
-  														<label for="demo-copy">Tailgate shipping (+75)</label> -->
-  														<p class="help-block">Shipping quantity must be in multiples of 20 (which is a 1/2 pallet)</p>
-  													</div>
-  												</div>
-  												<div class="4u$ 12u$(small)">
-  													<label for="">Shipping Price</label>
-  													<input type="text" name="" value="155">
-  												</div>
+  										<div class="8u 12u$(small)">
+  											<label>Shipping</label>
+  											<div class="select-wrapper">
+  												<select name="demo-category" id="demo-category">
+  													<option value="">Pick up at Farm (no shipping)</option>
+  													<optgroup label="New Brunswick">
+  														<option value="1">Moncton</option>
+  														<option value="1">Fredericton</option>
+  														<option value="1">Other</option>
+  													</optgroup>
+  													<optgroup label="Prince Edward Island">
+  														<option value="1">Charlottetown</option>
+  														<option value="1">Other</option>
+  													</optgroup>
+  													<optgroup label="Nova Scotia">
+  														<option value="1">Halifax</option>
+  														<option value="1">Other</option>
+  													</optgroup>
+  												</select>
+  											</div>
+                        <p class="help-block">For shipping, orders must be in multiples of 20 items (1/2 tonnes)</p>
+  										</div>
+  										<div class="4u$ 12u$(small)">
+  											<label for="">Shipping Price</label>
+  											<input type="text" name="" value="">
+  										</div>
   							</div>
-  							<div class="row uniform">
-										<div class="8u 12u$(small)"></div>
+                <div class="row uniform">
+                    <div class="8u 12u$(small)">
+                      <p class="order-form-total" style="text-align: left;">HST</p>
+                    </div>
                     <div class="4u 12u$(small)">
-                      <div class="order-form-total">
-                        22 units
-                        <p class="error"><em>Order must be in multiples of 20 units</em></p>
-                      </div>
                       <input id="total" value="0.00" disabled class="row-sum order-form-total">
-										</div>
-  								</div>
+                    </div>
+                    <div class="8u 12u$(small)">
+                      <p class="order-form-total" style="text-align: left;">Total Price</p>
+                    </div>
+                    <div class="4u 12u$(small)">
+                      <input id="total" value="0.00" disabled class="row-sum order-form-total">
+                    </div>
+                  </div>
                   <div class="row uniform">
 										<div class="8u 12u$(small)">
 											<label>Payment method</label>
 											<div class="select-wrapper">
 												<select name="demo-category" id="demo-category">
 													<option value="">- Choose one -</option>
-													<optgroup label="New Brunswick">
-														<option value="1">Cheque</option>
-														<option value="1">e-transfer</option>
-													</optgroup>
+                          <option value="1">Cheque</option>
+                          <option value="1">e-transfer</option>
                         </select>
                       </div>
                     </div>

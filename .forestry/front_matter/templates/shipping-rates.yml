@@ -40,8 +40,21 @@ fields:
       name: location
       label: Location
     - type: number
-      name: price
+      name: price-1000
+      label: Price / pound
+      description: " (From 1,000 - 1,999 pounds)"
+    - type: number
       label: Price / Pound
+      name: price-2000
+      description: " (From 2,000 - 4,999 pounds)"
+    - type: number
+      name: price-5000
+      label: Price / Pound
+      description: " (From 5,000 - UNKNOWN pounds)"
+    - type: number
+      name: price-X
+      label: Price / Pound
+      description: " (From UNKNOWN - UNKNOWN pounds)"
   - type: field_group_list
     name: pei
     label: PEI
@@ -50,7 +63,20 @@ fields:
       name: location
       label: Location
     - type: number
-      name: price
+      name: price-1000
+      label: Price / pound
+      description: " (From 1,000 - 1,999 pounds)"
+    - type: number
       label: Price / Pound
+      name: price-2000
+      description: " (From 2,000 - 4,999 pounds)"
+    - type: number
+      name: price-5000
+      label: Price / Pound
+      description: " (From 5,000 - UNKNOWN pounds)"
+    - type: number
+      name: price-X
+      label: Price / Pound
+      description: " (From UNKNOWN - UNKNOWN pounds)"
 data_files:
 - _data/shipping-rates.yml

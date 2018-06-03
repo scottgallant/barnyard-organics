@@ -26,6 +26,10 @@ fields:
       - type: number
         name: price_retailers
         label: Price (retailers)
+      - type: boolean
+        name: hst
+        label: HST
+        description: Charge HST with this item?
   - type: field_group
     name: bio_ag
     label: Bio-ag

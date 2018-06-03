@@ -1,0 +1,108 @@
+---
+sections: []
+pages:
+- index.md
+hide_body: true
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: ''
+- name: background
+  label: Background
+  type: file
+  hidden: false
+  default: ''
+- name: main-heading
+  label: Main heading
+  type: text
+  hidden: false
+  default: ''
+- name: ecofm-image
+  label: Ecofm image
+  type: file
+  hidden: false
+  default: ''
+- name: ecofm-heading
+  label: Ecofm heading
+  type: text
+  hidden: false
+  default: ''
+- name: ecofm-links
+  label: Ecofm links
+  type: field_group_list
+  fields:
+  - name: link
+    label: Link
+    type: select
+    hidden: false
+    default: ''
+    config:
+      source:
+        type: pages
+  - name: heading
+    label: Heading
+    type: text
+    hidden: false
+    default: ''
+  - name: description
+    label: Description
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: chicken-eggs
+  label: Chicken eggs
+  type: field_group_list
+  fields:
+  - name: link
+    label: Link
+    type: select
+    hidden: false
+    default: ''
+    config:
+      source:
+        type: pages
+  - name: heading
+    label: Heading
+    type: text
+    hidden: false
+    default: ''
+  - name: image
+    label: Image
+    type: file
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: services
+  label: Services
+  type: field_group_list
+  fields:
+  - name: link
+    label: Link
+    type: select
+    hidden: false
+    default: ''
+    config:
+      source:
+        type: pages
+  - name: heading
+    label: Heading
+    type: text
+    hidden: false
+    default: ''
+  - name: image
+    label: Image
+    type: file
+    hidden: false
+    default: ''
+  - name: description
+    label: Description
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''

@@ -1,0 +1,7 @@
+---
+sections: []
+pages: []
+fields:
+- type: text
+  name: test
+  label: test

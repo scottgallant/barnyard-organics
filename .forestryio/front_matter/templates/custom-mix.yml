@@ -1,0 +1,70 @@
+---
+sections: []
+pages:
+- _feed-products/hog-1.md
+- _feed-products/organic-soy-free-poultry-layer-mash-15.md
+- _feed-products/organic-chick-starter-mash-21.md
+- _feed-products/organic-poultry-grower-mash-18.md
+- _feed-products/organic-mixed-grain-scratch-9-5.md
+- _feed-products/turkey.md
+- _feed-products/organic-turkey-grower-23.md
+- _feed-products/chicken-1.md
+- _feed-products/hog.md
+hide_body: true
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: true
+  default: feed
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: true
+  default: ''
+- name: description
+  label: Description
+  type: textarea
+  hidden: false
+  default: ''
+- name: ingredients
+  label: Ingredients
+  type: textarea
+  hidden: false
+  default: ''
+- name: directions
+  label: Directions
+  type: textarea
+  hidden: false
+  default: ''
+- name: general-analysis
+  label: General analysis
+  type: textarea
+  hidden: false
+  default: ''
+- name: analysis-table
+  label: Analysis table
+  type: field_group_list
+  fields:
+  - name: nutrients
+    label: Nutrients
+    type: text
+    hidden: false
+    default: ''
+  - name: quantity
+    label: Quantity
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: product-photos
+  label: Product photos
+  type: image_gallery
+  hidden: false
+  default: ''

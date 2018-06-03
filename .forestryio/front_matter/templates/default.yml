@@ -1,0 +1,30 @@
+---
+sections: []
+pages:
+- about/public-speaking-workshops.md
+- about/family/sally.md
+- organic-chicken-eggs-subpage.md
+- order-from-barnyard.md
+- rent-the-chicken.md
+hide_body: false
+fields:
+- name: title
+  type: text
+  label: Title
+- name: date
+  type: datetime
+  label: Date
+  hidden: true
+- name: description
+  type: textarea
+  label: Description
+  description: This text will show up at the top of the page in larger font
+- name: permalink
+  type: text
+  label: Permalink
+  hidden: true
+- name: layout
+  type: text
+  label: Layout
+  default: default
+  hidden: true

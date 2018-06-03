@@ -36,5 +36,8 @@ fields:
     - type: number
       name: price
       label: Price
+- type: number
+  name: fuel_surcharge
+  label: Fuel Surcharge
 data_files:
 - _data/shipping-rates.yml

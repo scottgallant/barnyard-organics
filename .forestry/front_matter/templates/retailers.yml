@@ -15,3 +15,5 @@ fields:
   - type: list
     name: pei
     label: PEI
+data_files:
+- _data/retailers.yml

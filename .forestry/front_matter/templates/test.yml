@@ -5,6 +5,3 @@ fields:
 - type: text
   label: test
   name: test
-data_files:
-- _data/order-form.yml
-- _data/footer.yml

@@ -1,8 +1,0 @@
----
-sections: []
-pages: []
-hide_body: false
-fields:
-- type: text
-  label: test
-  name: test

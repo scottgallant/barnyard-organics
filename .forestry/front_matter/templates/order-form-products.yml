@@ -33,6 +33,3 @@ fields:
 - type: field_group
   name: general_seed
   label: General Seed
-data_files:
-- _data/bio-ag-order-form.yml
-- _data/general-seed-order-form.yml

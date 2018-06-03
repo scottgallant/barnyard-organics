@@ -262,18 +262,29 @@ $(function($){
   												</div>
   							</div>
   							<div class="row uniform">
-  													<div class="8u 12u$(small)">
-
-  													</div>
-                            <div class="4u 12u$(small)">
-                              <div class="order-form-total">
-                                22 units
-                                <p class="error"><em>Order must be in multiples of 20 units</em></p>
-                              </div>
-                              <input id="total" value="0.00" disabled class="row-sum order-form-total">
-
-  													</div>
+										<div class="8u 12u$(small)"></div>
+                    <div class="4u 12u$(small)">
+                      <div class="order-form-total">
+                        22 units
+                        <p class="error"><em>Order must be in multiples of 20 units</em></p>
+                      </div>
+                      <input id="total" value="0.00" disabled class="row-sum order-form-total">
+										</div>
   								</div>
+                  <div class="row uniform">
+										<div class="8u 12u$(small)">
+											<label>Payment method</label>
+											<div class="select-wrapper">
+												<select name="demo-category" id="demo-category">
+													<option value="">- Choose one -</option>
+													<optgroup label="New Brunswick">
+														<option value="1">Cheque</option>
+														<option value="1">e-transfer</option>
+													</optgroup>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
 
   								<div class="row uniform">
 
@@ -281,7 +292,6 @@ $(function($){
   										<label>Special Instructions</label>
   										<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="3"></textarea>
   									</div>
-
 
   									<div class="12u$">
   										<ul class="actions">

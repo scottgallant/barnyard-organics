@@ -1,5 +1,7 @@
 ---
 new_brunswick:
+- location: Sackville
+  price: '100'
 - location: Moncton
   price: '99.00'
 nova_scotia: []

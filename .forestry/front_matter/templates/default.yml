@@ -23,9 +23,7 @@ fields:
   default: default
   hidden: true
 pages:
-- contact.md
-- rent-the-chicken.md
-- about/public-speaking-workshops.md
-- organic-chicken-eggs-subpage.md
 - order-from-barnyard.md
-- about/family/sally.md
+- organic-chicken-eggs-subpage.md
+- rent-the-chicken.md
+- contact.md

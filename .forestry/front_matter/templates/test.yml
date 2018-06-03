@@ -7,3 +7,4 @@ fields:
   name: test
 data_files:
 - _data/order-form.yml
+- _data/footer.yml

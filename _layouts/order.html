@@ -35,7 +35,7 @@
 					<label>Company Name (for retailers only)</label>
 					<div class="select-wrapper">
 						<select name="demo-category" id="demo-category" v-model="companyName">
-							<option value="">- No Shipping -</option>
+							<option value="">Choose One</option>
 							{% for element in site.data.retailers %} 
 							<optgroup label="{{element[0]}}">
 								{% for retailer in element[1] %}
@@ -151,7 +151,7 @@
 							<p class="order-form-total" style="text-align: left;">Total Price</p>
 						</div>
 						<div class="4u 12u$(small)">
-							<input id="total" value="0.00" disabled class="row-sum order-form-total">
+							<input :value="grandTotal" disabled class="row-sum order-form-total">
 						</div>
 					</div>
 					<div class="row uniform">

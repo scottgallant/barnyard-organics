@@ -96,11 +96,29 @@ var vm = new Vue({
     bioAgProducts: [],
     barnyardComputedTotalPrice: [],
     generalSeedComputedTotalPrice: [],
-    bioAgComputedTotalPrice: []
+    bioAgComputedTotalPrice: [],
+    grandTotal: 0
+  },
+  watch: {
+    barnyardComputedTotalPrice: function() {
+      this.computeGrandTotal()
+    },
+    generalSeedComputedTotalPrice: function() {
+      this.computeGrandTotal()
+    },
+    bioAgComputedTotalPrice: function() {
+      this.computeGrandTotal()
+    }
   },
   methods: {
-    isRetail() {
+    isRetail: function() {
       return this.purchaser === 'retail' && this.companyName && this.companyName.trim().length > 0
+    },
+    computeGrandTotal: function() {
+      this.grandTotal =   
+      this.barnyardComputedTotalPrice.reduce((sum, price) => price ? sum+price : sum, 0) + 
+      this.generalSeedComputedTotalPrice.reduce((sum, price) => price ? sum+price : sum, 0) + 
+      this.bioAgComputedTotalPrice.reduce((sum, price) => price ? sum+price : sum, 0)
     }
   }, 
   created: function() {

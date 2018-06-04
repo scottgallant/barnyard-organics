@@ -100,6 +100,7 @@ var vm = new Vue({
     grandTotal: 0
   },
   watch: {
+    //using watch because computed properties can't detect modifications in arrays.
     barnyardComputedTotalPrice: function() {
       this.computeGrandTotal()
     },

@@ -1,336 +1,277 @@
-{% include head.html %}
+{% include head.html %} 
 {% include header.html %}
+
 <!-- Main -->
-<script
-src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
-crossorigin="anonymous"></script>
-<script type="text/javascript" src="{{ site.baseurl }}/assets/js/jquery.formatCurrency-1.4.0.min.js">
-
-</script>
-<script>
-$(function($){
-  $( "#qty1" ).keyup(function() {
-    var str = $('#priceTon').text();
-    var priceTon1 = parseFloat(str.replace(/\s/g, "").replace(",", "").replace("$", ""));
-    var currentPrice = priceTon1 * parseFloat($('#qty1').val());
-    $('#code1').val(currentPrice.toFixed(2));
-  });
-
-  $( "#qty2" ).keyup(function() {
-    var str = $('#priceTon2').text();
-    var priceTon1 = parseFloat(str.replace(/\s/g, "").replace(",", "").replace("$", ""));
-    var currentPrice = priceTon1 * parseFloat($('#qty2').val());
-    $('#code2').val(currentPrice.toFixed(2));
-  });
 
 
-  $( "#qty1" ).keyup(function() {
-    $('#orderForm').each(function(){
-      var totalPrice = 0;
-      $(this).find('input.rowTotal').each(function(i,n){
-        totalPrice += parseInt($(n).val(),10);
-      });
-      console.log(totalPrice);
-      $('#total').val(totalPrice.toFixed(2)).formatCurrency();
-    });
-  });
-})
-</script>
+{% assign vuejs = 'vue.js' %}
+
+{% if jekyll.environment == "production" %} 
+	{% assign vuejs = 'vue.min.js' %} 
+{% endif %}
 
 <section id="main" class="wrapper sidebar left">
 	<div class="inner">
-			<header class="major">
-				<h1>{{ page.title | escape }}</h1>
-        <p class="subheading">{{ page.description }}</p>
-			</header>
-      <!-- Sidebar -->
-      {% include feed-nav.html %}
-      <div class="content">
-  			<div class="row uniform pricing-table">
+		<header class="major">
+			<h1>{{ page.title | escape }}</h1>
+			<p class="subheading">{{ page.description }}</p>
+		</header>
+		<!-- Sidebar -->
+		{% include feed-nav.html %}
+		<div class="content">
+			<div class="row uniform pricing-table">
 
-          <div class="4u 12u$(small)">
-  					<input type="radio" id="demo-priority-normal" name="demo-priority" checked>
-  					<label for="demo-priority-normal">Farm Purchaser</label>
-  				</div>
-  				<div class="4u 12u$(small)">
-  					<input type="radio" id="demo-priority-low" name="demo-priority">
-  					<label for="demo-priority-low">Retail Purchaser</label>
-  				</div>
+				<div class="4u 12u$(small)">
+					<input type="radio" id="demo-priority-normal" name="demo-priority" value="farm" v-model="purchaser" checked>
+					<label for="demo-priority-normal">Farm Purchaser</label>
+				</div>
+				<div class="4u 12u$(small)">
+					<input type="radio" id="demo-priority-low" name="demo-priority" value="retail" v-model="purchaser">
+					<label for="demo-priority-low">Retail Purchaser</label>
+				</div>
 
-          <div class="8u$ 12u$(small)">
-            <label>Company Name (for retailers only)</label>
-            <div class="select-wrapper">
-              <select name="demo-category" id="demo-category">
-                <option value="">- No Shipping -</option>
-                <optgroup label="New Brunswick">
-                  <option value="1">Co-op</option>
-                </optgroup>
-                <optgroup label="Prince Edward Island">
-                  <option value="1">Example</option>
-                </optgroup>
-                <optgroup label="Nova Scotia">
-                  <option value="1">Example</option>
-                </optgroup>
-              </select>
-            </div>
-          </div>
+				<!-- retailers only -->
+				<div class="8u$ 12u$(small)" v-if="purchaser === 'retail'">
+					<label>Company Name (for retailers only)</label>
+					<div class="select-wrapper">
+						<select name="demo-category" id="demo-category" v-model="companyName">
+							<option value="">- No Shipping -</option>
+							{% for element in site.data.retailers %} 
+							<optgroup label="{{element[0]}}">
+								{% for retailer in element[1] %}
+									<option value="{{retailer}}">{{retailer}}</option>
+								{% endfor %}
+							</optgroup>
+						{% endfor %}
+						</select>
+					</div>
+				</div>
 
-          <div class="12u$ 12u$(small)">
-  					<label for="">Company Name (for non-retailers)</label>
-  					<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-  				</div>
+				<div class="12u$ 12u$(small)" v-if="purchaser === 'farm'">
+					<label for="">Company Name (for non-retailers)</label>
+					<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+				</div>
 
-  				<div class="6u 12u$(small)">
-  					<label for="">First Name</label>
-  					<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-  				</div>
-  				<div class="6u$ 12u$(small)">
-  					<label for="">Last Name</label>
-  					<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-  				</div>
-  				<div class="12u$ 12u$(small)">
-  					<label for="">Email</label>
-  					<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-  				</div>
-  				<div class="12u$ 12u$(small)">
-  					<label for="">Phone Number</label>
-  					<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-  				</div>
-  				<div class="12u$"><hr></div>
-  				<form id="orderForm" action="https://formspree.io/info@barnyardorganics.com" method="post">
-  					<input type="hidden" name="_next" value="/index.html" />
-  					<input type="hidden" name="_subject" value="New submission!" />
-  					<input type="hidden" name="_format" value="plain" />
-  					<input type="text" name="_gotcha" style="display:none" />
-                  <div><p><a href="#">Barnyard Organics Procucts <i class="icon fa-chevron-down"></i></a></p></div>
-  								<table class="non-striped">
-  									<thead>
-  										<tr>
-  											<th>Products</th>
-  											<th width="15%">Quantity (25Kg Bags)</th>
-  											<!-- <th width="15%"></th> -->
-  											<th>Price</th>
-  										</tr>
-  									</thead>
-  									<tbody>
-  										<tr>
-  											<td>
-  												<p style="margin-bottom: 0;">Organic Poultry Layer Mash 17%</p>
-                          <p style="margin-top: .5em; margin-bottom: .5em;" class="help-block">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-  											</td>
-  											<td width="15%">
-  												<input type="number" name="quantity" id="qty1">
-  												<span class="help-block" id="priceTon">$28.73<small>/bag</small></span>
-  											</td>
-  											<!-- <td width="15%">
-  												<input type="number" name="quantity">
-  												<span class="help-block" id="priceBag">$28.73<small>/bag</small></span>
-  											</td> -->
-  											<td width="15%">
-  												<input id="code1" value="0.00" disabled class="row-sum rowTotal">
-  											</td>
-  										</tr>
+				<div class="6u 12u$(small)">
+					<label for="">First Name</label>
+					<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+				</div>
+				<div class="6u$ 12u$(small)">
+					<label for="">Last Name</label>
+					<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+				</div>
+				<div class="12u$ 12u$(small)">
+					<label for="">Email</label>
+					<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+				</div>
+				<div class="12u$ 12u$(small)">
+					<label for="">Phone Number</label>
+					<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+				</div>
+				<div class="12u$">
+					<hr>
+				</div>
+				<form id="orderForm" action="https://formspree.io/info@barnyardorganics.com" method="post">
+					<input type="hidden" name="_next" value="/index.html" />
+					<input type="hidden" name="_subject" value="New submission!" />
+					<input type="hidden" name="_format" value="plain" />
+					<input type="text" name="_gotcha" style="display:none" />
+					<div>
+						<p>
+							<a href="#" @click.prevent="toggleBarnyard()">Barnyard Organics Products
+								<i class="icon" :class="barnyardOrganicsProductsClass"></i>
+							</a>
+						</p>
+					</div>
+					
+					<table class="non-striped" style="display: none" v-show="barnyardOrganicsProductsExpanded">
+						<thead>
+							<tr>
+								<th>Products</th>
+								<th width="15%">Quantity (25Kg Bags)</th>
+								<!-- <th width="15%"></th> -->
+								<th>Price</th>
+							</tr>
+						</thead>
+						<tbody>
+						
+							<tr v-for="(product, index) in barnyardOrganicsProducts">
+									<td>
+										<p style="margin-bottom: 0;">((product.name))</p>
+										<p style="margin-top: .5em; margin-bottom: .5em;" class="help-block">((product.description))</p>
+									</td>
+									<td width="15%">
+										<input type="number" name="quantity" v-model="product.quantity">
+										<span class="help-block" id="priceTon" v-if="!isRetail()">$(( product.price ))
+											<small>/bag</small>
+										</span>
+										<span class="help-block" id="priceTon" v-if="isRetail()">$(( product.price_retailers ))
+												<small>/bag</small>
+											</span>
+									</td>
+									<td width="15%">
+										<input v-model="barnyardComputedTotalPrice[index]" disabled class="row-sum rowTotal">
+									</td>
+								</tr>
+						</tbody>
+						<tfoot>
+						</tfoot>
+					</table>
+				
+					<div>
+						<p>
+							<a href="#" @click.prevent="toggleGeneral()">General Seed Procucts
+									<i class="icon" :class="generalSeedProductsClass"></i>
+							</a>
+						</p>
+					</div>
 
-  										<tr>
-  											<td>
-  												<p>Soy Free Organic Poultry Layer Mash 15%</p>
-  											</td>
-  											<td width="15%">
-  												<input type="number" name="quantity" id="qty2">
-  												<span class="help-block" id="priceTon2">$28.73<small>/bag</small></span>
-  											</td>
-  											<!-- <td width="15%">
-  												<input type="number" name="quantity">
-  												<span class="help-block" id="priceBag">$28.95<small>/bag</small></span>
-  											</td> -->
-  											<td width="15%">
-  												<input id="code2" value="0.00" disabled class="row-sum">
-  											</td>
-  										</tr>
-  										<tr>
-  											<td>
-  												<p>Organic Poultry Grower 18%</p>
-  											</td>
-  											<td width="15%">
-  												<input type="number" name="quantity" id="qty2">
-  												<span class="help-block" id="priceTon2">$28.73<small>/bag</small></span>
-  											</td>
-  											<!-- <td width="15%">
-  												<input type="number" name="quantity">
-  												<span class="help-block" id="priceBag">$28.95<small>/bag</small></span>
-  											</td> -->
-  											<td width="15%">
-  												<input id="code2" value="0.00" disabled class="row-sum">
-  											</td>
-  										</tr>
-  										<tr>
-  											<td>
-  												<p>Organic Poultry Starter 21%</p>
-  											</td>
-  											<td width="15%">
-  												<input type="number" name="quantity" id="qty2">
-  												<span class="help-block" id="priceTon2">$28.73<small>/bag</small></span>
-  											</td>
-  											<!-- <td width="15%">
-  												<input type="number" name="quantity">
-  												<span class="help-block" id="priceBag">$28.95<small>/bag</small></span>
-  											</td> -->
-  											<td width="15%">
-  												<input id="code2" value="0.00" disabled class="row-sum">
-  											</td>
-  										</tr>
-  										<tr>
-  											<td>
-  												<p>Organic Hog Grower 14%</p>
-  											</td>
-  											<td width="15%">
-  												<input type="number" name="quantity" id="qty2">
-  												<span class="help-block" id="priceTon2">$28.73<small>/bag</small></span>
-  											</td>
-  											<!-- <td width="15%">
-  												<input type="number" name="quantity">
-  												<span class="help-block" id="priceBag">$28.95<small>/bag</small></span>
-  											</td> -->
-  											<td width="15%">
-  												<input id="code2" value="0.00" disabled class="row-sum">
-  											</td>
-  										</tr>
-  										<tr>
-  											<td>
-  												<p>Organic Turkey Starter 26%</p>
-  											</td>
-  											<td width="15%">
-  												<input type="number" name="quantity" id="qty2">
-  												<span class="help-block" id="priceTon2">$28.73<small>/bag</small></span>
-  											</td>
-  											<!-- <td width="15%">
-  												<input type="number" name="quantity">
-  												<span class="help-block" id="priceBag">$28.95<small>/bag</small></span>
-  											</td> -->
-  											<td width="15%">
-  												<input id="code2" value="0.00" disabled class="row-sum">
-  											</td>
-  										</tr>
-  										<tr>
-  											<td>
-  												<p>Organic Turkey Grower 23%</p>
-  											</td>
-  											<td width="15%">
-  												<input type="number" name="quantity" id="qty2">
-  												<span class="help-block" id="priceTon2">$28.73<small>/bag</small></span>
-  											</td>
-  											<!-- <td width="15%">
-  												<input type="number" name="quantity">
-  												<span class="help-block" id="priceBag">$28.95<small>/bag</small></span>
-  											</td> -->
-  											<td width="15%">
-  												<input id="code2" value="0.00" disabled class="row-sum">
-  											</td>
-  										</tr>
-  										<tr>
-  											<td>
-  												<p>Mixed Grain Scratch 9.5% no mineral</p>
-  											</td>
-  											<td width="15%">
-  												<input type="number" name="quantity" id="qty2">
-  												<span class="help-block" id="priceTon2">$28.73<small>/bag</small></span>
-  											</td>
-  											<!-- <td width="15%">
-  												<input type="number" name="quantity">
-  												<span class="help-block" id="priceBag">$28.95<small>/bag</small></span>
-  											</td> -->
-  											<td width="15%">
-  												<input id="code2" value="0.00" disabled class="row-sum">
-  											</td>
-  										</tr>
-  									</tbody>
-  									<tfoot>
-  									</tfoot>
-  								</table>
-                  <div><p><a href="#">General Seed Procucts <i class="icon fa-chevron-down"></i></a></p></div>
-                  <div><p><a href="#">Bio-Ag Procucts <i class="icon fa-chevron-down"></i></a></p></div>
-                  <div class="row uniform">
-  										<div class="8u 12u$(small)"><p class="order-form-total" style="text-align: left;">Total Quantity</p></div>
-                      <div class="4u 12u$(small)">
-                        <div class="order-form-total">
-                          24 items
-                          <p class="error"><em>If shipping is required, order must be in multiples of 20 items (1/2 tonnes)</em></p>
-                        </div>
-  										</div>
-    								</div>
-  								<div class="row uniform">
-  										<div class="8u 12u$(small)">
-  											<label>Shipping</label>
-  											<div class="select-wrapper">
-  												<select name="demo-category" id="demo-category">
-  													<option value="">Pick up at Farm (no shipping)</option>
-  													<optgroup label="New Brunswick">
-  														<option value="1">Moncton</option>
-  														<option value="1">Fredericton</option>
-  														<option value="1">Other</option>
-  													</optgroup>
-  													<optgroup label="Prince Edward Island">
-  														<option value="1">Charlottetown</option>
-  														<option value="1">Other</option>
-  													</optgroup>
-  													<optgroup label="Nova Scotia">
-  														<option value="1">Halifax</option>
-  														<option value="1">Other</option>
-  													</optgroup>
-  												</select>
-  											</div>
-                        <p class="help-block">If shipping is required, order must be in multiples of 20 items (1/2 tonnes)</p>
-  										</div>
-  										<div class="4u$ 12u$(small)">
-  											<label for="">Shipping Price</label>
-  											<input type="text" name="" value="">
-  										</div>
-  							</div>
-                <div class="row uniform">
-                    <div class="8u 12u$(small)">
-                      <p class="order-form-total" style="text-align: left;">HST</p>
-                    </div>
-                    <div class="4u 12u$(small)">
-                      <input id="total" value="0.00" disabled class="row-sum order-form-total">
-                    </div>
-                    <div class="8u 12u$(small)">
-                      <p class="order-form-total" style="text-align: left;">Total Price</p>
-                    </div>
-                    <div class="4u 12u$(small)">
-                      <input id="total" value="0.00" disabled class="row-sum order-form-total">
-                    </div>
-                  </div>
-                  <div class="row uniform">
-										<div class="8u 12u$(small)">
-											<label>Payment method</label>
-											<div class="select-wrapper">
-												<select name="demo-category" id="demo-category">
-													<option value="">- Choose one -</option>
-                          <option value="1">Cheque</option>
-                          <option value="1">e-transfer</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
+					<table class="non-striped" style="display: none" v-show="generalSeedProductsExpanded" v-if="generalSeedProducts.length > 0">
 
-  								<div class="row uniform">
+							<thead>
+								<tr>
+									<th>Products</th>
+									<th width="15%">Quantity (25Kg Bags)</th>
+									<!-- <th width="15%"></th> -->
+									<th>Price</th>
+								</tr>
+							</thead>
+							<tbody>
+							
+								<tr v-for="(product, index) in generalSeedProducts">
+										<td>
+											<p style="margin-bottom: 0;">((product.name))</p>
+											<p style="margin-top: .5em; margin-bottom: .5em;" class="help-block">((product.description))</p>
+										</td>
+										<td width="15%">
+											<input type="number" name="quantity" v-model="product.quantity">
+											<span class="help-block" id="priceTon" v-if="!isRetail()">$(( product.price ))
+												<small>/bag</small>
+											</span>
+											<span class="help-block" id="priceTon" v-if="isRetail()">$(( product.price_retailers ))
+													<small>/bag</small>
+												</span>
+										</td>
+										<td width="15%">
+											<input v-model="barnyardComputedTotalPrice[index]" disabled class="row-sum rowTotal">
+										</td>
+									</tr>
+							</tbody>
+							<tfoot>
+							</tfoot>
+						</table>
+					<div v-else>
+						Sorry, there are no products in this category.
+					</div>
 
-  									<div class="12u$" style="margin-top: 3em;">
-  										<label>Special Instructions</label>
-  										<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="3"></textarea>
-  									</div>
+					<div>
+						<p>
+							<a href="#">Bio-Ag Procucts
+								<i class="icon fa-chevron-down"></i>
+							</a>
+						</p>
+					</div>
+					<div class="row uniform">
+						<div class="8u 12u$(small)">
+							<p class="order-form-total" style="text-align: left;">Total Quantity</p>
+						</div>
+						<div class="4u 12u$(small)">
+							<div class="order-form-total">
+								24 items
+								<p class="error">
+									<em>If shipping is required, order must be in multiples of 20 items (1/2 tonnes)</em>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="row uniform">
+						<div class="8u 12u$(small)">
+							<label>Shipping</label>
+							<div class="select-wrapper">
+								<select name="demo-category" id="demo-category">
+									<option value="">Pick up at Farm (no shipping)</option>
+									<optgroup label="New Brunswick">
+										<option value="1">Moncton</option>
+										<option value="1">Fredericton</option>
+										<option value="1">Other</option>
+									</optgroup>
+									<optgroup label="Prince Edward Island">
+										<option value="1">Charlottetown</option>
+										<option value="1">Other</option>
+									</optgroup>
+									<optgroup label="Nova Scotia">
+										<option value="1">Halifax</option>
+										<option value="1">Other</option>
+									</optgroup>
+								</select>
+							</div>
+							<p class="help-block">If shipping is required, order must be in multiples of 20 items (1/2 tonnes)</p>
+						</div>
+						<div class="4u$ 12u$(small)">
+							<label for="">Shipping Price</label>
+							<input type="text" name="" value="">
+						</div>
+					</div>
+					<div class="row uniform">
+						<div class="8u 12u$(small)">
+							<p class="order-form-total" style="text-align: left;">HST</p>
+						</div>
+						<div class="4u 12u$(small)">
+							<input id="total" value="0.00" disabled class="row-sum order-form-total">
+						</div>
+						<div class="8u 12u$(small)">
+							<p class="order-form-total" style="text-align: left;">Total Price</p>
+						</div>
+						<div class="4u 12u$(small)">
+							<input id="total" value="0.00" disabled class="row-sum order-form-total">
+						</div>
+					</div>
+					<div class="row uniform">
+						<div class="8u 12u$(small)">
+							<label>Payment method</label>
+							<div class="select-wrapper">
+								<select name="demo-category" id="demo-category">
+									<option value="">- Choose one -</option>
+									<option value="1">Cheque</option>
+									<option value="1">e-transfer</option>
+								</select>
+							</div>
+						</div>
+					</div>
 
-  									<div class="12u$">
-  										<ul class="actions">
-  											<li><input type="submit" value="Submit Order" class="special" /></li>
-  										</ul>
-  									</div>
-  								</div>
+					<div class="row uniform">
 
-  							</form>
+						<div class="12u$" style="margin-top: 3em;">
+							<label>Special Instructions</label>
+							<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="3"></textarea>
+						</div>
 
-  		</div><!-- .row -->
-    </div><!-- .content -->
-</div><!-- .inner -->
+						<div class="12u$">
+							<ul class="actions">
+								<li>
+									<input type="submit" value="Submit Order" class="special" />
+								</li>
+							</ul>
+						</div>
+					</div>
+
+				</form>
+
+			</div>
+			<!-- .row -->
+		</div>
+		<!-- .content -->
+	</div>
+	<!-- .inner -->
 </section>
+
+<script>
+		var _orderForm = {{site.data.order-form | jsonify }}
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/{{vuejs}}"></script>
+
+<!-- <script type="text/javascript" src="{{ site.baseurl }}/assets/js/jquery.formatCurrency-1.4.0.min.js">
+</script> -->
+
+<script src="{{site.baseurl}}/assets/js/order.js"></script>

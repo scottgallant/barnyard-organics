@@ -2,17 +2,17 @@
 hide_body: false
 is_partial: false
 fields:
-- type: number
-  name: fuel_surcharge
-  label: Fuel Surcharge
-- type: number
-  name: fuel_surcharge_10000
-  label: Fuel Surcharge
-  description: For shipments greater than 10,000 lbs
 - type: field_group
   label: Shipping Rates
   name: shipping-rates
   fields:
+  - type: number
+    name: fuel_surcharge
+    label: Fuel Surcharge
+  - type: number
+    name: fuel_surcharge_10000
+    label: Fuel Surcharge
+    description: For shipments greater than 10,000 lbs
   - type: field_group_list
     name: new_brunswick
     label: New Brunswick
@@ -33,9 +33,9 @@ fields:
       label: Price / 100 pounds
       description: For shipments between 5,000 - 1,999 pounds
     - type: number
-      name: price-X
+      name: price-10000
       label: Price / 100 pounds
-      description: For shipments between X - Y pounds
+      description: For shipments between 10,000 - X pounds
   - type: field_group_list
     name: nova_scotia
     label: Nova Scotia

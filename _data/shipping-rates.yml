@@ -1,7 +1,6 @@
 ---
 new_brunswick:
 - location: Example place
-  price: '100'
   price-1000: '5.25'
   price-2000: '3.33'
   price-5000: '3.01'

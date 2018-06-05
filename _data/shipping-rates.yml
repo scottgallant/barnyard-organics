@@ -1,9 +1,11 @@
 ---
 new_brunswick:
 - location: Example place
-  price-1000: '5.25'
-  price-2000: '3.33'
-  price-5000: '3.01'
-  price-X: '2.55'
+  price-1000: 5.25
+  price-2000: 3.33
+  price-5000: 3.01
+  price-X: 2.55
 nova_scotia: []
 pei: []
+fuel_surcharge: 1.224
+fuel_surcharge_10000: '1.50'

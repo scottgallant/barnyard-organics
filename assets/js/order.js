@@ -2,9 +2,10 @@ Vue.component('prices-table', {
   props: [
     'products',
     'isRetail',
-    'title'
-  ], 
-  data: function() {
+    'title',
+    'hst-tax-rate'
+  ],
+  data: function () {
     return {
       productsExpanded: false
     }
@@ -16,13 +17,18 @@ Vue.component('prices-table', {
         'fa-chevron-down': !this.productsExpanded
       }
     },
-    computedTotalPrice: function() {
+    computedTotalPrice: function () {
       const computedTotalPrice = this.products.map(product => {
-        if (!product.quantity) return null;
+        let price = 0; 
+        if (!product.quantity) return {price, hst: 0};
         if (this.isRetail()) {
-          return product.quantity * product.price_retailers
+          price = product.quantity * product.price_retailers
         } else {
-          return product.quantity * product.price 
+          price = product.quantity * product.price
+        }
+        return {
+          price, 
+          hst: product.hst ? price*this.hstTaxRate : 0
         }
       });
       this.$emit('computed-total-price', computedTotalPrice)
@@ -30,7 +36,7 @@ Vue.component('prices-table', {
     }
   },
   methods: {
-    toggle: function() {
+    toggle: function () {
       this.productsExpanded = !this.productsExpanded
     }
   },
@@ -45,7 +51,7 @@ Vue.component('prices-table', {
   </div>
 
   <div v-show="productsExpanded && products.length == 0">
-    Sorry, there are no products available to buy.
+    <p>Sorry, there are no products available to buy.</p>
   </div>
 
   <table class="non-striped" style="display: none" v-show="productsExpanded && products.length > 0">
@@ -73,7 +79,7 @@ Vue.component('prices-table', {
               </span>
           </td>
           <td width="15%">
-            <input v-model="computedTotalPrice[index]" disabled class="row-sum rowTotal">
+            <input v-model="computedTotalPrice[index].price" disabled class="row-sum rowTotal">
           </td>
         </tr>
     </tbody>
@@ -97,34 +103,64 @@ var vm = new Vue({
     barnyardComputedTotalPrice: [],
     generalSeedComputedTotalPrice: [],
     bioAgComputedTotalPrice: [],
-    grandTotal: 0
+    grandTotal: 0,
+    hstTaxRate: 0
+  },
+  computed: {
+    totalQuantity: function () {
+
+      return this.barnyardOrganicsProducts
+        .concat(this.generalSeedProducts)
+        .concat(this.bioAgProducts)
+        .reduce(function (sum, product) {
+          if (!product || !product.quantity) return sum
+          return sum + Number(product.quantity)
+        }, 0)
+    }, 
+    isOrderAllowed: function() {
+      return (this.totalQuantity != 0 && this.totalQuantity % 20 === 0) 
+    },
+    hstTax: function() {
+      return this.barnyardComputedTotalPrice
+      .concat(this.generalSeedComputedTotalPrice)
+      .concat(this.bioAgComputedTotalPrice)
+      .reduce(function (sum, prices) {
+        if (!prices || !prices.hst) return sum
+        return sum + (prices.hst/100)
+      }, 0);
+    }
   },
   watch: {
     //using watch because computed properties can't detect modifications in arrays.
-    barnyardComputedTotalPrice: function() {
+    barnyardComputedTotalPrice: function () {
       this.computeGrandTotal()
     },
-    generalSeedComputedTotalPrice: function() {
+    generalSeedComputedTotalPrice: function () {
       this.computeGrandTotal()
     },
-    bioAgComputedTotalPrice: function() {
+    bioAgComputedTotalPrice: function () {
       this.computeGrandTotal()
     }
   },
   methods: {
-    isRetail: function() {
+    isRetail: function () {
       return this.purchaser === 'retail' && this.companyName && this.companyName.trim().length > 0
     },
-    computeGrandTotal: function() {
-      this.grandTotal =   
-      this.barnyardComputedTotalPrice.reduce((sum, price) => price ? sum+price : sum, 0) + 
-      this.generalSeedComputedTotalPrice.reduce((sum, price) => price ? sum+price : sum, 0) + 
-      this.bioAgComputedTotalPrice.reduce((sum, price) => price ? sum+price : sum, 0)
+    computeGrandTotal: function () {
+      this.grandTotal =
+        this.barnyardComputedTotalPrice
+        .concat(this.generalSeedComputedTotalPrice)
+        .concat(this.bioAgComputedTotalPrice)
+        .reduce(function (sum, prices) {
+          if (!prices || !prices.price) return sum
+          return sum + prices.price
+        }, 0);
     }
-  }, 
-  created: function() {
+  },
+  created: function () {
     this.barnyardOrganicsProducts = _orderForm.barnyard_organics.products
     this.generalSeedProducts = _orderForm.general_seed.products
     this.bioAgProducts = _orderForm.bio_ag.products
+    this.hstTaxRate = Number(_orderForm.hst)
   }
 })

@@ -1,11 +1,16 @@
 ---
 new_brunswick:
-- location: Example place
+- location: Westmorland & Albert Counties
   price-1000: 5.25
   price-2000: 3.33
   price-5000: 3.01
   price-10000: 2.55
-nova_scotia: []
+nova_scotia:
+- location: Cumberland, Colchester and Pictou Counties
+  price-2000: '6.00'
+  price-5000: '5.40'
+  price-X: '4.50'
+  price-1000: 6.45
 pei: []
 fuel_surcharge: 1.224
 fuel_surcharge_10000: '1.50'

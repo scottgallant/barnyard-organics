@@ -173,7 +173,7 @@ var vm = new Vue({
       arrayOfPrices.sort((item1, item2) => {
         return item1.key - item2.key
       })
-      
+
       // compare the total weight against the key. 
       // If the weight is more than the key, update the priceToReturn.
       // if the weight is greater than the key, we skip the check 
@@ -184,22 +184,22 @@ var vm = new Vue({
         if (this.weightTotal < elem.key) return;
       })
 
-      const fuelSurcharge = this.weightTotal < 10000 
-      ? this.fuelSurcharge.fuelSurcharge 
-      : this.fuelSurcharge.fuelSurcharge1000
-      
+      const fuelSurcharge = this.weightTotal < 10000 ?
+        this.fuelSurcharge.fuelSurcharge :
+        this.fuelSurcharge.fuelSurcharge1000
+
       // Now we finally calculate the shipping for this weight
-      const priceToReturn = ((priceFor100Lbs * this.weightTotal)/100)*fuelSurcharge
+      const priceToReturn = ((priceFor100Lbs * this.weightTotal) / 100) * fuelSurcharge
 
       console.log("----------------------------------")
       console.log("total weight: ", this.weightTotal)
       console.log("price per 100 lbs: ", priceFor100Lbs),
-      console.log("shippingPrice: ", priceToReturn),
-      console.log("fuelSurcharge: ", fuelSurcharge)
+        console.log("shippingPrice: ", priceToReturn),
+        console.log("fuelSurcharge: ", fuelSurcharge)
       return priceToReturn;
     },
     shippingHST() {
-      const shippingHST = this.shippingPrice*this.hstTaxRate/100
+      const shippingHST = this.shippingPrice * this.hstTaxRate / 100
       return shippingHST
     },
     hstTax: function () {
@@ -210,11 +210,11 @@ var vm = new Vue({
           if (!prices || !prices.hst) return sum
           return sum + (prices.hst / 100)
         }, 0);
-        console.log("HST for products: ", hstForProducts)
-        console.log("HST for Shipping: ", this.shippingHST)
-        const hstTotal = hstForProducts + this.shippingHST
-        console.log("HST total: ", hstTotal)
-        return hstTotal
+      console.log("HST for products: ", hstForProducts)
+      console.log("HST for Shipping: ", this.shippingHST)
+      const hstTotal = hstForProducts + this.shippingHST
+      console.log("HST total: ", hstTotal)
+      return hstTotal
     },
   },
   watch: {
@@ -248,7 +248,12 @@ var vm = new Vue({
           if (!prices || !prices.price) return sum
           return sum + prices.price
         }, 0);
-        const grandTotal = itemsTotal + this.shippingPrice + this.hstTax
+      const grandTotal = itemsTotal + this.shippingPrice + this.hstTax
+      console.log(grandTotal)
+      
+      console.log(new Intl.NumberFormat('en-CA', { style: 'currency', currency: 'CAD' }).format(grandTotal));
+      
+      this.grandTotal = grandTotal.toLocaleString("en-CA")
     }
   },
   created: function () {

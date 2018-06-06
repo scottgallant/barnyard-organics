@@ -119,7 +119,7 @@
 						<div class="8u 12u$(small)">
 							<label>Shipping</label>
 							<div class="select-wrapper">
-								<select name="demo-category" v-model="shipping">
+								<select name="demo-category" v-model="selectedShipping">
 									<option value="pick_at_farm">Pick up at Farm (no shipping)</option>
 									<optgroup label="New Brunswick">
 										{% for element in site.data.shipping-rates.new_brunswick %}
@@ -202,7 +202,7 @@
 		var _orderForm = {{ site.data.order-form | jsonify }}
 		var _shippingRates = {{ site.data.shipping-rates | jsonify }}
 </script>
-<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.10/lodash.min.js"></script>
+
 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/{{vuejs}}"></script>
 
 <script src="{{site.baseurl}}/assets/js/order.js"></script>

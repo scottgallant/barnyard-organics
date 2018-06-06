@@ -9,13 +9,13 @@ nova_scotia:
 - location: Cumberland, Colchester and Pictou Counties
   price-2000: '6.00'
   price-5000: '5.40'
-  price-X: '4.50'
+  price-10000: '4.50'
   price-1000: 6.45
 pei:
 - location: Prince
   price-1000: 3.05
   price-2000: 3.0
   price-5000: 2.5
-  price-X: 2
+  price-10000: 2
 fuel_surcharge: 1.224
 fuel_surcharge_10000: '1.50'

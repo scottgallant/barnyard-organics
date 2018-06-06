@@ -1,6 +1,10 @@
 ---
 barnyard_organics:
   products:
+  - name: Organic Poultry Starter (21%)
+    description: ''
+    price: 30.95
+    price_retailers: ''
   - name: Organic Soy-Free Poultry Layer Mash (15%)
     description: ''
     price: 30.98

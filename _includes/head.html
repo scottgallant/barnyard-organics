@@ -6,10 +6,10 @@
 	  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 	  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	  <!--[if lte IE 8]><script src="{{ site.baseurl }}assets/js/ie/html5shiv.js"></script><![endif]-->
-	  <link rel="stylesheet" href="{{ "assets/main.css" | prepend:site.baseurl }}">
-	  <!--[if lte IE 8]><link rel="stylesheet" href="{{ site.baseurl }}assets/css/ie8.css" /><![endif]-->
-	  <!--[if lte IE 9]><link rel="stylesheet" href="{{ site.baseurl }}assets/css/ie9.css" /><![endif]-->
+	  <!--[if lte IE 8]><script src="{{ site.baseurl }}/assets/js/ie/html5shiv.js"></script><![endif]-->
+	  <link rel="stylesheet" href="{{ "/assets/main.css" | prepend:site.baseurl }}">
+	  <!--[if lte IE 8]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie8.css" /><![endif]-->
+	  <!--[if lte IE 9]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie9.css" /><![endif]-->
 
 	  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 	  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">

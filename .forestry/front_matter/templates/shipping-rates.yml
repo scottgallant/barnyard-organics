@@ -77,10 +77,10 @@ fields:
     - type: number
       name: price-5000
       label: Price / 100 pounds
-      description: For shipments between 5,000 - X pounds
+      description: For shipments between 5,000 - 9,999 pounds
     - type: number
       name: price-X
       label: Price / 100 pounds
-      description: For shipments between X - Y pounds
+      description: For shipments between 10,000 - X pounds
 data_files:
 - _data/shipping-rates.yml

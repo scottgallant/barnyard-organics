@@ -1,6 +1,9 @@
 ---
 barnyard_organics:
   products:
+  - name: Organic Turkey Starter (26%)
+    description: ''
+    price: 34.69
   - name: Organic Hog Grower (14%)
     description: ''
     price: 23.65

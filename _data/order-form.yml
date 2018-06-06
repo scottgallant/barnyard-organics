@@ -1,6 +1,9 @@
 ---
 barnyard_organics:
   products:
+  - name: Mixed Grain Scratch (9.5%)
+    description: ''
+    price: 20.84
   - name: Organic Turkey Grower (23%)
     description: ''
     price: 31.77

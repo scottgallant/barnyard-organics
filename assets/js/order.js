@@ -1,3 +1,5 @@
+const KG_TO_LBS = 55.1156
+
 Vue.component('prices-table', {
   props: [
     'products',
@@ -20,7 +22,7 @@ Vue.component('prices-table', {
     computedTotalPrice: function () {
       const computedTotalPrice = this.products.map(product => {
         let price = 0; 
-        if (!product.quantity) return {price, hst: 0};
+        if (!product.quantity) return {price, hst: 0, weight: 0};
         if (this.isRetail()) {
           price = product.quantity * product.price_retailers
         } else {
@@ -28,7 +30,8 @@ Vue.component('prices-table', {
         }
         return {
           price, 
-          hst: product.hst ? price*this.hstTaxRate : 0
+          hst: product.hst ? price*this.hstTaxRate : 0,
+          weight: product.quantity * KG_TO_LBS
         }
       });
       this.$emit('computed-total-price', computedTotalPrice)
@@ -58,7 +61,7 @@ Vue.component('prices-table', {
     <thead>
       <tr>
         <th>Products</th>
-        <th width="15%">Quantity (25Kg Bags)</th>
+        <th width="15%">Quantity (25Kg / 55.1156lbs Bags)</th>
         <th>Price</th>
       </tr>
     </thead>
@@ -104,7 +107,9 @@ var vm = new Vue({
     generalSeedComputedTotalPrice: [],
     bioAgComputedTotalPrice: [],
     grandTotal: 0,
-    hstTaxRate: 0
+    hstTaxRate: 0,
+    shippingRates: {},
+    shipping: null
   },
   computed: {
     totalQuantity: function () {
@@ -128,6 +133,22 @@ var vm = new Vue({
         if (!prices || !prices.hst) return sum
         return sum + (prices.hst/100)
       }, 0);
+    },
+    weightTotal: function() {
+      return this.barnyardComputedTotalPrice
+      .concat(this.generalSeedComputedTotalPrice)
+      .concat(this.bioAgComputedTotalPrice)
+      .reduce(function (sum, prices) {
+        if (!prices || !prices.weight) return sum
+        return sum + (prices.weight)
+      }, 0);
+    },
+    shippingPrice: function() {
+      _.find(this.shippingRates, function(o) {
+        console.log(this.shipping)
+        return o.location === this.shipping 
+        })
+      return 0
     }
   },
   watch: {
@@ -162,5 +183,12 @@ var vm = new Vue({
     this.generalSeedProducts = _orderForm.general_seed.products
     this.bioAgProducts = _orderForm.bio_ag.products
     this.hstTaxRate = Number(_orderForm.hst)
+    this.fuelSurcharge = {
+      fuelSurcharge: Number(_shippingRates.fuel_surcharge),
+      fuelSurcharge1000: Number(_shippingRates.fuel_surcharge_10000) 
+
+    }
+    const { fuel_surcharge, fuel_surcharge_10000, ...shippingRates } = _shippingRates
+    this.shippingRates = shippingRates
   }
 })

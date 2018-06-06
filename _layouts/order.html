@@ -119,20 +119,22 @@
 						<div class="8u 12u$(small)">
 							<label>Shipping</label>
 							<div class="select-wrapper">
-								<select name="demo-category" id="demo-category">
-									<option value="">Pick up at Farm (no shipping)</option>
+								<select name="demo-category" v-model="shipping">
+									<option value="pick_at_farm">Pick up at Farm (no shipping)</option>
 									<optgroup label="New Brunswick">
-										<option value="1">Moncton</option>
-										<option value="1">Fredericton</option>
-										<option value="1">Other</option>
+										{% for element in site.data.shipping-rates.new_brunswick %}
+										<option value="{{element.location}}">{{element.location}}</option>
+										{% endfor %}
 									</optgroup>
 									<optgroup label="Prince Edward Island">
-										<option value="1">Charlottetown</option>
-										<option value="1">Other</option>
+										{% for element in site.data.shipping-rates.pei %}
+										<option value="{{element.location}}">{{element.location}}</option>
+										{% endfor %}
 									</optgroup>
 									<optgroup label="Nova Scotia">
-										<option value="1">Halifax</option>
-										<option value="1">Other</option>
+										{% for element in site.data.shipping-rates.nova_scotia %}
+										<option value="{{element.location}}">{{element.location}}</option>
+										{% endfor %}
 									</optgroup>
 								</select>
 							</div>
@@ -140,7 +142,7 @@
 						</div>
 						<div class="4u$ 12u$(small)">
 							<label for="">Shipping Price</label>
-							<input type="text" name="" value="">
+							<input type="text" name="" :value="shippingPrice" disabled>
 						</div>
 					</div>
 					<div class="row uniform">
@@ -148,7 +150,7 @@
 							<p class="order-form-total" style="text-align: left;">HST</p>
 						</div>
 						<div class="4u 12u$(small)">
-							<input id="total" :value="hstTax" disabled class="row-sum order-form-total">
+							<input :value="hstTax" disabled class="row-sum order-form-total">
 						</div>
 						<div class="8u 12u$(small)">
 							<p class="order-form-total" style="text-align: left;">Total Price</p>
@@ -197,12 +199,10 @@
 </section>
 
 <script>
-		var _orderForm = {{site.data.order-form | jsonify }}
+		var _orderForm = {{ site.data.order-form | jsonify }}
+		var _shippingRates = {{ site.data.shipping-rates | jsonify }}
 </script>
-
+<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.10/lodash.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/{{vuejs}}"></script>
-
-<!-- <script type="text/javascript" src="{{ site.baseurl }}/assets/js/jquery.formatCurrency-1.4.0.min.js">
-</script> -->
 
 <script src="{{site.baseurl}}/assets/js/order.js"></script>

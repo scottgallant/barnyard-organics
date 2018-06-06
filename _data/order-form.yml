@@ -1,6 +1,9 @@
 ---
 barnyard_organics:
   products:
+  - name: Dairy Goat Ration (16%)
+    description: ''
+    price: 28.15
   - name: Mixed Grain Scratch (9.5%)
     description: ''
     price: 20.84

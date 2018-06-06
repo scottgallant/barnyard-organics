@@ -31,7 +31,7 @@ fields:
     - type: number
       name: price-5000
       label: Price / 100 pounds
-      description: For shipments between 5,000 - 1,999 pounds
+      description: For shipments between 5,000 - 9,999 pounds
     - type: number
       name: price-10000
       label: Price / 100 pounds

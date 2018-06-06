@@ -1,6 +1,9 @@
 ---
 barnyard_organics:
   products:
+  - name: Organic Hog Grower (14%)
+    description: ''
+    price: 23.65
   - name: Organic Poultry Starter (21%)
     description: ''
     price: 30.95

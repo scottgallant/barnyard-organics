@@ -82,7 +82,7 @@
 					:products="barnyardOrganicsProducts"
 					@computed-total-price="barnyardComputedTotalPrice = $event"
 					:hst-tax-rate="hstTaxRate"
-					v-bind="{isRetail}">
+					v-bind="{isRetail, formatNumber}">
 				</prices-table>
 
 				<prices-table
@@ -90,7 +90,7 @@
 					:products="generalSeedProducts"
 					@computed-total-price="generalSeedComputedTotalPrice = $event"
 					:hst-tax-rate="hstTaxRate"
-					v-bind="{isRetail}">
+					v-bind="{isRetail, formatNumber}">
 				</prices-table>
 
 				<prices-table
@@ -98,7 +98,7 @@
 					:products="bioAgProducts"
 					@computed-total-price="bioAgComputedTotalPrice = $event"
 					:hst-tax-rate="hstTaxRate"
-					v-bind="{isRetail}">
+					v-bind="{isRetail, formatNumber}">
 				</prices-table>
 
 
@@ -142,7 +142,7 @@
 						</div>
 						<div class="4u$ 12u$(small)">
 							<label for="">Shipping Price</label>
-							<input type="text" name="" :value="shippingPrice" disabled>
+							<input type="text" name="" :value="shippingPriceFormatted" disabled>
 						</div>
 					</div>
 					<div class="row uniform">
@@ -150,13 +150,13 @@
 							<p class="order-form-total" style="text-align: left;">HST</p>
 						</div>
 						<div class="4u 12u$(small)">
-							<input :value="hstTax" disabled class="row-sum order-form-total">
+							<input :value="hstTaxFormatted" disabled class="row-sum order-form-total">
 						</div>
 						<div class="8u 12u$(small)">
 							<p class="order-form-total" style="text-align: left;">Total Price</p>
 						</div>
 						<div class="4u 12u$(small)">
-							<input :value="grandTotal" disabled class="row-sum order-form-total">
+							<input :value="grandTotalFormatted" disabled class="row-sum order-form-total">
 						</div>
 					</div>
 					<div class="row uniform">
@@ -205,4 +205,5 @@
 
 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/{{vuejs}}"></script>
 
+<script src="{{site.baseurl}}/assets/js/pricing-table.js"></script>
 <script src="{{site.baseurl}}/assets/js/order.js"></script>

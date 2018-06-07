@@ -5,7 +5,8 @@ Vue.component('prices-table', {
     'products',
     'isRetail',
     'title',
-    'hst-tax-rate'
+    'hst-tax-rate', 
+    'formatNumber'
   ],
   data: function () {
     return {
@@ -40,6 +41,11 @@ Vue.component('prices-table', {
       });
       this.$emit('computed-total-price', computedTotalPrice)
       return computedTotalPrice
+    },
+    formattedPriceArray: function() {
+      return this.computedTotalPrice.map(priceObj => {
+        return this.formatNumber(priceObj.price)
+      })
     }
   },
   methods: {
@@ -86,7 +92,7 @@ Vue.component('prices-table', {
               </span>
           </td>
           <td width="15%">
-            <input v-model="computedTotalPrice[index].price" disabled class="row-sum rowTotal">
+            <input v-model="formattedPriceArray[index]" disabled class="row-sum rowTotal">
           </td>
         </tr>
     </tbody>
@@ -198,7 +204,10 @@ var vm = new Vue({
         console.log("fuelSurcharge: ", fuelSurcharge)
       return priceToReturn;
     },
-    shippingHST() {
+    shippingPriceFormatted() {
+      return this.formatNumber(this.shippingPrice);
+    },
+    shippingHST: function() {
       const shippingHST = this.shippingPrice * this.hstTaxRate / 100
       return shippingHST
     },
@@ -216,6 +225,12 @@ var vm = new Vue({
       console.log("HST total: ", hstTotal)
       return hstTotal
     },
+    hstTaxFormatted: function() {
+      return this.formatNumber(this.hstTax)
+    },
+    grandTotalFormatted: function() {
+      return this.formatNumber(this.grandTotal)
+    }
   },
   watch: {
     //using watch because computed properties can't detect modifications in arrays.
@@ -228,13 +243,6 @@ var vm = new Vue({
     bioAgComputedTotalPrice: function () {
       this.computeGrandTotal()
     },
-    // selectedShipping: function() { 
-    //   _.find(this.shippingRates, function(o) {
-    //     return o.location === this.selectedShipping 
-    //     })
-    //     console.log(this.selectedShipping)
-    //   return 0
-    // }
   },
   methods: {
     isRetail: function () {
@@ -251,9 +259,13 @@ var vm = new Vue({
       const grandTotal = itemsTotal + this.shippingPrice + this.hstTax
       console.log(grandTotal)
       
-      console.log(new Intl.NumberFormat('en-CA', { style: 'currency', currency: 'CAD' }).format(grandTotal));
+      //console.log(new Intl.NumberFormat('en-CA', { style: 'currency', currency: 'CAD' }).format(grandTotal));
       
       this.grandTotal = grandTotal.toLocaleString("en-CA")
+    },
+
+    formatNumber(number) {
+      return new Intl.NumberFormat('en-CA', { style: 'currency', currency: 'CAD' }).format(number)
     }
   },
   created: function () {

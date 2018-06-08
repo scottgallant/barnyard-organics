@@ -115,6 +115,7 @@ barnyard_organics:
 hst: 19
 bio_ag:
   products:
+  - name: test
   - name: Zinc Sulphate 50 lbs
     description: 4480
     price: 57.62

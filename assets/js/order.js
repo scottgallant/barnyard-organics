@@ -260,10 +260,10 @@ var vm = new Vue({
           if (!prices || !prices.price) return sum
           return sum + prices.price
         }, 0);
-      const grandTotal = itemsTotal + this.shippingPrice + this.hstTax
+      const grandTotal = Number(itemsTotal) + Number(this.shippingPrice) + Number(this.hstTax)
       console.log(grandTotal)
       
-      this.grandTotal = grandTotal.toLocaleString("en-CA")
+      this.grandTotal = grandTotal
     },
 
     formatNumber(number) {

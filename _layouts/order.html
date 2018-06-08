@@ -25,7 +25,7 @@
 
         <!-- retailers only -->
         <div class="8u$ 12u$(small)" v-if="purchaser === 'retail'">
-          <label>Company Name (for retailers only)</label>
+          <label>Company Name</label>
           <div class="select-wrapper">
             <select name="demo-category" id="demo-category" v-model="companyName">
               <option value="">Choose One</option>
@@ -41,7 +41,7 @@
         </div>
 
         <div class="12u$ 12u$(small)" v-if="purchaser === 'farm'">
-          <label for="">Company Name (for non-retailers)</label>
+          <label for="">Company Name</label>
           <input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
         </div>
 
@@ -105,7 +105,7 @@
                 {% raw %}
                 {{ totalQuantity }} Items
                 {% endraw %}
-                <p class="error">
+                <p class="error" v-show="!isOrderAllowed">
                   <em>If shipping is required, order must be in multiples of 20 items (1/2 tonnes)</em>
                 </p>
               </div>

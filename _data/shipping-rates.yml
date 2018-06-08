@@ -6,7 +6,37 @@ new_brunswick:
   price-5000: 3.01
   price-10000: 2.55
 nova_scotia:
-- location: Cumberland, Colchester and Pictou Counties
+- location: Cape Breton
+  price-1000: 8.78
+  price-2000: 8.12
+  price-5000: 7.85
+  price-X: 7.2
+- location: Digby, Yarmouth, Shelbourne
+  price-1000: 8.38
+  price-2000: 7.89
+  price-5000: 7.23
+  price-X: 6.98
+- location: Lunenburg & Queens
+  price-1000: 7
+  price-2000: 6.64
+  price-5000: 6.41
+  price-X: 6.1
+- location: Kings & Annapolis
+  price-1000: 7.02
+  price-2000: 6.87
+  price-5000: 6.45
+  price-X: 6.15
+- location: Halifax and Hants
+  price-1000: 6.55
+  price-2000: 6.24
+  price-5000: 6
+  price-X: 5.5
+- location: Cumberland, Colchester & Pictou
+  price-1000: 6.56
+  price-2000: 6.05
+  price-5000: '5.40'
+  price-X: '5.00'
+- location: Antigonish & Guysborough
   price-2000: '6.00'
   price-5000: '5.40'
   price-10000: '4.50'
@@ -14,8 +44,8 @@ nova_scotia:
 pei:
 - location: Prince
   price-1000: 3.05
-  price-2000: 3.0
+  price-2000: 3
   price-5000: 2.5
   price-10000: 2
-fuel_surcharge: 1.224
-fuel_surcharge_10000: '1.50'
+fuel_surcharge: 1.285
+fuel_surcharge_10000: 1.419

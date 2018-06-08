@@ -1,9 +1,6 @@
 ---
 barnyard_organics:
   products:
-  - name: test
-    price: 32
-    price_retailers: 30
   - name: Organic Wheat
     price: 19.74
     price_retailers: 16.53

@@ -28,8 +28,8 @@
           <div class="8u$ 12u$(small)" v-if="purchaser === 'retail'">
             <label>Company Name</label>
             <div class="select-wrapper">
-              <select name="demo-category" id="demo-category" v-model="companyName">
-                <option value="">Choose One</option>
+              <select name="retail-purchaser" v-model="companyName">
+                <option value="" disabled>Choose One</option>
                 {% for element in site.data.retailers %}
                 <optgroup label="{{element[0]}}">
                   {% for retailer in element[1] %}

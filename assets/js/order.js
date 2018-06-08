@@ -109,7 +109,7 @@ Vue.component('prices-table', {
 
 
 var vm = new Vue({
-  el: '#main',
+  el: '#vue-app',
   //delimiters: ["((", "))"],
   data: {
     purchaser: 'farm',

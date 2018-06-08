@@ -3,7 +3,7 @@
 
 <!-- Main -->
 
-<section  class="wrapper sidebar left">
+<section id="main" class="wrapper sidebar left">
   <div class="inner">
     <header class="major">
       <h1>{{ page.title | escape }}</h1>
@@ -11,7 +11,7 @@
     </header>
     <!-- Sidebar -->
     {% include feed-nav.html %}
-    <div class="content" id="main">
+    <div class="content" id="vue-app" >
       <div class="row uniform pricing-table">
 
         <div class="4u 12u$(small)">
@@ -70,18 +70,31 @@
           <input type="hidden" name="_format" value="plain" />
           <input type="text" name="_gotcha" style="display:none" />
 
-          <prices-table title="Barnyard Organics Products" :products="barnyardOrganicsProducts" @computed-total-price="barnyardComputedTotalPrice = $event"
-            :hst-tax-rate="hstTaxRate" v-bind="{isRetail, formatNumber}">
+
+
+          <prices-table 
+            title="Barnyard Organics Products" 
+            :products="barnyardOrganicsProducts" 
+            :hst-tax-rate="hstTaxRate" 
+            v-bind="{isRetail: isRetail, formatNumber: formatNumber}"
+            @computed-total-price="barnyardComputedTotalPrice = $event">
           </prices-table>
 
-          <prices-table title="General Seed Products" :products="generalSeedProducts" @computed-total-price="generalSeedComputedTotalPrice = $event"
-            :hst-tax-rate="hstTaxRate" v-bind="{isRetail, formatNumber}">
+          <prices-table 
+            title="General Seed Products" 
+            :products="generalSeedProducts" 
+            @computed-total-price="generalSeedComputedTotalPrice = $event"
+            :hst-tax-rate="hstTaxRate" 
+            v-bind="{isRetail: isRetail, formatNumber: formatNumber}">
           </prices-table>
 
-          <prices-table title="Bio-Ag Procucts" :products="bioAgProducts" @computed-total-price="bioAgComputedTotalPrice = $event"
-            :hst-tax-rate="hstTaxRate" v-bind="{isRetail, formatNumber}">
+          <prices-table 
+            title="Bio-Ag Procucts" 
+            :products="bioAgProducts" 
+            @computed-total-price="bioAgComputedTotalPrice = $event"
+            :hst-tax-rate="hstTaxRate" 
+            v-bind="{isRetail: isRetail, formatNumber: formatNumber}">
           </prices-table>
-
 
           <div class="row uniform">
             <div class="8u 12u$(small)">

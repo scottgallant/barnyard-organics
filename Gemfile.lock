@@ -3,7 +3,12 @@ GEM
   specs:
     addressable (2.5.1)
       public_suffix (~> 2.0, >= 2.0.2)
+    babel-source (5.8.35)
+    babel-transpiler (0.7.0)
+      babel-source (>= 4.0, < 6)
+      execjs (~> 2.0)
     colorator (1.1.0)
+    execjs (2.7.0)
     ffi (1.9.18)
     forwardable-extended (2.6.0)
     jekyll (3.4.3)
@@ -17,6 +22,8 @@ GEM
       pathutil (~> 0.9)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
+    jekyll-babel (1.1.0)
+      babel-transpiler
     jekyll-menus (0.5.0)
       jekyll (~> 3.1)
     jekyll-sass-converter (1.5.0)
@@ -43,6 +50,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  jekyll-babel
   jekyll-menus
   tzinfo-data
 

@@ -1,3 +1,5 @@
+---
+---
 const KG_TO_LBS = 55.1156
 
 Vue.component('prices-table', {
@@ -54,6 +56,7 @@ Vue.component('prices-table', {
     }
   },
   template: `
+  {% raw %}
   <div>
     <div>
     <p>
@@ -100,13 +103,14 @@ Vue.component('prices-table', {
     </tfoot>
   </table>
   </div>
+  {% endraw %}
   `
 });
 
 
 var vm = new Vue({
   el: '#main',
-  delimiters: ["((", "))"],
+  //delimiters: ["((", "))"],
   data: {
     purchaser: 'farm',
     companyName: '',

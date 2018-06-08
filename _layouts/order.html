@@ -13,7 +13,7 @@
     {% include feed-nav.html %}
     <div class="content" id="vue-app" >
       <div class="row uniform pricing-table">
-
+        <form name="order-form" method="POST" netlify>
         <div class="4u 12u$(small)">
           <input type="radio" id="demo-priority-normal" name="demo-priority" value="farm" v-model="purchaser" checked>
           <label for="demo-priority-normal">Farm Purchaser</label>
@@ -64,7 +64,7 @@
         <div class="12u$">
           <hr>
         </div>
-        <form id="orderForm" action="https://formspree.io/info@barnyardorganics.com" method="post">
+        <!-- <form id="orderForm" action="https://formspree.io/info@barnyardorganics.com" method="post"> -->
           <input type="hidden" name="_next" value="/index.html" />
           <input type="hidden" name="_subject" value="New submission!" />
           <input type="hidden" name="_format" value="plain" />
@@ -184,8 +184,8 @@
             </div>
           </div>
 
-        </form>
-
+        <!-- </form> -->
+      </form>
       </div>
       <!-- .row -->
     </div>

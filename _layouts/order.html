@@ -14,12 +14,14 @@
     <div class="content" id="vue-app" >
 
         <!-- A little help for the Netlify post-processing bots -->
-        <form name="order-form" netlify hidden>
+        <!-- <form name="order-form" netlify hidden>
+          {% comment %}
           {% for product in site.data.order-form.barnyard_organics.products %}
             <input name="{{product.name}} - price" type="number" value="">
             <input name="{{product.name}} - quantity" value="">
           {% endfor %}
-        </form>
+          {% endcomment %}
+        </form> -->
 
       <form netlify name="order-form" method="POST" netlify>
         <div class="row uniform pricing-table">

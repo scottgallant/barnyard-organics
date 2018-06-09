@@ -46,7 +46,7 @@ Vue.component('prices-table', {
     },
     formattedPriceArray: function() {
       return this.computedTotalPrice.map(priceObj => {
-        return this.formatNumber(priceObj.price)
+        return priceObj.price != 0 ?  this.formatNumber(priceObj.price) : null
       })
     }
   },
@@ -270,15 +270,16 @@ var vm = new Vue({
       return new Intl.NumberFormat('en-CA', { style: 'currency', currency: 'CAD' }).format(number)
     },
     submitForm() {
-      $("#order-form").submit(function(e) {
-        e.preventDefault();
-        
-        var $form = $(this);
-        console.log($form);
-        $.post($form.attr("action"), $form.serialize()).then(function() {
-          alert("Thank you!");
-        });
-      });
+      var $form = $('#order-form')
+      var serialize = $("#order-form input, #order-form select, #order-form textarea").filter(function() { 
+        return !!this.value
+      }).serialize();
+
+      console.log(serialize)
+    
+      // $.post($form.attr("action"), serialize).then(function() {
+      //   alert("Thank you!");
+      // });
     }
   },
   created() {

@@ -86,7 +86,7 @@ Vue.component('prices-table', {
             <p style="margin-top: .5em; margin-bottom: .5em;" class="help-block">{{product.description}}</p>
           </td>
           <td width="15%">
-            <input type="number" name="{{product.name}} quantity" v-model="product.quantity">
+            <input type="number" :name="product.name + ' quantity'" v-model="product.quantity">
             <span class="help-block" id="priceTon" v-if="!isRetail()">$ {{ product.price }}
               <small>/bag</small>
             </span>
@@ -95,7 +95,7 @@ Vue.component('prices-table', {
               </span>
           </td>
           <td width="15%">
-            <input name="{{product.name}}  price" v-model="formattedPriceArray[index]" disabled class="row-sum rowTotal">
+            <input :name="product.name + ' price'" v-model="formattedPriceArray[index]" disabled class="row-sum rowTotal">
           </td>
         </tr>
     </tbody>

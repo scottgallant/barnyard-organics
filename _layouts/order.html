@@ -16,8 +16,8 @@
         <!-- A little help for the Netlify post-processing bots -->
         <form name="order-form" netlify hidden>
           {% for product in site.data.order-form.barnyard_organics.products %}
-            <input name="{{product.name}} - price">
-            <input name="{{product.name}} - quantity">
+            <input name="{{product.name}} - price" type="number" value="">
+            <input name="{{product.name}} - quantity" value="">
           {% endfor %}
         </form>
 

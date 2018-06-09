@@ -271,15 +271,23 @@ var vm = new Vue({
     },
     submitForm() {
       var $form = $('#order-form')
+
+      // Find disabled inputs, and remove the "disabled" attribute
+      var disabled = $form.find(':input:disabled').removeAttr('disabled');
+
       var serialize = $("#order-form input, #order-form select, #order-form textarea").filter(function() { 
         return !!this.value
       }).serialize();
 
-      console.log(serialize)
+      
+      // re-disabled the set of inputs that you previously enabled
+      disabled.attr('disabled','disabled');
+
+      //console.log(serialize)
     
-      // $.post($form.attr("action"), serialize).then(function() {
-      //   alert("Thank you!");
-      // });
+      $.post($form.attr("action"), serialize).then(function() {
+        alert("Thank you!");
+      });
     }
   },
   created() {

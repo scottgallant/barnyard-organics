@@ -270,7 +270,7 @@ var vm = new Vue({
       return new Intl.NumberFormat('en-CA', { style: 'currency', currency: 'CAD' }).format(number)
     },
     submitForm() {
-      $("#order-form").submit(function(e) {
+      $("#my-form").submit(function(e) {
         e.preventDefault();
       
         var $form = $(this);

@@ -12,6 +12,17 @@
     <!-- Sidebar -->
     {% include feed-nav.html %}
     <div class="content" id="vue-app" >
+
+        <!-- A little help for the Netlify post-processing bots -->
+        <form name="order-form" netlify hidden>
+          {% for productType in site.data.order-form %}
+            {% for product in productType.products %}
+              <input name="{{product.name}} - price">
+              <input name="{{product.name}} - quantity">
+            {% endfor %}
+          {% endfor %}
+        </form>
+
       <form netlify name="order-form" method="POST" netlify>
         <div class="row uniform pricing-table">
 

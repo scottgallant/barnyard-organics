@@ -268,6 +268,16 @@ var vm = new Vue({
 
     formatNumber(number) {
       return new Intl.NumberFormat('en-CA', { style: 'currency', currency: 'CAD' }).format(number)
+    },
+    submitForm() {
+      $("#my-form").submit(function(e) {
+        e.preventDefault();
+      
+        var $form = $(this);
+        $.post($form.attr("action"), $form.serialize()).then(function() {
+          alert("Thank you!");
+        });
+      });
     }
   },
   created() {

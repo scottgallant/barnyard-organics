@@ -110,7 +110,7 @@
               <div class="8u 12u$(small)">
                 <label>Shipping</label>
                 <div class="select-wrapper">
-                  <select name="demo-category" v-model="selectedShipping">
+                  <select name="shipping" v-model="selectedShipping">
                     <option value="pick_at_farm">Pick up at Farm (no shipping)</option>
                     <optgroup label="New Brunswick">
                       {% for element in site.data.shipping-rates.new_brunswick %}
@@ -161,7 +161,7 @@
                   </select>
                 </div>
               </div>
-            </div>
+            </div>  
 
             <div class="row uniform">
 

@@ -1,4 +1,4 @@
-{% include head.html %} 
+{% include head.html %}
 {% include header.html %}
 
 <!-- Main -->
@@ -16,7 +16,7 @@
       <form name="order-form" netlify hidden>
         <input name="purchaser-type" />
         <input name="farm-company-name" />
-        <select name="reatail-purchaser"></select>
+        <select name="retail-purchaser"></select>
         <input name="first-name" />
         <input name="last-name" />
         <input name="email" />
@@ -87,27 +87,27 @@
           </div>
           <div class="ex-form">
 
-            <prices-table 
-              title="Barnyard Organics Products" 
-              :products="barnyardOrganicsProducts" 
-              :hst-tax-rate="hstTaxRate" 
+            <prices-table
+              title="Barnyard Organics Products"
+              :products="barnyardOrganicsProducts"
+              :hst-tax-rate="hstTaxRate"
               v-bind="{isRetail: isRetail, formatNumber: formatNumber}"
               @computed-total-price="barnyardComputedTotalPrice = $event">
             </prices-table>
 
-            <prices-table 
-              title="General Seed Products" 
-              :products="generalSeedProducts" 
+            <prices-table
+              title="General Seed Products"
+              :products="generalSeedProducts"
               @computed-total-price="generalSeedComputedTotalPrice = $event"
-              :hst-tax-rate="hstTaxRate" 
+              :hst-tax-rate="hstTaxRate"
               v-bind="{isRetail: isRetail, formatNumber: formatNumber}">
             </prices-table>
 
-            <prices-table 
-              title="Bio-Ag Procucts" 
-              :products="bioAgProducts" 
+            <prices-table
+              title="Bio-Ag Procucts"
+              :products="bioAgProducts"
               @computed-total-price="bioAgComputedTotalPrice = $event"
-              :hst-tax-rate="hstTaxRate" 
+              :hst-tax-rate="hstTaxRate"
               v-bind="{isRetail: isRetail, formatNumber: formatNumber}">
             </prices-table>
 
@@ -189,7 +189,7 @@
                   </select>
                 </div>
               </div>
-            </div>  
+            </div>
 
             <div class="row uniform">
 
@@ -223,15 +223,15 @@
   var _shippingRates = {{ site.data.shipping-rates | jsonify }}
 </script>
 
-{% assign vuejs = 'vue.js' %} 
-{% if jekyll.environment == "production" %} 
-  {% assign vuejs = 'vue.min.js' %} 
+{% assign vuejs = 'vue.js' %}
+{% if jekyll.environment == "production" %}
+  {% assign vuejs = 'vue.min.js' %}
 {% endif %}
 
 <script
 			  src="https://code.jquery.com/jquery-3.3.1.min.js"
 			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 			  crossorigin="anonymous"></script>
-		
+
 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/{{vuejs}}"></script>
 <script src="{{site.baseurl}}/assets/js/order.js"></script>

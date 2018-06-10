@@ -7,7 +7,7 @@ Vue.component('prices-table', {
     'products',
     'isRetail',
     'title',
-    'hst-tax-rate', 
+    'hst-tax-rate',
     'formatNumber'
   ],
   data() {
@@ -29,7 +29,7 @@ Vue.component('prices-table', {
           name: product.name,
           price,
           hst: 0,
-          weight: 0, 
+          weight: 0,
           quantity: 0
         };
         if (this.isRetail()) {
@@ -83,7 +83,7 @@ Vue.component('prices-table', {
       </tr>
     </thead>
     <tbody>
-    
+
       <tr v-for="(product, index) in products">
           <td>
             <p style="margin-bottom: 0;">{{product.name}}</p>
@@ -92,10 +92,10 @@ Vue.component('prices-table', {
           <td width="15%">
             <input type="number" :name="product.name + ' - quantity'" v-model="product.quantity">
             <span class="help-block" id="priceTon" v-if="!isRetail()">$ {{ product.price }}
-              <small>/bag</small>
+              <small>/item</small>
             </span>
             <span class="help-block" id="priceTon" v-if="isRetail()">$ {{ product.price_retailers }}
-                <small>/bag</small>
+                <small>/item</small>
               </span>
           </td>
           <td width="15%">
@@ -154,7 +154,7 @@ var vm = new Vue({
         }, 0);
     },
     shippingLocation() {
-      //first, let's find the shipping location from the select. 
+      //first, let's find the shipping location from the select.
       let item = null;
       const selectedShipping = this.selectedShipping;
       Object.keys(this.shippingRates).forEach(region => {
@@ -169,9 +169,9 @@ var vm = new Vue({
       return item
     },
     shippingPrice() {
-      //This function calculates the shipping price based on the location selected. 
+      //This function calculates the shipping price based on the location selected.
       if (!this.shippingLocation) return 0
-      //first, transform the object with prices in a simpler data structure. 
+      //first, transform the object with prices in a simpler data structure.
       // move prom "price-1000: 3.55" to an object { key: 1000, value: 3.55 }
       const arrayOfPrices = []
       Object.keys(this.shippingLocation)
@@ -188,9 +188,9 @@ var vm = new Vue({
         return item1.key - item2.key
       })
 
-      // compare the total weight against the key. 
+      // compare the total weight against the key.
       // If the weight is more than the key, update the priceToReturn.
-      // if the weight is greater than the key, we skip the check 
+      // if the weight is greater than the key, we skip the check
       // (we have set the value at the preceeding check)
       let priceFor100Lbs = 0;
       arrayOfPrices.forEach(elem => {
@@ -276,12 +276,12 @@ var vm = new Vue({
     isRetail() {
       return this.purchaser === 'retail' && this.companyName && this.companyName.trim().length > 0
     },
-    
+
 
     formatNumber(number) {
       return new Intl.NumberFormat('en-CA', { style: 'currency', currency: 'CAD' }).format(number)
     },
-    
+
   },
   created() {
 

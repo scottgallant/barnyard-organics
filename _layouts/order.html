@@ -16,18 +16,19 @@
       <form name="order-form" netlify hidden>
         <input name="purchaser-type" />
         <input name="farm-company-name" />
-        <select name="reatail-purchaser" />
+        <select name="reatail-purchaser"></select>
         <input name="first-name" />
         <input name="last-name" />
         <input name="email" />
         <input name="phone-number" />
-        <select name="shipping" />
+        <select name="shipping"></select>
         <textarea name="order-summary"></textarea>
         <input name="shipping-price" />
         <input name="hst" />
+        <input name="subtotal" />
         <input name="total-price" />
-          <input name="payment-method" />
-          <textarea name="special-istructions"></textarea>
+        <input name="payment-method" />
+        <textarea name="special-istructions"></textarea>
       </form>
 
       <form netlify name="order-form" id="order-form" method="POST" netlify>
@@ -163,6 +164,12 @@
               </div>
               <div class="4u 12u$(small)">
                 <input :value="hstTaxFormatted" name="hst" readonly class="row-sum order-form-total">
+              </div>
+              <div class="8u 12u$(small)">
+                <p class="order-form-total" style="text-align: left;">Sub Total</p>
+              </div>
+              <div class="4u 12u$(small)">
+                <input :value="subtotalFormatted" name="subtotal" readonly class="row-sum order-form-total">
               </div>
               <div class="8u 12u$(small)">
                 <p class="order-form-total" style="text-align: left;">Total Price</p>

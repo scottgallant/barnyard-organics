@@ -124,7 +124,7 @@ var vm = new Vue({
     barnyardComputedTotalPrice: [],
     generalSeedComputedTotalPrice: [],
     bioAgComputedTotalPrice: [],
-    grandTotal: 0,
+    //grandTotal: 0,
     hstTaxRate: 0,
     shippingRates: {},
     selectedShipping: null,
@@ -229,15 +229,27 @@ var vm = new Vue({
         }, 0);
       console.log("HST for products: ", hstForProducts)
       console.log("HST for Shipping: ", this.shippingHST)
-      const hstTotal = hstForProducts + this.shippingHST
+      const hstTotal = Number(hstForProducts) + Number(this.shippingHST)
       console.log("HST total: ", hstTotal)
       return hstTotal
+    },
+    subtotal() {
+      return Number(this.shippingPrice) + Number(this.itemsTotal)
+    },
+    subtotalFormatted() {
+      return this.formatNumber(this.subtotal)
     },
     hstTaxFormatted() {
       return this.formatNumber(this.hstTax)
     },
-    grandTotalFormatted() {
-      return this.formatNumber(this.grandTotal)
+    itemsTotal() {
+      return this.barnyardComputedTotalPrice
+      .concat(this.generalSeedComputedTotalPrice)
+      .concat(this.bioAgComputedTotalPrice)
+      .reduce(function (sum, prices) {
+        if (!prices || !prices.price) return sum
+        return sum + prices.price
+      }, 0);
     },
     orderSummary() {
       return this.barnyardComputedTotalPrice
@@ -249,37 +261,46 @@ var vm = new Vue({
           }
           return summary
         }, '');
+    },
+    grandTotal() {
+      console.log('itemsTotal: ', this.itemsTotal)
+      console.log('shippingPrice: ', this.shippingPrice)
+      console.log('hstTax:', this.hstTax)
+      return Number(this.itemsTotal) + Number(this.shippingPrice) + Number(this.hstTax)
+    },
+    grandTotalFormatted() {
+      return this.formatNumber(this.grandTotal)
     }
   },
-  watch: {
-    //using watch because computed properties can't detect modifications in arrays.
-    barnyardComputedTotalPrice() {
-      this.computeGrandTotal()
-    },
-    generalSeedComputedTotalPrice: function () {
-      this.computeGrandTotal()
-    },
-    bioAgComputedTotalPrice: function () {
-      this.computeGrandTotal()
-    },
-  },
+  // watch: {
+  //   //using watch because computed properties can't detect modifications in arrays.
+  //   barnyardComputedTotalPrice() {
+  //     this.computeGrandTotal()
+  //   },
+  //   generalSeedComputedTotalPrice: function () {
+  //     this.computeGrandTotal()
+  //   },
+  //   bioAgComputedTotalPrice: function () {
+  //     this.computeGrandTotal()
+  //   },
+  // },
   methods: {
     isRetail() {
       return this.purchaser === 'retail' && this.companyName && this.companyName.trim().length > 0
     },
-    computeGrandTotal() {
-      const itemsTotal = this.barnyardComputedTotalPrice
-        .concat(this.generalSeedComputedTotalPrice)
-        .concat(this.bioAgComputedTotalPrice)
-        .reduce(function (sum, prices) {
-          if (!prices || !prices.price) return sum
-          return sum + prices.price
-        }, 0);
-      const grandTotal = Number(itemsTotal) + Number(this.shippingPrice) + Number(this.hstTax)
-      console.log(grandTotal)
+    // computeGrandTotal() {
+    //   const itemsTotal = this.barnyardComputedTotalPrice
+    //     .concat(this.generalSeedComputedTotalPrice)
+    //     .concat(this.bioAgComputedTotalPrice)
+    //     .reduce(function (sum, prices) {
+    //       if (!prices || !prices.price) return sum
+    //       return sum + prices.price
+    //     }, 0);
+    //   const grandTotal = Number(itemsTotal) + Number(this.shippingPrice) + Number(this.hstTax)
+    //   console.log(grandTotal)
       
-      this.grandTotal = grandTotal
-    },
+    //   this.grandTotal = grandTotal
+    // },
 
     formatNumber(number) {
       return new Intl.NumberFormat('en-CA', { style: 'currency', currency: 'CAD' }).format(number)

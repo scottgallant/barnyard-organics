@@ -78,7 +78,7 @@ Vue.component('prices-table', {
     <thead>
       <tr>
         <th>Products</th>
-        <th width="15%">Quantity (25Kg / 55.1156lbs Bags)</th>
+        <th width="15%">Quantity</th>
         <th>Price</th>
       </tr>
     </thead>
@@ -92,7 +92,7 @@ Vue.component('prices-table', {
           <td width="15%">
             <input type="number" :name="product.name + ' - quantity'" v-model="product.quantity">
             <span class="help-block" id="priceTon" v-if="!isRetail()">$ {{ product.price }}
-              <small>/item</small>
+              <small>each</small>
             </span>
             <span class="help-block" id="priceTon" v-if="isRetail()">$ {{ product.price_retailers }}
                 <small>/item</small>

@@ -272,59 +272,16 @@ var vm = new Vue({
       return this.formatNumber(this.grandTotal)
     }
   },
-  // watch: {
-  //   //using watch because computed properties can't detect modifications in arrays.
-  //   barnyardComputedTotalPrice() {
-  //     this.computeGrandTotal()
-  //   },
-  //   generalSeedComputedTotalPrice: function () {
-  //     this.computeGrandTotal()
-  //   },
-  //   bioAgComputedTotalPrice: function () {
-  //     this.computeGrandTotal()
-  //   },
-  // },
   methods: {
     isRetail() {
       return this.purchaser === 'retail' && this.companyName && this.companyName.trim().length > 0
     },
-    // computeGrandTotal() {
-    //   const itemsTotal = this.barnyardComputedTotalPrice
-    //     .concat(this.generalSeedComputedTotalPrice)
-    //     .concat(this.bioAgComputedTotalPrice)
-    //     .reduce(function (sum, prices) {
-    //       if (!prices || !prices.price) return sum
-    //       return sum + prices.price
-    //     }, 0);
-    //   const grandTotal = Number(itemsTotal) + Number(this.shippingPrice) + Number(this.hstTax)
-    //   console.log(grandTotal)
-      
-    //   this.grandTotal = grandTotal
-    // },
+    
 
     formatNumber(number) {
       return new Intl.NumberFormat('en-CA', { style: 'currency', currency: 'CAD' }).format(number)
     },
-    // submitForm() {
-    //   var $form = $('#order-form')
-
-    //   // Find disabled inputs, and remove the "disabled" attribute
-    //   var disabled = $form.find(':input:disabled').removeAttr('disabled');
-
-    //   var serialize = $("#order-form input, #order-form select, #order-form textarea").filter(function() { 
-    //     return !!this.value
-    //   }).serialize();
-
-      
-    //   // re-disabled the set of inputs that you previously enabled
-    //   disabled.attr('disabled','disabled');
-
-    //   //console.log(serialize)
     
-    //   $.post($form.attr("action"), serialize).then(function() {  
-    //     alert("Thank you!");
-    //   });
-    // }
   },
   created() {
 

@@ -245,7 +245,7 @@ var vm = new Vue({
         .concat(this.bioAgComputedTotalPrice)
         .reduce((summary, product) => {
           if (product.price && product.quantity) {
-            return summary + `${product.name},\t ${product.quantity},\t ${this.formatNumber(product.price)}<br>\n`
+            return summary + `${product.name},\t ${product.quantity},\t ${this.formatNumber(product.price)}\n`
           }
           return summary
         }, '');

@@ -65,10 +65,10 @@ fields:
   description: This is a list of links to other pages. It will appear in a grid-format
     (with an image, title, and text)
 pages:
-- how-to-order.md
-- feed.md
-- turkey-1.md
-- index.md
-- poultry2.md
-- poultry.md
 - services.md
+- poultry.md
+- poultry2.md
+- index.md
+- turkey-1.md
+- feed.md
+- how-to-order.md

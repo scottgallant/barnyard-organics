@@ -26,9 +26,11 @@ Vue.component('prices-table', {
       const computedTotalPrice = this.products.map(product => {
         let price = 0;
         if (!product.quantity) return {
+          name: product.name,
           price,
           hst: 0,
-          weight: 0
+          weight: 0, 
+          quantity: 0
         };
         if (this.isRetail()) {
           price = product.quantity * product.price_retailers
@@ -36,7 +38,9 @@ Vue.component('prices-table', {
           price = product.quantity * product.price
         }
         return {
+          name: product.name,
           price,
+          quantity: product.quantity,
           hst: product.hst ? price * this.hstTaxRate : 0,
           weight: product.quantity * KG_TO_LBS
         }
@@ -234,6 +238,17 @@ var vm = new Vue({
     },
     grandTotalFormatted() {
       return this.formatNumber(this.grandTotal)
+    },
+    orderSummary() {
+      return this.barnyardComputedTotalPrice
+        .concat(this.generalSeedComputedTotalPrice)
+        .concat(this.bioAgComputedTotalPrice)
+        .reduce((summary, product) => {
+          if (product.price && product.quantity) {
+            return summary + `${product.name}, ${product.quantity}, ${this.formatNumber(product.price)}\n`
+          }
+          return summary
+        }, '');
     }
   },
   watch: {
@@ -269,26 +284,26 @@ var vm = new Vue({
     formatNumber(number) {
       return new Intl.NumberFormat('en-CA', { style: 'currency', currency: 'CAD' }).format(number)
     },
-    submitForm() {
-      var $form = $('#order-form')
+    // submitForm() {
+    //   var $form = $('#order-form')
 
-      // Find disabled inputs, and remove the "disabled" attribute
-      var disabled = $form.find(':input:disabled').removeAttr('disabled');
+    //   // Find disabled inputs, and remove the "disabled" attribute
+    //   var disabled = $form.find(':input:disabled').removeAttr('disabled');
 
-      var serialize = $("#order-form input, #order-form select, #order-form textarea").filter(function() { 
-        return !!this.value
-      }).serialize();
+    //   var serialize = $("#order-form input, #order-form select, #order-form textarea").filter(function() { 
+    //     return !!this.value
+    //   }).serialize();
 
       
-      // re-disabled the set of inputs that you previously enabled
-      disabled.attr('disabled','disabled');
+    //   // re-disabled the set of inputs that you previously enabled
+    //   disabled.attr('disabled','disabled');
 
-      //console.log(serialize)
+    //   //console.log(serialize)
     
-      $.post($form.attr("action"), serialize).then(function() {
-        alert("Thank you!");
-      });
-    }
+    //   $.post($form.attr("action"), serialize).then(function() {  
+    //     alert("Thank you!");
+    //   });
+    // }
   },
   created() {
 

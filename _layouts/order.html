@@ -14,13 +14,10 @@
     <div class="content" id="vue-app" >
 
       <form name="order-form" netlify hidden>
-        {% for product in site.data.order-form.barnyard_organics.products %}
-          <input name="{{product.name}} - price" type="number" value="">
-          <input name="{{product.name}} - quantity" value="">
-        {% endfor %}
+          <input name="order-summary">
       </form>
 
-      <form netlify name="order-form" id="order-form" method="POST" netlify v-on:submit.stop.prevent="submitForm">
+      <form netlify name="order-form" id="order-form" method="POST" netlify>
         <div class="row uniform pricing-table">
 
           <div class="4u 12u$(small)">
@@ -98,6 +95,8 @@
               :hst-tax-rate="hstTaxRate" 
               v-bind="{isRetail: isRetail, formatNumber: formatNumber}">
             </prices-table>
+
+            <input name="order-summary" hidden v-model="orderSummary">
 
             <div class="row uniform">
               <div class="8u 12u$(small)">

@@ -7,9 +7,9 @@ description: ''
 ---
 {{ page.title | escape }}
 
- <div class="map-frame">Our farm is located at 1934 North Freetown Road</div>
+<div class="map-frame">Our farm is located at 1934 North Freetown Road</div>
 
-RR # 7 in Freetown, PEI  C0B 1L0
+RR # 7 in Freetown, PEI  C0B 1L0 test
 
 Although drop-ins are welcome to purchase farm fresh eggs, frozen chicken (pending availability) and feed, grain and other products, it is highly advised that you call in advance to make sure we're available and free to help you with your order.  It is a BUSY farm and family!  Thanks!
 

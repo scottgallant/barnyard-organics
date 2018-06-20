@@ -1,5 +1,10 @@
 ---
 new_brunswick:
+- location: Carleton County
+  price-1000: 6.23
+  price-2000: 4.62
+  price-5000: 3.49
+  price-10000: 2.86
 - location: Westmorland & Albert Counties
   price-1000: 5.25
   price-2000: 3.33

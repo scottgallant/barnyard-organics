@@ -1,5 +1,6 @@
 ---
 new_brunswick:
+- {}
 - location: Kings & Queens Counties
   price-1000: '6.10'
   price-2000: 4.52

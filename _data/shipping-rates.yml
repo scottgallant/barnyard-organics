@@ -1,10 +1,25 @@
 ---
 new_brunswick:
-- location: Westmorland & Albert Counties
-  price-1000: 5.25
-  price-2000: 3.33
-  price-5000: 3.01
-  price-10000: 2.55
+- location: Kings & Queens Counties
+  price-1000: '6.10'
+  price-2000: 4.52
+  price-5000: 3.43
+  price-10000: 3.09
+- location: Saint John & York Counties
+  price-1000: 7.46
+  price-2000: 5.93
+  price-5000: 4.39
+  price-10000: 3.33
+- location: Carleton, Charlotte & Restigouche Counties
+  price-1000: 6.23
+  price-2000: 4.62
+  price-5000: 3.49
+  price-10000: 3.14
+- location: Westmorland County
+  price-1000: '5.50'
+  price-2000: 4.08
+  price-5000: 3.09
+  price-10000: 2.78
 nova_scotia:
 - location: Cape Breton
   price-1000: 8.78

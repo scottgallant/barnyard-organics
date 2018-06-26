@@ -7,7 +7,7 @@ description: ''
 ---
 {{ page.title | escape }}
 
- <div class="map-frame">Our farm is located at 1934 North Freetown Road</div>
+<div class="map-frame">Our farm is located at 1934 North Freetown Road</div>
 
 RR # 7 in Freetown, PEI  C0B 1L0
 

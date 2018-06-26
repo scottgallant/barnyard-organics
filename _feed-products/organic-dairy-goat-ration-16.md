@@ -5,7 +5,7 @@ date: 2018-04-06 00:00:00 +0000
 description: 'A coarse texture feed for organic goats to reach their full potential.
   Our Organic Dairy Goat formula offers ideal nutrition for your lactating goats.
   With a minimum of 16% protein, your goats will be feasting on some of the best,
-  most natural feed available.. '
+  most natural feed available. '
 ingredients: |-
   Organic Barley, Organic Wheat, Roasted Organic Soybean, Organic Field Peas, Organic Oats, Organic Corn, Organic Flax Meal & Bio Ag Goat Mineral Premix*, Dried Seaweed Meal, Redmond Natural Salt.
 

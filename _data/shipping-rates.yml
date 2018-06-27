@@ -21,41 +21,52 @@ new_brunswick:
   price-5000: 3.09
   price-10000: 2.78
 nova_scotia:
-- location: Cape Breton
-  price-1000: 8.78
-  price-2000: 8.12
-  price-5000: 7.85
-  price-X: 7.2
+- location: Hants
+  price-1000: '7.10'
+  price-2000: 5.95
+  price-5000: 4.43
+  price-X: 3.99
+- location: Annapolis
+  price-1000: 6.97
+  price-2000: 5.83
+  price-5000: 4.35
+  price-X: 2.92
+- location: Cape Breton (all counties)
+  price-1000: 7.21
+  price-2000: 6.04
+  price-5000: '4.50'
+  price-X: 3.62
 - location: Digby, Yarmouth, Shelbourne
-  price-1000: 8.38
-  price-2000: 7.89
-  price-5000: 7.23
-  price-X: 6.98
+  price-1000: 8.82
+  price-2000: 7.35
+  price-5000: 5.43
+  price-X: 4.89
 - location: Lunenburg & Queens
   price-1000: 7
   price-2000: 6.64
   price-5000: 6.41
   price-X: 6.1
-- location: Kings & Annapolis
-  price-1000: 7.02
-  price-2000: 6.87
-  price-5000: 6.45
-  price-X: 6.15
-- location: Halifax and Hants
-  price-1000: 6.55
-  price-2000: 6.24
-  price-5000: 6
-  price-X: 5.5
+- location: Kings
+  price-1000: 6.76
+  price-2000: 5.67
+  price-5000: 4.22
+  price-X: '3.80'
+- location: Halifax
+  price-1000: 6.27
+  price-2000: 5.25
+  price-5000: 3.91
+  price-X: 3.52
 - location: Cumberland, Colchester & Pictou
-  price-1000: 6.56
-  price-2000: 6.05
-  price-5000: '5.40'
-  price-X: '5.00'
+  price-1000: 6.12
+  price-2000: 5.13
+  price-5000: 3.82
+  price-X: 3.44
 - location: Antigonish & Guysborough
-  price-2000: '6.00'
-  price-5000: '5.40'
+  price-2000: '5.40'
+  price-5000: 4.02
   price-10000: '4.50'
-  price-1000: 6.45
+  price-1000: 6.44
+  price-X: 3.62
 pei:
 - location: Prince
   price-1000: 3.05

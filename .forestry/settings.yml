@@ -7,6 +7,7 @@ collections:
 - path: _posts
   label: Posts
   create: all
+  hidden: true
 - path: _feed-products
   label: Feed-products
   create: all

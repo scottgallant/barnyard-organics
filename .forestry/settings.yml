@@ -11,6 +11,9 @@ collections:
 - path: _feed-products
   label: Feed-products
   create: all
+  templates:
+  - feed-product
+  default_front_matter_template: feed-product
 - path: ''
   label: Pages
   create: all

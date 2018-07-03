@@ -36,7 +36,7 @@ new_brunswick:
   price-5000: 3.09
   price-10000: 2.78
 nova_scotia:
-- location: Hants
+- location: Hants & Shelburne Counties
   price-1000: '7.10'
   price-2000: 5.95
   price-5000: 4.43
@@ -61,7 +61,7 @@ nova_scotia:
   price-2000: 6.64
   price-5000: 6.41
   price-X: 6.1
-- location: Kings
+- location: Kings & Queens Counties
   price-1000: 6.76
   price-2000: 5.67
   price-5000: 4.22

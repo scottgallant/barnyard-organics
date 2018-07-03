@@ -120,7 +120,7 @@ bio_ag:
     price: 57.62
     price_retailers: 57.62
   - name: Vinegar, While 55L 20%
-    description: 4450
+    description: 4450 (HST)
     price: '72.40'
     price_retailers: '72.40'
     hst: true

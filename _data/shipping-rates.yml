@@ -47,10 +47,10 @@ nova_scotia:
   price-5000: 4.35
   price-X: 2.92
 - location: Cape Breton (all counties)
-  price-1000: 7.21
-  price-2000: 6.04
-  price-5000: '4.50'
-  price-X: 3.62
+  price-1000: 7.43
+  price-2000: 6.22
+  price-5000: 4.64
+  price-X: 4.17
 - location: Digby, Yarmouth
   price-1000: 8.82
   price-2000: 7.35

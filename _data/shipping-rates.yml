@@ -1,5 +1,10 @@
 ---
 new_brunswick:
+- location: Madawaska County
+  price-1000: 6.98
+  price-2000: 5.17
+  price-5000: 3.91
+  price-10000: 3.52
 - location: Kings & Queens Counties
   price-1000: '6.10'
   price-2000: 4.52

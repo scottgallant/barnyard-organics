@@ -51,7 +51,7 @@ nova_scotia:
   price-2000: 6.04
   price-5000: '4.50'
   price-X: 3.62
-- location: Digby, Yarmouth, Shelbourne
+- location: Digby, Yarmouth
   price-1000: 8.82
   price-2000: 7.35
   price-5000: 5.43

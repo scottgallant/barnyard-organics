@@ -48,5 +48,5 @@ fields:
   config:
     labelField: title
 pages:
-- general-seed.md
 - bio-ag.md
+- general-seed.md

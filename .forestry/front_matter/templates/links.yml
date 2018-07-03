@@ -66,9 +66,9 @@ fields:
     (with an image, title, and text)
 pages:
 - how-to-order.md
-- feed.md
-- turkey-1.md
 - index.md
-- poultry2.md
 - poultry.md
+- poultry2.md
 - services.md
+- turkey-1.md
+- feed.md

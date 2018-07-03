@@ -24,7 +24,7 @@ fields:
   hidden: true
 pages:
 - contact.md
+- order.md
+- order-from-barnyard.md
 - rent-the-chicken.md
 - organic-chicken-eggs-subpage.md
-- order-from-barnyard.md
-- order.md

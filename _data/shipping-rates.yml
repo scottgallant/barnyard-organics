@@ -1,5 +1,10 @@
 ---
 new_brunswick:
+- location: Victoria County
+  price-1000: 6.54
+  price-2000: 4.85
+  price-5000: 3.66
+  price-10000: '3.30'
 - location: Madawaska County
   price-1000: 6.98
   price-2000: 5.17

@@ -112,7 +112,7 @@ barnyard_organics:
       Organic Poultry Grower Mash works well for both hybrid and heritage breeds.
     price: 30.14
     price_retailers: 26.73
-hst: 19
+hst: 15
 bio_ag:
   products:
   - name: Zinc Sulphate 50 lbs
@@ -120,7 +120,7 @@ bio_ag:
     price: 57.62
     price_retailers: 57.62
   - name: Vinegar, While 55L 20%
-    description: 4450
+    description: 4450 (HST)
     price: '72.40'
     price_retailers: '72.40'
     hst: true
@@ -133,22 +133,22 @@ bio_ag:
     price: 38.18
     price_retailers: 38.18
   - name: Stalosan 15 Kg
-    description: 4403
+    description: 4403 (HST)
     price: 37.65
     price_retailers: 37.65
     hst: true
   - name: Salt block 44 lbs
-    description: 4470
+    description: 4470 (HST)
     price: 15.77
     price_retailers: 15.77
     hst: true
   - name: Redmond Salt loose 50 lbs
-    description: 4470
+    description: 4470 (HST)
     price: 15.33
     price_retailers: 15.33
     hst: true
   - name: Redmond Anti-Caking Agent 50 lbs
-    description: 4403
+    description: 4403 (HST)
     price: 21.11
     price_retailers: 21.11
     hst: true
@@ -157,12 +157,12 @@ bio_ag:
     price: 88.47
     price_retailers: 88.47
   - name: Perma Guard Diatomaceous Earth 50 lbs
-    description: 4440
+    description: 4440 (HST)
     price: 41.47
     price_retailers: 41.47
     hst: true
   - name: Norman's Naturals Dogfood 18 Kg
-    description: 4490
+    description: 4490 (HST)
     price: 46.12
     price_retailers: 46.12
     hst: true
@@ -175,17 +175,17 @@ bio_ag:
     price: 38.63
     price_retailers: 38.63
   - name: Maritime Organic Seaweed Meal 22.67Kg
-    description: 4402
+    description: 4402 (HST)
     price: 36.72
     price_retailers: 36.72
     hst: true
   - name: Ocean Feed Seaweed Meal 25 Kg
-    description: 4402
+    description: 4402 (HST)
     price: 64.01
     price_retailers: 64.01
     hst: true
   - name: Hydrogen Peroxide 55L 35% NSF
-    description: 4430
+    description: 4430 (HST)
     price: 137.96
     price_retailers: 137.96
     hst: true
@@ -194,22 +194,22 @@ bio_ag:
     price: 48.62
     price_retailers: 48.62
   - name: Calphos Soft Phosphate 50lbs Granular
-    description: 4480
+    description: 4480 (HST)
     price: 22.33
     price_retailers: 22.33
     hst: true
   - name: Boron 20.5% 50 lbs
-    description: 4480
+    description: 4480 (HST)
     price: 110
     price_retailers: 110
     hst: true
   - name: Black Earth 25 Kg
-    description: 4440
+    description: 4440 (HST)
     price: 21.18
     price_retailers: 21.18
     hst: true
   - name: Bio-Lac 4L Liquid PCAI
-    description: 4460
+    description: 4460 (HST)
     price: 132.65
     price_retailers: 132.65
     hst: true
@@ -222,22 +222,22 @@ bio_ag:
     price: 286.63
     price_retailers: 286.63
   - name: Bio-Lac 1L Liquid PCAI
-    description: 4460
+    description: 4460 (HST)
     price: 46.23
     price_retailers: 46.23
     hst: true
   - name: Bio-Lac 1L Liquid
-    description: 4460
+    description: 4460 (HST)
     price: 45.24
     price_retailers: 45.24
     hst: true
   - name: Bio-Lac 1Kg PCAI
-    description: 4460
+    description: 4460 (HST)
     price: 18.12
     price_retailers: 18.12
     hst: true
   - name: Bio-Lac 1Kg
-    description: 4460
+    description: 4460 (HST)
     price: 17.31
     price_retailers: 17.31
     hst: true
@@ -246,7 +246,7 @@ bio_ag:
     price: 16.06
     price_retailers: 16.06
   - name: Atlantean Plant Fertilizer 10L
-    description: 4480
+    description: 4480 (HST)
     price: 87.32
     price_retailers: 87.32
     hst: true
@@ -314,7 +314,7 @@ bio_ag:
     description: 4410
     price: '79.40'
     price_retailers: '79.40'
-  - name: Red tag Dairy Minderal (2:1)
+  - name: Red tag Dairy Mineral (2:1)
     description: 4410
     price: '76.70'
     price_retailers: '76.70'

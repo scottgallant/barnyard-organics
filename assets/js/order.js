@@ -1,3 +1,5 @@
+---
+---
 const KG_TO_LBS = 55.1156
 
 Vue.component('prices-table', {
@@ -5,10 +7,10 @@ Vue.component('prices-table', {
     'products',
     'isRetail',
     'title',
-    'hst-tax-rate', 
+    'hst-tax-rate',
     'formatNumber'
   ],
-  data: function () {
+  data() {
     return {
       productsExpanded: false
     }
@@ -20,13 +22,15 @@ Vue.component('prices-table', {
         'fa-chevron-down': !this.productsExpanded
       }
     },
-    computedTotalPrice: function () {
+    computedTotalPrice() {
       const computedTotalPrice = this.products.map(product => {
         let price = 0;
         if (!product.quantity || product.quantity <= 0) return {
+          name: product.name,
           price,
           hst: 0,
-          weight: 0
+          weight: 0,
+          quantity: 0
         };
         if (this.isRetail()) {
           price = product.quantity * product.price_retailers
@@ -34,7 +38,9 @@ Vue.component('prices-table', {
           price = product.quantity * product.price
         }
         return {
+          name: product.name,
           price,
+          quantity: product.quantity,
           hst: product.hst ? price * this.hstTaxRate : 0,
           weight: product.quantity * KG_TO_LBS
         }
@@ -44,7 +50,7 @@ Vue.component('prices-table', {
     },
     formattedPriceArray: function() {
       return this.computedTotalPrice.map(priceObj => {
-        return this.formatNumber(priceObj.price)
+        return priceObj.price != 0 ?  this.formatNumber(priceObj.price) : null
       })
     }
   },
@@ -62,6 +68,7 @@ Vue.component('prices-table', {
     }
   },
   template: `
+  {% raw %}
   <div>
     <div>
     <p>
@@ -84,7 +91,7 @@ Vue.component('prices-table', {
       </tr>
     </thead>
     <tbody>
-    
+
       <tr v-for="(product, index) in products">
           <td>
             <p style="margin-bottom: 0;">{{product.name}}</p>
@@ -93,14 +100,14 @@ Vue.component('prices-table', {
           <td width="15%">
             <input type="number" name="quantity" v-model="product.quantity" min="0" @change="checkQuantity(index)">
             <span class="help-block" id="priceTon" v-if="!isRetail()">$ {{ product.price }}
-              <small>/bag</small>
+              <small>/item</small>
             </span>
             <span class="help-block" id="priceTon" v-if="isRetail()">$ {{ product.price_retailers }}
-                <small>/bag</small>
+                <small>/item</small>
               </span>
           </td>
           <td width="15%">
-            <input v-model="formattedPriceArray[index]" disabled class="row-sum rowTotal">
+            <input :name="product.name + ' - price'" v-model="formattedPriceArray[index]" disabled class="row-sum rowTotal">
           </td>
         </tr>
     </tbody>
@@ -108,13 +115,14 @@ Vue.component('prices-table', {
     </tfoot>
   </table>
   </div>
+  {% endraw %}
   `
 });
 
 
 var vm = new Vue({
-  el: '#main',
-  delimiters: ["((", "))"],
+  el: '#vue-app',
+  //delimiters: ["((", "))"],
   data: {
     purchaser: 'farm',
     companyName: '',
@@ -124,14 +132,14 @@ var vm = new Vue({
     barnyardComputedTotalPrice: [],
     generalSeedComputedTotalPrice: [],
     bioAgComputedTotalPrice: [],
-    grandTotal: 0,
+    //grandTotal: 0,
     hstTaxRate: 0,
     shippingRates: {},
     selectedShipping: null,
     fuelSurcharge: {}
   },
   computed: {
-    totalQuantity: function () {
+    totalQuantity() {
 
       return this.barnyardOrganicsProducts
         .concat(this.generalSeedProducts)
@@ -141,10 +149,10 @@ var vm = new Vue({
           return sum + Number(product.quantity)
         }, 0)
     },
-    isOrderAllowed: function () {
+    isOrderAllowed() {
       return (this.totalQuantity != 0 && this.totalQuantity % 20 === 0)
     },
-    weightTotal: function () {
+    weightTotal() {
       return this.barnyardComputedTotalPrice
         .concat(this.generalSeedComputedTotalPrice)
         .concat(this.bioAgComputedTotalPrice)
@@ -153,8 +161,8 @@ var vm = new Vue({
           return sum + (prices.weight)
         }, 0);
     },
-    shippingLocation: function () {
-      //first, let's find the shipping location from the select. 
+    shippingLocation() {
+      //first, let's find the shipping location from the select.
       let item = null;
       const selectedShipping = this.selectedShipping;
       Object.keys(this.shippingRates).forEach(region => {
@@ -169,9 +177,9 @@ var vm = new Vue({
       return item
     },
     shippingPrice() {
-      //This function calculates the shipping price based on the location selected. 
+      //This function calculates the shipping price based on the location selected.
       if (!this.shippingLocation) return 0
-      //first, transform the object with prices in a simpler data structure. 
+      //first, transform the object with prices in a simpler data structure.
       // move prom "price-1000: 3.55" to an object { key: 1000, value: 3.55 }
       const arrayOfPrices = []
       Object.keys(this.shippingLocation)
@@ -188,9 +196,9 @@ var vm = new Vue({
         return item1.key - item2.key
       })
 
-      // compare the total weight against the key. 
+      // compare the total weight against the key.
       // If the weight is more than the key, update the priceToReturn.
-      // if the weight is greater than the key, we skip the check 
+      // if the weight is greater than the key, we skip the check
       // (we have set the value at the preceeding check)
       let priceFor100Lbs = 0;
       arrayOfPrices.forEach(elem => {
@@ -215,11 +223,11 @@ var vm = new Vue({
     shippingPriceFormatted() {
       return this.formatNumber(this.shippingPrice);
     },
-    shippingHST: function() {
+    shippingHST() {
       const shippingHST = this.shippingPrice * this.hstTaxRate / 100
       return shippingHST
     },
-    hstTax: function () {
+    hstTax() {
       const hstForProducts = this.barnyardComputedTotalPrice
         .concat(this.generalSeedComputedTotalPrice)
         .concat(this.bioAgComputedTotalPrice)
@@ -229,54 +237,61 @@ var vm = new Vue({
         }, 0);
       console.log("HST for products: ", hstForProducts)
       console.log("HST for Shipping: ", this.shippingHST)
-      const hstTotal = hstForProducts + this.shippingHST
+      const hstTotal = Number(hstForProducts) + Number(this.shippingHST)
       console.log("HST total: ", hstTotal)
       return hstTotal
     },
-    hstTaxFormatted: function() {
+    subtotal() {
+      return Number(this.shippingPrice) + Number(this.itemsTotal)
+    },
+    subtotalFormatted() {
+      return this.formatNumber(this.subtotal)
+    },
+    hstTaxFormatted() {
       return this.formatNumber(this.hstTax)
     },
-    grandTotalFormatted: function() {
+    itemsTotal() {
+      return this.barnyardComputedTotalPrice
+      .concat(this.generalSeedComputedTotalPrice)
+      .concat(this.bioAgComputedTotalPrice)
+      .reduce(function (sum, prices) {
+        if (!prices || !prices.price) return sum
+        return sum + prices.price
+      }, 0);
+    },
+    orderSummary() {
+      return this.barnyardComputedTotalPrice
+        .concat(this.generalSeedComputedTotalPrice)
+        .concat(this.bioAgComputedTotalPrice)
+        .reduce((summary, product) => {
+          if (product.price && product.quantity) {
+            return summary + `${product.name},\t ${product.quantity},\t ${this.formatNumber(product.price)}\n`
+          }
+          return summary
+        }, '');
+    },
+    grandTotal() {
+      console.log('itemsTotal: ', this.itemsTotal)
+      console.log('shippingPrice: ', this.shippingPrice)
+      console.log('hstTax:', this.hstTax)
+      return Number(this.itemsTotal) + Number(this.shippingPrice) + Number(this.hstTax)
+    },
+    grandTotalFormatted() {
       return this.formatNumber(this.grandTotal)
     }
   },
-  watch: {
-    //using watch because computed properties can't detect modifications in arrays.
-    barnyardComputedTotalPrice: function () {
-      this.computeGrandTotal()
-    },
-    generalSeedComputedTotalPrice: function () {
-      this.computeGrandTotal()
-    },
-    bioAgComputedTotalPrice: function () {
-      this.computeGrandTotal()
-    },
-  },
   methods: {
-    isRetail: function () {
+    isRetail() {
       return this.purchaser === 'retail' && this.companyName && this.companyName.trim().length > 0
     },
-    computeGrandTotal: function () {
-      const itemsTotal = this.barnyardComputedTotalPrice
-        .concat(this.generalSeedComputedTotalPrice)
-        .concat(this.bioAgComputedTotalPrice)
-        .reduce(function (sum, prices) {
-          if (!prices || !prices.price) return sum
-          return sum + prices.price
-        }, 0);
-      const grandTotal = itemsTotal + this.shippingPrice + this.hstTax
-      console.log(grandTotal)
-      
-      //console.log(new Intl.NumberFormat('en-CA', { style: 'currency', currency: 'CAD' }).format(grandTotal));
-      
-      this.grandTotal = grandTotal.toLocaleString("en-CA")
-    },
+
 
     formatNumber(number) {
       return new Intl.NumberFormat('en-CA', { style: 'currency', currency: 'CAD' }).format(number)
-    }
+    },
+
   },
-  created: function () {
+  created() {
 
     function convertPricesToNumbers(product) {
       return {

@@ -1,0 +1,20 @@
+---
+label: Retailers
+hide_body: false
+is_partial: false
+fields:
+- type: field_group
+  name: retailers
+  label: Retailers
+  fields:
+  - type: list
+    name: new_brunswick
+    label: New Brunswick
+  - type: list
+    label: Nova Scotia
+    name: nova_scotia
+  - type: list
+    name: pei
+    label: PEI
+data_files:
+- _data/retailers.yml

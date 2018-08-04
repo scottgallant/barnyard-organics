@@ -1,0 +1,18 @@
+<!-- Header -->
+<header id="header">
+
+  <!-- Logo -->
+    <div class="logo">
+      <a href="http://{{ site.url }}/" class="header-logo"><img src="/images/logo-barnyard-organics.png" alt=""></a>
+      <a href="http://{{ site.url }}/">Barnyard Organics</a>
+    </div>
+  <!-- Nav -->
+    <nav id="nav">
+      <ul>
+        {% for item in site.menus.main %}
+          <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+
+</header>

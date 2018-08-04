@@ -1,0 +1,145 @@
+.post {
+  .image.fit {
+    overflow: hidden;
+    max-height: 200px;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.services {
+  .image.fit {
+    overflow: hidden;
+    max-height: 160px;
+    margin-bottom: 1em;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  h2 {
+    margin-bottom: .8em;
+    font-size: 18px;
+  }
+}
+
+.quotes {
+  .button {
+    box-shadow: inset 0 0 0 1px white !important;
+    color: white !important;
+  }
+}
+
+// google maps
+.map-frame {
+    width: 100%;
+    position: relative;
+}
+
+.sidebar nav ul {
+  margin: 0 0 2em;
+  padding: 0;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+
+  li {
+    list-style-type: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+    padding-left: 0;
+
+    a {
+      text-decoration: none;
+      padding: 10px 25px;
+      background-color: rgba(238, 238, 238, 0.24);
+      display: block;
+
+      &:hover {
+        background-color: rgba(238, 238, 238, 0.5);
+      }
+    }
+  }
+}
+
+li .logo {
+    background-image: url('/images/east-coast-organic-feed-mill-logo-2.png');
+    display: block;
+    height: 240px;
+    background-size: cover;
+    text-indent: -999px;
+    overflow: hidden;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+    @media (max-width: 800px) {
+      background: rgba(238, 238, 238, 0.24);
+      height: auto;
+      text-indent: 0;
+    }
+}
+
+.subheading {
+  font-size: 1.5em;
+  color: #aaa;
+  margin: 0 0 2em 0;
+}
+
+.tabs .titles li {
+  padding: 1em 1.5em !important;
+}
+
+.tabs .titles li.active {
+  padding-top: 1.5em !important;
+}
+
+.wrapper.sidebar.left>.inner {
+  -moz-flex-direction: row !important;
+  -webkit-flex-direction: row !important;
+  -ms-flex-direction: row !important;
+  flex-direction: row !important;
+}
+
+@media screen and (max-width: 980px) {
+  .wrapper.sidebar>.inner>.content {
+      padding-left: 0 !important;
+  }
+}
+
+
+@media screen and (max-width: 980px) {
+  .hide-mobile {
+    display:none !important;
+  }
+}
+
+.banner {
+  height: 80vh;
+  background-position: 50%;
+}
+
+.header-logo {
+  img {
+    max-height: 40px;
+    margin-right: 20px;
+    display: block;
+  }
+}
+
+.help-block {
+   font-size: 0.9em;
+   color: #999;
+}
+
+.order-form-total {
+  font-size: 33px; text-align: right; width: 100%; border: 0;
+}
+
+.error {
+  padding: 10px; background: rgba(221, 0, 0, 0.73); color: white; margin: .5em 0;
+  font-size: 14px;
+  text-align: left;
+}

@@ -1,0 +1,102 @@
+---
+new_brunswick:
+- location: Northumberland & Kent Counties
+  price-1000: 5.62
+  price-2000: 4.16
+  price-5000: 3.15
+  price-10000: 2.84
+- location: Victoria County
+  price-1000: 6.54
+  price-2000: 4.85
+  price-5000: 3.66
+  price-10000: '3.30'
+- location: Madawaska County
+  price-1000: 6.98
+  price-2000: 5.17
+  price-5000: 3.91
+  price-10000: 3.52
+- location: Kings & Queens Counties
+  price-1000: 6.11
+  price-2000: 4.52
+  price-5000: 3.43
+  price-10000: 3.09
+- location: Saint John, Sunbury & York Counties
+  price-1000: 5.93
+  price-2000: 4.39
+  price-5000: 3.33
+  price-10000: '3.00'
+- location: Carleton, Charlotte & Restigouche Counties
+  price-1000: 6.23
+  price-2000: 4.62
+  price-5000: 3.49
+  price-10000: 3.14
+- location: Westmorland & Albert Counties
+  price-1000: '5.50'
+  price-2000: 4.08
+  price-5000: 3.09
+  price-10000: 2.78
+nova_scotia:
+- location: Hants & Shelburne Counties
+  price-1000: '7.10'
+  price-2000: 5.95
+  price-5000: 4.43
+  price-X: 3.99
+- location: Annapolis
+  price-1000: 6.97
+  price-2000: 5.83
+  price-5000: 4.35
+  price-X: 2.92
+- location: Cape Breton (all counties)
+  price-1000: 7.43
+  price-2000: 6.22
+  price-5000: 4.64
+  price-X: 4.17
+- location: Digby, Yarmouth
+  price-1000: 8.82
+  price-2000: 7.35
+  price-5000: 5.43
+  price-X: 4.89
+- location: Lunenburg
+  price-1000: 7.21
+  price-2000: 6.04
+  price-5000: '4.50'
+  price-X: 4.05
+- location: Kings & Queens Counties
+  price-1000: 6.76
+  price-2000: 5.67
+  price-5000: 4.22
+  price-X: '3.80'
+- location: Halifax
+  price-1000: 6.27
+  price-2000: 5.25
+  price-5000: 3.91
+  price-X: 3.52
+- location: Cumberland, Colchester & Pictou
+  price-1000: 6.12
+  price-2000: 5.13
+  price-5000: 3.82
+  price-X: 3.44
+- location: Antigonish & Guysborough
+  price-2000: '5.40'
+  price-5000: 4.02
+  price-10000: '4.50'
+  price-1000: 6.44
+  price-X: 3.62
+pei:
+- location: Kings
+  price-1000: 4.77
+  price-2000: '2.60'
+  price-5000: 2.33
+  price-X: '2.10'
+- location: Queens
+  price-1000: 4.77
+  price-2000: 3.46
+  price-5000: 2.33
+  price-X: '2.10'
+- location: Prince
+  price-1000: 3.05
+  price-2000: 3
+  price-5000: 2.5
+  price-10000: 2
+fuel_surcharge: 1.285
+fuel_surcharge_10000: 1.419

@@ -1,0 +1,42 @@
+---
+label: Footer
+hide_body: false
+is_partial: false
+fields:
+- type: field_group
+  name: footer
+  label: Footer
+  fields:
+  - name: Address
+    label: Address
+    type: text
+    hidden: false
+    default: ''
+  - name: Phone
+    label: Phone
+    type: text
+    hidden: false
+    default: ''
+  - name: Email
+    label: Email
+    type: text
+    hidden: false
+    default: ''
+  - name: social-media
+    label: Social media
+    type: field_group_list
+    fields:
+    - name: name
+      label: Name
+      type: text
+      hidden: false
+      default: ''
+    - name: link
+      label: Link
+      type: text
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+data_files:
+- _data/footer.yml

@@ -1,0 +1,30 @@
+title: Barnyard Organics
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+# baseurl: "/barnyard-organics"
+url: "www.barnyardorganics.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+permalink: pretty
+
+collections:
+  feed-products:
+    output: true
+    permalink: "/feed/:path/"
+
+# Build settings
+markdown: kramdown
+# theme: minima
+gems:
+  - jekyll-menus
+  - jekyll-babel
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+sass:
+  style: compressed
+
+google_analytics: UA-39666952-8

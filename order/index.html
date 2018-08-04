@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Feed Order Form</title>
+		<title>Order Form</title>
 		<meta charset="utf-8" />
 	  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search resu...">
 	  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	  <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	  <!--[if lte IE 8]><script src="/assets/js/ie/html5shiv.js"></script><![endif]-->
 	  <link rel="stylesheet" href="/assets/main.css">
-	  <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	  <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	  <!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" /><![endif]-->
+	  <!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/ie9.css" /><![endif]-->
 
 	  <link rel="canonical" href="www.barnyardorganics.com/order/">
 	  <link rel="alternate" type="application/rss+xml" title="Barnyard Organics" href="/feed.xml">
@@ -67,109 +67,313 @@
 
 </header>
 
+
 <!-- Main -->
 
-  <section id="main" class="wrapper">
+<section id="main" class="wrapper sidebar left">
   <div class="inner">
-    <div class="8u$ -2u 12u$(small)">
-
-    <header>
-      <h1>Feed Order Form</h1>
-      <p class="subheading">Online order form COMING SOON! But we're still working on this page.  Please check back soon!</p>
+    <header class="major">
+      <h1>Order Form</h1>
+      <p class="subheading"></p>
     </header>
-    <p><em>Please note that shipping is excluded from our pricing, but we’re happy to get you a preferred customer shipping quote!</em></p>
-
-    <hr>
-    <h3></h3>
-<div><p>See price lists below. To place an order, <a href="info@barnyardorganics.com">email</a>   or call Barnyard Organics (902-887-3188).</p>
+    <!-- Sidebar -->
+    <div class="sidebar">
+	<nav>
+		<ul>
+			<li class="hide-mobile"><a href="/feed/" class="logo">East Coast Organic Feed Mill</a></li>
+			
+				<li><a href="/feed/">Feed Products</a></li>
+			
+				<li><a href="/faq">FAQ's</a></li>
+			
+				<li><a href="/order/">Order</a></li>
+			
+		</ul>
+	</nav>
 </div>
-<ul>
-  
-    <li><a href="/images/ECOFM Farm Pricing Feb 13 2018.pdf">East Coast Organic Feed Mill farm price list</a></li>
-  
-    <li><a href="/images/Whole Grain Price List Farm Feb 1 2018.pdf">Whole Grain Farm Price List</a></li>
-  
-    <li><a href="/images/Bio Ag Premixes Feb 12 2018.pdf">BioAg Premix Price List</a></li>
-  
-    <li><a href="/images/Bio Ag Supplements and Fertilizers Feb 12 2018.pdf">BioAg Supplements & Fertilizer Price List</a></li>
-  
-    <li><a href="/images/General Seed Cover Crop Seed Price List Feb 1 2018.pdf">General Seed Cover Crop Seed Price List</a></li>
-  
-    <li><a href="/images/General Seed Forage Seed Price List Feb 1 2018.pdf">General Seed Forage Seed Price List</a></li>
-  
-</ul>
 
-  </div></div>
-  </section>
+    <div class="content" id="vue-app" >
 
-<!-- Scripts -->
-  <script src="/assets/js/jquery.min.js"></script>
-  <script src="/assets/js/jquery.dropotron.min.js"></script>
-  <script src="/assets/js/jquery.scrollex.min.js"></script>
-  <script src="/assets/js/jquery.scrolly.min.js"></script>
-  <script src="/assets/js/jquery.selectorr.min.js"></script>
-  <script src="/assets/js/skel.min.js"></script>
-  <script src="/assets/js/util.js"></script>
-  <!--[if lte IE 8]><script src="/assets/js/ie/respond.min.js"></script><![endif]-->
-  <script src="/assets/js/main.js"></script>
+      <form name="order-form" netlify hidden>
+        <input name="purchaser-type" />
+        <input name="farm-company-name" />
+        <select name="retail-purchaser"></select>
+        <input name="first-name" />
+        <input name="last-name" />
+        <input name="email" />
+        <input name="phone-number" />
+        <select name="shipping"></select>
+        <textarea name="order-summary"></textarea>
+        <input name="shipping-price" />
+        <input name="hst" />
+        <input name="subtotal" />
+        <input name="total-price" />
+        <input name="payment-method" />
+        <textarea name="special-istructions"></textarea>
+      </form>
+
+      <form netlify name="order-form" id="order-form" method="POST" netlify>
+          <input type="hidden" name="form-name" value="order-form" />
+        <div class="row uniform pricing-table">
+
+          <div class="4u 12u$(small)">
+            <input type="radio" id="farm-purchaser" name="purchaser-type" value="farm" v-model="purchaser" checked>
+            <label for="farm-purchaser">Farm Purchaser</label>
+          </div>
+          <div class="4u 12u$(small)">
+            <input type="radio" id="retail-purchaser" name="purchaser-type" value="retail" v-model="purchaser">
+            <label for="retail-purchaser">Retail Purchaser</label>
+          </div>
+
+          <!-- retailers only -->
+          <div class="8u$ 12u$(small)" v-if="purchaser === 'retail'">
+            <label>Company Name</label>
+            <div class="select-wrapper">
+              <select name="retail-purchaser" v-model="companyName">
+                <option value="" disabled>Choose One</option>
+                
+                <optgroup label="new_brunswick">
+                  
+                  <option value="Southeastern Farmers' Co-op (Moncton)">Southeastern Farmers' Co-op (Moncton)</option>
+                  
+                  <option value="Fredericton Co-op Home & Farm Supply">Fredericton Co-op Home & Farm Supply</option>
+                  
+                  <option value="Cattail Ridge Market">Cattail Ridge Market</option>
+                  
+                </optgroup>
+                
+                <optgroup label="nova_scotia">
+                  
+                  <option value="Colchester County Store">Colchester County Store</option>
+                  
+                  <option value="Walkers' Livestock Feed & Supply">Walkers' Livestock Feed & Supply</option>
+                  
+                  <option value="United Farmers Co-op Country Store (Sydney)">United Farmers Co-op Country Store (Sydney)</option>
+                  
+                  <option value="J Leblanc Feed Services Ltd.  (Church Point)">J Leblanc Feed Services Ltd.  (Church Point)</option>
+                  
+                  <option value="Lequille Country Store">Lequille Country Store</option>
+                  
+                  <option value="Family Grocery & Feed Store (Middleton)">Family Grocery & Feed Store (Middleton)</option>
+                  
+                  <option value="Antigonish Fam & Garden Co-op">Antigonish Fam & Garden Co-op</option>
+                  
+                </optgroup>
+                
+                <optgroup label="pei">
+                  
+                  <option value="Agro co-op (Charlottetown)">Agro co-op (Charlottetown)</option>
+                  
+                  <option value="Illsley's Feed & Farm Supply Sotre">Illsley's Feed & Farm Supply Sotre</option>
+                  
+                </optgroup>
+                
+              </select>
+            </div>
+          </div>
+
+          <div class="12u$ 12u$(small)" v-if="purchaser === 'farm'">
+            <label for="farm-company-name">Company Name</label>
+            <input type="text" name="farm-company-name" id="farm-company-name" value="" placeholder="Name" />
+          </div>
+
+          <div class="6u 12u$(small)">
+            <label for="first-name">First Name</label>
+            <input type="text" name="first-name" id="first-name" value="" placeholder="Name" />
+          </div>
+          <div class="6u$ 12u$(small)">
+            <label for="last-name">Last Name</label>
+            <input type="text" name="last-name" id="last-name" value="" placeholder="Last Name" />
+          </div>
+          <div class="12u$ 12u$(small)">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" value="" placeholder="Name" />
+          </div>
+          <div class="12u$ 12u$(small)">
+            <label for="phone-number">Phone Number</label>
+            <input type="text" name="phone-number" id="phone-number" value="" placeholder="Name" />
+          </div>
+          <div class="12u$">
+            <hr>
+          </div>
+          <div class="ex-form">
+
+            <prices-table
+              title="Barnyard Organics Products"
+              :products="barnyardOrganicsProducts"
+              :hst-tax-rate="hstTaxRate"
+              v-bind="{isRetail: isRetail, formatNumber: formatNumber}"
+              @computed-total-price="barnyardComputedTotalPrice = $event">
+            </prices-table>
+
+            <prices-table
+              title="General Seed Products"
+              :products="generalSeedProducts"
+              @computed-total-price="generalSeedComputedTotalPrice = $event"
+              :hst-tax-rate="hstTaxRate"
+              v-bind="{isRetail: isRetail, formatNumber: formatNumber}">
+            </prices-table>
+
+            <prices-table
+              title="Bio-Ag Procucts"
+              :products="bioAgProducts"
+              @computed-total-price="bioAgComputedTotalPrice = $event"
+              :hst-tax-rate="hstTaxRate"
+              v-bind="{isRetail: isRetail, formatNumber: formatNumber}">
+            </prices-table>
+
+            <textarea name="order-summary" v-model="orderSummary" style="display: none"></textarea>
+
+            <div class="row uniform">
+              <div class="8u 12u$(small)">
+                <p class="order-form-total" style="text-align: left;">Total Quantity</p>
+              </div>
+              <div class="4u 12u$(small)">
+                <div class="order-form-total">
+                  
+                  {{ totalQuantity }} Items
+                  
+                  <p class="error" v-show="!isOrderAllowed">
+                    <em>If shipping is required, order must be in multiples of 20 items (1/2 tonnes)</em>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="row uniform">
+              <div class="8u 12u$(small)">
+                <label>Shipping</label>
+                <div class="select-wrapper">
+                  <select name="shipping" v-model="selectedShipping">
+                    <option value="pick_at_farm">Pick up at Farm (no shipping)</option>
+                    <optgroup label="New Brunswick">
+                      
+                      <option value="Northumberland & Kent Counties">Northumberland & Kent Counties</option>
+                      
+                      <option value="Victoria County">Victoria County</option>
+                      
+                      <option value="Madawaska County">Madawaska County</option>
+                      
+                      <option value="Kings & Queens Counties">Kings & Queens Counties</option>
+                      
+                      <option value="Saint John, Sunbury & York Counties">Saint John, Sunbury & York Counties</option>
+                      
+                      <option value="Carleton, Charlotte & Restigouche Counties">Carleton, Charlotte & Restigouche Counties</option>
+                      
+                      <option value="Westmorland & Albert Counties">Westmorland & Albert Counties</option>
+                      
+                    </optgroup>
+                    <optgroup label="Prince Edward Island">
+                      
+                      <option value="Kings">Kings</option>
+                      
+                      <option value="Queens">Queens</option>
+                      
+                      <option value="Prince">Prince</option>
+                      
+                    </optgroup>
+                    <optgroup label="Nova Scotia">
+                      
+                      <option value="Hants & Shelburne Counties">Hants & Shelburne Counties</option>
+                      
+                      <option value="Annapolis">Annapolis</option>
+                      
+                      <option value="Cape Breton (all counties)">Cape Breton (all counties)</option>
+                      
+                      <option value="Digby, Yarmouth">Digby, Yarmouth</option>
+                      
+                      <option value="Lunenburg">Lunenburg</option>
+                      
+                      <option value="Kings & Queens Counties">Kings & Queens Counties</option>
+                      
+                      <option value="Halifax">Halifax</option>
+                      
+                      <option value="Cumberland, Colchester & Pictou">Cumberland, Colchester & Pictou</option>
+                      
+                      <option value="Antigonish & Guysborough">Antigonish & Guysborough</option>
+                      
+                    </optgroup>
+                  </select>
+                </div>
+                <p class="help-block">If shipping is required, order must be in multiples of 20 items (1/2 tonnes)</p>
+              </div>
+              <div class="4u$ 12u$(small)">
+                <label for="">Shipping Price</label>
+                <input type="text" name="shipping-price" :value="shippingPriceFormatted" readonly>
+              </div>
+            </div>
+            <div class="row uniform">
+              <div class="8u 12u$(small)">
+                <p class="order-form-total" style="text-align: left;">HST</p>
+              </div>
+              <div class="4u 12u$(small)">
+                <input :value="hstTaxFormatted" name="hst" readonly class="row-sum order-form-total">
+              </div>
+              <div class="8u 12u$(small)">
+                <p class="order-form-total" style="text-align: left;">Sub Total</p>
+              </div>
+              <div class="4u 12u$(small)">
+                <input :value="subtotalFormatted" name="subtotal" readonly class="row-sum order-form-total">
+              </div>
+              <div class="8u 12u$(small)">
+                <p class="order-form-total" style="text-align: left;">Total Price</p>
+              </div>
+              <div class="4u 12u$(small)">
+                <input :value="grandTotalFormatted" name="total-price" readonly class="row-sum order-form-total">
+              </div>
+            </div>
+            <div class="row uniform">
+              <div class="8u 12u$(small)">
+                <label for="payment-method">Payment method</label>
+                <div class="select-wrapper">
+                  <select name="payment-method" id="payment-method">
+                    <option value="choose-one">- Choose one -</option>
+                    <option value="cheque">Cheque</option>
+                    <option value="e-transfer">e-transfer</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="row uniform">
+
+              <div class="12u$" style="margin-top: 3em;">
+                <label for="special-istructions">Special Instructions</label>
+                <textarea name="special-istructions" id="special-istructions" placeholder="Enter your message" rows="3"></textarea>
+              </div>
+
+              <div class="12u$">
+                <ul class="actions">
+                  <li>
+			  <div data-netlify-recaptcha></div><br>
+                    <input type="submit" value="Submit Order" class="special" :disabled="!isOrderAllowed" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </form>
+      <!-- .row -->
+    </div>
+    <!-- .content -->
+  </div>
+  <!-- .inner -->
+</section>
+
+<script>
+  var _orderForm = {"barnyard_organics":{"products":[{"name":"Organic Wheat","price":19.74,"price_retailers":16.53},{"name":"Organic Roasted Soybeans (Whole, priced at 20Kg bag)","price":31.05,"price_retailers":25.99},{"name":"Organic Roasted Soybeans (Milled, priced at 20Kg bag)","price":"32.40","price_retailers":27.12},{"name":"Organic Oats (priced at 20 Kg bag)","description":"","price":13.43,"price_retailers":11.24},{"name":"Organic Milling Wheat (food grade) ","description":"","price":25.31,"price_retailers":21.19},{"name":"Organic Field Peas","description":"","price":28.63,"price_retailers":23.96},{"name":"Organic Cracked Corn (priced at 20Kg bag)","description":"","price":"20.10","price_retailers":16.82},{"name":"Organic Corn","description":"","price":23.44,"price_retailers":19.62},{"name":"Organic Buckwheat (priced at 20Kg bag)","description":"","price":27,"price_retailers":"22.60"},{"name":"Organic Barley","description":"","price":20.38,"price_retailers":17.06},{"name":"Dairy Goat Ration (16%)","description":"A coarse texture feed for organic goats to reach their full potential. Our Organic Dairy Goat formula offers ideal nutrition for your lactating goats. With a minimum of 16% protein, your goats will be feasting on some of the best, most natural feed available.","price":28.15,"price_retailers":24.97},{"name":"Mixed Grain Scratch (9.5%)","description":"Our Mixed Grain Scratch, at 9.5% protein, provides an ideal supplement to all birds. Corn is cracked while the rest of the grains are whole. Feeding whole grains with grit helps keep the bird’s gizzard strong and healthy and improves the flavour of the final product.","price":20.84,"price_retailers":18.48},{"name":"Organic Turkey Grower (23%)","description":"East Coast Organic Feed Mill’s Certified Organic Turkey Grower meets the balance of nutrients needed for turkeys to reach their growth potential in a medium-hammered mash that turkeys love. At a minimum 23% protein, this feed is designed with the bird’s optimal nutritional requirements in mind. In addition to extra protein, the professionally formulated Organic Turkey Grower contains flax for Omega-3 fatty acids as well. The resulting meat will be healthy, high quality, delicious! This feed works well for both heritage breeds and broad breasted turkeys.","price":31.77,"price_retailers":28.18},{"name":"Organic Turkey Starter (26%)","description":"East Coast Organic Feed Mill’s Certified Organic Turkey Starter meets the balance of nutrients needed for turkeys to reach their growth potential in a medium-hammered mash that turkeys love. At a minimum 26% protein, this feed is designed with the bird’s optimal nutritional requirements in mind. In addition to extra protein, the formulated Organic Turkey Grower contains flax for Omega-3 fatty acids as well. The resulting meat will be healthy, high quality, delicious! This feed works well for both heritage breeds and broad breasted turkeys.","price":34.69,"price_retailers":30.77},{"name":"Organic Hog Grower (14%)","description":"A finely ground feed for raising organic pigs to reach their full growth potential. Our Organic Hog Grower formula offers ideal nutrition for your growing swine. With a minimum of 14% protein, your pigs will be feasting on some of the best, most natural feed available.","price":23.65,"price_retailers":20.97},{"name":"Organic Poultry Starter (21%)","description":"A very high protein diet for fast growth and a texture for young poultry. The mash is a medium hammered texture, easy for young chicks to eat. The mash is preferred by many because it is not over-processed into pellets. Cracked corn is used in the mash to minimize dust levels.","price":30.95,"price_retailers":27.45},{"name":"Organic Soy-Free Poultry Layer Mash (15%)","description":" For egg production or maintenance of adult chickens, the 15% protein will meet the requirements of most mixed farms. The mash is a coarsely hammered textured, specially formulated to meet protein requirements for a non-soy-based diet.","price":30.98,"price_retailers":27.48,"hst":false},{"name":"Organic Poultry Layer Mash 17%","description":"For egg production or maintenance of adult birds (chickens, geese, ducks), the 17% protein will meet the requirements of most mixed farms. The mash is preferred by many because it is not over-processed into pellets. Cracked corn is used in the mash to minimize dust levels.","price":29.18,"price_retailers":25.88},{"name":"Organic Poultry Grower (18%)","description":"Formulated to provide optimal health and growth for your birds, the Certified Organic Poultry Grower Mash is designed for use with growing meat birds. A coarsely hammered texture, at 18% minimum protein, this feed is designed with the bird’s optimal nutritional requirements in mind. The resulting meat will be high quality, delicious, and very healthy! East Coast Organic Feed Mill’s Organic Poultry Grower Mash works well for both hybrid and heritage breeds.","price":30.14,"price_retailers":26.73}]},"hst":15,"bio_ag":{"products":[{"name":"Zinc Sulphate 50 lbs","description":4480,"price":57.62,"price_retailers":57.62},{"name":"Vinegar, While 55L 20%","description":"4450 (HST)","price":"72.40","price_retailers":"72.40","hst":true},{"name":"Vinegar, Apple Cider 55L OCIA","description":4450,"price":106.64,"price_retailers":106.64},{"name":"Sulphur 50 lbs","description":4480,"price":38.18,"price_retailers":38.18},{"name":"Stalosan 15 Kg","description":"4403 (HST)","price":37.65,"price_retailers":37.65,"hst":true},{"name":"Salt block 44 lbs","description":"4470 (HST)","price":15.77,"price_retailers":15.77,"hst":true},{"name":"Redmond Salt loose 50 lbs","description":"4470 (HST)","price":15.33,"price_retailers":15.33,"hst":true},{"name":"Redmond Anti-Caking Agent 50 lbs","description":"4403 (HST)","price":21.11,"price_retailers":21.11,"hst":true},{"name":"Real Salt (table salt) 25lb bag","description":4470,"price":88.47,"price_retailers":88.47},{"name":"Perma Guard Diatomaceous Earth 50 lbs","description":"4440 (HST)","price":41.47,"price_retailers":41.47,"hst":true},{"name":"Norman's Naturals Dogfood 18 Kg","description":"4490 (HST)","price":46.12,"price_retailers":46.12,"hst":true},{"name":"Mg-K-Sulp (Feedate/Dynamate) 25Kg","description":4480,"price":38.63,"price_retailers":38.63},{"name":"Magnesium Sulfate (Epson Salt) 50 lb","description":4480,"price":38.63,"price_retailers":38.63},{"name":"Maritime Organic Seaweed Meal 22.67Kg","description":"4402 (HST)","price":36.72,"price_retailers":36.72,"hst":true},{"name":"Ocean Feed Seaweed Meal 25 Kg","description":"4402 (HST)","price":64.01,"price_retailers":64.01,"hst":true},{"name":"Hydrogen Peroxide 55L 35% NSF","description":"4430 (HST)","price":137.96,"price_retailers":137.96,"hst":true},{"name":"Organic Flax Meal","description":4106,"price":48.62,"price_retailers":48.62},{"name":"Calphos Soft Phosphate 50lbs Granular","description":"4480 (HST)","price":22.33,"price_retailers":22.33,"hst":true},{"name":"Boron 20.5% 50 lbs","description":"4480 (HST)","price":110,"price_retailers":110,"hst":true},{"name":"Black Earth 25 Kg","description":"4440 (HST)","price":21.18,"price_retailers":21.18,"hst":true},{"name":"Bio-Lac 4L Liquid PCAI","description":"4460 (HST)","price":132.65,"price_retailers":132.65,"hst":true},{"name":"Bio-Lac 25 Kg PCAI","description":4460,"price":321.13,"price_retailers":321.13},{"name":"Bio-Lac 25 Kg","description":4460,"price":286.63,"price_retailers":286.63},{"name":"Bio-Lac 1L Liquid PCAI","description":"4460 (HST)","price":46.23,"price_retailers":46.23,"hst":true},{"name":"Bio-Lac 1L Liquid","description":"4460 (HST)","price":45.24,"price_retailers":45.24,"hst":true},{"name":"Bio-Lac 1Kg PCAI","description":"4460 (HST)","price":18.12,"price_retailers":18.12,"hst":true},{"name":"Bio-Lac 1Kg","description":"4460 (HST)","price":17.31,"price_retailers":17.31,"hst":true},{"name":"Bentonite Swell Clay 50 lbs","description":4480,"price":16.06,"price_retailers":16.06},{"name":"Atlantean Plant Fertilizer 10L","description":"4480 (HST)","price":87.32,"price_retailers":87.32,"hst":true},{"name":"PCAI Sheep Mineral (1:1)","description":4410,"price":62.06,"price_retailers":62.06},{"name":"PCAI Horse Mineral (2:1; 8.5Kg pail)","description":4410,"price":48.45,"price_retailers":48.45},{"name":"PCAI Horse Mineral (2:1)","description":4410,"price":87.01,"price_retailers":87.01},{"name":"PCAI Goat Premix (1:1)","description":4410,"price":64.01,"price_retailers":64.01},{"name":"PCAI Poultry Starter Premix","description":4410,"price":56.88,"price_retailers":56.88},{"name":"PCAI Poultry Grower Premix","description":4410,"price":58.17,"price_retailers":58.17},{"name":"Poultry Grower Premix","description":4401,"price":55.47,"price_retailers":55.47},{"name":"Poultry Layer Premix","description":4401,"price":37.28,"price_retailers":37.28},{"name":"PCAI Poultry Layer Premix","description":4410,"price":39.98,"price_retailers":39.98},{"name":"Sow Premix","description":4401,"price":56.07,"price_retailers":56.07},{"name":"PCAI Sow premix","description":4410,"price":48.99,"price_retailers":48.99},{"name":"Hog Grower Premix","description":4401,"price":"55.10","price_retailers":"55.10"},{"name":"PCAI Hog Grower premix","description":4401,"price":"57.80","price_retailers":"57.80"},{"name":"PCAI Blue tag Beef Mineral (2:1)","description":4410,"price":53.37,"price_retailers":53.37},{"name":"PCAI Green tag Beef Mineral (1:1)","description":4410,"price":59.63,"price_retailers":59.63},{"name":"PCAI Red tag Dairy Mineral (1:2)","description":4410,"price":"79.40","price_retailers":"79.40"},{"name":"Red tag Dairy Mineral (2:1)","description":4410,"price":"76.70","price_retailers":"76.70"},{"name":"Blue tag Dairy Mineral (1:2)","description":4401,"price":58.39,"price_retailers":58.39},{"name":"PCAI Blue Tag Dairy Mineral (2:1)","description":4410,"price":55.69,"price_retailers":55.69,"hst":false}]},"general_seed":{"products":[]}}
+  var _shippingRates = {"new_brunswick":[{"location":"Northumberland & Kent Counties","price-1000":5.62,"price-2000":4.16,"price-5000":3.15,"price-10000":2.84},{"location":"Victoria County","price-1000":6.54,"price-2000":4.85,"price-5000":3.66,"price-10000":"3.30"},{"location":"Madawaska County","price-1000":6.98,"price-2000":5.17,"price-5000":3.91,"price-10000":3.52},{"location":"Kings & Queens Counties","price-1000":6.11,"price-2000":4.52,"price-5000":3.43,"price-10000":3.09},{"location":"Saint John, Sunbury & York Counties","price-1000":5.93,"price-2000":4.39,"price-5000":3.33,"price-10000":"3.00"},{"location":"Carleton, Charlotte & Restigouche Counties","price-1000":6.23,"price-2000":4.62,"price-5000":3.49,"price-10000":3.14},{"location":"Westmorland & Albert Counties","price-1000":"5.50","price-2000":4.08,"price-5000":3.09,"price-10000":2.78}],"nova_scotia":[{"location":"Hants & Shelburne Counties","price-1000":"7.10","price-2000":5.95,"price-5000":4.43,"price-X":3.99},{"location":"Annapolis","price-1000":6.97,"price-2000":5.83,"price-5000":4.35,"price-X":2.92},{"location":"Cape Breton (all counties)","price-1000":7.43,"price-2000":6.22,"price-5000":4.64,"price-X":4.17},{"location":"Digby, Yarmouth","price-1000":8.82,"price-2000":7.35,"price-5000":5.43,"price-X":4.89},{"location":"Lunenburg","price-1000":7.21,"price-2000":6.04,"price-5000":"4.50","price-X":4.05},{"location":"Kings & Queens Counties","price-1000":6.76,"price-2000":5.67,"price-5000":4.22,"price-X":"3.80"},{"location":"Halifax","price-1000":6.27,"price-2000":5.25,"price-5000":3.91,"price-X":3.52},{"location":"Cumberland, Colchester & Pictou","price-1000":6.12,"price-2000":5.13,"price-5000":3.82,"price-X":3.44},{"location":"Antigonish & Guysborough","price-2000":"5.40","price-5000":4.02,"price-10000":"4.50","price-1000":6.44,"price-X":3.62}],"pei":[{"location":"Kings","price-1000":4.77,"price-2000":"2.60","price-5000":2.33,"price-X":"2.10"},{"location":"Queens","price-1000":4.77,"price-2000":3.46,"price-5000":2.33,"price-X":"2.10"},{"location":"Prince","price-1000":3.05,"price-2000":3,"price-5000":2.5,"price-10000":2}],"fuel_surcharge":1.285,"fuel_surcharge_10000":1.419}
+</script>
 
 
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<div class="split style1">
-						<div class="contact">
-							<h2>Contact</h2>
-							<ul class="contact-icons">
-								<li class="icon fa-home">1934 N Freetown Rd Rte 108 RR#7 Freetown, PEI, C0B 1L0</li>
-								<li class="icon fa-phone"><a href="tel:902.887.3188 (office)">902.887.3188 (office)</a></li>
-								<li class="icon fa-envelope-o"><a href="mailto:info@barnyardorganics.com">info@barnyardorganics.com</a></li>
-							</ul>
-							<ul class="icons-bordered">
-								
-										<li><a class="icon fa-twitter (mark)" href="https://twitter.com/mrbarnyardigan">
-											<span class="label">Twitter (Mark)</span>
-										</a></li>
-								
-										<li><a class="icon fa-facebook" href="https://www.facebook.com/Barnyard-Organics-109747069060995/?fref=ts">
-											<span class="label">Facebook</span>
-										</a></li>
-								
-										<li><a class="icon fa-instagram" href="https://instagram.com/barnyardorganics">
-											<span class="label">Instagram</span>
-										</a></li>
-								
-										<li><a class="icon fa-twitter" href="https://twitter.com/barnyardigans">
-											<span class="label">Twitter</span>
-										</a></li>
-								
-							</ul>
-						</div>
-						<form id="contactForm" action="https://formspree.io/info@barnyardorganics.com" method="post">
-		  					<input type="hidden" name="_next" value="/index.html" />
-		  					<input type="hidden" name="_subject" value="Barnyard Website Message" />
-		  					<input type="hidden" name="_format" value="plain" />
-		  					<input type="text" name="_gotcha" style="display:none" />
-							<h2>Email Us</h2>
-							<div class="field half first">
-								<input name="name" id="name" placeholder="Name" type="text" />
-							</div>
-							<div class="field half">
-								<input name="email" id="email" placeholder="Email" type="email" />
-							</div>
-							<div class="field">
-								<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
-							</div>
-							<ul class="actions">
-								<li><input value="Send Message" class="button" type="submit" /></li>
-							</ul>
-						</form>
-					</div>
-					<div class="copyright">
-						<p>&copy; Barnyard Organics. All rights reserved. <a href="/admin/">Login</a></p>
-					</div>
-				</div>
-			</footer>
 
-</body>
-</html>
+
+<script
+			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.min.js"></script>
+<script src="/assets/js/order.js"></script>

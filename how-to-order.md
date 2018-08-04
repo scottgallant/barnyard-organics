@@ -9,8 +9,8 @@ links:
   description: ''
 - link: order.md
   image: ''
-  description: Coming Soon!
-  heading: Feed Order Form - coming soon!
+  description: 'Order online '
+  heading: Online Order Form
 - link: contact.md
   image: ''
   description: For other inquiries
@@ -21,4 +21,5 @@ menu:
     identifier: something
     url: "/how-to-order/"
     weight: 9
+
 ---

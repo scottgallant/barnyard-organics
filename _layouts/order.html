@@ -7,14 +7,13 @@
   <div class="inner">
     <header class="major">
       <h1>{{ page.title | escape }}</h1>
-      <!-- test -->
       <p class="subheading">{{ page.description }}</p>
     </header>
     <!-- Sidebar -->
     {% include feed-nav.html %}
     <div class="content" id="vue-app" >
 
-      <form name="order-form" hidden>
+      <form name="order-form" hidden netlify>
         <input name="purchaser-type" />
         <input name="farm-company-name" />
         <select name="retail-purchaser"></select>

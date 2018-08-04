@@ -66,12 +66,12 @@ fields:
   description: This is a list of links to other pages. It will appear in a grid-format
     (with an image, title, and text)
 pages:
-- turkey-1.md
 - poultry.md
+- index.md
 - feed.md
 - how-to-order.md
+- turkey-1.md
 - about/index.md
 - poultry2.md
 - services.md
 - about/family/index.md
-- index.md

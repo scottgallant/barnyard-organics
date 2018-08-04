@@ -3,20 +3,17 @@ new_page_extension: md
 auto_deploy: true
 admin_path: "/admin/"
 webhook_url: 
-collections:
-- path: _posts
-  label: Posts
-  create: all
-  hidden: true
-- path: _feed-products
-  label: Feed-products
-  create: all
-  templates:
-  - feed-product
-  default_front_matter_template: feed-product
-- path: ''
+sections:
+- type: jekyll-pages
   label: Pages
   create: all
+- type: directory
+  path: _feed-products
+  label: Feed-products
+  create: all
+  match: "**/*"
+  templates:
+  - feed-product
 upload_dir: images
 public_path: "/barnyard-organics/images"
 front_matter_path: "/images"

@@ -1,4 +1,5 @@
 ---
+label: Default
 hide_body: false
 is_partial: false
 fields:
@@ -23,8 +24,8 @@ fields:
   default: default
   hidden: true
 pages:
-- contact.md
-- order.md
 - order-from-barnyard.md
 - rent-the-chicken.md
+- contact.md
 - organic-chicken-eggs-subpage.md
+- order.md

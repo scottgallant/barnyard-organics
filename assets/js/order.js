@@ -25,7 +25,7 @@ Vue.component('prices-table', {
     computedTotalPrice() {
       const computedTotalPrice = this.products.map(product => {
         let price = 0;
-        if (!product.quantity) return {
+        if (!product.quantity || product.quantity <= 0) return {
           name: product.name,
           price,
           hst: 0,
@@ -57,6 +57,14 @@ Vue.component('prices-table', {
   methods: {
     toggle: function () {
       this.productsExpanded = !this.productsExpanded
+    },
+    checkQuantity: function(i) {
+      const product = this.products[i]
+      if (product.quantity < 0) 
+        product.quantity = 0
+      if (!Number.isInteger(product.quantity)) 
+        product.quantity = Math.floor(product.quantity)
+      console.log('checkQuantity: ' + product.quantity)
     }
   },
   template: `
@@ -90,7 +98,7 @@ Vue.component('prices-table', {
             <p style="margin-top: .5em; margin-bottom: .5em;" class="help-block">{{product.description}}</p>
           </td>
           <td width="15%">
-            <input type="number" :name="product.name + ' - quantity'" v-model="product.quantity">
+            <input type="number" name="quantity" v-model="product.quantity" min="0" @change="checkQuantity(index)">
             <span class="help-block" id="priceTon" v-if="!isRetail()">$ {{ product.price }}
               <small>each</small>
             </span>

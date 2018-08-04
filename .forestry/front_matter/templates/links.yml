@@ -1,4 +1,5 @@
 ---
+label: Links
 hide_body: true
 is_partial: false
 fields:
@@ -66,9 +67,9 @@ fields:
     (with an image, title, and text)
 pages:
 - how-to-order.md
-- feed.md
-- turkey-1.md
-- index.md
 - poultry2.md
+- turkey-1.md
 - poultry.md
 - services.md
+- feed.md
+- index.md

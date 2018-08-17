@@ -68,10 +68,10 @@ fields:
 pages:
 - poultry.md
 - index.md
-- feed.md
-- how-to-order.md
-- turkey-1.md
-- about/index.md
-- poultry2.md
-- services.md
 - about/family/index.md
+- services.md
+- poultry2.md
+- about/index.md
+- how-to-order.md
+- feed.md
+- turkey-1.md

@@ -25,10 +25,10 @@ fields:
   hidden: true
 pages:
 - thank-you.md
-- contact.md
-- about/family/sally.md
-- about/public-speaking-workshops.md
-- order-from-barnyard.md
-- order.md
 - rent-the-chicken.md
+- order.md
 - organic-chicken-eggs-subpage.md
+- about/family/sally.md
+- order-from-barnyard.md
+- about/public-speaking-workshops.md
+- contact.md

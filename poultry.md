@@ -4,10 +4,6 @@ permalink: "/poultry/"
 layout: grid
 description: ''
 links:
-- link: about/family/index.md
-  image: ''
-  heading: test
-  description: test
 - image: "/images/eggs-in-bowl.jpg"
   heading: Organic Chicken & Eggs - How To Buy
   description: Purchase from the farm, or through Sally's organic chicken and egg

@@ -6,9 +6,7 @@ links:
 - link: order-from-barnyard.md
   image: ''
   heading: "- "
-  description: 'Your different buying options
-
-'
+  description: Learn about the different buying options
 - link: coming-soon.md
   image: ''
   description: Online Order Form

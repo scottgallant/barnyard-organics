@@ -9,8 +9,8 @@ links:
   description: ''
 - link: coming-soon.md
   image: ''
-  description: 'Order online '
-  heading: Online Order Form (coming soon)
+  description: Online Order Form
+  heading: "-"
 - link: contact.md
   image: ''
   description: For other inquiries

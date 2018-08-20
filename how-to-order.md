@@ -7,10 +7,10 @@ links:
   image: ''
   heading: How to Buy From Barnyard Organics
   description: ''
-- link: order.md
+- link: coming-soon.md
   image: ''
   description: 'Order online '
-  heading: Online Order Form
+  heading: Online Order Form (coming soon)
 - link: contact.md
   image: ''
   description: For other inquiries

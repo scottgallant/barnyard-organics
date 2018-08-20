@@ -24,6 +24,7 @@ fields:
   default: default
   hidden: true
 pages:
+- coming-soon.md
 - thank-you.md
 - rent-the-chicken.md
 - order.md

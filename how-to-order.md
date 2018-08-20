@@ -5,8 +5,10 @@ date: 2018-05-22 18:53:43 +0000
 links:
 - link: order-from-barnyard.md
   image: ''
-  heading: How to Buy From Barnyard Organics
-  description: ''
+  heading: "- "
+  description: 'Your different buying options
+
+'
 - link: coming-soon.md
   image: ''
   description: Online Order Form

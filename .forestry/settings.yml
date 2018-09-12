@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: "/admin/"
 webhook_url: 
 sections:
+- type: document
+  path: _data/footer.yml
+  label: test
+  match: "**/*"
 - type: jekyll-pages
   label: Pages
   create: all
@@ -14,8 +18,6 @@ sections:
   match: "**/*"
   templates:
   - feed-product
-- type: heading
-  label: test
 upload_dir: images
 public_path: "/barnyard-organics/images"
 front_matter_path: "/images"

@@ -18,6 +18,10 @@ sections:
   match: "**/*"
   templates:
   - feed-product
+- type: document
+  path: _data/footer.yml
+  label: Footer (test)
+  match: "**/*"
 upload_dir: images
 public_path: "/barnyard-organics/images"
 front_matter_path: "/images"

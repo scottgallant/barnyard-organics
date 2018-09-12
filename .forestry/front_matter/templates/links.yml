@@ -67,11 +67,11 @@ fields:
     (with an image, title, and text)
 pages:
 - how-to-order.md
-- poultry.md
-- index.md
-- about/family/index.md
 - services.md
 - poultry2.md
+- about/family/index.md
 - about/index.md
 - feed.md
+- index.md
+- poultry.md
 - turkey-1.md

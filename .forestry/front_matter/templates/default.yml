@@ -24,11 +24,11 @@ fields:
   default: default
   hidden: true
 pages:
+- order.md
+- organic-chicken-eggs-subpage.md
 - coming-soon.md
 - thank-you.md
 - rent-the-chicken.md
-- order.md
-- organic-chicken-eggs-subpage.md
 - about/family/sally.md
 - order-from-barnyard.md
 - about/public-speaking-workshops.md

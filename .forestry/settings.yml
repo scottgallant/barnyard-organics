@@ -7,6 +7,7 @@ sections:
 - type: document
   path: _data/footer.yml
   label: test
+  match: "**/*"
 - type: jekyll-pages
   label: Pages
   create: all

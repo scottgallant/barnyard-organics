@@ -17,6 +17,11 @@ sections:
 - type: document
   path: _data/footer.yml
   label: test
+- type: directory
+  path: _data
+  label: Data
+  create: none
+  match: "**/*.{json,yaml,yml}"
 upload_dir: images
 public_path: "/barnyard-organics/images"
 front_matter_path: "/images"

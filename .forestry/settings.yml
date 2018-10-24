@@ -16,7 +16,7 @@ sections:
   - feed-product
 - type: document
   path: _data/footer.yml
-  label: test
+  label: Address, Social, etc
 - type: directory
   path: _data
   label: Data

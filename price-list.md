@@ -18,5 +18,6 @@ pdfs:
   link: "/images/General Seed Cover Crop Seed Price List Feb 1 2018.pdf"
 - title: General Seed Forage Seed Price List
   link: "/images/General Seed Forage Seed Price List Feb 1 2018.pdf"
+
 ---
 _Please note that shipping is excluded from our pricing, but we’re happy to get you a preferred customer shipping quote!_

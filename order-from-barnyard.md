@@ -26,7 +26,7 @@ In addition to feed products, Barnyard Organics stocks whole **organic** grains,
 * Whole Roasted Soybeans
 * Wheat
 
-The 2018 whole organic grains price list (prices are subject to change based on availability and annual price rate adjustments) is available here: [Barnyard-Organics-whole-grain-price-list-FARM.pdf](/barnyard-organics/images/Barnyard-Organics-whole-grain-price-list-FARM.pdf "Barnyard-Organics-whole-grain-price-list-FARM.pdf").  Email [info@barnyardorganics.com](info@barnyardorganics.com) or call 902-887-3188 to place an order!  Whole organic grains are available in 1 tonne totes or 25Kg bags.  Minimum order for shipment is 1/2 tonne/1100 lbs/20*25Kg bags, _there_<span style="font-size: 1rem;"><u> is no minimum order if you are able to pick-up your order at the farm in Freetown, PEI</u>.</span>
+The 2018 whole organic grains price list (prices are subject to change based on availability and annual price rate adjustments) is available here: Barnyard-Organics-whole-grain-price-list-FARM.pdf.  Email [info@barnyardorganics.com](info@barnyardorganics.com) or call 902-887-3188 to place an order!  Whole organic grains are available in 1 tonne totes or 25Kg bags.  Minimum order for shipment is 1/2 tonne/1100 lbs/20*25Kg bags, _there_<span style="font-size: 1rem;"><u> is no minimum order if you are able to pick-up your order at the farm in Freetown, PEI</u>.</span>
 
 ### WHOLE ORGANIC MILLING WHEAT (FOOD GRADE)
 

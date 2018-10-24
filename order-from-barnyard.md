@@ -3,6 +3,7 @@ title: Buy from Barnyard Organics
 layout: default
 date: 2017-04-21 09:23:56 +0000
 description: Interested in ordering products from  Barnyard Organics?
+published: false
 
 ---
 ### Barnyard Organics is excited to announce that East Coast Organic Feed Mill products are available through a selection of retail locations across Atlantic Canada.  Below is a preliminary list of our retail locations, and if your store is not on the list, please contact your local feed retailer to ask for our products!
@@ -11,7 +12,7 @@ description: Interested in ordering products from  Barnyard Organics?
 
 ### EAST COAST ORGANIC ANIMAL FEED:
 
-To order any feed products, check out our online ordering form *(COMING SOON!) *or review the[_ECOFM-feed-price-list-FARM-1.pdf](/barnyard-organics/images/_ECOFM-feed-price-list-FARM-1.pdf "_ECOFM-feed-price-list-FARM-1.pdf").
+To order any feed products, check out our online ordering form *(COMING SOON!) *or review the_ECOFM-feed-price-list-FARM-1.pdf.
 
 <span style="color: rgb(40, 40, 40); font-size: 1.5em; word-spacing: 0.5px;">WHOLE ORGANIC (FEED-GRADE) GRAINS:</span>
 

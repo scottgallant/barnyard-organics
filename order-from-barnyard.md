@@ -27,7 +27,7 @@ The minimum shipment required for a Buying Club model to work is 1 tonne / 40*25
 
 ### EAST COAST ORGANIC ANIMAL FEED:
 
-To order any feed products, check out our online ordering form *(COMING SOON!) *or review the 2017 price list (priced for pick-up at Barnyard Organics in Freetown, PEI (shipping is extra).
+To order any feed products, check out our online ordering form *(COMING SOON!) *or review the[_ECOFM-feed-price-list-FARM-1.pdf](/barnyard-organics/images/_ECOFM-feed-price-list-FARM-1.pdf "_ECOFM-feed-price-list-FARM-1.pdf").
 
 <span style="color: rgb(40, 40, 40); font-size: 1.5em; word-spacing: 0.5px;">WHOLE ORGANIC (FEED-GRADE) GRAINS:</span>
 
@@ -42,7 +42,7 @@ In addition to feed products, Barnyard Organics stocks whole **organic** grains,
 * Whole Roasted Soybeans
 * Wheat
 
-The 2017 whole organic grains price list (prices are subject to change based on availability and annual price rate adjustments) is available here.  Email [info@barnyardorganics.com](info@barnyardorganics.com) or call 902-887-3188 to place an order!  Whole organic grains are available in 1 tonne totes or 25Kg bags.  Minimum order for shipment is 1/2 tonne/1100 lbs/20*25Kg bags, _there_<span style="font-size: 1rem;"><u> is no minimum order if you are able to pick-up your order at the farm in Freetown, PEI</u>.</span>
+The 2018 whole organic grains price list (prices are subject to change based on availability and annual price rate adjustments) is available here: [Barnyard-Organics-whole-grain-price-list-FARM.pdf](/barnyard-organics/images/Barnyard-Organics-whole-grain-price-list-FARM.pdf "Barnyard-Organics-whole-grain-price-list-FARM.pdf").  Email [info@barnyardorganics.com](info@barnyardorganics.com) or call 902-887-3188 to place an order!  Whole organic grains are available in 1 tonne totes or 25Kg bags.  Minimum order for shipment is 1/2 tonne/1100 lbs/20*25Kg bags, _there_<span style="font-size: 1rem;"><u> is no minimum order if you are able to pick-up your order at the farm in Freetown, PEI</u>.</span>
 
 ### WHOLE ORGANIC MILLING WHEAT (FOOD GRADE)
 
@@ -52,16 +52,16 @@ Barnyard Organics also offers whole organic milling wheat in two varieties:   W
 
 As a dealer for Bio-Ag products, Barnyard Organics is your regional source for their comprehensive product offering!
 
-Complete price list for Bio-Ag's Livestock Premixes - _COMING SOON!_
+Complete price list for Bio-Ag's Premixes - [Bio Ag Premixes Feb 12 2018.pdf](/barnyard-organics/images/Bio Ag Premixes Feb 12 2018.pdf "Bio Ag Premixes Feb 12 2018.pdf")
 
-Complete price list for Bio-Ag's Supplements & Fertilizers - _COMING SOON!_
+Complete price list for Bio-Ag's Supplements & Fertilizers - [BioAg-Price-List-premixes-supps-fert-1.pdf](/barnyard-organics/images/BioAg-Price-List-premixes-supps-fert-1.pdf "BioAg-Price-List-premixes-supps-fert-1.pdf")
 
 Minimum order for shipment is usually 1/2 tonne/1100 lbs/20*25Kg bags, but there is no minimum order if you are able to pick-up your order at the farm in Freetown, PEI. *
 \*
 
 ### GENERAL SEED COMPANY LTD.
 
-Barnyard Organics has you covered for your cover crop seed, forage seed and turf seed as a regional dealer for Ontario's General Seed Company Ltd.  Find their complete product and price list here* (COMING SOON)*!  Email  [info@barnyardorganics.com](info@barnyardorganics.com) or call 902-887-3188 to place an order!
+Barnyard Organics has you covered for your cover crop seed, forage seed and turf seed as a regional dealer for Ontario's General Seed Company Ltd.  Find their complete product and price list here* ([General Seed Cover Crop Seed Price List Feb 1 2018.pdf](/barnyard-organics/images/General Seed Cover Crop Seed Price List Feb 1 2018.pdf "General Seed Cover Crop Seed Price List Feb 1 2018.pdf"))*!  Email  [info@barnyardorganics.com](info@barnyardorganics.com) or call 902-887-3188 to place an order!
 
 ### GRAIN CLEANING, DRYING & CUSTOM ROASTING
 

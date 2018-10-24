@@ -9,22 +9,6 @@ description: Interested in ordering products from  Barnyard Organics?
 
 (FULL LIST COMING SOON––updated as of October 2018!)
 
-### BULK BUYING CLUB
-
-We also love to hear about and support informal bulk buying!  The bulk buying club model is one that allows customers to enjoy cost-savings by pooling their orders to benefit from reduced shipping rates.
-
-Here's how you can volunteer to coordinate an bulk buying club:
-
-* Email, use social media, or call your fellow farming/backyard livestock buddies who are located in your general area who might be interested in placing an order with Barnyard Organics/East Coast Organic Feed Mill.
-* Copy, rename, and send out /share Barnyard Organics' Google Price & Product Spreadsheet _(COMING SOON!)_ to everyone who wants to participate in the bulk buying club order, being sure to specify a date when all orders must be submitted.
-* Decide on a HOST.  The Host will be the location where the order is shipped and where the bulk buying club participants will pick-up their order.  Sometimes the Host is the coordinator, other times, they are two separate volunteer roles.
-
-<blockquote>The ideal Host:<br><ul><li>Has the capacity to unload a multi-tonne order (i.e. a forklift), (not necessary, but will save significantly on tailgate delivery fees);<br></li><li>Is happy to invite participants to their home to pick-up the order;<br></li><li>Is able to easily contact participants <br></li><li>Has the capacity to store any orders that are not picked up at the designated time;<br></li><li>Is happy to help organize and distribute the order to the participants as they arrive during the designated pick-up time (ideally assisted by the volunteer coordinator)<br></li></ul>The Host duties are:<br><ul><li>Provide pick-up point address and phone number to order participants;<br></li><li>Help \[the coordinator\] divvy up the orders (Barnyard Organics will organize and label each individual's order)<br></li><li>Be available during the shipment drop-off date/time for an approximately one-hour time slot where everyone will pick-up their orders;<br></li><li>Potentially hang-on to orders for folks who are unable to make the pick-up time;<br></li><li>Help spread the word to encourage more customers to take advantage of the opportunity to work together to save money!<br></li></ul></blockquote>
-
-* The spreadsheet will automatically add up the totals.  You can place your order either using East Coast Organic's <a href="linkhere" style="font-size: 1rem;">online order form</a>* (COMING SOON!), *or by emailing Barnyard Organics with your Google Spreadsheet.
-
-The minimum shipment required for a Buying Club model to work is 1 tonne / 40*25Kg bags / 2200 lbs.  There is no maximum!  Indeed, the more you and your friends order, the more cost savings you'll reap!
-
 ### EAST COAST ORGANIC ANIMAL FEED:
 
 To order any feed products, check out our online ordering form *(COMING SOON!) *or review the[_ECOFM-feed-price-list-FARM-1.pdf](/barnyard-organics/images/_ECOFM-feed-price-list-FARM-1.pdf "_ECOFM-feed-price-list-FARM-1.pdf").
@@ -66,3 +50,19 @@ Barnyard Organics has you covered for your cover crop seed, forage seed and turf
 ### GRAIN CLEANING, DRYING & CUSTOM ROASTING
 
 For more information about grain cleaning and drying, check out the rates listed on the [Grain Services Pages.](https://barnyardorganics.com/services/grain-cleaning-drying)
+
+### BULK BUYING CLUB
+
+We also love to hear about and support informal bulk buying!  The bulk buying club model is one that allows customers to enjoy cost-savings by pooling their orders to benefit from reduced shipping rates.
+
+Here's how you can volunteer to coordinate an bulk buying club:
+
+* Email, use social media, or call your fellow farming/backyard livestock buddies who are located in your general area who might be interested in placing an order with Barnyard Organics/East Coast Organic Feed Mill.
+* Copy, rename, and send out /share Barnyard Organics' Google Price & Product Spreadsheet _(COMING SOON!)_ to everyone who wants to participate in the bulk buying club order, being sure to specify a date when all orders must be submitted.
+* Decide on a HOST.  The Host will be the location where the order is shipped and where the bulk buying club participants will pick-up their order.  Sometimes the Host is the coordinator, other times, they are two separate volunteer roles.
+
+<blockquote>The ideal Host:<br><ul><li>Has the capacity to unload a multi-tonne order (i.e. a forklift), (not necessary, but will save significantly on tailgate delivery fees);<br></li><li>Is happy to invite participants to their home to pick-up the order;<br></li><li>Is able to easily contact participants <br></li><li>Has the capacity to store any orders that are not picked up at the designated time;<br></li><li>Is happy to help organize and distribute the order to the participants as they arrive during the designated pick-up time (ideally assisted by the volunteer coordinator)<br></li></ul>The Host duties are:<br><ul><li>Provide pick-up point address and phone number to order participants;<br></li><li>Help \[the coordinator\] divvy up the orders (Barnyard Organics will organize and label each individual's order)<br></li><li>Be available during the shipment drop-off date/time for an approximately one-hour time slot where everyone will pick-up their orders;<br></li><li>Potentially hang-on to orders for folks who are unable to make the pick-up time;<br></li><li>Help spread the word to encourage more customers to take advantage of the opportunity to work together to save money!<br></li></ul></blockquote>
+
+* The spreadsheet will automatically add up the totals.  You can place your order either using East Coast Organic's <a href="linkhere" style="font-size: 1rem;">online order form</a>* (COMING SOON!), *or by emailing Barnyard Organics with your Google Spreadsheet.
+
+The minimum shipment required for a Buying Club model to work is 1 tonne / 40*25Kg bags / 2200 lbs.  There is no maximum!  Indeed, the more you and your friends order, the more cost savings you'll reap!

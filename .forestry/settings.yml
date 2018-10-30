@@ -19,7 +19,7 @@ sections:
   label: Address, Social, etc
 - type: directory
   path: _data
-  label: Data
+  label: Order Form
   create: none
   match: "**/*.{json,yaml,yml}"
   exclude: menus.yml

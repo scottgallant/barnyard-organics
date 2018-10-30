@@ -22,7 +22,7 @@ sections:
   label: Order Form
   create: none
   match: "**/*.{json,yaml,yml}"
-  exclude: menus.yml
+  exclude: menus.yml,_data/footer.yml
 upload_dir: images
 public_path: "/barnyard-organics/images"
 front_matter_path: "/images"

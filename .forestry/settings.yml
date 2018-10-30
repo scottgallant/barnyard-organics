@@ -22,6 +22,7 @@ sections:
   label: Data
   create: none
   match: "**/*.{json,yaml,yml}"
+  exclude: menus.yml
 upload_dir: images
 public_path: "/barnyard-organics/images"
 front_matter_path: "/images"

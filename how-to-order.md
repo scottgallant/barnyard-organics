@@ -16,7 +16,7 @@ links:
   description: For other inquiries
   heading: Contact
 description: |-
-  Current Retailers/Distributors!
+  You can visit one of our current Retailers/Distributors or check back for our online order form.
 
   <iframe src="https://www.google.com/maps/d/embed?mid=1O5Tnl2vX9YFPPJVzGz6iI2q9JQ8" width="640" height="480"></iframe>
 menu:

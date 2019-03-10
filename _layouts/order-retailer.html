@@ -35,14 +35,14 @@
           <input type="hidden" name="form-name" value="order-form" />
         <div class="row uniform pricing-table">
 
-          <div class="4u 12u$(small)">
+          <!-- <div class="4u 12u$(small)">
             <input type="radio" id="farm-purchaser" name="purchaser-type" value="farm" v-model="purchaser" checked>
             <label for="farm-purchaser">Farm Purchaser</label>
-          </div>
-          <!-- <div class="4u 12u$(small)">
+          </div> -->
+          <div class="4u 12u$(small)">
             <input type="radio" id="retail-purchaser" name="purchaser-type" value="retail" v-model="purchaser">
             <label for="retail-purchaser">Retail Purchaser</label>
-          </div> -->
+          </div>
 
           <!-- retailers only -->
           <div class="8u$ 12u$(small)" v-if="purchaser === 'retail'">

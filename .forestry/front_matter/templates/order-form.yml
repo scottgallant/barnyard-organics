@@ -82,3 +82,5 @@ fields:
         name: hst
         label: HST
         description: Charge HST on this item?
+pages:
+- _data/order-form2.yml

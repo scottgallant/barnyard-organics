@@ -1,7 +1,6 @@
 ---
 label: Shipping rates
 hide_body: false
-is_partial: false
 fields:
 - type: field_group
   label: Shipping Rates

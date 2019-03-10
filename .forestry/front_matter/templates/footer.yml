@@ -1,7 +1,6 @@
 ---
 label: Footer
 hide_body: false
-is_partial: false
 fields:
 - type: field_group
   name: footer

@@ -1,7 +1,6 @@
 ---
 label: Links
 hide_body: true
-is_partial: false
 fields:
 - name: title
   label: Title
@@ -66,12 +65,12 @@ fields:
   description: This is a list of links to other pages. It will appear in a grid-format
     (with an image, title, and text)
 pages:
+- how-to-order.md
+- services.md
+- poultry2.md
+- about/family/index.md
+- about/index.md
+- feed.md
+- index.md
 - poultry.md
 - turkey-1.md
-- index.md
-- feed.md
-- about/index.md
-- about/family/index.md
-- poultry2.md
-- services.md
-- how-to-order.md

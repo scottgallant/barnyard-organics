@@ -13,7 +13,7 @@
     {% include feed-nav.html %}
     <div class="content" id="vue-app" >
 
-      <form name="order-form" hidden netlify>
+      <form name="order-form" hidden>
         <input name="purchaser-type" />
         <input name="farm-company-name" />
         <select name="retail-purchaser"></select>
@@ -232,3 +232,4 @@
 
 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/{{vuejs}}"></script>
 <script src="{{site.baseurl}}/assets/js/order.js"></script>
+{% include footer.html %}

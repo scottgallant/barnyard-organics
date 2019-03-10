@@ -13,7 +13,7 @@
     {% include feed-nav.html %}
     <div class="content" id="vue-app" >
 
-      <form name="order-form" hidden netlify>
+      <form name="order-form-retail" hidden netlify>
         <input name="purchaser-type" />
         <input name="farm-company-name" />
         <select name="retail-purchaser"></select>
@@ -31,16 +31,12 @@
         <textarea name="special-istructions"></textarea>
       </form>
 
-      <form name="order-form" id="order-form" method="POST" action="/thank-you/" netlify>
-          <input type="hidden" name="form-name" value="order-form" />
+      <form name="order-form-retail" id="order-form-retail" method="POST" action="/thank-you/" netlify>
+          <input type="hidden" name="form-name" value="order-form-retail" />
         <div class="row uniform pricing-table">
 
-          <!-- <div class="4u 12u$(small)">
-            <input type="radio" id="farm-purchaser" name="purchaser-type" value="farm" v-model="purchaser" checked>
-            <label for="farm-purchaser">Farm Purchaser</label>
-          </div> -->
-          <div class="4u 12u$(small)">
-            <input type="radio" id="retail-purchaser" name="purchaser-type" value="retail" v-model="purchaser">
+          <div class="12u 12u$(small)" style="visibility: hidden; height: 0; padding: 0;">
+            <input type="radio" id="retail-purchaser" name="purchaser-type" value="retail" v-model="purchaser" checked>
             <label for="retail-purchaser">Retail Purchaser</label>
           </div>
 
@@ -88,7 +84,7 @@
           <div class="ex-form">
 
             <prices-table
-              title="Barnyard Organics Products"
+              title="Show Barnyard Organics Products"
               :products="barnyardOrganicsProducts"
               :hst-tax-rate="hstTaxRate"
               v-bind="{isRetail: isRetail, formatNumber: formatNumber}"
@@ -96,7 +92,7 @@
             </prices-table>
 
             <prices-table
-              title="General Seed Products"
+              title="Show General Seed Products"
               :products="generalSeedProducts"
               @computed-total-price="generalSeedComputedTotalPrice = $event"
               :hst-tax-rate="hstTaxRate"
@@ -104,7 +100,7 @@
             </prices-table>
 
             <prices-table
-              title="Bio-Ag Procucts"
+              title="Show Bio-Ag Procucts"
               :products="bioAgProducts"
               @computed-total-price="bioAgComputedTotalPrice = $event"
               :hst-tax-rate="hstTaxRate"
@@ -235,4 +231,4 @@
 			  crossorigin="anonymous"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/{{vuejs}}"></script>
-<script src="{{site.baseurl}}/assets/js/order.js"></script>
+<script src="{{site.baseurl}}/assets/js/order-retail.js"></script>

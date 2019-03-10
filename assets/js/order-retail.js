@@ -124,7 +124,7 @@ var vm = new Vue({
   el: '#vue-app',
   //delimiters: ["((", "))"],
   data: {
-    purchaser: 'farm',
+    purchaser: 'retail',
     companyName: '',
     barnyardOrganicsProducts: [],
     generalSeedProducts: [],

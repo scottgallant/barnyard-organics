@@ -1,6 +1,6 @@
 ---
 title: Order Form (Retailers)
-permalink: "/order/"
+permalink: "/retailer/"
 layout: order-retailer
 date: ''
 description: ''

@@ -328,12 +328,14 @@ bio_ag:
     price_retailers: 55.69
     hst: false
 general_seed:
-  products: []
-order-form:
-  hst: 15
-  barnyard_organics:
-    products: []
-  bio_ag:
-    products: []
-  general_seed:
-    products: []
+  products:
+  - name: Test
+    description: Test
+    price: 1.00
+    price_retailers: 1.00
+    hst: true
+  - name: Test 2
+    description: Test
+    price: 1.00
+    price_retailers: 1.00
+    hst: true

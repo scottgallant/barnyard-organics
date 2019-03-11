@@ -333,4 +333,4 @@ general_seed:
     description: Test
     price: 1
     price_retailers: 1
-    hst: true
+    hst: false

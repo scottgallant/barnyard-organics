@@ -181,8 +181,8 @@ bio_ag:
     hst: true
   - name: Ocean Feed Seaweed Meal 25 Kg
     description: 4402 (HST)
-    price: 64.01
-    price_retailers: 64.01
+    price: 83.88
+    price_retailers: 83.88
     hst: true
   - name: Hydrogen Peroxide 55L 35% NSF
     description: 4430 (HST)

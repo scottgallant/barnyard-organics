@@ -268,11 +268,11 @@ bio_ag:
     price_retailers: 64.01
   - name: PCAI Poultry Starter Premix
     description: 4410
-    price: 56.88
+    price: 62.61
     price_retailers: 56.88
   - name: PCAI Poultry Grower Premix
     description: 4410
-    price: 58.17
+    price: 60.74
     price_retailers: 58.17
   - name: Poultry Grower Premix
     description: 4401

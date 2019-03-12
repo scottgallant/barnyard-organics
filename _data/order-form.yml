@@ -20,11 +20,11 @@ barnyard_organics:
     price_retailers: 21.19
   - name: Organic Field Peas
     description: ''
-    price: 28.63
+    price: 28.44
     price_retailers: 23.96
   - name: Organic Cracked Corn (priced at 20Kg bag)
     description: ''
-    price: '20.10'
+    price: 22.16
     price_retailers: 16.82
   - name: Organic Corn
     description: ''

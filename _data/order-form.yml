@@ -238,12 +238,12 @@ bio_ag:
     hst: true
   - name: Bentonite Swell Clay 50 lbs
     description: 4480
-    price: 16.06
-    price_retailers: 16.06
+    price: 18.41
+    price_retailers: 18.41
   - name: Atlantean Plant Fertilizer 10L
     description: 4480 (HST)
-    price: 87.32
-    price_retailers: 87.32
+    price: 98.33
+    price_retailers: 98.33
     hst: true
   - name: PCAI Sheep Mineral (1:1)
     description: 4410

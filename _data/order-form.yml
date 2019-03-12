@@ -174,11 +174,6 @@ bio_ag:
     description: 4480
     price: 30.93
     price_retailers: 30.93
-  - name: Maritime Organic Seaweed Meal 22.67Kg
-    description: 4402 (HST)
-    price: 36.72
-    price_retailers: 36.72
-    hst: true
   - name: Ocean Feed Seaweed Meal 25 Kg
     description: 4402 (HST)
     price: 83.88
@@ -186,13 +181,13 @@ bio_ag:
     hst: true
   - name: Hydrogen Peroxide 55L 35% NSF
     description: 4430 (HST)
-    price: 137.96
-    price_retailers: 137.96
+    price: 172.33
+    price_retailers: 172.33
     hst: true
   - name: Organic Flax Meal
     description: 4106
-    price: 48.62
-    price_retailers: 48.62
+    price: 46.32
+    price_retailers: 46.32
   - name: Calphos Soft Phosphate 50lbs Granular
     description: 4480 (HST)
     price: 22.33

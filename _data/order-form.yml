@@ -158,13 +158,13 @@ bio_ag:
     price_retailers: 89.31
   - name: Perma Guard Diatomaceous Earth 50 lbs
     description: 4440 (HST)
-    price: 41.47
-    price_retailers: 41.47
+    price: 47.14
+    price_retailers: 47.14
     hst: true
   - name: Norman's Naturals Dogfood 18 Kg
     description: 4490 (HST)
-    price: 46.12
-    price_retailers: 46.12
+    price: 57.28
+    price_retailers: 57.28
     hst: true
   - name: Mg-K-Sulp (Feedate/Dynamate) 25Kg
     description: 4480

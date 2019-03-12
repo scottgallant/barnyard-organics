@@ -2,83 +2,79 @@
 label: Order form
 hide_body: false
 fields:
+- type: number
+  name: hst
+  label: HST Rate
+  description: Current HST % (for items that require HST)
 - type: field_group
-  name: order-form
-  label: Order Form
+  name: barnyard_organics
+  label: Barnyard Organics
   fields:
-  - type: number
-    name: hst
-    label: HST Rate
-    description: Current HST % (for items that require HST)
-  - type: field_group
-    name: barnyard_organics
-    label: Barnyard Organics
+  - type: field_group_list
+    name: products
+    label: Products
     fields:
-    - type: field_group_list
-      name: products
-      label: Products
-      fields:
-      - type: text
-        name: name
-        label: Name
-      - type: text
-        name: description
-        label: Description
-      - type: number
-        name: price
-        label: Price
-      - type: number
-        name: price_retailers
-        label: Price (retailers)
-      - type: boolean
-        name: hst
-        label: HST
-        description: Charge HST on this item?
-  - type: field_group
-    name: bio_ag
-    label: Bio-ag
+    - type: text
+      name: name
+      label: Name
+    - type: text
+      name: description
+      label: Description
+    - type: number
+      name: price
+      label: Price
+    - type: number
+      name: price_retailers
+      label: Price (retailers)
+    - type: boolean
+      name: hst
+      label: HST
+      description: Charge HST on this item?
+- type: field_group
+  name: bio_ag
+  label: Bio-ag
+  fields:
+  - type: field_group_list
+    name: products
+    label: Products
     fields:
-    - type: field_group_list
-      name: products
-      label: Products
-      fields:
-      - type: text
-        name: name
-        label: Name
-      - type: text
-        name: description
-        label: Description
-      - type: number
-        name: price
-        label: Price
-      - type: number
-        name: price_retailers
-        label: Price (retailers)
-      - type: boolean
-        name: hst
-        label: HST
-        description: Charge HST on this item?
-  - type: field_group
-    name: general_seed
-    label: General Seed
+    - type: text
+      name: name
+      label: Name
+    - type: text
+      name: description
+      label: Description
+    - type: number
+      name: price
+      label: Price
+    - type: number
+      name: price_retailers
+      label: Price (retailers)
+    - type: boolean
+      name: hst
+      label: HST
+      description: Charge HST on this item?
+- type: field_group
+  name: general_seed
+  label: General Seed
+  fields:
+  - type: field_group_list
+    name: products
+    label: Products
     fields:
-    - type: field_group_list
-      name: products
-      label: Products
-      fields:
-      - type: text
-        name: name
-        label: Name
-      - type: text
-        name: description
-        label: Description
-      - type: number
-        name: price
-        label: Price
-      - type: number
-        name: price_retailers
-        label: Price (retailers)
-      - type: boolean
-        name: hst
-        label: HST
-        description: Charge HST on this item?
+    - type: text
+      name: name
+      label: Name
+    - type: text
+      name: description
+      label: Description
+    - type: number
+      name: price
+      label: Price
+    - type: number
+      name: price_retailers
+      label: Price (retailers)
+    - type: boolean
+      name: hst
+      label: HST
+      description: Charge HST on this item?

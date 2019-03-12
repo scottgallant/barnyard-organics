@@ -86,14 +86,14 @@ barnyard_organics:
       poultry. The mash is a medium hammered texture, easy for young chicks to eat.
       The mash is preferred by many because it is not over-processed into pellets.
       Cracked corn is used in the mash to minimize dust levels.
-    price: 30.95
+    price: 31.05
     price_retailers: 27.45
   - name: Organic Soy-Free Poultry Layer Mash (15%)
     description: " For egg production or maintenance of adult chickens, the 15% protein
       will meet the requirements of most mixed farms. The mash is a coarsely hammered
       textured, specially formulated to meet protein requirements for a non-soy-based
       diet."
-    price: 30.98
+    price: 31.25
     price_retailers: 27.48
     hst: false
   - name: Organic Poultry Layer Mash 17%
@@ -101,7 +101,7 @@ barnyard_organics:
       ducks), the 17% protein will meet the requirements of most mixed farms. The
       mash is preferred by many because it is not over-processed into pellets. Cracked
       corn is used in the mash to minimize dust levels.
-    price: 29.18
+    price: 30.29
     price_retailers: 25.88
   - name: Organic Poultry Grower (18%)
     description: Formulated to provide optimal health and growth for your birds, the

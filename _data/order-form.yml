@@ -200,13 +200,13 @@ bio_ag:
     hst: true
   - name: Black Earth 25 Kg
     description: 4440 (HST)
-    price: 21.18
-    price_retailers: 21.18
+    price: 26.96
+    price_retailers: 26.96
     hst: true
   - name: Bio-Lac 4L Liquid PCAI
     description: 4460 (HST)
-    price: 132.65
-    price_retailers: 132.65
+    price: 172.18
+    price_retailers: 172.18
     hst: true
   - name: Bio-Lac 25 Kg PCAI
     description: 4460

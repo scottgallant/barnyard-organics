@@ -304,11 +304,11 @@ bio_ag:
     price_retailers: '57.80'
   - name: PCAI Blue tag Beef Mineral (2:1)
     description: 4410
-    price: 53.37
+    price: 56.28
     price_retailers: 53.37
   - name: PCAI Green tag Beef Mineral (1:1)
     description: 4410
-    price: 59.63
+    price: 60.52
     price_retailers: 59.63
   - name: PCAI Red tag Dairy Mineral (1:2)
     description: 4410

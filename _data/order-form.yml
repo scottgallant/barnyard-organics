@@ -316,7 +316,7 @@ bio_ag:
     price_retailers: 58.39
   - name: PCAI Blue Tag Dairy Mineral (2:1)
     description: 4410
-    price: 55.69
+    price: 63.98
     price_retailers: 55.69
     hst: false
 general_seed:

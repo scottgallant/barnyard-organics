@@ -168,12 +168,12 @@ bio_ag:
     hst: true
   - name: Mg-K-Sulp (Feedate/Dynamate) 25Kg
     description: 4480
-    price: 38.63
-    price_retailers: 38.63
+    price: 40.18
+    price_retailers: 40.18
   - name: Magnesium Sulfate (Epson Salt) 50 lb
     description: 4480
-    price: 38.63
-    price_retailers: 38.63
+    price: 30.93
+    price_retailers: 30.93
   - name: Maritime Organic Seaweed Meal 22.67Kg
     description: 4402 (HST)
     price: 36.72

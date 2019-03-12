@@ -280,11 +280,11 @@ bio_ag:
     price_retailers: 55.47
   - name: Poultry Layer Premix
     description: 4401
-    price: 37.28
+    price: '39.40'
     price_retailers: 37.28
   - name: PCAI Poultry Layer Premix
     description: 4410
-    price: 39.98
+    price: 41.82
     price_retailers: 39.98
   - name: Sow Premix
     description: 4401

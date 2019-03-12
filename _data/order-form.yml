@@ -210,8 +210,8 @@ bio_ag:
     hst: true
   - name: Bio-Lac 25 Kg PCAI
     description: 4460
-    price: 321.13
-    price_retailers: 321.13
+    price: 340.75
+    price_retailers: 340.75
   - name: Bio-Lac 25 Kg
     description: 4460
     price: 286.63

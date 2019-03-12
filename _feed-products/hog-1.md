@@ -9,7 +9,7 @@ directions: To order a custom mix, customers must provide a recipe formula, pref
   for a 1 Tonne Batch.
 general-analysis: Not available for custom mixes.
 ingredients: "Available organic ingredients for custom mixes: \nOats\nWheat\nCorn\nSoybean\nBuckwheat\nBarley\nBio
-  Ag mineral premixes and feed supplements\n\nAdditional ingredients may be procured
+  Ag mineral  premixes and feed supplements\n\nAdditional ingredients may be procured
   as required.\n"
 layout: feed
 permalink: "/feed/custom-mix/"

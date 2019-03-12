@@ -228,13 +228,13 @@ bio_ag:
     hst: true
   - name: Bio-Lac 1Kg PCAI
     description: 4460 (HST)
-    price: 18.12
-    price_retailers: 18.12
+    price: 26.05
+    price_retailers: 26.05
     hst: true
   - name: Bio-Lac 1Kg
     description: 4460 (HST)
-    price: 17.31
-    price_retailers: 17.31
+    price: 24.04
+    price_retailers: 24.04
     hst: true
   - name: Bentonite Swell Clay 50 lbs
     description: 4480

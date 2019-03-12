@@ -252,7 +252,7 @@ bio_ag:
     hst: true
   - name: PCAI Sheep Mineral (1:1)
     description: 4410
-    price: 62.06
+    price: 66.57
     price_retailers: 62.06
   - name: PCAI Horse Mineral (2:1; 8.5Kg pail)
     description: 4410

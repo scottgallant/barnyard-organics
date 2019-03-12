@@ -310,17 +310,9 @@ bio_ag:
     description: 4410
     price: 60.52
     price_retailers: 59.63
-  - name: PCAI Red tag Dairy Mineral (1:2)
-    description: 4410
-    price: '79.40'
-    price_retailers: '79.40'
-  - name: Red tag Dairy Mineral (2:1)
-    description: 4410
-    price: '76.70'
-    price_retailers: '76.70'
   - name: Blue tag Dairy Mineral (1:2)
     description: 4401
-    price: 58.39
+    price: 61.51
     price_retailers: 58.39
   - name: PCAI Blue Tag Dairy Mineral (2:1)
     description: 4410

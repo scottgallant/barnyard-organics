@@ -119,9 +119,9 @@ bio_ag:
     description: 4480
     price: '68.90'
     price_retailers: 57.62
-  - name: Vinegar, While 55L 20%
+  - name: Vinegar, White 55L 20%
     description: 4450 (HST)
-    price: '72.40'
+    price: 86.55
     price_retailers: '72.40'
     hst: true
   - name: Vinegar, Apple Cider 55L OCIA

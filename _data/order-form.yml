@@ -296,11 +296,11 @@ bio_ag:
     price_retailers: 48.99
   - name: Hog Grower Premix
     description: 4401
-    price: '55.10'
+    price: 61.18
     price_retailers: '55.10'
   - name: PCAI Hog Grower premix
     description: 4401
-    price: '57.80'
+    price: 63.38
     price_retailers: '57.80'
   - name: PCAI Blue tag Beef Mineral (2:1)
     description: 4410

@@ -134,8 +134,8 @@ bio_ag:
     price_retailers: 47.66
   - name: Stalosan 15 Kg
     description: 4403 (HST)
-    price: 37.65
-    price_retailers: 37.65
+    price: 42.99
+    price_retailers: 42.99
     hst: true
   - name: Salt block 44 lbs
     description: 4470 (HST)

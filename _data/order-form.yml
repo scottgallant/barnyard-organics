@@ -12,11 +12,11 @@ barnyard_organics:
     price_retailers: 27.12
   - name: Organic Oats (priced at 20 Kg bag)
     description: ''
-    price: 13.43
+    price: 13.65
     price_retailers: 11.24
   - name: 'Organic Milling Wheat (food grade) '
     description: ''
-    price: 25.31
+    price: 20.78
     price_retailers: 21.19
   - name: Organic Field Peas
     description: ''

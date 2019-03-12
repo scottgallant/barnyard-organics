@@ -154,8 +154,8 @@ bio_ag:
     hst: true
   - name: Real Salt (table salt) 25lb bag
     description: 4470
-    price: 88.47
-    price_retailers: 88.47
+    price: 89.31
+    price_retailers: 89.31
   - name: Perma Guard Diatomaceous Earth 50 lbs
     description: 4440 (HST)
     price: 41.47

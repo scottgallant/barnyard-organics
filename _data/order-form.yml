@@ -316,8 +316,8 @@ bio_ag:
     hst: false
 general_seed:
   products:
-  - name: Test
-    description: Test
-    price: 1
-    price_retailers: 1
+  - name: See Price List and Contact To Order
+    description: ''
+    price: 0
+    price_retailers: 0
     hst: false

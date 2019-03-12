@@ -139,8 +139,8 @@ bio_ag:
     hst: true
   - name: Salt block 44 lbs
     description: 4470 (HST)
-    price: 15.77
-    price_retailers: 15.77
+    price: 19.67
+    price_retailers: 19.67
     hst: true
   - name: Redmond Salt loose 50 lbs
     description: 4470 (HST)

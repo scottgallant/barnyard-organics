@@ -190,8 +190,8 @@ bio_ag:
     price_retailers: 46.32
   - name: Calphos Soft Phosphate 50lbs Granular
     description: 4480 (HST)
-    price: 22.33
-    price_retailers: 22.33
+    price: 26.36
+    price_retailers: 26.36
     hst: true
   - name: Boron 20.5% 50 lbs
     description: 4480 (HST)

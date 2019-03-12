@@ -144,13 +144,13 @@ bio_ag:
     hst: true
   - name: Redmond Salt loose 50 lbs
     description: 4470 (HST)
-    price: 15.33
-    price_retailers: 15.33
+    price: 19.29
+    price_retailers: 19.29
     hst: true
   - name: Redmond Anti-Caking Agent 50 lbs
     description: 4403 (HST)
-    price: 21.11
-    price_retailers: 21.11
+    price: '27.50'
+    price_retailers: '27.50'
     hst: true
   - name: Real Salt (table salt) 25lb bag
     description: 4470

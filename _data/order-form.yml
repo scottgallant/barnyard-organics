@@ -272,11 +272,11 @@ bio_ag:
     price_retailers: 56.88
   - name: PCAI Poultry Grower Premix
     description: 4410
-    price: 60.74
+    price: 63.32
     price_retailers: 58.17
   - name: Poultry Grower Premix
     description: 4401
-    price: 55.47
+    price: 60.74
     price_retailers: 55.47
   - name: Poultry Layer Premix
     description: 4401

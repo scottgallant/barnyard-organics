@@ -195,8 +195,8 @@ bio_ag:
     hst: true
   - name: Boron 20.5% 50 lbs
     description: 4480 (HST)
-    price: 110
-    price_retailers: 110
+    price: 141.73
+    price_retailers: 141.73
     hst: true
   - name: Black Earth 25 Kg
     description: 4440 (HST)

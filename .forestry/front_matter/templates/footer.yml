@@ -33,3 +33,5 @@ fields:
     default: ''
   hidden: false
   default: ''
+pages:
+- _data/footer.yml

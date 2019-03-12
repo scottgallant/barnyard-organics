@@ -223,8 +223,8 @@ bio_ag:
     hst: true
   - name: Bio-Lac 1L Liquid
     description: 4460 (HST)
-    price: 45.24
-    price_retailers: 45.24
+    price: '52.90'
+    price_retailers: '52.90'
     hst: true
   - name: Bio-Lac 1Kg PCAI
     description: 4460 (HST)

@@ -117,7 +117,7 @@ bio_ag:
   products:
   - name: Zinc Sulphate 50 lbs
     description: 4480
-    price: 57.62
+    price: '68.90'
     price_retailers: 57.62
   - name: Vinegar, While 55L 20%
     description: 4450 (HST)

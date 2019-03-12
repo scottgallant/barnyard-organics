@@ -2,7 +2,7 @@
 barnyard_organics:
   products:
   - name: Organic Wheat
-    price: 19.74
+    price: 20.78
     price_retailers: 16.53
   - name: Organic Roasted Soybeans (Whole, priced at 20Kg bag)
     price: 31.05

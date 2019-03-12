@@ -78,3 +78,5 @@ fields:
     name: price-X
     label: Price / 100 pounds
     description: For shipments between 10,000 - X pounds
+pages:
+- _data/shipping-rates.yml

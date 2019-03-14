@@ -30,14 +30,10 @@ barnyard_organics:
     description: ''
     price: 25.51
     price_retailers: '23.40'
-  - name: Organic Buckwheat (priced at 20Kg bag)
-    description: ''
-    price: 27
-    price_retailers: '22.60'
   - name: Organic Barley
     description: ''
     price: 19.69
-    price_retailers: 17.06
+    price_retailers: 18.06
   - name: Dairy Goat Ration (16%)
     description: A coarse texture feed for organic goats to reach their full potential.
       Our Organic Dairy Goat formula offers ideal nutrition for your lactating goats.

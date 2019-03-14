@@ -25,7 +25,7 @@ barnyard_organics:
   - name: Organic Cracked Corn (priced at 20Kg bag)
     description: ''
     price: 22.16
-    price_retailers: 16.82
+    price_retailers: 20.33
   - name: Organic Corn
     description: ''
     price: 23.44

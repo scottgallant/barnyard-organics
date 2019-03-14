@@ -28,8 +28,8 @@ barnyard_organics:
     price_retailers: 20.33
   - name: Organic Corn
     description: ''
-    price: 23.44
-    price_retailers: 19.62
+    price: 25.51
+    price_retailers: '23.40'
   - name: Organic Buckwheat (priced at 20Kg bag)
     description: ''
     price: 27

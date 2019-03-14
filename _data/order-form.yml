@@ -47,7 +47,7 @@ barnyard_organics:
       whole grains with grit helps keep the bird’s gizzard strong and healthy and
       improves the flavour of the final product.
     price: 21.12
-    price_retailers: 18.48
+    price_retailers: 18.85
   - name: Organic Turkey Grower (23%)
     description: East Coast Organic Feed Mill’s Certified Organic Turkey Grower meets
       the balance of nutrients needed for turkeys to reach their growth potential
@@ -58,7 +58,7 @@ barnyard_organics:
       high quality, delicious! This feed works well for both heritage breeds and broad
       breasted turkeys.
     price: 32.04
-    price_retailers: 28.18
+    price_retailers: 27.97
   - name: Organic Turkey Starter (26%)
     description: East Coast Organic Feed Mill’s Certified Organic Turkey Starter meets
       the balance of nutrients needed for turkeys to reach their growth potential
@@ -69,7 +69,7 @@ barnyard_organics:
       delicious! This feed works well for both heritage breeds and broad breasted
       turkeys.
     price: 35.74
-    price_retailers: 30.77
+    price_retailers: 30.93
   - name: Organic Hog Grower (14%)
     description: A finely ground feed for raising organic pigs to reach their full
       growth potential. Our Organic Hog Grower formula offers ideal nutrition for

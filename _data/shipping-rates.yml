@@ -31,10 +31,10 @@ new_brunswick:
   price-5000: 3.49
   price-10000: 3.14
 - location: Westmorland & Albert Counties
-  price-1000: '5.50'
-  price-2000: 4.08
-  price-5000: 3.09
-  price-10000: 2.78
+  price-1000: 5.67
+  price-2000: '4.20'
+  price-5000: 3.18
+  price-10000: 2.86
 nova_scotia:
 - location: Hants & Shelburne Counties
   price-1000: '7.10'

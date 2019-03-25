@@ -1,3 +1,2 @@
 User-agent: *
-Disallow: /retailer/
-Disallow: /order/
+Disallow: /order/retailer/

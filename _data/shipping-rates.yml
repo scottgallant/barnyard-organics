@@ -16,10 +16,10 @@ new_brunswick:
   price-5000: 4.03
   price-10000: 3.63
 - location: Kings & Queens Counties
-  price-1000: 6.11
-  price-2000: 4.52
-  price-5000: 3.43
-  price-10000: 3.09
+  price-1000: 6.28
+  price-2000: 4.66
+  price-5000: 3.53
+  price-10000: 3.18
 - location: Saint John, Sunbury & York Counties
   price-1000: 5.93
   price-2000: 4.39

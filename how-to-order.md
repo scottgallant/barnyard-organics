@@ -7,7 +7,7 @@ links:
   image: ''
   heading: Price List
   description: Learn about the different buying options
-- link: coming-soon.md
+- link: order.md
   image: ''
   description: Online Order Form
   heading: Online Order Form

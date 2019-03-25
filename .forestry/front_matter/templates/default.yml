@@ -23,6 +23,7 @@ fields:
   default: default
   hidden: true
 pages:
+- order-retailer.md
 - rent-the-chicken.md
 - order.md
 - organic-chicken-eggs-subpage.md

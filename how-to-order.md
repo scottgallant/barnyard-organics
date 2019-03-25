@@ -1,5 +1,5 @@
 ---
-title: Order
+title: How to Order
 layout: grid
 date: 2018-05-22 18:53:43 +0000
 links:
@@ -7,7 +7,7 @@ links:
   image: ''
   heading: Price List
   description: Learn about the different buying options
-- link: coming-soon.md
+- link: order.md
   image: ''
   description: Online Order Form
   heading: Online Order Form

@@ -1,7 +1,7 @@
 ---
 title: Order Form (Retailers)
 permalink: "/retailer/"
-layout: order-retailer
+layout: default
 date: ''
 description: ''
 

@@ -7,7 +7,7 @@
   <div class="inner">
     <header class="major">
       <h1>{{ page.title | escape }}</h1>
-      <p class="subheading">{{ page.description }}</p>
+      <div class="subheading">{{ site.data.order-form.description | markdownify }}</div>
     </header>
     <!-- Sidebar -->
     {% include feed-nav.html %}
@@ -110,7 +110,7 @@
             </prices-table>
 
             <prices-table
-              title="Bio-Ag Procucts"
+              title="Bio-Ag Products"
               :products="bioAgProducts"
               @computed-total-price="bioAgComputedTotalPrice = $event"
               :hst-tax-rate="hstTaxRate"
@@ -137,6 +137,7 @@
             <div class="row uniform">
               <div class="8u 12u$(small)">
                 <label>Shipping</label>
+                <p>If shipping is required, order must be in multiples of 20 items (1/2 tonnes)</p>
                 <div class="select-wrapper">
                   <select name="shipping" v-model="selectedShipping">
                     <option value="pick_at_farm">Pick up at Farm (no shipping)</option>
@@ -157,7 +158,7 @@
                     </optgroup>
                   </select>
                 </div>
-                <p class="help-block">If shipping is required, order must be in multiples of 20 items (1/2 tonnes)</p>
+                <p class="help-block">Please note that shipping rates will vary due to fuel price fluctuations.</p>
               </div>
               <div class="4u$ 12u$(small)">
                 <label for="">Shipping Price</label>
@@ -190,8 +191,8 @@
                 <div class="select-wrapper">
                   <select name="payment-method" id="payment-method">
                     <option value="choose-one">- Choose one -</option>
-                    <option value="cheque">Cheque</option>
-                    <option value="e-transfer">e-transfer</option>
+                    <option value="cheque">Cheque (made out to Barnyard Organics)</option>
+                    <option value="e-transfer">e-transfer (sent to info@barnyardorganics.com)</option>
                   </select>
                 </div>
               </div>

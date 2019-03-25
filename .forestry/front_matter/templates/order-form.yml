@@ -2,6 +2,16 @@
 label: Order form
 hide_body: false
 fields:
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: page-description
+  description: This text will show up at the top of the order form
 - type: number
   name: hst
   label: HST Rate
@@ -78,15 +88,5 @@ fields:
       name: hst
       label: HST
       description: Charge HST on this item?
-- name: description
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: page-description
-  description: This text will show up at the top of the order form
 pages:
 - _data/order-form.yml

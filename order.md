@@ -1,6 +1,6 @@
 ---
 title: Order Form
-permalink: "/order/"
+permalink: "/order-form/"
 layout: order
 date: ''
 description: ''

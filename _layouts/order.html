@@ -121,10 +121,10 @@
 
             <div class="row uniform">
               <div class="8u 12u$(small)">
-                <p class="order-form-total" style="text-align: left;">Total Quantity</p>
+                <p class="order-form-item" style="text-align: left;">Total Quantity</p>
               </div>
               <div class="4u 12u$(small)">
-                <div class="order-form-total">
+                <div class="order-form-item">
                   {% raw %}
                   {{ totalQuantity }} Items
                   {% endraw %}
@@ -137,7 +137,6 @@
             <div class="row uniform">
               <div class="8u 12u$(small)">
                 <label>Shipping</label>
-                <p>If shipping is required, order must be in multiples of 20 items (1/2 tonnes)</p>
                 <div class="select-wrapper">
                   <select name="shipping" v-model="selectedShipping">
                     <option value="pick_at_farm">Pick up at Farm (no shipping)</option>
@@ -158,7 +157,10 @@
                     </optgroup>
                   </select>
                 </div>
-                <p class="help-block">Please note that shipping rates will vary due to fuel price fluctuations.</p>
+                <ul style="margin: 10px 20px;">
+                  <li>Please note that shipping rates will vary due to fuel price fluctuations</li>
+                  <li>If shipping is required, order must be in multiples of 20 items (1/2 tonnes)</li>
+                </ul>
               </div>
               <div class="4u$ 12u$(small)">
                 <label for="">Shipping Price</label>
@@ -167,21 +169,13 @@
             </div>
             <div class="row uniform">
               <div class="8u 12u$(small)">
-                <p class="order-form-total" style="text-align: left;">HST</p>
+                <p class="order-form-item" style="text-align: left;">HST</p>
+                <p class="order-form-item" style="text-align: left;">Sub Total</p>
+                <p class="order-form-item" style="text-align: left;">Total Price</p>
               </div>
               <div class="4u 12u$(small)">
-                <input :value="hstTaxFormatted" name="hst" readonly class="row-sum order-form-total">
-              </div>
-              <div class="8u 12u$(small)">
-                <p class="order-form-total" style="text-align: left;">Sub Total</p>
-              </div>
-              <div class="4u 12u$(small)">
-                <input :value="subtotalFormatted" name="subtotal" readonly class="row-sum order-form-total">
-              </div>
-              <div class="8u 12u$(small)">
-                <p class="order-form-total" style="text-align: left;">Total Price</p>
-              </div>
-              <div class="4u 12u$(small)">
+                <input :value="hstTaxFormatted" name="hst" readonly class="row-sum order-form-item">
+                <input :value="subtotalFormatted" name="subtotal" readonly class="row-sum order-form-item">
                 <input :value="grandTotalFormatted" name="total-price" readonly class="row-sum order-form-total">
               </div>
             </div>

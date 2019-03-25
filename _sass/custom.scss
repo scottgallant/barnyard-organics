@@ -134,8 +134,13 @@ li .logo {
    color: #999;
 }
 
+.order-form-item {
+  font-size: 20px; text-align: right; width: 100%; border: 0;
+  margin-bottom: .3em;
+}
+
 .order-form-total {
-  font-size: 33px; text-align: right; width: 100%; border: 0;
+  font-size: 33px; text-align: right; width: 100%; border: 0; font-weight: bold;
 }
 
 .error {

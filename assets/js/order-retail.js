@@ -5,7 +5,6 @@ const KG_TO_LBS = 55.1156
 Vue.component('prices-table', {
   props: [
     'products',
-    'isRetail',
     'title',
     'hst-tax-rate',
     'formatNumber'
@@ -32,11 +31,12 @@ Vue.component('prices-table', {
           weight: 0,
           quantity: 0
         };
-        if (this.isRetail()) {
-          price = product.quantity * product.price_retailers
-        } else {
-          price = product.quantity * product.price
-        }
+        price = product.quantity * product.price_retailers
+        // if (this.isRetail()) {
+        //   price = product.quantity * product.price_retailers
+        // } else {
+        //   price = product.quantity * product.price
+        // }
         return {
           name: product.name,
           price,
@@ -99,11 +99,8 @@ Vue.component('prices-table', {
           </td>
           <td width="15%">
             <input type="number" name="quantity" v-model="product.quantity" min="0" @change="checkQuantity(index)">
-            <span class="help-block" id="priceTon" v-if="!isRetail()">$ {{ product.price }}
-              <small>each</small>
-            </span>
-            <span class="help-block" id="priceTon" v-if="isRetail()">$ {{ product.price_retailers }}
-                <small>/item</small>
+            <span class="help-block" id="priceTon">$ {{ product.price_retailers }}
+                <small>/each</small>
               </span>
           </td>
           <td width="15%">
@@ -124,7 +121,7 @@ var vm = new Vue({
   el: '#vue-app',
   //delimiters: ["((", "))"],
   data: {
-    purchaser: 'retail',
+    purchaser: 'farm',
     companyName: '',
     barnyardOrganicsProducts: [],
     generalSeedProducts: [],
@@ -281,6 +278,7 @@ var vm = new Vue({
     }
   },
   methods: {
+    // this is not in use for the retailer order form
     isRetail() {
       return this.purchaser === 'retail' && this.companyName && this.companyName.trim().length > 0
     },

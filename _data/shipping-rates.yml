@@ -21,10 +21,10 @@ new_brunswick:
   price-5000: 3.53
   price-10000: 3.18
 - location: Saint John, Sunbury & York Counties
-  price-1000: 5.93
-  price-2000: 4.39
-  price-5000: 3.33
-  price-10000: '3.00'
+  price-1000: 6.11
+  price-2000: 4.52
+  price-5000: 3.43
+  price-10000: 3.09
 - location: Carleton, Charlotte & Restigouche Counties
   price-1000: 6.23
   price-2000: 4.62

@@ -89,10 +89,10 @@ pei:
   price-5000: '2.40'
   price-X: 2.16
 - location: Queens
-  price-1000: 4.77
-  price-2000: 3.46
-  price-5000: 2.33
-  price-X: '2.10'
+  price-1000: 3.56
+  price-2000: 2.44
+  price-5000: 1.33
+  price-X: 1.19
 - location: Prince
   price-1000: 3.05
   price-2000: 3

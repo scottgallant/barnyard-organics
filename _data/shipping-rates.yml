@@ -42,10 +42,10 @@ nova_scotia:
   price-5000: '4.00'
   price-X: 3.75
 - location: Annapolis
-  price-1000: 6.97
-  price-2000: 5.83
-  price-5000: 4.35
-  price-X: 2.92
+  price-1000: 7.32
+  price-2000: 6.13
+  price-5000: 4.57
+  price-X: 8
 - location: Cape Breton (all counties)
   price-1000: 7.43
   price-2000: 6.22

@@ -77,11 +77,11 @@ nova_scotia:
   price-5000: 3.53
   price-X: 3.18
 - location: Antigonish & Guysborough
-  price-2000: '5.40'
-  price-5000: 4.02
+  price-2000: 5.56
+  price-5000: 4.14
   price-10000: '4.50'
-  price-1000: 6.44
-  price-X: 3.62
+  price-1000: 6.63
+  price-X: 3.73
 pei:
 - location: Kings
   price-1000: 4.77

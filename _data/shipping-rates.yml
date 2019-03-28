@@ -62,10 +62,10 @@ nova_scotia:
   price-5000: 4.35
   price-X: 3.91
 - location: Kings & Queens Counties
-  price-1000: 6.76
-  price-2000: 5.67
-  price-5000: 4.22
-  price-X: '3.80'
+  price-1000: 6.96
+  price-2000: 5.84
+  price-5000: 4.35
+  price-X: 3.91
 - location: Halifax
   price-1000: 6.27
   price-2000: 5.25

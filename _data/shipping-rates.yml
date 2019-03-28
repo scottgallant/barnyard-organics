@@ -38,9 +38,9 @@ new_brunswick:
 nova_scotia:
 - location: Hants & Shelburne Counties
   price-1000: '7.10'
-  price-2000: 5.95
-  price-5000: 4.43
-  price-X: 3.99
+  price-2000: '6.00'
+  price-5000: '4.00'
+  price-X: 3.75
 - location: Annapolis
   price-1000: 6.97
   price-2000: 5.83

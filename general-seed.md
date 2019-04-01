@@ -4,9 +4,9 @@ date: 2017-04-15 14:37:07 +0000
 layout: default-pdfs
 pdfs:
 - title: General Seed Organic Seed Price List
-  link: "/images/General-Seed-Price-List-organic-seed.pdf"
+  link: "/images/General Seed Organic Forage Seed Price List Jan 1 2019.pdf"
 - title: General Seed Forage Seed Price List
-  link: "/images/General-Seed-Price-List-forage-seed.pdf"
+  link: "/images/General Seed Forage Seed Price List Jan 1 2019.pdf"
 - title: General Seed Cover Crop Price List
   link: "/images/General Seed Cover Crop Seed Price List Jan 1 2019.pdf"
 pdf-heading: 'General Seed Price Lists:'

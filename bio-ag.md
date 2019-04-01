@@ -7,7 +7,7 @@ pdfs:
 - title: Bio-Ag Supplements & Fertilizers
   link: "/images/Bio Ag Supplements and Fertilizers Jan 1 2019.pdf"
 - link: "/images/Bio Ag Premixes Jan 1 2019.pdf"
-  title: Bio Ag Premixes, Supplements & Fertilizers
+  title: Bio Ag Premixes
 permalink: "/services/bio-ag"
 title: Bio-Ag Distributor
 

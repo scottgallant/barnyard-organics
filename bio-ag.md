@@ -4,10 +4,13 @@ pdf-description: To place an order, <a href="info@barnyardorganics.com">email</a
   or call Barnyard Organics (902-887-3188).
 pdf-heading: 'Bio Ag Price List:'
 pdfs:
-- link: "/images/BioAg-Price-List-premixes-supps-fert.pdf"
+- title: Bio-Ag Supplements & Fertilizers
+  link: "/images/Bio Ag Supplements and Fertilizers Jan 1 2019.pdf"
+- link: "/images/Bio Ag Premixes Jan 1 2019.pdf"
   title: Bio Ag Premixes, Supplements & Fertilizers
 permalink: "/services/bio-ag"
 title: Bio-Ag Distributor
+
 ---
 Bio-Ag products promote safe sustainable agriculture with a variety of unique products for the comfort and health of livestock, the longevity of our soil, water purity, and for natural processes that enhance renewable resources.  The majority of Bio-Ag’s products are certified organic or considered environmentally safe.
 

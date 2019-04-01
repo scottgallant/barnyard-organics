@@ -48,6 +48,6 @@ fields:
   config:
     labelField: title
 pages:
-- price-list.md
 - bio-ag.md
+- price-list.md
 - general-seed.md

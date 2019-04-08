@@ -52,6 +52,9 @@ services:
     for the Atlantic Provinces.  Your Atlantic source for cover crop and forage seeds,
     both organic and non.
   link: general-seed.md
+title: ''
+description: ''
+links: []
 menu:
   main:
     identifier: _index

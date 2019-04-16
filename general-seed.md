@@ -15,7 +15,7 @@ pdf-description: <p>To place an order, <a href="info@barnyardorganics.com">email
 
 ---
 Barnyard Organics is a distributor of [General Seed Company](https://www.generalseedcompany.ca)’s products for PEI.  
-https://www.generalseedcompany.ca
+[https://www.generalseedcompany.ca](https://www.generalseedcompany.ca)
 
 To order your cover crop, forage, or turf seed, contact Mark with your order.
 

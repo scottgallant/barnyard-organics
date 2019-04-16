@@ -23,10 +23,10 @@ fields:
   default: default
   hidden: true
 pages:
+- organic-chicken-eggs-subpage.md
 - order-retailer.md
 - rent-the-chicken.md
 - order.md
-- organic-chicken-eggs-subpage.md
 - coming-soon.md
 - thank-you.md
 - about/family/sally.md

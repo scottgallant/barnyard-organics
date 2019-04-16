@@ -16,7 +16,7 @@ With limited quantities each year, you can contact us for availability, but gene
 
 Each year, when the spring is starting to welcome the warmth of summer, the brooding house at Barnyard Organics is filled with the sound of bundles of little chicks, all gathered under a warm light or huddled around the feeders.  At four weeks of age the chicks are moved from the brooding area to the pasture where they pick away at the grass and bugs while the summer sun warms their feathers.  The portable pasture shelters ensures that they get warm breezes, fresh grass and lots of exercise, everyday.
 
-Eggs are available in the winter months through Soleil’s Farm/<a href="http://www.justplateit.com/" style="font-size: 1rem;">Plate It</a> CSA program or direct from the farm.
+Eggs are available seasonally through Soleil’s Farm/<a href="http://www.justplateit.com/" style="font-size: 1rem;">Plate It</a> CSA program, at the Charlottetown Farmer's Market, select retailers or direct from the farm.
 
 CSA Registration and Information can be found [here](https://goo.gl/forms/kqSpuXVzbWDlceFo1).
 

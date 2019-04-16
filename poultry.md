@@ -6,8 +6,9 @@ description: ''
 links:
 - image: "/images/eggs-in-bowl.jpg"
   heading: Organic Chicken & Eggs - How To Buy
-  description: Purchase from the farm, or through Sally's organic chicken and egg
-    bi-weekly delivery Community Supported Agriculture (CSA) program.
+  description: 'Purchase from the farm, or at the Charlottetown Farmer''s Market via
+    Heart Beet Organics, from Soleil''s Farm (seasonally) or from select retailers
+    (contact for details). '
   link: organic-chicken-eggs-subpage.md
 - image: "/images/chicken-RTC.jpg"
   heading: Rent the Chicken

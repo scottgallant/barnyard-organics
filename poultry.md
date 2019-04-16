@@ -18,8 +18,8 @@ links:
 - image: "/images/chicken-face-close-up-1.jpg"
   heading: The Dead End - Chicken Processing
   description: Among the many services offered at Barnyard Organics is poultry processing
-    in their custom-built, on-farm, provincially-inspected, organic, free-range (––just
-    kidding) poultry processing facility.
+    in their custom-built, on-farm, provincially-inspected, organically approved,
+    free-range (––just kidding) poultry processing facility.
   link: chicken-processing.md
 menu:
   main:

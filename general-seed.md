@@ -14,7 +14,7 @@ pdf-description: <p>To place an order, <a href="info@barnyardorganics.com">email
   call Barnyard Organics (902-887-3188).</p>
 
 ---
-Barnyard Organics is a distributor of [General Seed Company](https://www.generalseedcompany.ca)’s products for PEI.  
+Barnyard Organics is a distributor of General Seed Company’s products for PEI.  
 [https://www.generalseedcompany.ca](https://www.generalseedcompany.ca)
 
 To order your cover crop, forage, or turf seed, contact Mark with your order.

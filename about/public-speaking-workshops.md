@@ -30,7 +30,7 @@ Contact [Sally](sallywb@gmail.com)!
 
 ## Mark Bernard
 
-* Organic Field Crop Production including peas, soybeans, grains
+* Organic Field Crop Production including peas, soybeans, grains 
 
 * Organic Milling Grains / Food Grade Production
 

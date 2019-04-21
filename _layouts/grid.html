@@ -9,7 +9,7 @@
 <div class="inner">
   <header>
     <h1>{{ page.title | escape }}</h1>
-    <p class="subheading">{{ page.description }}</p>
+    <div class="subheading">{{ page.description | markdownify }}</div>
   </header>
   {% if page.layout-mod == "include-feed-links" %}
     <!-- Sidebar -->

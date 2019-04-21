@@ -23,6 +23,8 @@ fields:
   default: default
   hidden: true
 pages:
+- retailer-locations.md
+- about/public-speaking-workshops.md
 - organic-chicken-eggs-subpage.md
 - order-retailer.md
 - rent-the-chicken.md
@@ -31,5 +33,4 @@ pages:
 - thank-you.md
 - about/family/sally.md
 - order-from-barnyard.md
-- about/public-speaking-workshops.md
 - contact.md

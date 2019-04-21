@@ -69,8 +69,8 @@ fields:
   description: This is a list of links to other pages. It will appear in a grid-format
     (with an image, title, and text)
 pages:
-- poultry.md
 - how-to-order.md
+- poultry.md
 - services.md
 - poultry2.md
 - about/family/index.md

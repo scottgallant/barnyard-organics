@@ -1,5 +1,5 @@
 ---
-title: Hens 4 Rent
+title: Hens for Rent
 date: 2017-04-15T14:32:18.000+00:00
 layout: default
 description: ''
@@ -7,7 +7,7 @@ description: ''
 ---
 ### Have you considered starting your own backyard flock?  Do you like fresh eggs and watching a hen enjoy life?  Are you a city-dweller who longs for a bit of the farm life, but maybe wants to try it out before investing the money in birds, a coop, feed, etc?
 
-Hens4Rent provides everything you need to enjoy a summer life with laying hens including:
+Hens for Rent provides everything you need to enjoy a summer life with laying hens including:
 
 * portable chicken coop;
 * two or four egg laying hens;
@@ -29,7 +29,7 @@ Includes:
 
 * Delivery, setup, and pick-up of the contents
 * 2 Organic Hens
-* 8-14 eggs per week 
+* 8-14 eggs per week
 * 1 Chicken Coop that can be easily moved
 * 1 feeder
 * 1 waterer

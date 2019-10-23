@@ -10,10 +10,10 @@ links:
     Heart Beet Organics, from Soleil''s Farm (seasonally) or from select retailers
     (contact for details). '
   link: organic-chicken-eggs-subpage.md
-- image: "/images/chicken-RTC.jpg"
-  heading: Rent the Chicken
-  description: Rent The Chicken provides all of the supplies you need to enjoy a summer
-    life with laying hens providing fresh eggs in your backyard!
+- image: "/images/chicken-thayne-1.jpg"
+  heading: Hens4Rent
+  description: Hens4Rent provides all of the supplies you need to enjoy a summer life
+    with laying hens providing fresh eggs in your backyard!
   link: rent-the-chicken.md
 - image: "/images/chicken-face-close-up-1.jpg"
   heading: The Dead End - Chicken Processing

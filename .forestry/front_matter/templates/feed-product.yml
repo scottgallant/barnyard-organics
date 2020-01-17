@@ -60,12 +60,12 @@ fields:
   default: ''
 pages:
 - _feed-products/chicken-1.md
-- _feed-products/organic-poultry-grower-mash-18.md
-- _feed-products/organic-mixed-grain-scratch-9-5.md
-- _feed-products/organic-soy-free-poultry-layer-mash-15.md
-- _feed-products/organic-turkey-grower-23.md
-- _feed-products/organic-dairy-goat-ration-16.md
-- _feed-products/turkey.md
+- _feed-products/hog-1.md
 - _feed-products/hog.md
 - _feed-products/organic-chick-starter-mash-21.md
-- _feed-products/hog-1.md
+- _feed-products/organic-dairy-goat-ration-16.md
+- _feed-products/organic-mixed-grain-scratch-9-5.md
+- _feed-products/organic-poultry-grower-mash-18.md
+- _feed-products/organic-soy-free-poultry-layer-mash-15.md
+- _feed-products/organic-turkey-grower-23.md
+- _feed-products/turkey.md

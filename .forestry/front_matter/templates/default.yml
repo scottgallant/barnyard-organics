@@ -23,14 +23,14 @@ fields:
   default: default
   hidden: true
 pages:
-- coming-soon.md
-- retailer-locations.md
-- organic-chicken-eggs-subpage.md
-- order-retailer.md
-- about/public-speaking-workshops.md
-- thank-you.md
-- contact.md
 - about/family/sally.md
+- about/public-speaking-workshops.md
+- coming-soon.md
+- contact.md
 - order-from-barnyard.md
+- order-retailer.md
 - order.md
+- organic-chicken-eggs-subpage.md
 - rent-the-chicken.md
+- retailer-locations.md
+- thank-you.md

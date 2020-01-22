@@ -1,7 +1,7 @@
 ---
 title: How to Order
 layout: grid
-date: 2018-05-22 18:53:43 +0000
+date: '2018-05-22T18:53:43.000+00:00'
 links:
 - link: price-list.md
   image: ''
@@ -15,24 +15,37 @@ links:
   image: ''
   description: For other inquiries
   heading: Contact
-description: |+
+description: |-
   You can visit one of our current Retailers/Distributors, scroll down for price lists and check back for our online order form.
 
   <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1O5Tnl2vX9YFPPJVzGz6iI2q9JQ8" width="640" height="480"></iframe>
 
-  PEI
+  ###### PEI
 
-  Agro-Mart
-  Charlottetown
+  * Agro-Mart Co-operative in  Charlottetown
+  * Cardigan Feed Services Ltd.
+  * Illsley's Feed and Farm Supply Ltd. in Summerside
 
-  Cardigan Feeds
-  Cardigan
+  ###### NOVA SCOTIA
 
-  Illsley's
-  Summerside
+  * Colchester County Store in Bible Hill
+  * Amherst Country Store
+  * Lequille Country Store in Annapolis Royal
+  * Antigonish Farm and Garden Co-op
+  * Bridgewater Farmers' Co-op
+  * J Leblanc Feed Services Ltd. in Church Point
+  * Scotian Gold Co-op Ltd. in Coldbrook
+  * Walkers Livestock Feed and Supplies in Dartmouth
+  * The Family Feed Store in Middleton
+  * Corridor Co-op Country Store in Milford
+  * United Farmers' Co-op in Sydney
 
-  NOVA SCOTIA
+  ###### NEW BRUNSWICK
 
+  * Co-op Home and Farm Supply in Fredericton
+  * Codiac Organics Ltd. in Moncton
+  * Southeastern Farmers' Co-op in Moncton
+  * Cattail Ridge Market in Sackville
 menu:
   main:
     identifier: something

@@ -19,7 +19,7 @@ pdfs:
 - title: General Seed Forage Seed Price List
   link: "/images/General Seed Forage seed2020.pdf"
 - title: General Seed Organic Forage Seed Price List
-  link: "/images/General Seed Organic Forage Seed Price List Jan 1 2019.pdf"
+  link: "/images/General Seed Organic Seed2020.pdf"
 
 ---
 _Please note that shipping is excluded from our pricing, but we’re happy to get you a preferred customer shipping quote!_

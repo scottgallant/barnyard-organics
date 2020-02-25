@@ -17,7 +17,7 @@ pdfs:
 - title: General Seed Cover Crop Seed Price List
   link: "/images/General Seed Cover Crops2020.pdf"
 - title: General Seed Forage Seed Price List
-  link: "/images/General Seed Forage Seed Price List Jan 1 2019.pdf"
+  link: "/images/General Seed Forage seed2020.pdf"
 - title: General Seed Organic Forage Seed Price List
   link: "/images/General Seed Organic Forage Seed Price List Jan 1 2019.pdf"
 

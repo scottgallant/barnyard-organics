@@ -6,7 +6,7 @@ pdf-description: See price lists below. To place an order, <a href="info@barnyar
   call Barnyard Organics (902-887-3188).
 pdf-heading: ''
 pdfs:
-- title: ECOFM Farm Price List Jan 1, 2019
+- title: East Coast Organic Grainery Price list Feb 2020
   link: "/images/Barnyard-Organics-Feed farm Price list2020-1.pdf"
 - title: Whole Grain Farm Price List
   link: "/images/Barnyard-Organics-Whole Grain Farm price list2020.pdf"

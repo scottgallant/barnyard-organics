@@ -6,9 +6,9 @@ pdf-description: See price lists below. To place an order, <a href="info@barnyar
   call Barnyard Organics (902-887-3188).
 pdf-heading: ''
 pdfs:
-- title: East Coast Organic Grainery Price list Feb 2020
+- title: East Coast Organic Grainery @ farm price list Feb 2020
   link: "/images/Barnyard-Organics-Feed farm Price list2020-1.pdf"
-- title: Whole Grain Farm Price List
+- title: Whole Grain @farm price list Feb 2020
   link: "/images/Barnyard-Organics-Whole Grain Farm price list2020.pdf"
 - title: BioAg Premix Price List
   link: "/images/Bio Ag Premixes Jan 1 2019.pdf"

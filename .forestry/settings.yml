@@ -28,7 +28,6 @@ public_path: "/barnyard-organics/images"
 front_matter_path: "/images"
 use_front_matter_path: true
 file_template: ":filename:"
-instant_preview: true
 build:
   preview_env:
   - JEKYLL_ENV=staging
@@ -37,4 +36,3 @@ build:
   mount_path: "/opt/buildhome/repo"
   instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
     --port 8080 --host 0.0.0.0 -d _site --incremental
-  preview_command: bundle exec jekyll build --drafts --unpublished --future -d _site

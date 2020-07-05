@@ -1,10 +1,16 @@
 <div class="sidebar">
-	<nav>
-		<ul>
-			<li class="hide-mobile"><a href="{{ site.baseurl }}/feed/" class="logo">East Coast Organic Feed Mill</a></li>
-			{% for item in site.menus.feed %}
-				<li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>
-			{% endfor %}
-		</ul>
-	</nav>
+  <nav>
+    <ul>
+      <li class="hide-mobile">
+        <a href="{{ site.baseurl }}/feed/" class="logo"
+          >East Coast Organic Grainery</a
+        >
+      </li>
+      {% for item in site.menus.feed %}
+      <li>
+        <a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </nav>
 </div>

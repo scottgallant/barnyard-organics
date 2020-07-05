@@ -25,6 +25,7 @@ description: |-
   * Agro-Mart Co-operative in  Charlottetown
   * Cardigan Feed Services Ltd.
   * Illsley's Feed and Farm Supply Ltd. in Summerside
+  * Humble Farm
 
   ###### NOVA SCOTIA
 

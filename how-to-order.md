@@ -18,7 +18,7 @@ links:
 description: |-
   You can visit one of our current Retailers/Distributors, scroll down for price lists and check back for our online order form.
 
-  <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1O5Tnl2vX9YFPPJVzGz6iI2q9JQ8" width="640" height="480"></iframe>
+  [<iframe src="https://www.google.com/maps/d/embed?mid=1LocLwVzGOgpYgm2sYOJs_faxa2-4ooCj" width="640" height="480"></iframe>](<iframe src="https://www.google.com/maps/d/embed?mid=1LocLwVzGOgpYgm2sYOJs_faxa2-4ooCj" width="640" height="480"></iframe> "Retail Locations")
 
   ###### PEI
 

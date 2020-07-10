@@ -32,7 +32,7 @@ barnyard_organics:
     price_retailers: 12.25
     hst: false
   - name: Organic Milling Wheat (food grade) SOLD OUT
-    description: ''
+    description: SOLD OUT
     price: 25.0
     price_retailers: 22.15
     hst: false

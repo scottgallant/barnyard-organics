@@ -37,6 +37,5 @@ description: Barnyard Organics’ East Coast Organic Grainery is proud to offer 
   and milled 100% organic feed for your livestock needs!  CFIA-approved mix formulas
   available for laying hens and poultry, broiler birds, turkeys, hogs, goats, and
   custom mixing is also an option!
-published: false
 
 ---

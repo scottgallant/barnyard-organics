@@ -83,8 +83,8 @@ barnyard_organics:
       for Omega-3 fatty acids as well. The resulting meat will be healthy, high quality,
       delicious! This feed works well for both heritage breeds and broad breasted
       turkeys.
-    price: 35.74
-    price_retailers: 30.93
+    price: 34.0
+    price_retailers: 29.8
     hst: false
   - name: Organic Hog Grower (14%)
     description: A finely ground feed for raising organic pigs to reach their full

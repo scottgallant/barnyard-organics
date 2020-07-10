@@ -1,6 +1,11 @@
 ---
 barnyard_organics:
   products:
+  - name: Dairy Cow Ration
+    description: ''
+    price: 30.0
+    price_retailers: 26.3
+    hst: false
   - name: Organic Wheat
     price: 20.78
     price_retailers: 19.07

@@ -1,6 +1,11 @@
 ---
 barnyard_organics:
   products:
+  - name: Organic Rolled Oats (priced at 15Kg bag)
+    description: ''
+    price: 12.0
+    price_retailers: 10.62
+    hst: false
   - name: Organic Rolled Barley (priced at 15Kg bag)
     description: ''
     price: 18.0

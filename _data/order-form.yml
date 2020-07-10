@@ -91,8 +91,8 @@ barnyard_organics:
       growth potential. Our Organic Hog Grower formula offers ideal nutrition for
       your growing swine. With a minimum of 14% protein, your pigs will be feasting
       on some of the best, most natural feed available.
-    price: 24.55
-    price_retailers: 21.15
+    price: 24.0
+    price_retailers: 21.0
     hst: false
   - name: Organic Poultry Starter (21%)
     description: A very high protein diet for fast growth and a texture for young

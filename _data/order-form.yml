@@ -1,6 +1,11 @@
 ---
 barnyard_organics:
   products:
+  - name: Organic Rolled Barley (priced at 15Kg bag)
+    description: ''
+    price: 18.0
+    price_retailers: 15.8
+    hst: false
   - name: Organic Wheat
     price: 20.78
     price_retailers: 19.07

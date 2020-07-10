@@ -2,7 +2,7 @@
 layout: home
 background: "/images/chicken-homepage-image-2.jpg"
 main-heading: Barnyard Organics
-ecofm-image: "/images/ECO FM bag logo.jpeg"
+ecofm-image: "/images/front.png"
 ecofm-heading: Home of East Coast Organic Grainery
 ecofm-links:
 - heading: Organic Hog Feed

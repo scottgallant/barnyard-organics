@@ -1,10 +1,8 @@
 ---
 title: Turkey
 date: '2017-04-20T10:43:31.000+00:00'
-description: |-
-  Test
-
-  East Coast Organic Grainery offers CFIA-approved turkey starter and grower to meet your organic turkey dinner needs!
+description: East Coast Organic Grainery offers CFIA-approved turkey starter and grower
+  to meet your organic turkey dinner needs!
 links:
 - link: _feed-products/organic-turkey-grower-23.md
   image: "/images/turkeys-colourful-2.jpg"

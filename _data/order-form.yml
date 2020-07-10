@@ -59,8 +59,8 @@ barnyard_organics:
       to all birds. Corn is cracked while the rest of the grains are whole. Feeding
       whole grains with grit helps keep the bird’s gizzard strong and healthy and
       improves the flavour of the final product.
-    price: 21.12
-    price_retailers: 18.85
+    price: 22.0
+    price_retailers: 19.3
     hst: false
   - name: Organic Turkey Grower (23%)
     description: East Coast Organic Grainery’s Certified Organic Turkey Grower meets

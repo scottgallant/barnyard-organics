@@ -4,6 +4,10 @@ permalink: "/feed/"
 layout: grid
 layout-mod: include-feed-links
 links:
+- link: _feed-products/barnyard-7.md
+  image: "/images/barnyard7.png"
+  heading: Barnyard 7 Custom Mix
+  description: More details coming soon!
 - image: "/images/chicken-with-grain-6.jpg"
   heading: Poultry
   description: Layer mash, soy-free layer mash, a broiler mash, mixed grain scratch

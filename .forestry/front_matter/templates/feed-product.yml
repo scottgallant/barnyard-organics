@@ -59,6 +59,7 @@ fields:
   hidden: false
   default: ''
 pages:
+- _feed-products/barnyard-7.md
 - _feed-products/chicken-1.md
 - _feed-products/hog-1.md
 - _feed-products/hog.md

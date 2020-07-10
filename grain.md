@@ -4,13 +4,9 @@ permalink: "/grain/"
 layout: default
 
 ---
-## [Barnyard Organics is home to East Coast Organic Grainery](https://barnyardorganics.com/feed/)
+## [Barnyard Organics is home to](https://barnyardorganics.com/feed/):
 
-<div class="image left">
-<img src="/images/grain-feed-bag.jpg">
-</div>
-
-<hr style="clear:both">
+![](/barnyard-organics/images/eastcoastgrainery.png)
 
 ## Organic Grain Production
 

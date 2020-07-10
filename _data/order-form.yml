@@ -51,7 +51,7 @@ barnyard_organics:
       Our Organic Dairy Goat formula offers ideal nutrition for your lactating goats.
       With a minimum of 16% protein, your goats will be feasting on some of the best,
       most natural feed available.
-    price: 29.31
+    price: 29.0
     price_retailers: 25.25
     hst: false
   - name: Mixed Grain Scratch (9.5%)

@@ -12,8 +12,8 @@ barnyard_organics:
     price_retailers: 15.8
     hst: false
   - name: Organic Wheat
-    price: 20.78
-    price_retailers: 19.07
+    price: 20.0
+    price_retailers: 19.0
     description: ''
     hst: false
   - name: Organic Roasted Soybeans (Whole, priced at 20Kg bag)

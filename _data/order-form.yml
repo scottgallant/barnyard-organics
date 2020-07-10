@@ -22,8 +22,8 @@ barnyard_organics:
     description: ''
     hst: false
   - name: Organic Roasted Soybeans (Milled, priced at 20Kg bag)
-    price: 36.36
-    price_retailers: 33.36
+    price: 35.0
+    price_retailers: 30.97
     description: ''
     hst: false
   - name: Organic Oats (priced at 20 Kg bag)

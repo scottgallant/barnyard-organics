@@ -115,7 +115,7 @@ barnyard_organics:
       ducks), the 17% protein will meet the requirements of most mixed farms. The
       mash is preferred by many because it is not over-processed into pellets. Cracked
       corn is used in the mash to minimize dust levels.
-    price: 30.29
+    price: 31.0
     price_retailers: 26.09
     hst: false
   - name: Organic Poultry Grower (18%)

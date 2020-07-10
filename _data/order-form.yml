@@ -71,8 +71,8 @@ barnyard_organics:
       contains flax for Omega-3 fatty acids as well. The resulting meat will be healthy,
       high quality, delicious! This feed works well for both heritage breeds and broad
       breasted turkeys.
-    price: 32.04
-    price_retailers: 27.97
+    price: 33.0
+    price_retailers: 28.95
     hst: false
   - name: Organic Turkey Starter (26%)
     description: East Coast Organic Grainery’s Certified Organic Turkey Starter meets

@@ -43,8 +43,8 @@ barnyard_organics:
     hst: false
   - name: Organic Barley
     description: ''
-    price: 19.69
-    price_retailers: 18.06
+    price: 21.0
+    price_retailers: 18.4
     hst: false
   - name: Dairy Goat Ration (16%)
     description: A coarse texture feed for organic goats to reach their full potential.

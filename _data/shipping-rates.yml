@@ -9,7 +9,7 @@ new_brunswick:
   price-1000: 7.65
   price-2000: 6.41
   price-5000: 4.78
-  price-10000: '4.30'
+  price-10000: 4.3
 - location: Madawaska and Gloucester County
   price-1000: 7.19
   price-2000: 5.33
@@ -32,14 +32,14 @@ new_brunswick:
   price-10000: 3.23
 - location: Westmorland & Albert Counties
   price-1000: 5.67
-  price-2000: '4.20'
+  price-2000: 4.2
   price-5000: 3.18
   price-10000: 2.86
 nova_scotia:
 - location: Hants & Shelburne Counties
-  price-1000: '7.10'
-  price-2000: '6.00'
-  price-5000: '4.00'
+  price-1000: 7.1
+  price-2000: 6.0
+  price-5000: 4.0
   price-X: 3.75
 - location: Annapolis
   price-1000: 7.32
@@ -86,7 +86,7 @@ pei:
 - location: Kings
   price-1000: 4.91
   price-2000: 2.68
-  price-5000: '2.40'
+  price-5000: 2.4
   price-X: 2.16
 - location: Queens
   price-1000: 3.56
@@ -94,9 +94,10 @@ pei:
   price-5000: 1.33
   price-X: 1.19
 - location: Prince
-  price-1000: '3.10'
+  price-1000: 3.1
   price-2000: 3
   price-5000: 2.65
   price-10000: 2
-fuel_surcharge: 1.256
-fuel_surcharge_10000: 1.361
+  price-X: 
+fuel_surcharge: 1.285
+fuel_surcharge_10000: 1.419

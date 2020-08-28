@@ -5,6 +5,11 @@ main-heading: Barnyard Organics
 ecofm-image: "/images/front.png"
 ecofm-heading: Home of East Coast Organic Grainery
 ecofm-links:
+- link: _feed-products/barnyard-7.md
+  heading: Learn about the Barnyard 7--simple, pure ingredients!
+  description: 'Barnyard Organics uses 7 main local, organic ingredients to create
+    our feed products.  The "Barnyard 7" are the pillars of the quality products we
+    offer to feed your farm animals.      '
 - heading: Organic Hog Feed
   description: 'A finely ground feed for raising organic pigs to reach their full
     growth potential. '
@@ -61,5 +66,6 @@ menu:
     url: "/"
     weight: 1
     title: Home
+published: false
 
 ---

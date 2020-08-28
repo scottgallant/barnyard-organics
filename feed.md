@@ -33,9 +33,9 @@ links:
   description: Have your own preferred mix? Barnyard Organics's East Coast Organic
     Organic Grainery can work with your own formulas to create a custom feed.
   link: _feed-products/hog-1.md
-description: Barnyard Organics’ East Coast Organic Grainery is proud to offer locally-grown
-  and milled 100% organic feed for your livestock needs!  CFIA-approved mix formulas
-  available for laying hens and poultry, broiler birds, turkeys, hogs, goats, and
-  custom mixing is also an option!
+description: |-
+  Barnyard Organics’ East Coast Organic Grainery is proud to offer locally-grown and milled 100% organic feed for your livestock needs!  CFIA-approved mix formulas available for laying hens and poultry, broiler birds, turkeys, hogs, goats, and custom mixing is also an option!
+
+  ![](/barnyard-organics/images/barnyard7.png)
 
 ---

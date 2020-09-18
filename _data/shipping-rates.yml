@@ -52,10 +52,10 @@ nova_scotia:
   price-5000: 6.69
   price-X: 6.03
 - location: Digby, Yarmouth
-  price-1000: 9.08
-  price-2000: 7.57
-  price-5000: 5.59
-  price-X: 5.04
+  price-1000: 9.4
+  price-2000: 7.83
+  price-5000: 5.79
+  price-X: 5.22
 - location: Lunenburg
   price-1000: 6.96
   price-2000: 5.84

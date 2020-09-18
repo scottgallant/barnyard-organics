@@ -26,10 +26,10 @@ new_brunswick:
   price-5000: 3.55
   price-10000: 3.2
 - location: Carleton, Charlotte & Restigouche Counties
-  price-1000: 6.42
-  price-2000: 4.76
-  price-5000: 3.59
-  price-10000: 3.23
+  price-1000: 6.95
+  price-2000: 5.15
+  price-5000: 3.91
+  price-10000: 3.52
 - location: Westmorland & Albert Counties
   price-1000: 5.67
   price-2000: 4.2

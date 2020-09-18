@@ -57,10 +57,10 @@ nova_scotia:
   price-5000: 5.79
   price-X: 5.22
 - location: Lunenburg
-  price-1000: 6.96
-  price-2000: 5.84
-  price-5000: 4.35
-  price-X: 3.91
+  price-1000: 7.69
+  price-2000: 6.44
+  price-5000: 4.8
+  price-X: 4.32
 - location: Kings & Queens Counties
   price-1000: 6.96
   price-2000: 5.84

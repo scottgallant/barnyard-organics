@@ -1,10 +1,10 @@
 ---
 new_brunswick:
 - location: Northumberland & Kent Counties
-  price-1000: 5.83
-  price-2000: 4.32
-  price-5000: 3.28
-  price-10000: 2.95
+  price-1000: 6.03
+  price-2000: 4.47
+  price-5000: 3.39
+  price-10000: 3.05
 - location: Victoria County
   price-1000: 7.65
   price-2000: 6.41

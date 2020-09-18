@@ -72,10 +72,10 @@ nova_scotia:
   price-5000: 4.5
   price-X: 4.05
 - location: Cumberland, Colchester & Pictou
-  price-1000: 6.28
-  price-2000: 4.66
-  price-5000: 3.53
-  price-X: 3.18
+  price-1000: 6.52
+  price-2000: 5.46
+  price-5000: 4.07
+  price-X: 3.66
 - location: Antigonish & Guysborough
   price-2000: 5.56
   price-5000: 4.14

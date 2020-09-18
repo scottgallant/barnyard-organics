@@ -67,10 +67,10 @@ nova_scotia:
   price-5000: 4.73
   price-X: 4.26
 - location: Halifax
-  price-1000: 6.96
-  price-2000: 5.84
-  price-5000: 4.35
-  price-X: 3.91
+  price-1000: 7.2
+  price-2000: 6.04
+  price-5000: 4.5
+  price-X: 4.05
 - location: Cumberland, Colchester & Pictou
   price-1000: 6.28
   price-2000: 4.66

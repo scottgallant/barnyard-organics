@@ -84,10 +84,10 @@ nova_scotia:
   price-X: 4.45
 pei:
 - location: Kings
-  price-1000: 4.91
-  price-2000: 2.68
-  price-5000: 2.4
-  price-X: 2.16
+  price-1000: 5.08
+  price-2000: 2.77
+  price-5000: 2.48
+  price-X: 2.24
 - location: Queens
   price-1000: 3.56
   price-2000: 2.44

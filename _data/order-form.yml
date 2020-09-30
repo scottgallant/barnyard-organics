@@ -3,42 +3,42 @@ barnyard_organics:
   products:
   - name: Organic Rolled Oats (priced at 15Kg bag)
     description: ''
-    price: 12.0
+    price: 12
     price_retailers: 10.62
     hst: false
   - name: Organic Rolled Barley (priced at 15Kg bag)
     description: ''
-    price: 18.0
+    price: 18
     price_retailers: 15.8
     hst: false
   - name: Organic Wheat
-    price: 20.0
-    price_retailers: 19.0
+    price: 20
+    price_retailers: 19
     description: ''
     hst: false
   - name: Organic Roasted Soybeans (Whole, priced at 20Kg bag)
-    price: 34.0
+    price: 34
     price_retailers: 31.5
     description: ''
     hst: false
   - name: Organic Roasted Soybeans (Milled, priced at 20Kg bag)
-    price: 35.0
+    price: 35
     price_retailers: 30.97
     description: ''
     hst: false
   - name: Organic Oats (priced at 20 Kg bag)
     description: ''
-    price: 14.0
+    price: 14
     price_retailers: 12.25
     hst: false
-  - name: Organic Milling Wheat (food grade) SOLD OUT
-    description: SOLD OUT
-    price: 25.0
+  - name: 'Organic Milling Wheat (food grade) '
+    description: Acadia variety, hard red wheat
+    price: 25
     price_retailers: 22.15
     hst: false
   - name: Organic Field Peas
     description: ''
-    price: 24.0
+    price: 24
     price_retailers: 21.05
     hst: false
   - name: Organic Cracked Corn (priced at 20Kg bag)
@@ -48,12 +48,12 @@ barnyard_organics:
     hst: false
   - name: Organic Corn
     description: ''
-    price: 26.0
+    price: 26
     price_retailers: 22.8
     hst: false
   - name: Organic Barley
     description: ''
-    price: 21.0
+    price: 21
     price_retailers: 18.4
     hst: false
   - name: Dairy Goat Ration (16%)
@@ -61,7 +61,7 @@ barnyard_organics:
       Our Organic Dairy Goat formula offers ideal nutrition for your lactating goats.
       With a minimum of 16% protein, your goats will be feasting on some of the best,
       most natural feed available.
-    price: 29.0
+    price: 29
     price_retailers: 25.25
     hst: false
   - name: Mixed Grain Scratch (9.5%)
@@ -69,7 +69,7 @@ barnyard_organics:
       to all birds. Corn is cracked while the rest of the grains are whole. Feeding
       whole grains with grit helps keep the bird’s gizzard strong and healthy and
       improves the flavour of the final product.
-    price: 22.0
+    price: 22
     price_retailers: 19.3
     hst: false
   - name: Organic Turkey Grower (23%)
@@ -81,7 +81,7 @@ barnyard_organics:
       contains flax for Omega-3 fatty acids as well. The resulting meat will be healthy,
       high quality, delicious! This feed works well for both heritage breeds and broad
       breasted turkeys.
-    price: 33.0
+    price: 33
     price_retailers: 28.95
     hst: false
   - name: Organic Turkey Starter (26%)
@@ -93,7 +93,7 @@ barnyard_organics:
       for Omega-3 fatty acids as well. The resulting meat will be healthy, high quality,
       delicious! This feed works well for both heritage breeds and broad breasted
       turkeys.
-    price: 34.0
+    price: 34
     price_retailers: 29.8
     hst: false
   - name: Organic Hog Grower (14%)
@@ -101,15 +101,15 @@ barnyard_organics:
       growth potential. Our Organic Hog Grower formula offers ideal nutrition for
       your growing swine. With a minimum of 14% protein, your pigs will be feasting
       on some of the best, most natural feed available.
-    price: 24.0
-    price_retailers: 21.0
+    price: 24
+    price_retailers: 21
     hst: false
   - name: Organic Poultry Starter (21%)
     description: A very high protein diet for fast growth and a texture for young
       poultry. The mash is a medium hammered texture, easy for young chicks to eat.
       The mash is preferred by many because it is not over-processed into pellets.
       Cracked corn is used in the mash to minimize dust levels.
-    price: 31.0
+    price: 31
     price_retailers: 27.2
     hst: false
   - name: Organic Soy-Free Poultry Layer Mash (15%)
@@ -117,7 +117,7 @@ barnyard_organics:
       will meet the requirements of most mixed farms. The mash is a coarsely hammered
       textured, specially formulated to meet protein requirements for a non-soy-based
       diet."
-    price: 29.0
+    price: 29
     price_retailers: 27.4
     hst: false
   - name: Organic Poultry Layer Mash 17%
@@ -125,7 +125,7 @@ barnyard_organics:
       ducks), the 17% protein will meet the requirements of most mixed farms. The
       mash is preferred by many because it is not over-processed into pellets. Cracked
       corn is used in the mash to minimize dust levels.
-    price: 31.0
+    price: 31
     price_retailers: 26.09
     hst: false
   - name: Organic Poultry Grower (18%)
@@ -135,12 +135,12 @@ barnyard_organics:
       with the bird’s optimal nutritional requirements in mind. The resulting meat
       will be high quality, delicious, and very healthy! East Coast Organic Grainery’s
       Organic Poultry Grower Mash works well for both hybrid and heritage breeds.
-    price: 30.0
+    price: 30
     price_retailers: 26.93
     hst: false
   - name: Organic Dairy Cow Ration
     description: ''
-    price: 30.0
+    price: 30
     price_retailers: 26.3
     hst: false
 hst: 15

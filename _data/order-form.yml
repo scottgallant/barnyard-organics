@@ -146,7 +146,7 @@ barnyard_organics:
 hst: 15
 bio_ag:
   products:
-  - name: See price list and contact form to order
+  - name: See price list and contact to order
     description: ''
     price: 
     price_retailers: 

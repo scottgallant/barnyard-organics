@@ -18,8 +18,8 @@ pdfs:
   link: "/images/2021-bioag-premix-price-list.pdf"
 - title: General Seed Cover Crop Seed Price List 2021
   link: "/images/general-seed-cover-crop-seed-prices-2021.pdf"
-- title: General Seed Forage Seed Price List
-  link: "/images/General Seed Forage seed2020.pdf"
+- title: General Seed Forage Seed Price List 2021
+  link: "/images/general-seed-forage-seed-prices-2021.pdf"
 - title: General Seed Organic Forage Seed Price List
   link: "/images/General Seed Organic Seed2020.pdf"
 

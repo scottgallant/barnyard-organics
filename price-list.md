@@ -20,8 +20,8 @@ pdfs:
   link: "/images/general-seed-cover-crop-seed-prices-2021.pdf"
 - title: General Seed Forage Seed Price List 2021
   link: "/images/general-seed-forage-seed-prices-2021.pdf"
-- title: General Seed Organic Forage Seed Price List
-  link: "/images/General Seed Organic Seed2020.pdf"
+- title: General Seed Organic Seed Price List 2021
+  link: "/images/general-seed-organic-seed-prices-2021.pdf"
 
 ---
 _Please note that shipping is excluded from our pricing, but we’re happy to get you a preferred customer shipping quote!_

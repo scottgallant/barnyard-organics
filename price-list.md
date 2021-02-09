@@ -14,8 +14,8 @@ pdfs:
   link: "/images/feb-2021-farm-price-list-grains.pdf"
 - title: BioAg Supplements Price List-2021
   link: "/images/2021-bioag-supplements.pdf"
-- title: BioAg Supplements & Fertilizer Price List
-  link: "/images/Bio Ag Supplements and Fertilizers Jan 1 2019.pdf"
+- title: 2021 BioAg Premix Price List
+  link: "/images/2021-bioag-premix-price-list.pdf"
 - title: General Seed Cover Crop Seed Price List
   link: "/images/General Seed Cover Crops2020.pdf"
 - title: General Seed Forage Seed Price List

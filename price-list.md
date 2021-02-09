@@ -12,8 +12,8 @@ pdfs:
   link: "/images/feb-2021-farm-price-list-feed.pdf"
 - title: Whole Grain @farm price list Feb 2021
   link: "/images/feb-2021-farm-price-list-grains.pdf"
-- title: BioAg Premix Price List
-  link: "/images/Bio Ag Premixes Jan 1 2019.pdf"
+- title: BioAg Supplements Price List-2021
+  link: "/images/2021-bioag-supplements.pdf"
 - title: BioAg Supplements & Fertilizer Price List
   link: "/images/Bio Ag Supplements and Fertilizers Jan 1 2019.pdf"
 - title: General Seed Cover Crop Seed Price List

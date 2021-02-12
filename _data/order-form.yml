@@ -1,6 +1,11 @@
 ---
 barnyard_organics:
   products:
+  - name: Organic Fall Rye (25Kg)
+    description: ''
+    price: 20
+    price_retailers: 17
+    hst: false
   - name: Organic Rolled Oats (priced at 15Kg bag)
     description: ''
     price: 10

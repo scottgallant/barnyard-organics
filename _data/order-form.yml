@@ -8,7 +8,7 @@ barnyard_organics:
     hst: false
   - name: Organic Rolled Barley (priced at 15Kg bag)
     description: ''
-    price: 18
+    price: 15
     price_retailers: 15.8
     hst: false
   - name: Organic Wheat
@@ -48,7 +48,7 @@ barnyard_organics:
     hst: false
   - name: Organic Corn
     description: ''
-    price: 26
+    price: 25
     price_retailers: 22.8
     hst: false
   - name: Organic Barley

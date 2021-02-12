@@ -140,7 +140,7 @@ barnyard_organics:
     hst: false
   - name: Organic Dairy Cow Ration
     description: ''
-    price: 30
+    price: 29
     price_retailers: 26.3
     hst: false
 hst: 15

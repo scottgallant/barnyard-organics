@@ -1,60 +1,20 @@
 ---
 barnyard_organics:
   products:
-  - name: Organic Sunflower Meal
-    description: ''
-    price: 30
-    price_retailers: 30
-    hst: false
   - name: Organic Alfalfa Pellets
     description: ''
     price: 27
     price_retailers: 27
     hst: false
-  - name: Organic Fall Rye (25Kg)
+  - name: Organic Barley
     description: ''
-    price: 20
-    price_retailers: 20
-    hst: false
-  - name: Organic Rolled Oats (priced at 15Kg bag)
-    description: ''
-    price: 10
-    price_retailers: 10.62
+    price: 17
+    price_retailers: 18.4
     hst: false
   - name: Organic Rolled Barley (priced at 15Kg bag)
     description: ''
     price: 15
     price_retailers: 15.8
-    hst: false
-  - name: Organic Wheat
-    price: 20
-    price_retailers: 19
-    description: ''
-    hst: false
-  - name: Organic Roasted Soybeans (Whole, priced at 20Kg bag)
-    price: 34
-    price_retailers: 31.5
-    description: ''
-    hst: false
-  - name: Organic Roasted Soybeans (Milled, priced at 20Kg bag)
-    price: 35
-    price_retailers: 30.97
-    description: ''
-    hst: false
-  - name: Organic Oats (priced at 20 Kg bag)
-    description: ''
-    price: 12
-    price_retailers: 12.25
-    hst: false
-  - name: 'Organic Milling Wheat (food grade) '
-    description: Acadia variety, hard red wheat
-    price: 24
-    price_retailers: 22.15
-    hst: false
-  - name: Organic Field Peas
-    description: ''
-    price: 24
-    price_retailers: 21.05
     hst: false
   - name: Organic Cracked Corn (priced at 20Kg bag)
     description: ''
@@ -66,10 +26,50 @@ barnyard_organics:
     price: 25
     price_retailers: 22.8
     hst: false
-  - name: Organic Barley
+  - name: Organic Fall Rye (25Kg)
     description: ''
-    price: 17
-    price_retailers: 18.4
+    price: 20
+    price_retailers: 20
+    hst: false
+  - name: Organic Field Peas
+    description: ''
+    price: 24
+    price_retailers: 21.05
+    hst: false
+  - name: Organic Sunflower Meal
+    description: ''
+    price: 30
+    price_retailers: 30
+    hst: false
+  - name: Organic Oats (priced at 20 Kg bag)
+    description: ''
+    price: 12
+    price_retailers: 12.25
+    hst: false
+  - name: Organic Rolled Oats (priced at 15Kg bag)
+    description: ''
+    price: 10
+    price_retailers: 10.62
+    hst: false
+  - name: Organic Roasted Soybeans (Whole, priced at 20Kg bag)
+    price: 34
+    price_retailers: 31.5
+    description: ''
+    hst: false
+  - name: Organic Roasted Soybeans (Milled, priced at 20Kg bag)
+    price: 35
+    price_retailers: 30.97
+    description: ''
+    hst: false
+  - name: 'Organic Milling Wheat (food grade) '
+    description: Acadia variety, hard red wheat
+    price: 24
+    price_retailers: 22.15
+    hst: false
+  - name: Organic Wheat
+    price: 20
+    price_retailers: 19
+    description: ''
     hst: false
   - name: Dairy Goat Ration (16%)
     description: A coarse texture feed for organic goats to reach their full potential.

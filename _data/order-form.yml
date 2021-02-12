@@ -1,6 +1,11 @@
 ---
 barnyard_organics:
   products:
+  - name: Organic Sunflower Meal
+    description: ''
+    price: 30
+    price_retailers: 30
+    hst: false
   - name: Organic Alfalfa Pellets
     description: ''
     price: 27
@@ -9,7 +14,7 @@ barnyard_organics:
   - name: Organic Fall Rye (25Kg)
     description: ''
     price: 20
-    price_retailers: 17
+    price_retailers: 20
     hst: false
   - name: Organic Rolled Oats (priced at 15Kg bag)
     description: ''

@@ -28,7 +28,7 @@ barnyard_organics:
     hst: false
   - name: Organic Oats (priced at 20 Kg bag)
     description: ''
-    price: 14
+    price: 12
     price_retailers: 12.25
     hst: false
   - name: 'Organic Milling Wheat (food grade) '

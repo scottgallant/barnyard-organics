@@ -33,7 +33,7 @@ barnyard_organics:
     hst: false
   - name: 'Organic Milling Wheat (food grade) '
     description: Acadia variety, hard red wheat
-    price: 25
+    price: 24
     price_retailers: 22.15
     hst: false
   - name: Organic Field Peas

@@ -69,7 +69,7 @@ barnyard_organics:
       to all birds. Corn is cracked while the rest of the grains are whole. Feeding
       whole grains with grit helps keep the bird’s gizzard strong and healthy and
       improves the flavour of the final product.
-    price: 22
+    price: 21
     price_retailers: 19.3
     hst: false
   - name: Organic Turkey Grower (23%)

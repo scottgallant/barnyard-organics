@@ -93,7 +93,7 @@ barnyard_organics:
       for Omega-3 fatty acids as well. The resulting meat will be healthy, high quality,
       delicious! This feed works well for both heritage breeds and broad breasted
       turkeys.
-    price: 34
+    price: 35
     price_retailers: 29.8
     hst: false
   - name: Organic Hog Grower (14%)
@@ -101,7 +101,7 @@ barnyard_organics:
       growth potential. Our Organic Hog Grower formula offers ideal nutrition for
       your growing swine. With a minimum of 14% protein, your pigs will be feasting
       on some of the best, most natural feed available.
-    price: 24
+    price: 23
     price_retailers: 21
     hst: false
   - name: Organic Poultry Starter (21%)

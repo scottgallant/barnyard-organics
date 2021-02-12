@@ -109,7 +109,7 @@ barnyard_organics:
       poultry. The mash is a medium hammered texture, easy for young chicks to eat.
       The mash is preferred by many because it is not over-processed into pellets.
       Cracked corn is used in the mash to minimize dust levels.
-    price: 31
+    price: 32
     price_retailers: 27.2
     hst: false
   - name: Organic Soy-Free Poultry Layer Mash (15%)

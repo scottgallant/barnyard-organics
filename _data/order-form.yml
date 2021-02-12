@@ -1,6 +1,11 @@
 ---
 barnyard_organics:
   products:
+  - name: Organic Alfalfa Pellets
+    description: ''
+    price: 27
+    price_retailers: 27
+    hst: false
   - name: Organic Fall Rye (25Kg)
     description: ''
     price: 20

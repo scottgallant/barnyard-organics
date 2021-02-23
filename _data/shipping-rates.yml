@@ -99,5 +99,5 @@ pei:
   price-5000: 1.38
   price-10000: 2
   price-X: 1.23
-fuel_surcharge: 1.285
-fuel_surcharge_10000: 1.419
+fuel_surcharge: 2.37
+fuel_surcharge_10000: 3.23

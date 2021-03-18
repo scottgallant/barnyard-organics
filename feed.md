@@ -9,7 +9,7 @@ links:
   heading: Barnyard 7
   description: Find out more about the foundational ingredients that make up our organic
     feed products.
-- image: "/images/chicken-with-grain-6.jpg"
+- image: "/images/img_2254.jpg"
   heading: Poultry
   description: Layer mash, soy-free layer mash, a broiler mash, mixed grain scratch
     and chick starter available to meet all of your poultry needs!

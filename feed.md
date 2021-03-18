@@ -23,7 +23,7 @@ links:
   description: The perfect formula to raise your organic pigs.
   link: _feed-products/hog.md
 - link: _feed-products/organic-dairy-goat-ration-16.md
-  image: "/images/goat.jpg"
+  image: "/images/20200914_135043.jpg"
   heading: Dairy Goat
   description: A coarse texture feed for organic goats to reach their full potential.
     Our Organic Dairy Goat formula offers ideal nutrition for your lactating goats.

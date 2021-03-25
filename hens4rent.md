@@ -2,9 +2,9 @@
 title: Hens for Rent
 date: 2017-04-15T14:32:18.000+00:00
 layout: default
-description: ""
----
+description: ''
 
+---
 ### Have you considered starting your own backyard flock? Do you like fresh eggs and watching a hen enjoy life? Are you a city-dweller who longs for a bit of the farm life, but maybe wants to try it out before investing the money in birds, a coop, feed, etc?
 
 Hens for Rent provides everything you need to enjoy a summer life with laying hens including:

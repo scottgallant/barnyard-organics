@@ -23,8 +23,6 @@ description: ''
 menu:
   main:
     identifier: something
-    url: "/how-to-order/"
     weight: 9
-published: false
 
 ---

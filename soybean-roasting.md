@@ -1,11 +1,11 @@
 ---
 title: Custom Roasting
-date: 2017-04-12 00:00:00 +0000
+date: 2017-04-12T00:00:00.000+00:00
 layout: default
 permalink: "/services/custom-roasting"
+published: false
+
 ---
-
-
 ### Barnyard Organics is pleased to be able to offer custom soybean roasting for organic farmers in a dedicated organic and non-GMO facility.  Soybean roasting service is available year-round, with the busiest season taking place after harvest in October/November.
 
 

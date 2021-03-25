@@ -10,7 +10,8 @@ links:
 - link: retailer-locations.md
   image: ''
   heading: Find a retailer
-  description: ''
+  description: 'Check out the growing list of retailers across the Maritimes carrying
+    our products. '
 - link: order.md
   image: ''
   description: Online Order Form

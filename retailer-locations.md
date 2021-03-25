@@ -2,8 +2,8 @@
 layout: default
 title: Retailer Locations
 date: 
-description: You can visit one of our current Retailers/Distributors, scroll down
-  for price lists and check back for our online order form.
+description: Check out the long (and growing!) list of retailers across the Maritimes
+  carrying our products.  Your local store not on the list!  Let us know!
 
 ---
 <iframe src="https://www.google.com/maps/d/embed?mid=1LocLwVzGOgpYgm2sYOJs_faxa2-4ooCj"width="640" height="480"></iframe>

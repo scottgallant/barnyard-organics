@@ -3,14 +3,14 @@ title: Buy
 layout: grid
 date: '2018-05-22T18:53:43.000+00:00'
 links:
-- link: retailer-locations.md
-  image: ''
-  heading: Find a retailer
-  description: ''
 - link: price-list.md
   image: ''
   heading: Price List
   description: Learn about the different buying options
+- link: retailer-locations.md
+  image: ''
+  heading: Find a retailer
+  description: ''
 - link: order.md
   image: ''
   description: Online Order Form

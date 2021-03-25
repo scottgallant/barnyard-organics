@@ -3,10 +3,11 @@ layout: default
 title: Retailer Locations
 date: 
 description: Check out the long (and growing!) list of retailers across the Maritimes
-  carrying our products.  Your local store not on the list!  Let us know!
+  carrying our products.  Your local store not on the list?  Let us know!
 
 ---
-<iframe src="https://www.google.com/maps/d/embed?mid=1LocLwVzGOgpYgm2sYOJs_faxa2-4ooCj"width="640" height="480"></iframe>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1LocLwVzGOgpYgm2sYOJs_faxa2-4ooCj" width="640" height="480"></iframe>
+
 **PEI**
 
 Agro-Mart Co-operative in Charlottetown

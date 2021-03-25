@@ -4,7 +4,7 @@ layout: grid
 date: '2018-05-22T18:53:43.000+00:00'
 links:
 - link: price-list.md
-  image: ''
+  image: "/images/soybeans-and-sol-SMALL-2.jpg"
   heading: Price List
   description: See our latest price lists for our various products
 - link: retailer-locations.md

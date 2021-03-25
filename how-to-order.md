@@ -4,7 +4,7 @@ layout: grid
 date: '2018-05-22T18:53:43.000+00:00'
 links:
 - link: price-list.md
-  image: "/images/soybeans-and-sol-SMALL-2.jpg"
+  image: "/images/eastcoastgrainery.png"
   heading: Price List
   description: See our latest price lists for our various products
 - link: retailer-locations.md
@@ -13,7 +13,7 @@ links:
   description: 'Check out the growing list of retailers across the Maritimes carrying
     our products. '
 - link: order.md
-  image: ''
+  image: "/images/grain-close-up-harvest-3.jpg"
   description: Online Order Form
   heading: Online Order Form
 - link: contact.md

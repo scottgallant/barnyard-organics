@@ -17,7 +17,7 @@ links:
   description: Online Order Form
   heading: Online Order Form
 - link: contact.md
-  image: ''
+  image: "/images/number-4.jpg"
   description: For other inquiries
   heading: Contact
 description: ''

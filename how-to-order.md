@@ -6,7 +6,7 @@ links:
 - link: price-list.md
   image: ''
   heading: Price List
-  description: Learn about the different buying options
+  description: See our latest price lists for our various products
 - link: retailer-locations.md
   image: ''
   heading: Find a retailer

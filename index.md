@@ -38,13 +38,6 @@ services:
   description: 'Barnyard Organics offers an array of grain-related services, including:  cleaning
     and drying.'
   link: grain-cleaning-drying-milling.md
-- heading: Custom Roasting
-  image: "/images/soybeans-and-sol-SMALL-2.jpg"
-  description: Barnyard Organics is pleased to be able to offer custom roasting for
-    organic farmers in a dedicated organic and non-GMO facility.  The roasting service
-    is available year-round, with the busiest season taking place after harvest in
-    October/November.
-  link: soybean-roasting.md
 - heading: Bio-Ag Distributor
   image: "/images/logo-Bio-Ag-Consultants-&-Distributors-Logo-1.jpg"
   description: Bio-Ag products promote safe sustainable agriculture with a variety

@@ -14,7 +14,7 @@ links:
   heading: Hens4Rent
   description: Hens4Rent provides all of the supplies you need to enjoy a summer life
     with laying hens providing fresh eggs in your backyard!
-  link: rent-the-chicken.md
+  link: hens4rent.md
 - image: "/images/chicken-face-close-up-1.jpg"
   heading: The Dead End - Chicken Processing
   description: Among the many services offered at Barnyard Organics is poultry processing

@@ -38,6 +38,5 @@ analysis-table:
   quantity: MIN 50 IU/Kg
 product-photos:
 - "/images/20200523_204048.jpg"
-- "/images/goat.jpg"
 
 ---

@@ -30,7 +30,7 @@ chicken-eggs:
   image: "/images/chickens-four-wheeler-edited-2.jpg"
   link: poultry.md
 - heading: Custom Chicken Processing
-  image: "/images/chicken-cooked-whole-small.jpg"
+  image: "/images/chicken-cooked-whole-small-1.jpg"
   link: poultry.md
 services:
 - heading: Grain Cleaning & Drying

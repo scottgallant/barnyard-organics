@@ -29,7 +29,7 @@ chicken-eggs:
 - heading: Hens for Rent!  Learn more.
   image: "/images/chickens-four-wheeler-edited-2.jpg"
   link: poultry.md
-- heading: Amazing Eggs
+- heading: Custom Chicken Processing
   image: "/images/eggs-hard-boiled.jpg"
   link: poultry.md
 services:

@@ -6,7 +6,7 @@ description: Check out the long (and growing!) list of retailers across the Mari
   carrying our products.  Your local store not on the list?  Let us know!
 
 ---
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1LocLwVzGOgpYgm2sYOJs_faxa2-4ooCj" width="640" height="480"></iframe>
+<iframe src="[https://www.google.com/maps/d/u/0/edit?mid=1O5Tnl2vX9YFPPJVzGz6iI2q9JQ8&usp=sharing](https://www.google.com/maps/d/u/0/edit?mid=1O5Tnl2vX9YFPPJVzGz6iI2q9JQ8&usp=sharing "https://www.google.com/maps/d/u/0/edit?mid=1O5Tnl2vX9YFPPJVzGz6iI2q9JQ8&usp=sharing")" width="640" height="480"></iframe>
 
 **PEI**
 

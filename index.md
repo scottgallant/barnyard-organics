@@ -26,7 +26,7 @@ ecofm-links:
     they supply the recipe for an extra $1/25Kg bag
   link: _feed-products/hog-1.md
 chicken-eggs:
-- heading: Hens for Rent!  Learn more.
+- heading: Hens for Rent!
   image: "/images/chickens-four-wheeler-edited-2.jpg"
   link: poultry.md
 - heading: Custom Chicken Processing

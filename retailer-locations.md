@@ -8,6 +8,8 @@ description: Check out the long (and growing!) list of retailers across the Mari
 ---
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1O5Tnl2vX9YFPPJVzGz6iI2q9JQ8" width="640" height="480"></iframe>
 
+**Barnyard Organics is excited to announce that East Coast Organic Grainery products are available through a selection of retail locations across Atlantic Canada. Above is a map of our current retail locations, and below is the list of our retail locations. If your local store is not on the list, please contact your local feed retailer to ask for our products!**
+
 **PEI**
 
 Agro-Mart Co-operative in Charlottetown

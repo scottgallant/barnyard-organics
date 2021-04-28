@@ -5,7 +5,7 @@ layout: grid
 layout-mod: include-feed-links
 links:
 - link: _feed-products/barnyard-7.md
-  image: "/images/barnyard7.png"
+  image: "/images/96066455_2942072319161775_6501997203815399424_n-1.jpg"
   heading: Barnyard 7
   description: Find out more about the foundational ingredients that make up our organic
     feed products.

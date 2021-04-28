@@ -13,7 +13,7 @@ links:
   heading: Price List
   description: See our latest price lists for our various products
 - link: retailer-locations.md
-  image: "/images/96066455_2942072319161775_6501997203815399424_n.jpg"
+  image: "/images/screen-shot-2021-04-28-at-12-12-38-pm.png"
   heading: Find a retailer
   description: 'Check out the growing list of retailers across the Maritimes carrying
     our products. '

@@ -2,8 +2,8 @@
 title: Price lists
 permalink: "/price-list/"
 layout: default-pdfs
-pdf-description: See price lists below. To place an order, <a href="info@barnyardorganics.com">email</a>   or
-  call Barnyard Organics (902-887-3188).  Or try our Online Order form! <https://www.barnyardorganics.com/order/>
+pdf-description: 'See price lists below. To place an order, <a href="info@barnyardorganics.com">email</a>   or
+  call Barnyard Organics (902-887-3188).  Or try our Online Order form! '
 pdf-heading: ''
 pdfs:
 - title: East Coast Organic Grainery @ farm price list Feb 2021

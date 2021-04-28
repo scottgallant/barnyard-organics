@@ -13,12 +13,12 @@ links:
   heading: Price List
   description: See our latest price lists for our various products
 - link: retailer-locations.md
-  image: "/images/front.png"
+  image: "/images/96066455_2942072319161775_6501997203815399424_n.jpg"
   heading: Find a retailer
   description: 'Check out the growing list of retailers across the Maritimes carrying
     our products. '
 - link: order.md
-  image: "/images/grain-close-up-harvest-3.jpg"
+  image: "/images/95261173_2929571973745143_7007570929647616000_n.jpg"
   description: Online Order Form
   heading: Online Order Form
 - link: contact.md

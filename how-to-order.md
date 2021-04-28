@@ -9,7 +9,7 @@ links:
   description: The bulk buying club model is one that allows customers to enjoy cost-savings
     by pooling their orders to benefit from reduced shipping rates.
 - link: price-list.md
-  image: "/images/eastcoastgrainery.png"
+  image: "/images/94146770_2901362643232743_6491647870230331392_n-1.jpg"
   heading: Price List
   description: See our latest price lists for our various products
 - link: retailer-locations.md

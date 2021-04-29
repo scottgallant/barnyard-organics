@@ -3,7 +3,7 @@ title: Buy
 layout: grid
 date: '2018-05-22T18:53:43.000+00:00'
 links:
-- link: coming-soon.md
+- link: bulk-buying-club.md
   image: "/images/94619294_2929571830411824_4672234908293267456_n-1.jpg"
   heading: Barnyard Organics Bulk Buying Club
   description: The bulk buying club model allows customers living in proximity to

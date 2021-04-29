@@ -27,7 +27,7 @@ ecofm-links:
   link: _feed-products/hog-1.md
 chicken-eggs:
 - heading: Hens for Rent!
-  image: "/images/57540086_2167274686641546_4973738502916145152_n.jpg"
+  image: "/images/hens4rent-chickenimage.jpg"
   link: poultry.md
 - heading: Custom Chicken Processing
   image: "/images/chicken-cooked-whole-small-1.jpg"

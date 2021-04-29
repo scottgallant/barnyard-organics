@@ -4,7 +4,7 @@ permalink: "/poultry/"
 layout: grid
 description: ''
 links:
-- image: "/images/chicken-thayne-1.jpg"
+- image: "/images/hens4rent.jpeg"
   heading: Hens4Rent
   description: Hens4Rent provides all of the supplies you need to enjoy a summer life
     with laying hens providing fresh eggs in your backyard!

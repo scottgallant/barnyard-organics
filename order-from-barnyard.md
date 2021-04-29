@@ -8,7 +8,9 @@ published: false
 ---
 ### BULK BUYING CLUB
 
-We also love to support informal bulk buying! The bulk buying club model is one that allows customers to enjoy cost-savings by pooling their orders to benefit from reduced shipping rates.
+We also love to support informal bulk buying! 
+
+The bulk buying club model allows customers living in proximity to enjoy cost-savings by pooling their orders to benefit from significantly reduced shipping rates!
 
 Here's how you can volunteer to coordinate a bulk buying club:
 

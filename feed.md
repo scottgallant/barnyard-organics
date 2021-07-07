@@ -5,11 +5,11 @@ layout: grid
 layout-mod: include-feed-links
 links:
 - link: _feed-products/barnyard-7.md
-  image: "/images/barnyard7.png"
+  image: "/images/96066455_2942072319161775_6501997203815399424_n-1.jpg"
   heading: Barnyard 7
   description: Find out more about the foundational ingredients that make up our organic
     feed products.
-- image: "/images/chicken-with-grain-6.jpg"
+- image: "/images/img_2254.jpg"
   heading: Poultry
   description: Layer mash, soy-free layer mash, a broiler mash, mixed grain scratch
     and chick starter available to meet all of your poultry needs!
@@ -23,7 +23,7 @@ links:
   description: The perfect formula to raise your organic pigs.
   link: _feed-products/hog.md
 - link: _feed-products/organic-dairy-goat-ration-16.md
-  image: "/images/goat.jpg"
+  image: "/images/nubian-beauties.jpg"
   heading: Dairy Goat
   description: A coarse texture feed for organic goats to reach their full potential.
     Our Organic Dairy Goat formula offers ideal nutrition for your lactating goats.

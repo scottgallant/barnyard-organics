@@ -11,11 +11,6 @@ links:
   description: 'Barnyard Organics offers an array of grain-related services, including:
     cleaning, drying, and milling'
   link: grain-cleaning-drying-milling.md
-- image: "/images/soybeans-and-sol-SMALL-4.jpg"
-  heading: Custom Roasting
-  description: "Barnyard Organics is pleased to be able to offer custom soybean roasting
-    for organic farmers in a dedicated organic and non-GMO facility. \n"
-  link: soybean-roasting.md
 - image: "/images/logo-Bio-Ag-Consultants-&-Distributors-Logo.jpg"
   heading: Bio-Ag Distributor
   description: Bio-Ag products promote safe sustainable agriculture with a variety
@@ -28,7 +23,5 @@ links:
     for the Atlantic Provinces.  Your Atlantic source for cover crop and forage seeds,
     both organic and non.
   link: general-seed.md
+
 ---
-
-
-

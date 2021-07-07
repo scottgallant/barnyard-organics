@@ -1,55 +1,35 @@
 ---
-title: How to Order
+title: Buy
 layout: grid
-date: "2018-05-22T18:53:43.000+00:00"
+date: '2018-05-22T18:53:43.000+00:00'
 links:
-  - link: price-list.md
-    image: ""
-    heading: Price List
-    description: Learn about the different buying options
-  - link: order.md
-    image: ""
-    description: Online Order Form
-    heading: Online Order Form
-  - link: contact.md
-    image: ""
-    description: For other inquiries
-    heading: Contact
-description: |-
-  You can visit one of our current Retailers/Distributors, scroll down for price lists and check back for our online order form.
-
-  <iframe src="https://www.google.com/maps/d/embed?mid=1LocLwVzGOgpYgm2sYOJs_faxa2-4ooCj" width="640" height="480"></iframe>
-
-  ###### PEI
-
-  * Agro-Mart Co-operative in  Charlottetown
-  * Cardigan Feed Services Ltd.
-  * Illsley's Feed and Farm Supply Ltd. in Summerside
-  * Humble Farm
-
-  ###### NOVA SCOTIA
-
-  * Colchester County Store in Bible Hill
-  * Amherst Country Store
-  * Lequille Country Store in Annapolis Royal
-  * Antigonish Farm and Garden Co-op
-  * Bridgewater Farmers' Co-op
-  * J Leblanc Feed Services Ltd. in Church Point
-  * Scotian Gold Co-op Ltd. in Coldbrook
-  * Walkers Livestock Feed and Supplies in Dartmouth
-  * The Family Feed Store in Middleton
-  * Corridor Co-op Country Store in Milford
-  * United Farmers' Co-op in Sydney
-
-  ###### NEW BRUNSWICK
-
-  * Co-op Home and Farm Supply in Fredericton
-  * Codiac Organics Ltd. in Moncton
-  * Southeastern Farmers' Co-op in Moncton
-  * Cattail Ridge Market in Sackville
+- link: bulk-buying-club.md
+  image: "/images/94619294_2929571830411824_4672234908293267456_n-1.jpg"
+  heading: Barnyard Organics Bulk Buying Club
+  description: The bulk buying club model allows customers living in proximity to
+    enjoy cost-savings by pooling their orders to benefit from significantly reduced
+    shipping rates!
+- link: price-list.md
+  image: "/images/94146770_2901362643232743_6491647870230331392_n-1.jpg"
+  heading: Price List
+  description: See our latest price lists for our various products
+- link: retailer-locations.md
+  image: "/images/screen-shot-2021-04-28-at-12-12-38-pm.png"
+  heading: Find a retailer
+  description: 'Check out the growing list of retailers across the Maritimes carrying
+    our products. '
+- link: order.md
+  image: "/images/95261173_2929571973745143_7007570929647616000_n-1.jpg"
+  description: Online Order Form
+  heading: Online Order Form
+- link: contact.md
+  image: "/images/number-4.jpg"
+  description: For all other inquiries
+  heading: Contact
+description: ''
 menu:
   main:
     identifier: something
-    url: "/how-to-order/"
     weight: 9
+
 ---

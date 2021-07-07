@@ -1,6 +1,6 @@
 ---
 layout: feed
-title: 'Our ingredients:  Barnyard 7'
+title: 'Our ingredients:  Barnyard 7-(copy)'
 date: 2017-04-11T00:00:00.000+00:00
 description: 'Our Barnyard 7 ingredients are the pillars of our organic feed products.  Many
   of the ingredients are home grown on our organic farm in Freetown, PE, and the rest
@@ -15,6 +15,6 @@ general-analysis: See individual mixes.
 analysis-table: []
 product-photos:
 - "/images/barnyard7.png"
-- "/images/96066455_2942072319161775_6501997203815399424_n.jpg"
+published: false
 
 ---

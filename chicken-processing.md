@@ -8,10 +8,18 @@ Among the many services offered at Barnyard Organics is poultry processing in th
 
 Searching for a clean, dedicated facility for slaughtering, plucking, gutting, bagging and custom cutting* Barnyard Organics has you covered.
 
-Prices are $6/bird including shrink-wrap bagging
+Prices:
 
-$5/bird if you bag them yourself with regular poly bags
+$5/bird in regular poly bags
 
-Only $3/bird if you help eviscerate the bird
+$6/bird in shrink wrap bag
 
-\*$5 additional cost/bird for BBQ cut ups
+$7 for non-Cornish cross meat birds
+
+Save $2/bird that you help eviscerate
+
+$0.50/bird fee to keep offal (liver, hearts, gizzard)
+
+\*$5 additional cost/bird for cutting up (available as time allows that day). 
+
+NOTE: We are no longer renting the facility out. All processing is done by us (and you, if you want to help out). Thank you!

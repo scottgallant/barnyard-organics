@@ -11,7 +11,7 @@ pdfs:
 - title: Whole Grain @farm price list Aug 2021
   link: "/images/aug-2021-retailer-whole-grains-price-list.pdf"
 - title: BioAg Supplements Price List-2021
-  link: "/images/2021-bioag-supplements.pdf"
+  link: "/images/oct-2021-bioag-supplements.pdf"
 - title: 2021 BioAg Premix Price List
   link: "/images/2021-bioag-premix-price-list.pdf"
 - title: General Seed Cover Crop Seed Price List 2021

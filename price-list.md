@@ -9,7 +9,7 @@ pdfs:
 - title: East Coast Organic Grainery @ farm price list Feb 2021
   link: "/images/aug-2021-website-feed-price.pdf"
 - title: Whole Grain @farm price list Feb 2021
-  link: "/images/feb-2021-farm-price-list-grains.pdf"
+  link: "/images/aug-2021-retailer-whole-grains-price-list.pdf"
 - title: BioAg Supplements Price List-2021
   link: "/images/2021-bioag-supplements.pdf"
 - title: 2021 BioAg Premix Price List

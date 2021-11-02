@@ -6,6 +6,8 @@ pdf-description: 'See price lists below. To place an order, <a href="info@barnya
   call Barnyard Organics (902-887-3188).  Or try our Online Order form! '
 pdf-heading: ''
 pdfs:
+- title: ECOFM Small Bag (12kg) Price List- Aug 2021
+  link: "/images/aug-2021-website-small-bag-price.pdf"
 - title: East Coast Organic Grainery @ farm price list Aug 2021
   link: "/images/aug-2021-website-feed-price.pdf"
 - title: Whole Grain @farm price list Aug 2021

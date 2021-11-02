@@ -7,7 +7,7 @@ pdf-description: 'See price lists below. To place an order, <a href="info@barnya
 pdf-heading: ''
 pdfs:
 - title: East Coast Organic Grainery @ farm price list Feb 2021
-  link: "/images/feb-2021-farm-price-list-feed.pdf"
+  link: "/images/aug-2021-website-feed-price.pdf"
 - title: Whole Grain @farm price list Feb 2021
   link: "/images/feb-2021-farm-price-list-grains.pdf"
 - title: BioAg Supplements Price List-2021

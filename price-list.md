@@ -6,9 +6,9 @@ pdf-description: 'See price lists below. To place an order, <a href="info@barnya
   call Barnyard Organics (902-887-3188).  Or try our Online Order form! '
 pdf-heading: ''
 pdfs:
-- title: East Coast Organic Grainery @ farm price list Feb 2021
+- title: East Coast Organic Grainery @ farm price list Aug 2021
   link: "/images/aug-2021-website-feed-price.pdf"
-- title: Whole Grain @farm price list Feb 2021
+- title: Whole Grain @farm price list Aug 2021
   link: "/images/aug-2021-retailer-whole-grains-price-list.pdf"
 - title: BioAg Supplements Price List-2021
   link: "/images/2021-bioag-supplements.pdf"

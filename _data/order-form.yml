@@ -33,7 +33,7 @@ barnyard_organics:
     hst: false
   - name: Organic Field Peas
     description: ''
-    price: 24
+    price: 36
     price_retailers: 21.05
     hst: false
   - name: Organic Sunflower Meal
@@ -176,6 +176,6 @@ general_seed:
 description: |-
   Welcome to our TRIAL Online Order Form, let us know what you think!
 
-  Please note for shipping purposes, you need to order in multiples of 20 (e.g. 20 items, 40 items, etc.)  If no shipping is required (e.g. for pick-up at farm), any number of items can be ordered.
+  Please note for shipping purposes, the prices quoted are best estimates and usually err on the high side. Once we receive your order, we will request a quote from our shipping partner and get you an exact quote to your door and follow up with you before shipping.
 
   If you have any questions, issues, or feedback, please feel free to contact us by phone ([902-887-3188](tel:902-887-3188)) or email ([info@barnyardorganics.com](mailto:info@barnyardorganics.com)).

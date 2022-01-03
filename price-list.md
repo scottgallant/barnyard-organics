@@ -9,7 +9,7 @@ pdfs:
 - title: ECOFM Small Bag (12kg) Price List- Aug 2021
   link: "/images/aug-2021-website-small-bag-price.pdf"
 - title: East Coast Organic Grainery @ farm price list Aug 2021
-  link: "/images/aug-2021-website-feed-price.pdf"
+  link: "/images/ecog-feeds-farm-price-jan-2022.pdf"
 - title: Whole Grain @farm price list Aug 2021
   link: "/images/aug-2021-retailer-whole-grains-price-list.pdf"
 - title: BioAg Supplements Price List-2021

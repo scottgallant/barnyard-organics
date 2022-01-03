@@ -16,12 +16,6 @@ pdfs:
   link: "/images/oct-2021-bioag-supplements-price-list.pdf"
 - title: 2021 BioAg Premix Price List
   link: "/images/oct-2021-bioag-supplements.pdf"
-- title: General Seed Cover Crop Seed Price List 2021
-  link: "/images/general-seed-cover-crop-seed-prices-2021.pdf"
-- title: General Seed Forage Seed Price List 2021
-  link: "/images/general-seed-forage-seed-prices-2021.pdf"
-- title: General Seed Organic Seed Price List 2021
-  link: "/images/general-seed-organic-seed-prices-2021.pdf"
 
 ---
 _Please note that shipping is excluded from our pricing, but we’re happy to get you a preferred customer shipping quote!_

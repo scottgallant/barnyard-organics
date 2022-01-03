@@ -10,8 +10,8 @@ pdfs:
   link: "/images/ecog-feeds-12kg-bag-jan-2022-retailers-price-list.pdf"
 - title: East Coast Organic Grainery @ farm price list Jan 2022
   link: "/images/ecog-feeds-farm-price-jan-2022.pdf"
-- title: Whole Grain @farm price list Aug 2021
-  link: "/images/aug-2021-retailer-whole-grains-price-list.pdf"
+- title: Whole Grain @farm price list Jan 2022
+  link: "/images/ecog-whole-grains-farm-price-jan-2022.pdf"
 - title: BioAg Supplements Price List-2021
   link: "/images/oct-2021-bioag-supplements-price-list.pdf"
 - title: 2021 BioAg Premix Price List

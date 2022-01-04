@@ -7,7 +7,7 @@ description:
   the common questions we receive on this page!
 ---
 
-### Where can I find your products?
+### Where can I find your products?asdf
 
 All of our feed, grain, Bio-Ag and General Seed products can be ordered directly from the farm!  The minimum order for shipping is 1/2 tonne (1100 lbs / 20\*25Kg of our feed/grain bags).  No minimum order if you are stopping by the farm, but do call ahead to make sure we'll be available and have your order ready for pick-up!
 

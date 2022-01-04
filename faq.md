@@ -2,14 +2,13 @@
 title: Frequently Asked Questions
 permalink: "/faq/"
 layout: feed-subpage
-description:
-  We know you'll have more questions, but we've tried to address some of
+description: We know you'll have more questions, but we've tried to address some of
   the common questions we receive on this page!
+
 ---
+### Where can I find your products?
 
-### Where can I find your products?asdf
-
-All of our feed, grain, Bio-Ag and General Seed products can be ordered directly from the farm!  The minimum order for shipping is 1/2 tonne (1100 lbs / 20\*25Kg of our feed/grain bags).  No minimum order if you are stopping by the farm, but do call ahead to make sure we'll be available and have your order ready for pick-up!
+All of our feed, grain, Bio-Ag and General Seed products can be ordered directly from the farm!  The minimum order for shipping is 1/2 tonne (1100 lbs / 20*25Kg of our feed/grain bags).  No minimum order if you are stopping by the farm, but do call ahead to make sure we'll be available and have your order ready for pick-up!
 
 East Coast Organic Grainery products are also available at retail stores across the Maritimes (full list coming soon!), and our retail distribution is rapidly increasing!  Check with your local feed retailer and ask them to order in East Coast Organic Grainery products!
 

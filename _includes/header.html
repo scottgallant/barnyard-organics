@@ -2,17 +2,26 @@
 <header id="header">
 
   <!-- Logo -->
-    <div class="logo">
-      <a href="http://{{ site.url }}/" class="header-logo"><img src="/images/logo-barnyard-organics.png" alt=""></a>
-      <a href="http://{{ site.url }}/">Barnyard Organics</a>
-    </div>
+  <div class="logo">
+    <a href="http://{{ site.url }}/" class="header-logo"><img src="/images/logo-barnyard-organics.png" alt=""></a>
+    <a href="http://{{ site.url }}/">Barnyard Organics</a>
+  </div>
   <!-- Nav -->
-    <nav id="nav">
-      <ul>
-        {% for item in site.menus.main %}
-          <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
-        {% endfor %}
-      </ul>
-    </nav>
+  <nav id="nav">
+    <ul>
+      {% for item in site.menus.main %}
+      <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+      {% endfor %}
+      <li>
+        <div data-layout="SMALL_ICON_COUNTER" class="ec-cart-widget"></div>
+        <div>
+          <script data-cfasync="false" type="text/javascript"
+            src="https://app.ecwid.com/script.js?37356705&data_platform=code&data_date=2022-01-03"
+            charset="utf-8"></script>
+          <script type="text/javascript">Ecwid.init();</script>
+        </div>
+      </li>
+    </ul>
+  </nav>
 
 </header>

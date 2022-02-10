@@ -3,11 +3,7 @@ layout: default-pdfs
 pdf-description: To place an order, <a href="info@barnyardorganics.com">email</a>
   or call Barnyard Organics (902-887-3188).
 pdf-heading: 'Bio Ag Price List:'
-pdfs:
-- title: Bio-Ag Supplements & Fertilizers
-  link: "/images/2021-bioag-supplements.pdf"
-- link: "/images/2021-bioag-premix-price-list.pdf"
-  title: Bio Ag Premixes
+pdfs: []
 permalink: "/services/bio-ag"
 title: Bio-Ag Distributor
 

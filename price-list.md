@@ -11,7 +11,7 @@ pdfs:
 - title: East Coast Organic Grainery @ farm price list Jan 2022
   link: "/images/ecog-feeds-farm-price-jan-2022.pdf"
 - title: Whole Grain @farm price list Jan 2022
-  link: "/images/ecog-whole-grains-farm-price-jan-2022.pdf"
+  link: "/images/apr-2022-website-grains-price.pdf"
 
 ---
 _Please note that shipping is excluded from our pricing, but we’re happy to get you a preferred customer shipping quote!_

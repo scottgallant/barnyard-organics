@@ -10,16 +10,24 @@ Searching for a clean, dedicated facility for slaughtering, plucking, gutting, b
 
 Prices:
 
-$5/bird in regular poly bags
+$5.25/bird in regular poly bags
 
-$6/bird in shrink wrap bag
+\+ $1 for shrink bag
 
-$7 for non-Cornish cross meat birds
+$8 for non-Cornish cross meat birds
 
 Save $2/bird that you help eviscerate
 
 $0.50/bird fee to keep offal (liver, hearts, gizzard)
 
-\*$5 additional cost/bird for cutting up (available as time allows that day). 
+$0.25/bird to keep just liver and/or hearts
+
+$0.50/bird to keep feet (if they're in good shape- $1 if not)
+
+$2 charge for birds 8lbs+
+
+$4 charge for birds 10lbs+
+
+\*cutting up is available at $6/bird and only if time allows that particular day.
 
 NOTE: We are no longer renting the facility out. All processing is done by us (and you, if you want to help out). Thank you!

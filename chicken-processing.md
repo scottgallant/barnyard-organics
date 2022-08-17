@@ -16,8 +16,6 @@ $5.25/bird in regular poly bags
 
 $8 for non-Cornish cross meat birds
 
-Save $2/bird that you help eviscerate
-
 $0.50/bird fee to keep offal (liver, hearts, gizzard)
 
 $0.25/bird to keep just liver and/or hearts
@@ -29,5 +27,3 @@ $2 charge for birds 8lbs+
 $4 charge for birds 10lbs+
 
 \*cutting up is available at $6/bird and only if time allows that particular day.
-
-NOTE: We are no longer renting the facility out. All processing is done by us (and you, if you want to help out). Thank you!

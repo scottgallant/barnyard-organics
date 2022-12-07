@@ -1,6 +1,7 @@
 ---
 title: Mark
 layout: default
+_template: default
 date: 2017-04-20 00:00:00 +0000
 description: Captain of the fair ship ECOFM & Barnyard Organics Ltd.
 ---

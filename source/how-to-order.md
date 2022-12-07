@@ -1,6 +1,7 @@
 ---
 title: Buy
 layout: grid
+_template: grid
 date: '2018-05-22T18:53:43.000+00:00'
 links:
 - link: bulk-buying-club.md

@@ -2,15 +2,15 @@
   <div class="inner">
     <div class="split style1 centered reversed">
       <section>
-        <span class="image fit portrait"><img src="{{ page.ecofm-image | prepend:site.baseurl }}" alt="{{ page.ecofm-heading }}" /></span>
+        <span class="image fit portrait"><img src="{{ page.ecofm_image | prepend:site.baseurl }}" alt="{{ page.ecofm_heading }}" /></span>
       </section>
       <section>
-        <h2>{{ page.ecofm-heading }}</h2>
+        <h2>{{ page.ecofm_heading }}</h2>
         <div class="features">
-          {% for item in page.ecofm-links %}
+          {% for item in page.ecofm_links %}
           <article>
             {% comment %} look through feed-products for matching reference {% endcomment %}
-            {% assign pages = site.feed-products | where:"path", item.link %}
+            {% assign pages = site.feed_products | where:"path", item.link %}
             {% for page in pages %}
               <h3><a href="{{ page.url | prepend:site.baseurl }}">{{ item.heading }}</a></h3>
             {% endfor %}

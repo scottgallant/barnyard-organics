@@ -8,11 +8,12 @@ description:
   swine. With a minimum of 14% protein, your pigs will be feasting on some of the
   best, most natural feed available.
 thumbnail: "/images/pig-tamworth-sow.jpg"
-sub-title:
+sub_title:
   Nulla vitae elit libero, a pharetra augue. Etiam porta sem malesuada magna
   mollis euismod.
 tags:
 layout: feed
+_template: feed
 slug: hog
 ingredients: |-
   Organic Barley, Organic Wheat, Roasted Organic Soybean, Organic Oats, Organic Corn & Bio Ag Hog Grower Mineral Premix*.
@@ -27,7 +28,7 @@ directions:
   healthy.  Store in a cool, dry place. Unlike many pelletized feeds, our feeds are
   whole grain and contain no preservatives.  Do not use if mouldy or wet and aim to
   use the product within three months of purchase.
-analysis-table:
+analysis_table:
   - nutrients: Crude Protein
     quantity: MIN 14%
   - nutrients: Crude Fat
@@ -50,8 +51,8 @@ analysis-table:
     quantity: MIN 1,200 IU/KG
   - nutrients: Vitamin E
     quantity: MIN 10 IU/KG
-general-analysis: "This feed contains added selenium at 0.3 mg/kg "
-product-photos:
+general_analysis: "This feed contains added selenium at 0.3 mg/kg "
+product_photos:
   - "/images/layer-lucy-3.jpg"
   - "/images/hog-wilson.jpg"
 price_list: ""

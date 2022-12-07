@@ -1,8 +1,9 @@
 ---
 layout: default-pdfs
-pdf-description: To place an order, <a href="info@barnyardorganics.com">email</a>
+_template: default-pdfs
+pdf_description: To place an order, <a href="info@barnyardorganics.com">email</a>
   or call Barnyard Organics (902-887-3188).
-pdf-heading: 'Bio Ag Price List:'
+pdf_heading: 'Bio Ag Price List:'
 pdfs: []
 permalink: "/services/bio-ag"
 title: Bio-Ag Distributor

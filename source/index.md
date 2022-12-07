@@ -1,10 +1,11 @@
 ---
 layout: home
+_template: home
 background: "/images/chicken-homepage-image-2.jpg"
-main-heading: Barnyard Organics
-ecofm-image: "/images/front.png"
-ecofm-heading: Home of East Coast Organic Grainery
-ecofm-links:
+main_heading: Barnyard Organics
+ecofm_image: "/images/front.png"
+ecofm_heading: Home of East Coast Organic Grainery
+ecofm_links:
 - link: _feed-products/barnyard-7.md
   heading: Learn about the Barnyard 7--simple, pure ingredients!
   description: 'Barnyard Organics uses 7 main local, organic ingredients to create
@@ -25,7 +26,7 @@ ecofm-links:
   description: Barnyard Organics can create custom mixes for any customer provided
     they supply the recipe for an extra $1/25Kg bag
   link: _feed-products/hog-1.md
-chicken-eggs:
+chicken_eggs:
 - heading: Hens for Rent!
   image: "/images/hens4rent-chickenimage-1.jpg"
   link: poultry.md

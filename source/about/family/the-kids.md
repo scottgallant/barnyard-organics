@@ -1,6 +1,7 @@
 ---
 title: The Kids
 layout: default
+_template: default
 date: 2017-04-20T00:00:00.000+00:00
 description: One of the important values of the farm is the purposeful inclusion of
   the kids into the operation. Each has their own very individual interests and skills

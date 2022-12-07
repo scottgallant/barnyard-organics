@@ -2,6 +2,7 @@
 title: Grain
 permalink: "/grain/"
 layout: default
+_template: default
 
 ---
 ## [Barnyard Organics is home to](https://barnyardorganics.com/feed/):

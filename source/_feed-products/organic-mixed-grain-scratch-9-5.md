@@ -6,6 +6,7 @@ description: Our Mixed Grain Scratch, at 9.5% protein, provides an ideal supplem
   whole grains with grit helps keep the bird’s gizzard strong and healthy and improves
   the flavour of the final product.
 layout: feed
+_template: feed
 ingredients: |-
   Organic Barley, Organic Wheat, Organic Cracked Corn, Organic Oats.
 
@@ -15,7 +16,7 @@ directions: Use as a supplement with the Organic Poultry Layer Mash.  Be sure to
   dry place. Unlike many pelletized feeds, our feeds are whole grain and contain no
   preservatives.  Do not use if mouldy or wet and aim to use the product within three
   months of purchase.
-analysis-table:
+analysis_table:
 - nutrients: Crude Protein
   quantity: MIN 9.5%
 - nutrients: Crude Fat
@@ -34,8 +35,8 @@ analysis-table:
   quantity: MIN 3,000 IU/KG
 - nutrients: Vitamin E
   quantity: MIN 20 IU/KG
-product-photos:
+product_photos:
 - "/images/mixed-grain-scratch-mark2.jpg"
-general-analysis: ''
+general_analysis: ''
 
 ---

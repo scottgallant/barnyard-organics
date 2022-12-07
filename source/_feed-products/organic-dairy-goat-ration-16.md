@@ -1,6 +1,7 @@
 ---
 title: Organic Dairy Goat Ration 16%
 layout: feed
+_template: feed
 date: 2018-04-06T00:00:00.000+00:00
 description: 'A coarse texture feed for organic goats to reach their full potential.
   Our Organic Dairy Goat formula offers ideal nutrition for your lactating goats.
@@ -16,8 +17,8 @@ directions: Feed to goats in lactation. Be sure to offer plenty of fresh water t
   ensure your goats are happy and healthy.  Store in a cool, dry place. Unlike many
   pelletized feeds, our feeds are whole grain and contain no preservatives.  Do not
   use if moldy or wet and aim to use the product within three months of purchase.
-general-analysis: More coming soon, but it's great stuff
-analysis-table:
+general_analysis: More coming soon, but it's great stuff
+analysis_table:
 - nutrients: Crude Protein
   quantity: 16%
 - nutrients: Crude Fat
@@ -36,7 +37,7 @@ analysis-table:
   quantity: MIN 1,000 IU/Kg
 - nutrients: Vitamin E
   quantity: MIN 50 IU/Kg
-product-photos:
+product_photos:
 - "/images/20200523_204048.jpg"
 
 ---

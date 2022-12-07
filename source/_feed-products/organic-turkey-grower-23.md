@@ -2,6 +2,7 @@
 title: Organic Turkey Grower 23%
 date: 2017-04-15 00:00:00 +0000
 layout: feed
+_template: feed
 description: East Coast Organic Grainery’s Certified Organic Turkey Grower meets
   the balance of nutrients needed for turkeys to reach their growth potential in a
   medium-hammered mash that turkeys love.  At a minimum 23% protein, this feed is
@@ -23,8 +24,8 @@ directions:
   of fresh water away from feed.   Store in a cool, dry place. Unlike many pelletized
   feeds, our feeds are whole grain and contain no preservatives. Do not use if mouldy
   or wet and aim to use the product within three months of purchase.
-general-analysis: "This feed contains added selenium at 0.3 mg/kg "
-analysis-table:
+general_analysis: "This feed contains added selenium at 0.3 mg/kg "
+analysis_table:
   - nutrients: Crude Protein
     quantity: MIN 17%
   - nutrients: Crude Fat
@@ -43,5 +44,5 @@ analysis-table:
     quantity: MIN 3,000 IU/KG
   - nutrients: Vitamin E
     quantity: MIN 20 IU/KG
-product-photos: []
+product_photos: []
 ---

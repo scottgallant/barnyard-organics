@@ -1,6 +1,7 @@
 ---
 permalink: "/contact/"
 layout: default
+_template: default
 title: Contact
 date: ''
 description: ''

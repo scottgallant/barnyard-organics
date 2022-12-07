@@ -1,5 +1,6 @@
 ---
 layout: default
+_template: default
 title: Retailer Locations
 date: 
 description: Check out the long (and growing!) list of retailers across the Maritimes

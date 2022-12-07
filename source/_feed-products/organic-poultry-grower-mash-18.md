@@ -1,6 +1,7 @@
 ---
 title: Organic Poultry Grower Mash 18%
 layout: feed
+_template: feed
 date: 2017-04-15 00:00:00 +0000
 description:
   "Formulated to provide optimal health and growth for your birds, the
@@ -23,8 +24,8 @@ directions:
   of fresh water away from feed. Store in a cool, dry place. Unlike many pelletized
   feeds, our feeds are whole grain and contain no preservatives.  Do not use if mouldy
   or wet and aim to use the product within three months of purchase.
-general-analysis: This feed contains added selenium at 0.3 mg/Kg
-analysis-table:
+general_analysis: This feed contains added selenium at 0.3 mg/Kg
+analysis_table:
   - nutrients: Crude Protein
     quantity: MIN 18%
   - nutrients: Crude Fat
@@ -43,7 +44,7 @@ analysis-table:
     quantity: MIN 2,500 IU/KG
   - nutrients: Vitamin E
     quantity: MIN 15 IU/KG
-product-photos:
+product_photos:
   - "/images/layer-lucy-2.jpg"
   - "/images/grower-wood-1.jpg"
 ---

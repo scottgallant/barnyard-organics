@@ -2,6 +2,7 @@
 title: Grain Cleaning & Drying
 permalink: "/services/grain-cleaning-drying"
 layout: default
+_template: default
 
 ---
 Barnyard Organics offers an array of grain-related services, including:

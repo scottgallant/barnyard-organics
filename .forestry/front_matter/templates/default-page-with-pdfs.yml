@@ -19,12 +19,12 @@ fields:
   hidden: true
   default: ''
   config: {}
-- name: pdf-heading
+- name: pdf_heading
   type: text
   label: PDF Heading
   description: This is the heading above your list of PDFs
   config: {}
-- name: pdf-description
+- name: pdf_description
   type: text
   label: PDF Description
   description: This is the description below the heading and above the list of PDFs

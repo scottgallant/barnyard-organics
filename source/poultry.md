@@ -2,6 +2,7 @@
 title: Chicken & Eggs
 permalink: "/poultry/"
 layout: grid
+_template: grid
 description: ''
 links:
 - image: "/images/hens4rent.jpeg"

@@ -2,7 +2,8 @@
 title: East Coast Organic Grainery
 permalink: "/feed/"
 layout: grid
-layout-mod: include-feed-links
+_template: grid
+layout_mod: include-feed-links
 links:
 - link: _feed-products/barnyard-7.md
   image: "/images/96066455_2942072319161775_6501997203815399424_n-1.jpg"

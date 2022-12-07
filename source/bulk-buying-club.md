@@ -1,6 +1,7 @@
 ---
 title: Bulk Buying Club
 layout: default
+_template: default
 date: 2017-04-21T09:23:56.000+00:00
 description: The bulk buying club model allows customers living in proximity to enjoy
   cost-savings by pooling their orders to benefit from significantly reduced shipping

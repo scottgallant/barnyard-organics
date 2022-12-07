@@ -1,6 +1,7 @@
 ---
 title: The Team
 layout: default
+_template: default
 date: 2017-04-20T00:00:00.000+00:00
 description: In addition to our "mom, dad & kids" family, we are blessed with great
   help from our extended family members and community!

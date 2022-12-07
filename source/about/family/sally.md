@@ -1,6 +1,7 @@
 ---
 title: Sally
 layout: default
+_template: default
 date: 2017-04-20T00:00:00.000+00:00
 description: First mate of the fair ship ECOFM & Barnyard Organics Ltd.
 

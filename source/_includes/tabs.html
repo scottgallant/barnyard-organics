@@ -18,12 +18,12 @@
   <li>
     <h3>Guaranteed Analysis</h3>
     <div class="content">
-      {{ page.general-analysis | markdownify }}
+      {{ page.general_analysis | markdownify }}
     </div>
     <div>
       <div class="content">
         <table>
-          {% for item in page.analysis-table %}
+          {% for item in page.analysis_table %}
           <tr>
             <td>{{ item.nutrients }}</td>
             <td>{{ item.quantity }}</td>

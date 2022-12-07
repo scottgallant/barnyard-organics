@@ -2,6 +2,7 @@
 title: Hens for Rent
 date: 2017-04-15T14:32:18.000+00:00
 layout: default
+_template: default
 description: ''
 
 ---

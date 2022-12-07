@@ -2,7 +2,8 @@
 title: Services
 permalink: "/services/"
 layout: grid
-layout-mod: one-row
+_template: grid
+layout_mod: one-row
 description: Barnyard Organics offers a variety of farm services to benefit the Atlantic
   Canadian organic agriculture sector and beyond.
 links:

@@ -2,9 +2,10 @@
 title: Price lists
 permalink: "/price-list/"
 layout: default-pdfs
-pdf-description: 'See price lists below. To place an order, <a href="info@barnyardorganics.com">email</a>   or
+_template: default-pdfs
+pdf_description: 'See price lists below. To place an order, <a href="info@barnyardorganics.com">email</a>   or
   call Barnyard Organics (902-887-3188).  Or try our Online Order form! '
-pdf-heading: ''
+pdf_heading: ''
 pdfs:
 - title: Farm Feed Price List Aug 2022
   link: "/images/ecog-feeds-farm-price-aug-2022.pdf"

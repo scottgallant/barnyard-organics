@@ -2,6 +2,7 @@
 title: Organic Poultry Layer Mash 17%
 date: 2017-04-11 00:00:00 +0000
 layout: feed
+_template: feed
 permalink: "/feed/poultry/organic-poultry-layer-mash-17/"
 description:
   For egg production or maintenance of adult birds (chickens, geese, ducks),
@@ -21,7 +22,7 @@ directions:
   grit to aid digestion.  Store in a cool, dry place. Unlike many pelletized feeds,
   our feeds are whole grain and contain no preservatives.  Do not use if mouldy or
   wet and aim to use the product within three months of purchase.
-analysis-table:
+analysis_table:
   - nutrients: Crude Protein
     quantity: MIN 17%
   - nutrients: Crude Fat
@@ -40,8 +41,8 @@ analysis-table:
     quantity: MIN 3,000 IU/KG
   - nutrients: Vitamin E
     quantity: MIN 20 IU/KG
-general-analysis: "This feed contains added selenium at 0.3 mg/kg "
-product-photos:
+general_analysis: "This feed contains added selenium at 0.3 mg/kg "
+product_photos:
   - "/images/layer-thayne3.jpg"
   - "/images/layer-mark.jpg"
 ---

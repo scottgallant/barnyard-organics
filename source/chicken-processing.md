@@ -2,6 +2,7 @@
 title: Dead-End Chicken Processing
 permalink: "/poultry/chicken-processing/"
 layout: default
+_template: default
 
 ---
 Among the many services offered at Barnyard Organics is poultry processing in their custom-built, on-farm, provincially-inspected, organic, free-range (––just kidding) poultry processing facility.  Never anyone’s favourite job, ending the life of well-loved chickens is made as humane as possible with Barnyard Organics well-designed facility.

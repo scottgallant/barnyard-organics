@@ -3,6 +3,7 @@ title: The Family
 date: 2017-04-15 00:00:00 +0000
 description: ''
 layout: grid
+_template: grid
 links:
 - link: about/family/the-team.md
   image: "/images/massey-ferguson-model.jpg"

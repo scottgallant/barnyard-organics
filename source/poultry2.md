@@ -2,7 +2,8 @@
 title: Poultry
 permalink: "/feed/poultry/"
 layout: grid
-layout-mod: include-feed-links
+_template: grid
+layout_mod: include-feed-links
 description: ""
 links:
   - link: _feed-products/organic-mixed-grain-scratch-9-5.md

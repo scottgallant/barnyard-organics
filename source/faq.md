@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 permalink: "/faq/"
 layout: feed-subpage
-_template: feed-subpage
+_template: faq
 description: We know you'll have more questions, but we've tried to address some of
   the common questions we receive on this page!
 

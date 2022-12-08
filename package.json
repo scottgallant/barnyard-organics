@@ -1,0 +1,30 @@
+{
+  "name": "barnyard-organics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tinacms dev -c \"bundle exec jekyll serve --livereload --incremental\"",
+    "build": "tinacms build & bundle exec jekyll build",
+    "start": "serve -s _site",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottgallant/barnyard-organics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottgallant/barnyard-organics/issues"
+  },
+  "homepage": "https://github.com/scottgallant/barnyard-organics#readme",
+  "dependencies": {
+    "@tinacms/cli": "^1.0.3",
+    "tinacms": "^1.1.0"
+  },
+  "devDependencies": {
+    "serve": "^14.1.2"
+  }
+}

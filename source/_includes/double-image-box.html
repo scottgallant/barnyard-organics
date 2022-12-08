@@ -5,7 +5,7 @@
       <span class="image"><img src="{{ item.image | prepend:site.baseurl }}" alt="{{ item.heading }}" data-position="center" /></span>
       <h2>{{ item.heading }}</h2>
       {% comment %} look through feed-products for matching reference {% endcomment %}
-      {% assign pages = site.feed_products | where:"path", item.link %}
+      {% assign pages = site.feed-products | where:"path", item.link %}
       {% for page in pages %}
         <a href="{{ page.url | prepend:site.baseurl }}" class="button small">Learn More</a>
       {% endfor %}

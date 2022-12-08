@@ -19,22 +19,22 @@ fields:
   type: file
   hidden: false
   default: ''
-- name: main-heading
+- name: main_heading
   label: Main heading
   type: text
   hidden: false
   default: ''
-- name: ecofm-image
+- name: ecofm_image
   label: Ecofm image
   type: file
   hidden: false
   default: ''
-- name: ecofm-heading
+- name: ecofm_heading
   label: Ecofm heading
   type: text
   hidden: false
   default: ''
-- name: ecofm-links
+- name: ecofm_links
   label: Ecofm links
   type: field_group_list
   fields:
@@ -58,7 +58,7 @@ fields:
     default: ''
   hidden: false
   default: ''
-- name: chicken-eggs
+- name: chicken_eggs
   label: Chicken eggs
   type: field_group_list
   fields:

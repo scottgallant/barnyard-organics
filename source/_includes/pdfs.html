@@ -1,0 +1,7 @@
+<h3>{{ page.pdf_heading }}</h3>
+<div>{{ page.pdf_description | markdownify }}</div>
+<ul>
+  {% for item in page.pdfs %}
+    <li><a href="{{ item.link | prepend:site.baseurl }}">{{ item.title }}</a></li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,45 @@
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<div class="split style1">
+						<div class="contact">
+							<h2>Contact</h2>
+							<ul class="contact-icons">
+								<li class="icon fa-home">{{ site.data.footer.Address }}</li>
+								<li class="icon fa-phone"><a href="tel:{{ site.data.footer.Phone }}">{{ site.data.footer.Phone }}</a></li>
+								<li class="icon fa-envelope-o"><a href="mailto:{{site.data.footer.Email}}">{{ site.data.footer.Email }}</a></li>
+							</ul>
+							<ul class="icons-bordered">
+								{% for item in site.data.footer.social_media %}
+										<li><a class="icon fa-{{item.name | downcase}}" href="{{item.link}}">
+											<span class="label">{{item.name}}</span>
+										</a></li>
+								{% endfor %}
+							</ul>
+						</div>
+						<form id="contactForm" action="https://formspree.io/info@barnyardorganics.com" method="post">
+		  					<input type="hidden" name="_next" value="/index.html" />
+		  					<input type="hidden" name="_subject" value="Barnyard Website Message" />
+		  					<input type="hidden" name="_format" value="plain" />
+		  					<input type="text" name="_gotcha" style="display:none" />
+							<h2>Email Us</h2>
+							<div class="field half first">
+								<input name="name" id="name" placeholder="Name" type="text" />
+							</div>
+							<div class="field half">
+								<input name="email" id="email" placeholder="Email" type="email" />
+							</div>
+							<div class="field">
+								<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+							</div>
+							<ul class="actions">
+								<li><input value="Send Message" class="button" type="submit" /></li>
+							</ul>
+						</form>
+					</div>
+					<div class="copyright">
+						<p>&copy; Barnyard Organics. All rights reserved. <a href="{{ site.baseurl }}/admin/">Login</a></p>
+					</div>
+				</div>
+			</footer>

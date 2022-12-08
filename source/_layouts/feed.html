@@ -1,0 +1,34 @@
+{% include head.html %}
+{% include header.html %}
+<!-- Main -->
+<section id="main" class="wrapper sidebar left">
+<div class="inner">
+  <header>
+    <h1>{{ page.title | escape }}</h1>
+  </header>
+  {% include feed-nav.html %}
+  <div class="content">
+    <div class="row">
+    <div class="8u 12u(small)">
+      <div class="subheading">
+        {{ page.description | markdownify }}
+        <!-- <a href="{{ page.pirce_list | prepend:site.baseurl }}">Download Price List</a> -->
+        {{ content }}
+      </div>
+      {% include tabs.html %}
+    </div>
+    <div class="4u 12u(small)">
+      <span class="image fit">
+      {% for image in page.product_photos %}
+        <img src="{{ image | prepend:site.baseurl }}" alt="" data-position="center" /><br>
+      {% endfor %}
+      </span>
+    </div>
+    </div>
+  </div>
+</div>
+</section>
+{% include scripts.html %}
+{% include footer.html %}
+</body>
+</html>

@@ -52,7 +52,7 @@ fields:
     label: Price / 100 pounds
     description: For shipments between 5,000 - 9,999 pounds
   - type: number
-    name: price-X
+    name: price_X
     label: Price / 100 pounds
     description: For shipments between 10,000 - X pounds
 - type: field_group_list
@@ -75,7 +75,7 @@ fields:
     label: Price / 100 pounds
     description: For shipments between 5,000 - 9,999 pounds
   - type: number
-    name: price-X
+    name: price_X
     label: Price / 100 pounds
     description: For shipments between 10,000 - X pounds
 pages:

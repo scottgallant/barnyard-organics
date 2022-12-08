@@ -32,12 +32,12 @@ fields:
   type: textarea
   hidden: false
   default: ''
-- name: general-analysis
+- name: general_analysis
   label: General analysis
   type: textarea
   hidden: false
   default: ''
-- name: analysis-table
+- name: analysis_table
   label: Analysis table
   type: field_group_list
   fields:
@@ -53,7 +53,7 @@ fields:
     default: ''
   hidden: false
   default: ''
-- name: product-photos
+- name: product_photos
   label: Product photos
   type: image_gallery
   hidden: false

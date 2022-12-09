@@ -1,0 +1,29 @@
+{
+  "barnyard_organics": {
+      "products": []
+  },
+  "hst": 15,
+  "bio_ag": {
+      "products": [
+          {
+              "name": "See price list and contact to order",
+              "description": "",
+              "price": null,
+              "price_retailers": null,
+              "hst": false
+          }
+      ]
+  },
+  "general_seed": {
+      "products": [
+          {
+              "name": "See Price List and Contact To Order",
+              "description": "",
+              "price": null,
+              "price_retailers": null,
+              "hst": false
+          }
+      ]
+  },
+  "description": "We have removed our order form while we work on a new one! Please check back for that, but for now please don't hesitate to reach out via email or by phone to place an order or ask questions and provide feedback!\n\n([902-887-3188](tel:902-887-3188)) or email ([info@barnyardorganics.com](mailto:info@barnyardorganics.com))."
+}

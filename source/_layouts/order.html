@@ -7,7 +7,7 @@
   <div class="inner">
     <header class="major">
       <h1>{{ page.title | escape }}</h1>
-      <div class="subheading">{{ site.data.order_form.description | markdownify }}</div>
+      <div class="subheading">{{ site.data.order-form.description | markdownify }}</div>
     </header>
     <!-- Sidebar -->
     {% include feed-nav.html %}
@@ -156,17 +156,17 @@
                   <select name="shipping" v-model="selectedShipping">
                     <option value="pick_at_farm">Pick up at Farm (no shipping)</option>
                     <optgroup label="New Brunswick">
-                      {% for element in site.data.shipping_rates.new_brunswick %}
+                      {% for element in site.data.shipping-rates.new_brunswick %}
                       <option value="{{element.location}}">{{element.location}}</option>
                       {% endfor %}
                     </optgroup>
                     <optgroup label="Prince Edward Island">
-                      {% for element in site.data.shipping_rates.pei %}
+                      {% for element in site.data.shipping-rates.pei %}
                       <option value="{{element.location}}">{{element.location}}</option>
                       {% endfor %}
                     </optgroup>
                     <optgroup label="Nova Scotia">
-                      {% for element in site.data.shipping_rates.nova_scotia %}
+                      {% for element in site.data.shipping-rates.nova_scotia %}
                       <option value="{{element.location}}">{{element.location}}</option>
                       {% endfor %}
                     </optgroup>
@@ -235,8 +235,8 @@
 </section>
 
 <script>
-  var _orderForm = {{ site.data.order_form | jsonify }}
-  var _shippingRates = {{ site.data.shipping_rates | jsonify }}
+  var _orderForm = {{ site.data.order-form | jsonify }}
+  var _shippingRates = {{ site.data.shipping-rates | jsonify }}
 </script>
 
 {% assign vuejs = 'vue.js' %}

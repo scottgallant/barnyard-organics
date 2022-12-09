@@ -1,0 +1,145 @@
+{
+  "new_brunswick": [
+      {
+          "location": "Northumberland & Kent Counties",
+          "price-1000": 6.03,
+          "price-2000": 4.47,
+          "price-5000": 3.39,
+          "price-10000": 3.05
+      },
+      {
+          "location": "Victoria County",
+          "price-1000": 7.69,
+          "price-2000": 6.44,
+          "price-5000": 4.8,
+          "price-10000": 4.32
+      },
+      {
+          "location": "Madawaska and Gloucester County",
+          "price-1000": 7.44,
+          "price-2000": 5.52,
+          "price-5000": 4.17,
+          "price-10000": 3.76
+      },
+      {
+          "location": "Kings & Queens Counties",
+          "price-1000": 6.5,
+          "price-2000": 4.82,
+          "price-5000": 3.65,
+          "price-10000": 3.29
+      },
+      {
+          "location": "Saint John, Sunbury & York Counties",
+          "price-1000": 6.32,
+          "price-2000": 4.68,
+          "price-5000": 3.55,
+          "price-10000": 3.2
+      },
+      {
+          "location": "Carleton, Charlotte & Restigouche Counties",
+          "price-1000": 6.95,
+          "price-2000": 5.15,
+          "price-5000": 3.91,
+          "price-10000": 3.52
+      },
+      {
+          "location": "Westmorland & Albert Counties",
+          "price-1000": 5.87,
+          "price-2000": 4.35,
+          "price-5000": 3.29,
+          "price-10000": 2.96
+      }
+  ],
+  "nova_scotia": [
+      {
+          "location": "Hants & Shelburne Counties",
+          "price-1000": 7.43,
+          "price-2000": 6.21,
+          "price-5000": 4.64,
+          "price-X": 4.18
+      },
+      {
+          "location": "Annapolis",
+          "price-1000": 7.58,
+          "price-2000": 6.34,
+          "price-5000": 4.73,
+          "price-X": 4.26
+      },
+      {
+          "location": "Cape Breton (all counties)",
+          "price-1000": 10.86,
+          "price-2000": 9.05,
+          "price-5000": 6.69,
+          "price-X": 6.03
+      },
+      {
+          "location": "Digby, Yarmouth",
+          "price-1000": 9.4,
+          "price-2000": 7.83,
+          "price-5000": 5.79,
+          "price-X": 5.22
+      },
+      {
+          "location": "Lunenburg",
+          "price-1000": 7.69,
+          "price-2000": 6.44,
+          "price-5000": 4.8,
+          "price-X": 4.32
+      },
+      {
+          "location": "Kings & Queens Counties",
+          "price-1000": 7.58,
+          "price-2000": 6.34,
+          "price-5000": 4.73,
+          "price-X": 4.26
+      },
+      {
+          "location": "Halifax",
+          "price-1000": 7.2,
+          "price-2000": 6.04,
+          "price-5000": 4.5,
+          "price-X": 4.05
+      },
+      {
+          "location": "Cumberland, Colchester & Pictou",
+          "price-1000": 6.52,
+          "price-2000": 5.46,
+          "price-5000": 4.07,
+          "price-X": 3.66
+      },
+      {
+          "location": "Antigonish & Guysborough",
+          "price-2000": 6.63,
+          "price-5000": 4.95,
+          "price-10000": "4.50",
+          "price-1000": 7.92,
+          "price-X": 4.45
+      }
+  ],
+  "pei": [
+      {
+          "location": "Kings",
+          "price-1000": 5.08,
+          "price-2000": 2.77,
+          "price-5000": 2.48,
+          "price-X": 2.24
+      },
+      {
+          "location": "Queens",
+          "price-1000": 5.08,
+          "price-2000": 3.68,
+          "price-5000": 2.48,
+          "price-X": 2.24
+      },
+      {
+          "location": "Prince",
+          "price-1000": 3.68,
+          "price-2000": 2.53,
+          "price-5000": 1.38,
+          "price-10000": 2,
+          "price-X": 1.23
+      }
+  ],
+  "fuel_surcharge": 2.37,
+  "fuel_surcharge_10000": 3.23
+}

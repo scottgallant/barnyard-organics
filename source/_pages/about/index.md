@@ -13,20 +13,20 @@ links:
     managing a Community Shared Agriculture program for organic chicken and eggs;
     offering custom poultry processing; and raising four enthusiastic farm kids is
     a little teaser about what this farm has to offer!
-  link: about/the-farm.md
+  link: _pages/about/the-farm.md
 - image: "/images/rubber-boots-edited.jpg"
   heading: The Family
   description: First and foremost, Barnyard Organics is a FAMILY farm.  Mark and Sally
     are the co-owners and operators, as well as the parents of their brood of four.  Mark's
     parents, the farm's previous owners, still live and work on the farm too, providing
     essential support and expertise to the operation.
-  link: about/family/index.md
+  link: _pages/about/family/index.md
 - image: "/images/speaking-sally2.jpg"
   heading: Public Speaking & Workshops
   description: 'Barnyard Organics’ Mark and Sally Bernard are both regularly asked
     to provide consultation advice for farmers, and to prepare presentations for educational
     workshops and speaking engagements. '
-  link: about/public-speaking-workshops.md
+  link: _pages/about/public-speaking-workshops.md
 ---
 
 

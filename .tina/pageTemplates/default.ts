@@ -40,7 +40,13 @@ const DefaultTemplate: Template = {
       name: "layout",
       type: "string",
       label: "Layout",
-    }
+    },
+    {
+      name: "body",
+      type: "rich-text",
+      label: "Body",
+      isBody: true,
+    },
   ]
 }
 

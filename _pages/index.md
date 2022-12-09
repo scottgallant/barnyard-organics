@@ -1,4 +1,5 @@
 ---
+title: Home
 layout: home
 _template: home
 permalink: /
@@ -52,7 +53,6 @@ services:
     for the Atlantic Provinces.  Your Atlantic source for cover crop and forage seeds,
     both organic and non.
   link: _pages/general-seed.md
-title: ''
 description: ''
 links: []
 menu:

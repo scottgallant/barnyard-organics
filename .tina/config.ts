@@ -1,8 +1,8 @@
 import { defineConfig } from "tinacms";
+import FeedCollection from "./feedProduct";
 import DefaultTemplate from "./pageTemplates/default";
 import DefaultPDFTemplate from "./pageTemplates/defaultPdf";
 import FaqTemplate from "./pageTemplates/faq";
-import FeedProductTemplate from "./pageTemplates/feedProduct";
 import GridTemplate from "./pageTemplates/grid";
 import HomePageTemplate from "./pageTemplates/home";
 
@@ -25,6 +25,7 @@ export default defineConfig({
   },
   schema: {
     collections: [
+      FeedCollection,
       {
         name: "page",
         label: "Pages",
@@ -32,7 +33,6 @@ export default defineConfig({
         format: "md",
         templates: [
           HomePageTemplate,
-          FeedProductTemplate,
           DefaultTemplate,
           DefaultPDFTemplate,
           GridTemplate,

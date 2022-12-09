@@ -1,8 +1,10 @@
-import { Template } from "tinacms"
+import { FieldCollection } from "@tinacms/schema-tools/dist/types"
 
-const FeedProductTemplate: Template = {
+const FeedCollection: FieldCollection = {
   name: "feed",
-  label: "Feed product",
+  label: "Feed Products",
+  path: "source/_feed-products",
+  format: "mdx",
   ui: {
     defaultItem: {
       title: "",
@@ -84,4 +86,4 @@ const FeedProductTemplate: Template = {
   ]
 }
 
-export default FeedProductTemplate;
+export default FeedCollection;

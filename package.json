@@ -7,6 +7,7 @@
     "dev": "tinacms dev -c \"bundle exec jekyll serve --livereload --incremental\"",
     "build": "tinacms build & bundle exec jekyll build",
     "start": "serve -s _site",
+    "audit": "tinacms audit",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

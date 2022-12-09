@@ -1,6 +1,7 @@
 ---
 layout: home
 _template: home
+permalink: /
 background: "/images/chicken-homepage-image-2.jpg"
 main_heading: Barnyard Organics
 ecofm_image: "/images/front.png"

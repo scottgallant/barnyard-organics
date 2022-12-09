@@ -3,7 +3,7 @@ permalink: "/contact/"
 layout: default
 _template: default
 title: Contact
-date: ''
+date: 2017-04-11 00:00:00 +0000
 description: ''
 ---
 {{ page.title | escape }}

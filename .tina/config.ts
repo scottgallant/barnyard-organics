@@ -6,7 +6,6 @@ import FaqTemplate from "./pageTemplates/faq";
 import GridTemplate from "./pageTemplates/grid";
 import HomePageTemplate from "./pageTemplates/home";
 import FooterTemplate from "./siteDataTemplates/footer";
-import MenusTemplate from "./siteDataTemplates/menus";
 import OrderFormTemplate from "./siteDataTemplates/orderForm";
 import RetailersTemplate from "./siteDataTemplates/retailers";
 import ShoppingRatesTemplate from "./siteDataTemplates/shoppingRates";
@@ -30,6 +29,19 @@ export default defineConfig({
   },
   schema: {
     collections: [
+      {
+        name: "page",
+        label: "Pages",
+        path: "source/_pages",
+        format: "md",
+        templates: [
+          HomePageTemplate,
+          DefaultTemplate,
+          DefaultPDFTemplate,
+          GridTemplate,
+          FaqTemplate,
+        ]
+      },
       FeedCollection,
       {
         name: "data",
@@ -41,19 +53,6 @@ export default defineConfig({
           OrderFormTemplate,
           RetailersTemplate,
           ShoppingRatesTemplate,
-        ]
-      },
-      {
-        name: "page",
-        label: "Pages",
-        path: "source",
-        format: "md",
-        templates: [
-          HomePageTemplate,
-          DefaultTemplate,
-          DefaultPDFTemplate,
-          GridTemplate,
-          FaqTemplate,
         ]
       },
     ],

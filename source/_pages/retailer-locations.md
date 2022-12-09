@@ -2,7 +2,7 @@
 layout: default
 _template: default
 title: Retailer Locations
-date: 
+date: 2017-04-11 00:00:00 +0000
 description: Check out the long (and growing!) list of retailers across the Maritimes
   carrying our products.  Your local store not on the list?  Let us know!
 

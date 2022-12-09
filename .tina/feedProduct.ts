@@ -4,7 +4,7 @@ const FeedCollection: FieldCollection = {
   name: "feed",
   label: "Feed Products",
   path: "source/_feed-products",
-  format: "mdx",
+  format: "md",
   ui: {
     defaultItem: {
       title: "",

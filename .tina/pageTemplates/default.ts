@@ -13,7 +13,9 @@ const DefaultTemplate: Template = {
     {
       name: "title",
       type: "string",
-      label: "Title"
+      label: "Title",
+      required: true,
+      isTitle: true,
     },
     {
       name: "date",

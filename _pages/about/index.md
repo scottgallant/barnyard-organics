@@ -2,6 +2,7 @@
 title: About Barnyard Organics
 layout: grid
 _template: grid
+permalink: /about
 description: Barnyard Organics is a certified organic farm, begun in 2003, where a
   vision for a self-sustaining and environmentally sustainable farm continues to be
   the goal.

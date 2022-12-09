@@ -3,7 +3,7 @@ import { FieldCollection } from "@tinacms/schema-tools/dist/types"
 const FeedCollection: FieldCollection = {
   name: "feed",
   label: "Feed Products",
-  path: "source/_feed-products",
+  path: "_feed-products",
   format: "md",
   ui: {
     defaultItem: {
@@ -21,6 +21,8 @@ const FeedCollection: FieldCollection = {
       name: "title",
       label: "Title",
       type: "string",
+      isTitle: true,
+      required: true,
     },
     {
       name: "date",

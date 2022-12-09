@@ -31,6 +31,9 @@ const OrderFormTemplate: Template = {
           name: "products",
           label: "Products",
           list: true,
+          ui: {
+            itemProps: (item) => ({ label: item.name }),
+          },
           fields: [
             {
               type: "string",
@@ -72,6 +75,9 @@ const OrderFormTemplate: Template = {
           name: "products",
           label: "Products",
           list: true,
+          ui: {
+            itemProps: (item) => ({ label: item.name }),
+          },
           fields: [
             {
               type: "string",
@@ -113,6 +119,9 @@ const OrderFormTemplate: Template = {
           name: "products",
           label: "Products",
           list: true,
+          ui: {
+            itemProps: (item) => ({ label: item.name }),
+          },
           fields: [
             {
               type: "string",

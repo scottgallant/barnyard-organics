@@ -30,5 +30,5 @@ sass:
 
 google_analytics: UA-39666952-8
 
-source: source
 include: [/faq.md]
+exclude: [node_modules]

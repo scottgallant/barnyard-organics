@@ -20,6 +20,8 @@ const DefaultPDFTemplate: Template = {
       name: "title",
       label: "Title",
       type: "string",
+      isTitle: true,
+      required: true,
     },
     {
       name: "permalink",
@@ -43,6 +45,9 @@ const DefaultPDFTemplate: Template = {
       label: "PDFs",
       name: "pdfs",
       list: true,
+      ui: {
+        itemProps: (item) => ({ label: item.title }),
+      },
       description: "List of links to PDFs",
       fields: [
         {

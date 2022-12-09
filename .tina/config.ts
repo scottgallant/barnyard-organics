@@ -19,12 +19,12 @@ export default defineConfig({
   token: null,      // Get this from tina.io
   build: {
     outputFolder: "admin",
-    publicFolder: "source",
+    publicFolder: "/",
   },
   media: {
     tina: {
       mediaRoot: "images",
-      publicFolder: "source",
+      publicFolder: "/",
     },
   },
   schema: {
@@ -32,7 +32,7 @@ export default defineConfig({
       {
         name: "page",
         label: "Pages",
-        path: "source/_pages",
+        path: "_pages",
         format: "md",
         templates: [
           HomePageTemplate,
@@ -46,7 +46,7 @@ export default defineConfig({
       {
         name: "data",
         label: "Site Data",
-        path: "source/_data",
+        path: "_data",
         format: "json",
         templates: [
           FooterTemplate,

@@ -15,6 +15,8 @@ const FaqTemplate: Template = {
       name: "title",
       label: "Title",
       type: "string",
+      isTitle: true,
+      required: true,
     },
     {
       name: "layout",

@@ -20,6 +20,13 @@ const HomePageTemplate: Template = {
       name: "title",
       type: "string",
       label: "Title",
+      isTitle: true,
+      required: true,
+    },
+    {
+      name: "permalink",
+      label: "Permalink",
+      type: "string",
     },
     {
       name: "layout",

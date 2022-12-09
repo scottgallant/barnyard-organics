@@ -64,6 +64,9 @@ const FeedCollection: FieldCollection = {
       label: "Analysis table",
       type: "object",
       list: true,
+      ui: {
+        itemProps: (item) => ({ label: item.nutrients }),
+      },
       fields: [
         {
           name: "nutrients",

@@ -1,10 +1,11 @@
 {
-    "new_brunswick": [
+    "_template": "retailers",
+    "NewBrunswick": [
         "Codiac Organics Ltd.",
         "Southeastern Farmers' Co-op (Moncton)",
         "Fredericton Co-op Home & Farm Supply"
     ],
-    "nova_scotia": [
+    "NovaScotia": [
         "Amherst Country Store",
         "Bridgewater Farmers' Co-op",
         "Scotian Gold Co-operative",
@@ -17,7 +18,7 @@
         "Family Grocery & Feed Store (Middleton)",
         "Antigonish Fam & Garden Co-op"
     ],
-    "pei": [
+    "Pei": [
         "Cardigan Feed Services",
         "Agro co-op (Charlottetown)",
         "Illsley's Feed & Farm Supply Ltd."

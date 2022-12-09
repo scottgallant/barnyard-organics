@@ -5,6 +5,11 @@ import DefaultPDFTemplate from "./pageTemplates/defaultPdf";
 import FaqTemplate from "./pageTemplates/faq";
 import GridTemplate from "./pageTemplates/grid";
 import HomePageTemplate from "./pageTemplates/home";
+import FooterTemplate from "./siteDataTemplates/footer";
+import MenusTemplate from "./siteDataTemplates/menus";
+import OrderFormTemplate from "./siteDataTemplates/orderForm";
+import RetailersTemplate from "./siteDataTemplates/retailers";
+import ShoppingRatesTemplate from "./siteDataTemplates/shoppingRates";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
@@ -26,6 +31,18 @@ export default defineConfig({
   schema: {
     collections: [
       FeedCollection,
+      {
+        name: "data",
+        label: "Site Data",
+        path: "source/_data",
+        format: "json",
+        templates: [
+          FooterTemplate,
+          OrderFormTemplate,
+          RetailersTemplate,
+          ShoppingRatesTemplate,
+        ]
+      },
       {
         name: "page",
         label: "Pages",

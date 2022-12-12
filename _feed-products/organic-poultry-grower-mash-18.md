@@ -44,6 +44,6 @@ analysis_table:
   - nutrients: Vitamin E
     quantity: MIN 15 IU/KG
 product_photos:
-  - "/images/layer-lucy-2.jpg"
-  - "/images/grower-wood-1.jpg"
+  - image: "/images/layer-lucy-2.jpg"
+  - image: "/images/grower-wood-1.jpg"
 ---

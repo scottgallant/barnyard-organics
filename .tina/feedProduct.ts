@@ -85,8 +85,15 @@ const FeedCollection: FieldCollection = {
     {
       name: "product_photos",
       label: "Product photos",
-      type: "string",
+      type: "object",
       list: true,
+      fields: [
+        {
+          name: "image",
+          label: "Image",
+          type: "image",
+        }
+      ]
     }
   ]
 }

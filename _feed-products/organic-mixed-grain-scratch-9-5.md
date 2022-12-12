@@ -35,7 +35,7 @@ analysis_table:
 - nutrients: Vitamin E
   quantity: MIN 20 IU/KG
 product_photos:
-- "/images/mixed-grain-scratch-mark2.jpg"
+- image: "/images/mixed-grain-scratch-mark2.jpg"
 general_analysis: ''
 
 ---

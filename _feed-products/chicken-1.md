@@ -42,6 +42,6 @@ analysis_table:
     quantity: MIN 20 IU/KG
 general_analysis: "This feed contains added selenium at 0.3 mg/kg "
 product_photos:
-  - "/images/layer-thayne3.jpg"
-  - "/images/layer-mark.jpg"
+  - image: "/images/layer-thayne3.jpg"
+  - image: "/images/layer-mark.jpg"
 ---

@@ -15,7 +15,7 @@ layout: feed
 permalink: "/feed/custom-mix/"
 price_list: ''
 product_photos:
-- "/images/horse-3.jpg"
-- "/images/grains-bagged-tiny.JPG"
+- image: "/images/horse-3.jpg"
+- image: "/images/grains-bagged-tiny.JPG"
 title: Custom Mix
 ---

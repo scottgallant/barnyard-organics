@@ -37,6 +37,6 @@ analysis_table:
 - nutrients: Vitamin E
   quantity: MIN 50 IU/Kg
 product_photos:
-- "/images/20200523_204048.jpg"
+- image: "/images/20200523_204048.jpg"
 
 ---

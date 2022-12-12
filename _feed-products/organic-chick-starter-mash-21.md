@@ -41,6 +41,6 @@ analysis_table:
   - nutrients: Vitamin E
     quantity: MIN 40 IU/KG
 product_photos:
-  - "/images/starter-thayne4.jpg"
-  - "/images/starter-wilson.jpg"
+  - image: "/images/starter-thayne4.jpg"
+  - image: "/images/starter-wilson.jpg"
 ---

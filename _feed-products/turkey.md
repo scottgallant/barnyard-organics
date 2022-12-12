@@ -43,6 +43,6 @@ analysis_table:
   - nutrients: Vitamin E
     quantity: MIN 40 IU/KG
 product_photos:
-  - "/images/turkeyface.jpg"
-  - "/images/layer-thayne.jpg"
+  - image: "/images/turkeyface.jpg"
+  - image: "/images/layer-thayne.jpg"
 ---

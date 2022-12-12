@@ -14,7 +14,7 @@ directions: 'Our East Coast Organic Grainery feed products use these seven ingre
 general_analysis: See individual mixes.
 analysis_table: []
 product_photos:
-- "/images/barnyard7.png"
-- "/images/96066455_2942072319161775_6501997203815399424_n.jpg"
+- image: "/images/barnyard7.png"
+- image: "/images/96066455_2942072319161775_6501997203815399424_n.jpg"
 
 ---

@@ -45,7 +45,7 @@ analysis_table:
   - nutrients: Vitamin E
     quantity: MIN 20 IU/KG
 product_photos:
-  - "/images/layer-sol.jpg"
-  - "/images/layer-board.jpg"
+  - image: "/images/layer-sol.jpg"
+  - image: "/images/layer-board.jpg"
 price_list: ""
 ---

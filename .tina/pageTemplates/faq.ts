@@ -2,7 +2,7 @@ import { Template } from "tinacms"
 
 const FaqTemplate: Template = {
   name: "faq",
-  label: "Links",
+  label: "FAQs",
   ui: {
     defaultItem: {
       title: "Frequently Asked Questions",
@@ -15,11 +15,17 @@ const FaqTemplate: Template = {
       name: "title",
       label: "Title",
       type: "string",
+      isTitle: true,
+      required: true,
     },
     {
       name: "layout",
       label: "Layout",
       type: "string",
+      required: true,
+      ui: {
+        component: () => null,
+      }
     },
     {
       name: "permalink",

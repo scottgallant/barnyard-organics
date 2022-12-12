@@ -22,7 +22,8 @@ const LinkField = (name: string, label: string, fieldOptions: FieldOptions): Sch
     {
       name: "link",
       label: "Link",
-      type: "string",
+      type: "reference",
+      collections: ["page", "feed"]
     },
     {
       name: "heading",
@@ -44,6 +45,9 @@ const LinkField = (name: string, label: string, fieldOptions: FieldOptions): Sch
     label,
     type: "object",
     list: true,
+    ui: {
+      itemProps: (item) => ({ label: item.heading }),
+    },
     fields
   };
 }

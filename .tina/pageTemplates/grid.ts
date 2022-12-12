@@ -14,11 +14,17 @@ const GridTemplate: Template = {
       name: "title",
       label: "Title",
       type: "string",
+      isTitle: true,
+      required: true,
     },
     {
       name: "layout",
       label: "Layout",
       type: "string",
+      required: true,
+      ui: {
+        component: () => null,
+      }
     },
     {
       name: "description",
@@ -37,11 +43,15 @@ const GridTemplate: Template = {
       label: "Links",
       type: "object",
       list: true,
+      ui: {
+        itemProps: (item) => ({ label: item.heading }),
+      },
       fields: [
         {
           name: "link",
           label: "Link",
-          type: "string",
+          type: "reference",
+          collections: ["page", "feed"],
           description: "Select the page you want to link to"
         },
         {

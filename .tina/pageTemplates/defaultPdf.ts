@@ -6,7 +6,7 @@ const DefaultPDFTemplate: Template = {
   ui: {
     defaultItem: {
       title: "",
-      layout: "",
+      layout: "default_pdfs",
       pdf_description: "<p>To place an order, <a href=\"info@barnyardorganics.com\">email</a>   or call Barnyard Organics (902-887-3188).</p>"
     }
   },
@@ -15,11 +15,17 @@ const DefaultPDFTemplate: Template = {
       name: "layout",
       label: "Layout",
       type: "string",
+      required: true,
+      ui: {
+        component: ()=> null,
+      }
     },
     {
       name: "title",
       label: "Title",
       type: "string",
+      isTitle: true,
+      required: true,
     },
     {
       name: "permalink",
@@ -43,6 +49,9 @@ const DefaultPDFTemplate: Template = {
       label: "PDFs",
       name: "pdfs",
       list: true,
+      ui: {
+        itemProps: (item) => ({ label: item.title }),
+      },
       description: "List of links to PDFs",
       fields: [
         {

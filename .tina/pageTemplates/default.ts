@@ -13,7 +13,20 @@ const DefaultTemplate: Template = {
     {
       name: "title",
       type: "string",
-      label: "Title"
+      label: "Title",
+      required: true,
+      isTitle: true,
+    },
+    {
+      name: "layout",
+      type: "string",
+      label: "Layout",
+      required: true,
+      options: [
+        "default",
+        "order",
+        "order-retailer",
+      ]
     },
     {
       name: "date",
@@ -35,10 +48,11 @@ const DefaultTemplate: Template = {
       label: "Permalink",
     },
     {
-      name: "layout",
-      type: "string",
-      label: "Layout",
-    }
+      name: "body",
+      type: "rich-text",
+      label: "Body",
+      isBody: true,
+    },
   ]
 }
 

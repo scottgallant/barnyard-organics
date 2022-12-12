@@ -2,7 +2,7 @@ import { Template } from "tinacms"
 
 const FaqTemplate: Template = {
   name: "faq",
-  label: "Links",
+  label: "FAQs",
   ui: {
     defaultItem: {
       title: "Frequently Asked Questions",

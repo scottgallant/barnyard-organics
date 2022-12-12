@@ -16,6 +16,10 @@ const FeedCollection: FieldCollection = {
       name: "layout",
       label: "Layout",
       type: "string",
+      required: true,
+      ui: {
+        component: () => null,
+      }
     },
     {
       name: "title",

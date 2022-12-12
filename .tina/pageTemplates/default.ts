@@ -18,6 +18,17 @@ const DefaultTemplate: Template = {
       isTitle: true,
     },
     {
+      name: "layout",
+      type: "string",
+      label: "Layout",
+      required: true,
+      options: [
+        "default",
+        "order",
+        "order-retailer",
+      ]
+    },
+    {
       name: "date",
       type: "datetime",
       label: "Date",
@@ -35,11 +46,6 @@ const DefaultTemplate: Template = {
       name: "permalink",
       type: "string",
       label: "Permalink",
-    },
-    {
-      name: "layout",
-      type: "string",
-      label: "Layout",
     },
     {
       name: "body",

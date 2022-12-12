@@ -1,4 +1,4 @@
-import { Template } from "tinacms"
+import { Template } from "tinacms";
 import LinkField from "../utils/link";
 
 const HomePageTemplate: Template = {
@@ -7,7 +7,7 @@ const HomePageTemplate: Template = {
   ui: {
     defaultItem: {
       title: "Homepage",
-      layout: "",
+      layout: "home",
       main_heading: "",
       ecofm_heading: "",
       ecofm_links: [],
@@ -32,6 +32,10 @@ const HomePageTemplate: Template = {
       name: "layout",
       label: "Layout",
       type: "string",
+      required: true,
+      ui: {
+        component: () => null,
+      },
     },
     {
       name: "background",

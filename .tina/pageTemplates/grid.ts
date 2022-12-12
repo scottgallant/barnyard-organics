@@ -21,6 +21,10 @@ const GridTemplate: Template = {
       name: "layout",
       label: "Layout",
       type: "string",
+      required: true,
+      ui: {
+        component: () => null,
+      }
     },
     {
       name: "description",

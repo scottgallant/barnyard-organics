@@ -27,5 +27,8 @@
   },
   "devDependencies": {
     "serve": "^14.1.2"
+  },
+  "engines": {
+    "node": ">=18.12.1"
   }
 }

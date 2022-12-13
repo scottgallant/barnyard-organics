@@ -22,8 +22,8 @@ directions:
   dry place. Unlike many pelletized feeds, our feeds are whole grain and contain no
   preservatives.  Do not use if mouldy or wet and aim to use the product within three
   months of purchase."
-general-analysis: "This feed contains added selenium at 0.3 mg/kg "
-analysis-table:
+general_analysis: "This feed contains added selenium at 0.3 mg/kg "
+analysis_table:
   - nutrients: Crude Protein
     quantity: MIN 26%
   - nutrients: Crude Fat
@@ -42,7 +42,7 @@ analysis-table:
     quantity: MIN 3,000 IU/KG
   - nutrients: Vitamin E
     quantity: MIN 40 IU/KG
-product-photos:
-  - "/images/turkeyface.jpg"
-  - "/images/layer-thayne.jpg"
+product_photos:
+  - image: "/images/turkeyface.jpg"
+  - image: "/images/layer-thayne.jpg"
 ---

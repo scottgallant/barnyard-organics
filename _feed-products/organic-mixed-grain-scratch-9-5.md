@@ -15,7 +15,7 @@ directions: Use as a supplement with the Organic Poultry Layer Mash.  Be sure to
   dry place. Unlike many pelletized feeds, our feeds are whole grain and contain no
   preservatives.  Do not use if mouldy or wet and aim to use the product within three
   months of purchase.
-analysis-table:
+analysis_table:
 - nutrients: Crude Protein
   quantity: MIN 9.5%
 - nutrients: Crude Fat
@@ -34,8 +34,8 @@ analysis-table:
   quantity: MIN 3,000 IU/KG
 - nutrients: Vitamin E
   quantity: MIN 20 IU/KG
-product-photos:
-- "/images/mixed-grain-scratch-mark2.jpg"
-general-analysis: ''
+product_photos:
+- image: "/images/mixed-grain-scratch-mark2.jpg"
+general_analysis: ''
 
 ---

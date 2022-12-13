@@ -11,10 +11,10 @@ ingredients: "The Barnyard 7 are simple, healthy, and straightforward:  \n\nWhea
 directions: 'Our East Coast Organic Grainery feed products use these seven ingredients
   in various combinations to create our feed mixes, and to create custom mixes for
   your animals as well. '
-general-analysis: See individual mixes.
-analysis-table: []
-product-photos:
-- "/images/barnyard7.png"
-- "/images/96066455_2942072319161775_6501997203815399424_n.jpg"
+general_analysis: See individual mixes.
+analysis_table: []
+product_photos:
+- image: "/images/barnyard7.png"
+- image: "/images/96066455_2942072319161775_6501997203815399424_n.jpg"
 
 ---

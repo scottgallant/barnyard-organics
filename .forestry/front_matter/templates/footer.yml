@@ -17,7 +17,7 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: social-media
+- name: social_media
   label: Social media
   type: field_group_list
   fields:

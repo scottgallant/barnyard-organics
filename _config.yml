@@ -11,6 +11,9 @@ collections:
   feed-products:
     output: true
     permalink: "/feed/:path/"
+  pages:
+    output: true
+    permalink: "/:path/"
 
 # Build settings
 markdown: kramdown
@@ -26,3 +29,6 @@ sass:
   style: compressed
 
 google_analytics: UA-39666952-8
+
+include: [/faq.md]
+exclude: [node_modules]

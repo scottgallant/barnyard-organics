@@ -17,19 +17,19 @@ fields:
     name: location
     label: Location
   - type: number
-    name: price-1000
+    name: price_1000
     label: Price / 100 pounds
     description: For shipments between 1,000 - 1,999 pounds
   - type: number
     label: Price / 100 pounds
-    name: price-2000
+    name: price_2000
     description: For shipments between 2,000 - 4,999 pounds
   - type: number
-    name: price-5000
+    name: price_5000
     label: Price / 100 pounds
     description: For shipments between 5,000 - 9,999 pounds
   - type: number
-    name: price-10000
+    name: price_10000
     label: Price / 100 pounds
     description: For shipments between 10,000 - X pounds
 - type: field_group_list
@@ -40,19 +40,19 @@ fields:
     name: location
     label: Location
   - type: number
-    name: price-1000
+    name: price_1000
     label: Price / 100 pounds
     description: For shipments between 1,000 - 1,999 pounds
   - type: number
     label: Price / 100 pounds
-    name: price-2000
+    name: price_2000
     description: For shipments between 2,000 - 4,999 pounds
   - type: number
-    name: price-5000
+    name: price_5000
     label: Price / 100 pounds
     description: For shipments between 5,000 - 9,999 pounds
   - type: number
-    name: price-X
+    name: price_X
     label: Price / 100 pounds
     description: For shipments between 10,000 - X pounds
 - type: field_group_list
@@ -63,19 +63,19 @@ fields:
     name: location
     label: Location
   - type: number
-    name: price-1000
+    name: price_1000
     label: Price / 100 pounds
     description: For shipments between 1,000 - 1,999 pounds
   - type: number
     label: Price / 100 pounds
-    name: price-2000
+    name: price_2000
     description: For shipments between 2,000 - 4,999 pounds
   - type: number
-    name: price-5000
+    name: price_5000
     label: Price / 100 pounds
     description: For shipments between 5,000 - 9,999 pounds
   - type: number
-    name: price-X
+    name: price_X
     label: Price / 100 pounds
     description: For shipments between 10,000 - X pounds
 pages:

@@ -24,8 +24,8 @@ directions:
   to aid digestion.  Store in a cool, dry place. Unlike many pelletized feeds, our
   feeds are whole grain and contain no preservatives.  Do not use if mouldy or wet
   and aim to use the product within three months of purchase.
-general-analysis: "This feed contains added selenium at 0.3 mg/kg "
-analysis-table:
+general_analysis: "This feed contains added selenium at 0.3 mg/kg "
+analysis_table:
   - nutrients: Crude Protein
     quantity: MIN 15%
   - nutrients: Crude Fat
@@ -44,8 +44,8 @@ analysis-table:
     quantity: MIN 3,000 IU/KG
   - nutrients: Vitamin E
     quantity: MIN 20 IU/KG
-product-photos:
-  - "/images/layer-sol.jpg"
-  - "/images/layer-board.jpg"
+product_photos:
+  - image: "/images/layer-sol.jpg"
+  - image: "/images/layer-board.jpg"
 price_list: ""
 ---

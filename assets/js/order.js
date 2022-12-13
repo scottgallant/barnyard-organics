@@ -180,10 +180,10 @@ var vm = new Vue({
       //This function calculates the shipping price based on the location selected.
       if (!this.shippingLocation) return 0
       //first, transform the object with prices in a simpler data structure.
-      // move prom "price-1000: 3.55" to an object { key: 1000, value: 3.55 }
+      // move prom "price_1000: 3.55" to an object { key: 1000, value: 3.55 }
       const arrayOfPrices = []
       Object.keys(this.shippingLocation)
-        .filter(key => key.startsWith("price-"))
+        .filter(key => key.startsWith("price_"))
         .forEach(price => {
           arrayOfPrices.push({
             key: Number(price.substring(6)),

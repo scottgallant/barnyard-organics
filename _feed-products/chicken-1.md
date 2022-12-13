@@ -21,7 +21,7 @@ directions:
   grit to aid digestion.  Store in a cool, dry place. Unlike many pelletized feeds,
   our feeds are whole grain and contain no preservatives.  Do not use if mouldy or
   wet and aim to use the product within three months of purchase.
-analysis-table:
+analysis_table:
   - nutrients: Crude Protein
     quantity: MIN 17%
   - nutrients: Crude Fat
@@ -40,8 +40,8 @@ analysis-table:
     quantity: MIN 3,000 IU/KG
   - nutrients: Vitamin E
     quantity: MIN 20 IU/KG
-general-analysis: "This feed contains added selenium at 0.3 mg/kg "
-product-photos:
-  - "/images/layer-thayne3.jpg"
-  - "/images/layer-mark.jpg"
+general_analysis: "This feed contains added selenium at 0.3 mg/kg "
+product_photos:
+  - image: "/images/layer-thayne3.jpg"
+  - image: "/images/layer-mark.jpg"
 ---

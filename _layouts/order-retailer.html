@@ -46,11 +46,13 @@
               <select name="retail-purchaser" v-model="companyName">
                 <option value="" disabled>Choose One</option>
                 {% for element in site.data.retailers %}
+                {% if element[0] != "_template" %}
                 <optgroup label="{{element[0]}}">
                   {% for retailer in element[1] %}
                   <option value="{{retailer}}">{{retailer}}</option>
                   {% endfor %}
                 </optgroup>
+                {% endif %}
                 {% endfor %}
               </select>
             </div>
@@ -206,6 +208,7 @@
 <script>
   var _orderForm = {{ site.data.order-form | jsonify }}
   var _shippingRates = {{ site.data.shipping-rates | jsonify }}
+  delete _shippingRates._template
 </script>
 
 {% assign vuejs = 'vue.js' %}

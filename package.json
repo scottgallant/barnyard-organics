@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/scottgallant/barnyard-organics#readme",
   "dependencies": {
-    "@tinacms/cli": "^1.0.3",
+    "@tinacms/cli": "^1.0.9",
     "tinacms": "^1.1.0"
   },
   "devDependencies": {

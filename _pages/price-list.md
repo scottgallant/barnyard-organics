@@ -8,11 +8,14 @@ pdf_description: >-
   href="info@barnyardorganics.com">email</a>   or call Barnyard Organics
   (902-887-3188).  Or try our Online Order form! 
 pdfs:
-  - {}
   - title: Mixed Feed Price List - Feb 2023
-    link: Mixed-Feed-Price-List-for-Farm-Feb-1-2023.pdf
+    link: /images/Mixed-Feed-Price-List-for-Farm-Feb-1-2023.pdf
   - title: Farm Whole Grains Price List 2023
-    link: Whole-Grains-Price-List-for-Farm-Feb-1-2023
+    link: /images/Whole-Grains-Price-List-for-Farm-Feb-1-2023
+  - title: Bio-Ag Mineral Price List  - Feb 2023
+    link: /images/Bio-Ag-Mineral-Price-List-Feb-1-2023.pdf
+  - title: Bio-Ag Supplements Price List - Feb 2023
+    link: /images/Bio-Ag-Supplements-Price-List-Feb-1-2023.pdf
 _template: default_pdfs
 ---
 

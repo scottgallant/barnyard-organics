@@ -11,7 +11,7 @@ pdfs:
   - title: Mixed Feed Price List - Feb 2023
     link: /images/Mixed-Feed-Price-List-for-Farm-Feb-1-2023.pdf
   - title: Farm Whole Grains Price List 2023
-    link: /images/Whole-Grains-Price-List-for-Farm-Feb-1-2023
+    link: /images/Whole-Grains-Price-List-for-Farm-Feb-1-2023.pdf
   - title: Bio-Ag Mineral Price List  - Feb 2023
     link: /images/Bio-Ag-Mineral-Price-List-Feb-1-2023.pdf
   - title: Bio-Ag Supplements Price List - Feb 2023

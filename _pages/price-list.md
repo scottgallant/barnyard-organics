@@ -1,16 +1,18 @@
 ---
-title: Price lists
-permalink: "/price-list/"
 layout: default_pdfs
-_template: default_pdfs
-pdf_description: 'See price lists below. To place an order, <a href="info@barnyardorganics.com">email</a>   or
-  call Barnyard Organics (902-887-3188).  Or try our Online Order form! '
+title: Price lists
+permalink: /price-list/
 pdf_heading: ''
+pdf_description: >-
+  See price lists below. To place an order, <a
+  href="info@barnyardorganics.com">email</a>   or call Barnyard Organics
+  (902-887-3188).  Or try our Online Order form! 
 pdfs:
-- title: Farm Feed Price List Aug 2022
-  link: "/images/ecog-feeds-farm-price-aug-2022.pdf"
-- title: Farm Whole Grains Pricelist Aug 2022
-  link: "/images/ecog-whole-grains-farm-price-aug-2022.pdf"
-
+  - {}
+  - title: Mixed Feed Price List - Feb 2023
+    link: Mixed-Feed-Price-List-for-Farm-Feb-1-2023.pdf
+  - title: Farm Whole Grains Price List 2023
+    link: Whole-Grains-Price-List-for-Farm-Feb-1-2023
+_template: default_pdfs
 ---
-_Please note that shipping is excluded from our pricing, but we’re happy to get you a preferred customer shipping quote!_
+

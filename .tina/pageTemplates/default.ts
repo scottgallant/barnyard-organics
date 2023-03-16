@@ -51,6 +51,7 @@ const DefaultTemplate: Template = {
       name: "body",
       type: "rich-text",
       label: "Body",
+      parser: { type: "markdown", skipEscaping: "all" }, // 'all' | 'html'
       isBody: true,
     },
   ]

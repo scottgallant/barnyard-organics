@@ -1,32 +1,38 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-	<head>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136838819-1"></script>
-		<script>
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
+
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136838819-1"></script>
+	<script>
 		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
+		function gtag() { dataLayer.push(arguments); }
 		gtag('js', new Date());
 
 		gtag('config', 'UA-136838819-1');
-		</script>
+	</script>
 
-		<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-		<meta charset="utf-8" />
-	  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+	<meta charset="utf-8" />
+	<meta name="description"
+		content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	  <!--[if lte IE 8]><script src="{{ site.baseurl }}/assets/js/ie/html5shiv.js"></script><![endif]-->
-	  <link rel="stylesheet" href="{{ "/assets/main.css" | prepend:site.baseurl }}">
-	  <!--[if lte IE 8]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie8.css" /><![endif]-->
-	  <!--[if lte IE 9]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie9.css" /><![endif]-->
+	<!--[if lte IE 8]><script src="{{ site.baseurl }}/assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="{{ " /assets/main.css" | prepend:site.baseurl }}">
+	<!--[if lte IE 8]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie8.css" /><![endif]-->
+	<!--[if lte IE 9]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie9.css" /><![endif]-->
 
-	  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-	  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
-		<meta name="google-site-verification" content="Syp1THmF4xJVfii3j8xk_revfybcipiUtt8bdkhVZkM" />
+	<link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+	<link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ " /feed.xml" |
+		relative_url }}">
+	<meta name="google-site-verification" content="Syp1THmF4xJVfii3j8xk_revfybcipiUtt8bdkhVZkM" />
 
-	  {% if site.google_analytics %}
-	  {% include google-analytics.html %}
-	  {% endif %}
-	</head>
-	<body id="top">
+	{% if site.google_analytics %}
+	{% include google-analytics.html %}
+	{% endif %}
+	<script
+		id="mcjs">!function (c, h, i, m, p) { m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p) }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/24ef9f2e90309a87c9431d8df/5244b85735c71c6923c46ad8a.js");</script>
+</head>
+
+<body id="top">

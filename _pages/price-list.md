@@ -5,8 +5,8 @@ permalink: /price-list/
 pdf_heading: ''
 pdf_description: >-
   See price lists below. To place an order, <a
-  href="info@barnyardorganics.com">email</a>   or call Barnyard Organics
-  (902-887-3188).  Or try our Online Order form! 
+  href="info@barnyardorganics.com">email</a>   or call Barnyard Organics <a
+  href="tel:9028873188">(902-887-3188)</a>.  Or try our Online Order form! 
 pdfs:
   - title: Mixed Feed Price List - Feb 2024
     link: /images/PRICE-LIST_March_2024_Farm_Feed.pdf
@@ -18,5 +18,6 @@ pdfs:
     link: /images/Bio_Ag_Supplements_price_list_Feb_12_2024.pdf
 _template: default_pdfs
 ---
+
 
 

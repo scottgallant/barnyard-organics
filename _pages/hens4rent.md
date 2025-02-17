@@ -56,6 +56,4 @@ Feel free to call us to register, at 902-887-3188 or use our convenient online r
 
 Click here --->[https://forms.gle/AzmWVhFeno3GPNGPA](https://forms.gle/AzmWVhFeno3GPNGPA "https://forms.gle/AzmWVhFeno3GPNGPA") to submit your information for us to contact you.
 
-*Possible Transportation Fees: Our rental packages include FREE DELIVERY within 80 kms of Freetown, PEI C0B 1L0. This includes east of Bloomfield and west of Vernon Bridge & Savage Harbour. For customers outside of our FREE DELIVERY area, please call us (902-887-3188) or email [info@barnyardorganics.com](mailto:info@barnyardorganics.com ""), or leave a note in your registration form (link above).
-
-test
+*Possible Transportation Fees: Our rental packages include FREE DELIVERY within 80 kms of Freetown, PEI C0B 1L0. This includes east of Bloomfield and west of Vernon Bridge & Savage Harbour. For customers outside of our FREE DELIVERY area, please call us (902-887-3188) or email [info@barnyardorganics.com](mailto:info@barnyardorganics.com ""), or leave a note in your registration form (link above)

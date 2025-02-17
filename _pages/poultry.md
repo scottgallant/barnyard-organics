@@ -4,10 +4,6 @@ permalink: /poultry/
 layout: grid
 description: ''
 links:
-  - link: _pages/about/family/the-kids.md
-    image: /images/cat.jpg
-    heading: Test link
-    description: asdf
   - link: _pages/hens4rent.md
     image: /images/hens4rent.jpeg
     heading: Hens4Rent
@@ -35,4 +31,5 @@ menu:
     weight: 3
 _template: grid
 ---
+
 

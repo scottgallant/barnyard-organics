@@ -1,4 +1,4 @@
-import { Template } from "tinacms"
+import { Template } from "tinacms";
 
 const FaqTemplate: Template = {
   name: "faq",
@@ -7,8 +7,8 @@ const FaqTemplate: Template = {
     defaultItem: {
       title: "Frequently Asked Questions",
       layout: "feed-subpage",
-      permalink: "/faq/"
-    }
+      permalink: "/faq/",
+    },
   },
   fields: [
     {
@@ -17,6 +17,7 @@ const FaqTemplate: Template = {
       type: "string",
       isTitle: true,
       required: true,
+      searchable: true,
     },
     {
       name: "layout",
@@ -25,7 +26,7 @@ const FaqTemplate: Template = {
       required: true,
       ui: {
         component: () => null,
-      }
+      },
     },
     {
       name: "permalink",
@@ -42,8 +43,8 @@ const FaqTemplate: Template = {
       label: "Body",
       type: "rich-text",
       isBody: true,
-    }
-  ]
-}
+    },
+  ],
+};
 
 export default FaqTemplate;

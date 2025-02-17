@@ -1,4 +1,4 @@
-import { Template } from "tinacms"
+import { Template } from "tinacms";
 
 const DefaultTemplate: Template = {
   name: "default",
@@ -7,7 +7,7 @@ const DefaultTemplate: Template = {
     defaultItem: {
       title: "",
       layout: "default",
-    }
+    },
   },
   fields: [
     {
@@ -16,17 +16,14 @@ const DefaultTemplate: Template = {
       label: "Title",
       required: true,
       isTitle: true,
+      searchable: true,
     },
     {
       name: "layout",
       type: "string",
       label: "Layout",
       required: true,
-      options: [
-        "default",
-        "order",
-        "order-retailer",
-      ]
+      options: ["default", "order", "order-retailer"],
     },
     {
       name: "date",
@@ -40,7 +37,8 @@ const DefaultTemplate: Template = {
       ui: {
         component: "textarea",
       },
-      description: "This text will show up at the top of the page in larger font"
+      description:
+        "This text will show up at the top of the page in larger font",
     },
     {
       name: "permalink",
@@ -54,7 +52,7 @@ const DefaultTemplate: Template = {
       parser: { type: "markdown", skipEscaping: "all" }, // 'all' | 'html'
       isBody: true,
     },
-  ]
-}
+  ],
+};
 
 export default DefaultTemplate;

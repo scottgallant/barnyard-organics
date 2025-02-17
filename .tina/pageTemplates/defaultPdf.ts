@@ -1,4 +1,4 @@
-import { Template } from "tinacms"
+import { Template } from "tinacms";
 
 const DefaultPDFTemplate: Template = {
   name: "default_pdfs",
@@ -7,8 +7,9 @@ const DefaultPDFTemplate: Template = {
     defaultItem: {
       title: "",
       layout: "default_pdfs",
-      pdf_description: "<p>To place an order, <a href=\"info@barnyardorganics.com\">email</a>   or call Barnyard Organics (902-887-3188).</p>"
-    }
+      pdf_description:
+        '<p>To place an order, <a href="info@barnyardorganics.com">email</a>   or call Barnyard Organics (902-887-3188).</p>',
+    },
   },
   fields: [
     {
@@ -17,8 +18,8 @@ const DefaultPDFTemplate: Template = {
       type: "string",
       required: true,
       ui: {
-        component: ()=> null,
-      }
+        component: () => null,
+      },
     },
     {
       name: "title",
@@ -26,6 +27,7 @@ const DefaultPDFTemplate: Template = {
       type: "string",
       isTitle: true,
       required: true,
+      searchable: true,
     },
     {
       name: "permalink",
@@ -42,7 +44,8 @@ const DefaultPDFTemplate: Template = {
       name: "pdf_description",
       type: "string",
       label: "PDF Description",
-      description: "This is the description below the heading and above the list of PDFs",
+      description:
+        "This is the description below the heading and above the list of PDFs",
     },
     {
       type: "object",
@@ -66,10 +69,10 @@ const DefaultPDFTemplate: Template = {
           label: "PDF File",
           name: "link",
           description: "Upload the PDF that you want to link to",
-        }
+        },
       ],
-    }
-  ]
-}
+    },
+  ],
+};
 
 export default DefaultPDFTemplate;

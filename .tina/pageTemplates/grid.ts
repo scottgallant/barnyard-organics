@@ -1,4 +1,4 @@
-import { Template } from "tinacms"
+import { Template } from "tinacms";
 
 const GridTemplate: Template = {
   name: "grid",
@@ -7,7 +7,7 @@ const GridTemplate: Template = {
     defaultItem: {
       title: "",
       layout: "grid",
-    }
+    },
   },
   fields: [
     {
@@ -16,6 +16,7 @@ const GridTemplate: Template = {
       type: "string",
       isTitle: true,
       required: true,
+      searchable: true,
     },
     {
       name: "layout",
@@ -24,19 +25,21 @@ const GridTemplate: Template = {
       required: true,
       ui: {
         component: () => null,
-      }
+      },
     },
     {
       name: "description",
       label: "Description",
       type: "string",
-      description: "This text will show up at the top of the page in larger font",
+      description:
+        "This text will show up at the top of the page in larger font",
     },
     {
       name: "permalink",
       label: "Permalink",
       type: "string",
-      description: "This is the link to the page. If this is a \"subpage\" make sure you include the  parent page. For example: /services/custom-roasting/"
+      description:
+        'This is the link to the page. If this is a "subpage" make sure you include the  parent page. For example: /services/custom-roasting/',
     },
     {
       name: "links",
@@ -52,7 +55,7 @@ const GridTemplate: Template = {
           label: "Link",
           type: "reference",
           collections: ["page", "feed"],
-          description: "Select the page you want to link to"
+          description: "Select the page you want to link to",
         },
         {
           name: "image",
@@ -69,13 +72,14 @@ const GridTemplate: Template = {
           label: "Description",
           type: "string",
           ui: {
-            component: "textarea"
+            component: "textarea",
           },
-        }
+        },
       ],
-      description: "This is a list of links to other pages. It will appear in a grid-format (with an image, title, and text)"
-    }
-  ]
-}
+      description:
+        "This is a list of links to other pages. It will appear in a grid-format (with an image, title, and text)",
+    },
+  ],
+};
 
 export default GridTemplate;

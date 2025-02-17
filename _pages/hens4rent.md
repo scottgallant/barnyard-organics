@@ -20,7 +20,7 @@ Within two days of the arrival, your chickens will lay eggs ready to use! Your h
 
 How does it work? We schedule a date to bring you a portable coop, two or four chickens that are already laying eggs, and the supplies needed for your rental period. Chickens produce the most eggs when daylight is at peak. Towards the end of the rental period, if you realize that you were born to raise backyard chickens, adopting the chickens is an option (keeping in mind that the coops provided are not winter-ready)! Otherwise, we will schedule a date towards the end of your Rental to stop by and pick up the rented chickens, coop and supplies.
 
-## Pricing:
+## Pricing
 
 ### 2025 Spring Standard Rental Package - $500 CDN +HST (15%)
 

@@ -10,7 +10,7 @@ Among the many services offered at Barnyard Organics is poultry processing in th
 Searching for a clean, dedicated facility for slaughtering, plucking, gutting, bagging and custom cutting* Barnyard Organics has you covered.\
 (If you would like to assist with the eviscerating, mention this when booking and we can discuss if time, labour and space allows that particular day.)
 
-Please fill out this form to apply for processing services this year. [https://forms.gle/FnqmoAkEG1QEnbi79]()
+Please fill out this form to apply for processing services this year. [https://forms.gle/FnqmoAkEG1QEnbi79](https://forms.gle/FnqmoAkEG1QEnbi79)
 
 Prices:
 
@@ -32,4 +32,4 @@ $4 charge for birds 10lbs+
 
 *cutting up is available at $6/bird and only if time allows that particular day.
 
-Please fill out this form to apply for processing services this year. [https://forms.gle/FnqmoAkEG1QEnbi79](https://forms.gle/FnqmoAkEG1QEnbi79)
+Please fill out this form to apply for processing services this year. [https://forms.gle/FnqmoAkEG1QEnbi79](https://forms.gle/FnqmoAkEG1QEnbi79 "")

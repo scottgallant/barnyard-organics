@@ -22,7 +22,7 @@ How does it work? We schedule a date to bring you a portable coop, two or four c
 
 ## Pricing
 
-### 2025 Spring Standard Rental Package - $500 CDN +HST (15%)
+### 2026 Spring Standard Rental Package - $500 CDN +HST (15%)
 
 Rental available: May until October
 
@@ -37,7 +37,7 @@ Includes:
 * 50kg of East Coast Organic Laying Hen Feed
 * Quick intro to taking care of your hens and a reference guide for you to keep.
 
-### 2025 Spring Deluxe Rental Package - $750 CDN +HST (15%)
+### 2026 Spring Deluxe Rental Package - $750 CDN +HST (15%)
 
 * Rental available: May until October
 
